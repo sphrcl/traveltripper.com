@@ -1,0 +1,94 @@
+.left_align {
+	text-align: left;
+	padding-top: 7%;
+	padding-bottom: 6%;
+}
+
+i {
+	font-size: 70px;
+	padding-bottom: 3%;
+}
+
+ul {
+	list-style-type: none;
+}
+
+.rows, h6 {
+	font-size: 160%;
+	padding: 0px;
+	margin: 0px;
+	color: #222;
+	margin-bottom: -10px;
+	padding-top: 3%;
+	text-align: left;
+	font-weight: 500;
+}
+
+.su-spoiler-title {
+	color: #5F5E5E;
+}
+
+.large_icon {
+	font-size: 120px;
+	padding-left: 20%;
+	padding-right: 20%;
+}
+
+h7 {
+	font-size: 120%;
+	padding: 0px;
+	margin: 0px;
+	color: #222222;
+	margin-bottom: -10px;
+	padding-top: 3%;
+	text-align: center;
+	text-weight: 500;
+}
+
+/* grid alignment typography */
+
+.justify_right {
+	text-align: right;
+}
+
+.justify_left {
+	text-align: left;
+}
+
+.title-block > p {
+display: none;
+}
+
+.panel {
+	background: none;
+	border: none;
+}
+
+ul, ol, dl {
+	margin-bottom: 0;
+}
+
+*, *:before, *:after {
+	-moz-box-sizing: none;
+}
+
+@media only screen and (min-width : 150px) and (max-width : 780px)
+{
+
+.left_align {
+	text-align: left;
+	padding-top: 3%;
+	padding-bottom: 2%;
+}
+
+.post-content {
+padding: 0;
+}
+
+#home_page_sides .widgettitle {
+font-size: 75px;
+line-height: 65px;
+
+}
+
+}

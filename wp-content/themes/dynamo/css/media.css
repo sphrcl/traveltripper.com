@@ -1,0 +1,1659 @@
+
+
+/* ================================================  MOBILES BELOW 399 ======================================= */
+
+
+@media only screen 
+and (max-width : 399px) 
+{	
+
+
+
+				/*----------- >  NAVIGATION AREA <----------- */
+		
+		nav {
+			height: 70px;
+		}
+		nav:before {
+			display: block;
+			left: 50px;
+		}
+		.logo {
+			top: 23px;
+			width: 135px;
+			left: 48px;
+		}
+		.dropmenu {
+			display: block;
+		}
+		.dropmenu select {
+			display: block;
+		}
+		.navsec li {
+			display: none;
+		}
+		
+		.navsec li.demo {
+			display: block;
+			position: absolute;
+			right: -20px;
+			top: 52px;
+		}
+		
+		nav a.button {
+			border-radius: 2px;
+			padding: 10px 5px;
+			font-size: 13px;
+		}
+		
+		.fa-bars {
+			display: block;
+		}
+		
+		
+		
+		
+		
+		/*----------- >  GENERAL PAGE AREA <----------- */
+
+
+		.hello-container {
+			width: 90%;
+			height: 545px;
+		}
+		.hello {
+			padding: 70px 0 0 0;
+		}
+		
+		.hello h1 {
+			font-size: 40px;
+		}
+		.hello h2 {
+			font-size: 22px;
+		}
+		form .green {
+			width: 215px;
+		}
+		
+		.signup {
+			padding: 10px 0 0 0;
+		}
+		.signup input {
+			height: 30px;
+			margin-bottom: 2px;
+			width: 215px;
+		}
+		
+		
+		
+		
+		
+		.welcome {
+			padding: 40px 0 50px 0;
+		}
+		.weare-icons:before {
+			display: none;
+		}
+		
+		.weare-icons li {
+			width: 100%;
+		}
+		
+		.distrubution .column_one_half {
+			display: none;
+		}
+		.distrubution .final {
+			width: 100%;
+			display: block;
+		}
+		
+		.iconlist {
+			padding-top: 30px;
+		}
+		
+		.iconlist li {
+			min-height: 180px;
+		}
+		
+		.iconlist li span {
+			min-height: 165px;
+			width: 45px;
+		}
+		
+		
+		
+		.markettools li {
+			float: none;
+			width: 100%;
+
+		}
+		
+		.footer .widecontainer .column_one_fourth {
+			width: 48%;
+		}
+		
+		.footer .widecontainer .column_one_fourth:nth-child(1) {
+			display: none;
+		}
+		
+		.footer .widecontainer .column_one_fourth:nth-child(3) {
+			display: none;
+		}
+		
+		
+		.footer p i {
+			font-size: 15px;
+		}
+		
+				.distrubution .column_one_half {
+			display: block;
+			width: 100%;
+		}
+		
+		.crsbox {
+			background: transparent;
+			width: 100%;
+		}
+		
+		.pop {
+			position: inherit;
+			top: inherit !important;
+			left: inherit !important;
+			width: 100%;
+			text-align: center;
+		}
+		
+		.pop p {
+			position: relativsge;
+			bottom: inherit !inherit;
+			top: inherit !important;
+			left: inherit !important;
+			width: 100%;
+			text-align: center;
+		}
+		
+		.mbe {
+			margin-bottom: 40px;
+		}
+		.mbe p {
+			;
+		}
+		.ota p {
+			bottom:  inherit !important;
+
+		}
+		.pop i {
+			margin: auto;
+		}
+		.gds {
+			right: inherit !important;
+			bottom: inherit !important;
+		}
+		.ota {
+			right: inherit !important;
+			bottom: inherit !important;
+		}
+		.wbe p{
+			bottom: inherit !important;
+		}
+		
+		
+		
+		.gds{
+			
+		}
+		.gds p {
+			bottom: inherit;
+			position: relative;
+		}
+		
+		.ota{
+			margin-bottom: 40px;
+		}
+		.ota p {
+			
+		}
+		
+		.callcenter {
+			bottom: inherit;
+		}
+		.callcenter p {
+			bottom: inherit;
+			position: relative;
+		}
+		
+		.wbe{
+			margin-bottom: 40px;
+		}
+		.wbe p {
+			
+		}
+
+		.quotes {
+    	padding-left: 25px;
+      	padding-right: 35px;
+		}
+		
+		#parallax1, #parallax2 {
+			display: none;
+		}
+					
+}
+
+
+
+
+/* ================================================  MOBILES BELOW 480 to 400 ======================================= */
+
+
+@media only screen 
+and (min-width : 400px) 
+and (max-width : 479px) 
+{	
+
+
+
+		/*----------- >  NAVIGATION AREA <----------- */
+		
+		nav {
+			height: 70px;
+		}
+		nav:before {
+			display: block;
+			
+		}
+		.logo {
+			top: 23px;
+			width: 135px;
+			left: 66px;
+		}
+		.dropmenu {
+			display: block;
+		}
+		.dropmenu select {
+			display: block;
+		}
+		.navsec li {
+			display: none;
+		}
+		
+		.navsec li.demo {
+			display: block;
+			position: absolute;
+			right: -20px;
+			top: 52px;
+		}
+		
+		nav a.button {
+			padding: 10px 20px;
+			font-size: 14px;
+		}
+		
+		.fa-bars {
+			display: block;
+		}
+		
+		
+		
+		
+		/*----------- >  GENERAL PAGE AREA <----------- */
+
+
+		.hello-container {
+			width: 90%;
+			height: 545px;
+		}
+		.hello {
+			padding: 70px 0 0 0;
+		}
+		
+		.hello h1 {
+			font-size: 40px;
+		}
+		.hello h2 {
+			font-size: 22px;
+		}
+		form .green {
+			width: 282px;
+		}
+		
+		.signup {
+			padding: 10px 0 0 0;
+		}
+		.signup input {
+			height: 30px;
+			margin-bottom: 2px;
+		}
+		
+		
+		
+		
+		
+		.welcome {
+			padding: 40px 0 50px 0;
+		}
+		.weare-icons:before {
+			display: none;
+		}
+		
+		.weare-icons li {
+			width: 100%;
+		}
+		
+		.distrubution .column_one_half {
+			display: none;
+		}
+		.distrubution .final {
+			width: 100%;
+			display: block;
+		}
+		
+		.iconlist {
+			padding-top: 30px;
+		}
+		
+		.iconlist li {
+			min-height: 180px;
+		}
+		
+		.iconlist li span {
+			min-height: 165px;
+			width: 45px;
+		}
+		
+		
+		
+		
+		
+		.footer .widecontainer .column_one_fourth {
+			width: 48%;
+		}
+		
+		.footer .widecontainer .column_one_fourth:nth-child(1) {
+			display: none;
+		}
+		
+		.footer .widecontainer .column_one_fourth:nth-child(3) {
+			display: none;
+		}
+		
+		
+		.footer p i {
+			font-size: 15px;
+		}
+		
+		
+		.distrubution .column_one_half {
+			display: block;
+			width: 100%;
+		}
+		
+		.crsbox {
+			background: transparent;
+			width: 100%;
+		}
+		
+		.pop {
+			position: inherit;
+			top: inherit !important;
+			left: inherit !important;
+			width: 100%;
+			text-align: center;
+		}
+		
+		.pop p {
+			position: relativsge;
+			bottom: inherit !inherit;
+			top: inherit !important;
+			left: inherit !important;
+			width: 100%;
+			text-align: center;
+		}
+		
+		.mbe {
+			margin-bottom: 40px;
+		}
+		.mbe p {
+			;
+		}
+		.ota p {
+			bottom:  inherit !important;
+
+		}
+		.pop i {
+			margin: auto;
+		}
+		.gds {
+			right: inherit !important;
+			bottom: inherit !important;
+		}
+		.ota {
+			right: inherit !important;
+			bottom: inherit !important;
+		}
+		.wbe p{
+			bottom: inherit !important;
+		}
+		
+		
+		
+		.gds{
+			
+		}
+		.gds p {
+			bottom: inherit;
+			position: relative;
+		}
+		
+		.ota{
+			margin-bottom: 40px;
+		}
+		.ota p {
+			
+		}
+		
+		.callcenter {
+			bottom: inherit;
+		}
+		.callcenter p {
+			bottom: inherit;
+			position: relative;
+		}
+		
+		.wbe{
+			margin-bottom: 40px;
+		}
+		.wbe p {
+			
+		}
+
+		.quotes {
+    	padding-left: 25px;
+      	padding-right: 35px;
+		}
+		
+		#parallax1, #parallax2 {
+			display: none;
+		}
+		
+}
+
+
+
+/* ================================================  MOBILES BELOW 480 to 640 ======================================= */
+
+
+@media only screen 
+and (min-width : 480px) 
+and (max-width : 529px) 
+{	
+
+
+
+/*----------- >  NAVIGATION AREA <----------- */
+		
+		nav {
+			height: 70px;
+		}
+		nav:before {
+			display: block;
+			
+		}
+		.logo {
+			top: 23px;
+			width: 135px;
+			left: 66px;
+		}
+		.dropmenu {
+			display: block;
+		}
+		.dropmenu select {
+			display: block;
+		}
+		.navsec li {
+			display: none;
+		}
+		
+		.navsec li.demo {
+			display: block;
+			position: absolute;
+			right: -20px;
+			top: 52px;
+		}
+		
+		nav a.button {
+			padding: 10px 20px;
+			font-size: 14px;
+		}
+		
+		.fa-bars {
+			display: block;
+		}
+		
+		
+		
+		
+		/*----------- >  GENERAL PAGE AREA <----------- */
+
+
+		.hello-container {
+			width: 90%;
+			height: 545px;
+		}
+		.hello {
+			padding: 70px 0 0 0;
+		}
+		
+		.hello h1 {
+			font-size: 40px;
+		}
+		.hello h2 {
+			font-size: 22px;
+		}
+		form .green {
+			width: 282px;
+		}
+		
+		.signup {
+			padding: 10px 0 0 0;
+		}
+		.signup input {
+			height: 30px;
+			margin-bottom: 2px;
+		}
+		
+		
+		
+		
+		
+		.welcome {
+			padding: 40px 0 50px 0;
+		}
+		.weare-icons:before {
+			display: none;
+		}
+		
+		.weare-icons li {
+			width: 100%;
+		}
+		
+		.distrubution .column_one_half {
+			display: none;
+		}
+		.distrubution .final {
+			width: 100%;
+			display: block;
+		}
+		
+		.iconlist {
+			padding-top: 30px;
+		}
+		
+		.iconlist li {
+			min-height: 180px;
+		}
+		
+		.iconlist li span {
+			min-height: 165px;
+			width: 45px;
+		}
+		
+		
+		
+		
+		
+		.footer .widecontainer .column_one_fourth {
+			width: 48%;
+		}
+		
+		.footer .widecontainer .column_one_fourth:nth-child(1) {
+			display: none;
+		}
+		
+		.footer .widecontainer .column_one_fourth:nth-child(3) {
+			display: none;
+		}
+		
+		
+		.footer p i {
+			font-size: 15px;
+		}
+
+	
+			.distrubution .column_one_half {
+			display: block;
+			width: 100%;
+		}
+		
+		.crsbox {
+			background: transparent;
+			width: 100%;
+		}
+		
+		.pop {
+			position: inherit;
+			top: inherit !important;
+			left: inherit !important;
+			width: 100%;
+			text-align: center;
+		}
+		
+		.pop p {
+			position: relativsge;
+			bottom: inherit !inherit;
+			top: inherit !important;
+			left: inherit !important;
+			width: 100%;
+			text-align: center;
+		}
+		
+		.mbe {
+			margin-bottom: 40px;
+		}
+		.mbe p {
+			;
+		}
+		.ota p {
+			bottom:  inherit !important;
+
+		}
+		.pop i {
+			margin: auto;
+		}
+		.gds {
+			right: inherit !important;
+			bottom: inherit !important;
+		}
+		.ota {
+			right: inherit !important;
+			bottom: inherit !important;
+		}
+		.wbe p{
+			bottom: inherit !important;
+		}
+		
+		
+		
+		.gds{
+			
+		}
+		.gds p {
+			bottom: inherit;
+			position: relative;
+		}
+		
+		.ota{
+			margin-bottom: 40px;
+		}
+		.ota p {
+			
+		}
+		
+		.callcenter {
+			bottom: inherit;
+		}
+		.callcenter p {
+			bottom: inherit;
+			position: relative;
+		}
+		
+		.wbe{
+			margin-bottom: 40px;
+		}
+		.wbe p {
+			
+		}
+		
+		.quotes {
+    	padding-left: 25px;
+      	padding-right: 35px;
+		}
+
+			
+}
+
+
+
+
+
+@media only screen 
+and (min-width : 530px) 
+and (max-width : 639px) 
+{	
+
+
+
+/*----------- >  NAVIGATION AREA <----------- */
+		
+		nav {
+			height: 70px;
+		}
+		nav:before {
+			display: block;
+			
+		}
+		.logo {
+			top: 23px;
+			width: 135px;
+			left: 66px;
+		}
+		.dropmenu {
+			display: block;
+		}
+		.dropmenu select {
+			display: block;
+		}
+		.navsec li {
+			display: none;
+		}
+		
+		.navsec li.demo {
+			display: block;
+			position: absolute;
+			right: -20px;
+			top: 52px;
+		}
+		
+		nav a.button {
+			padding: 10px 20px;
+			font-size: 14px;
+		}
+		
+		.fa-bars {
+			display: block;
+		}
+		
+		
+		
+		
+		/*----------- >  GENERAL PAGE AREA <----------- */
+
+
+		.hello-container {
+			width: 90%;
+			height: 615px;
+		}
+		.hello {
+			padding: 70px 0 0 0;
+		}
+		
+		.hello h1 {
+			font-size: 40px;
+		}
+		.hello h2 {
+			font-size: 22px;
+		}
+		form .green {
+			float: left;
+			width: 32%;
+		}
+		
+		.signup {
+			padding: 10px 0 0 0;
+			height: 55px;
+		}
+		.signup input {
+			height: 40px;
+			margin-bottom: 2px;
+			width: 32%;
+			float: left;
+			margin-right: 5px;
+		}
+				
+		
+		
+		
+		
+		.welcome {
+			padding: 40px 0 50px 0;
+		}
+		.weare-icons:before {
+			display: none;
+		}
+		
+		.weare-icons li {
+			width: 100%;
+		}
+		
+		.distrubution .column_one_half {
+			display: block;
+			width: 100%;
+		}
+		.distrubution .final {
+			width: 100%;
+			display: block;
+		}
+		
+		.iconlist {
+			padding-top: 30px;
+		}
+		
+		.iconlist li {
+			min-height: 180px;
+		}
+		
+		.iconlist li span {
+			min-height: 165px;
+			width: 45px;
+		}
+		
+		
+		
+		
+		
+		.footer .widecontainer .column_one_fourth {
+			width: 48%;
+		}
+		
+		.footer .widecontainer .column_one_fourth:nth-child(1) {
+			display: none;
+		}
+		
+		.footer .widecontainer .column_one_fourth:nth-child(3) {
+			display: none;
+		}
+		
+		
+		.footer p i {
+			font-size: 15px;
+		}
+
+			.distrubution .column_one_half {
+			display: block;
+			width: 100%;
+		}
+		
+		.crsbox {
+			background: transparent;
+			width: 100%;
+		}
+		
+		.pop {
+			position: inherit;
+			top: inherit !important;
+			left: inherit !important;
+			width: 100%;
+			text-align: center;
+		}
+		
+		.pop p {
+			position: relativsge;
+			bottom: inherit !inherit;
+			top: inherit !important;
+			left: inherit !important;
+			width: 100%;
+			text-align: center;
+		}
+		
+		.mbe {
+			margin-bottom: 40px;
+		}
+		.mbe p {
+			;
+		}
+		.ota p {
+			bottom:  inherit !important;
+
+		}
+		.pop i {
+			margin: auto;
+		}
+		.gds {
+			right: inherit !important;
+			bottom: inherit !important;
+		}
+		.ota {
+			right: inherit !important;
+			bottom: inherit !important;
+		}
+		.wbe p{
+			bottom: inherit !important;
+		}
+		
+		
+		
+		.gds{
+			
+		}
+		.gds p {
+			bottom: inherit;
+			position: relative;
+		}
+		
+		.ota{
+			margin-bottom: 40px;
+		}
+		.ota p {
+			
+		}
+		
+		.callcenter {
+			bottom: inherit;
+		}
+		.callcenter p {
+			bottom: inherit;
+			position: relative;
+		}
+		
+		.wbe{
+			margin-bottom: 40px;
+		}
+		.wbe p {
+			
+		}
+		
+	.quotes {
+    	padding-left: 25px;
+      	padding-right: 35px;
+		}
+
+		#parallax1 {
+    height: 635px;
+}
+			
+}
+
+
+
+
+
+
+
+/* ================================================  LARGE MOBILE DEVICES AND SMALL TABLETS BELOW 799  ======================================= */
+
+
+@media only screen 
+and (min-width : 640px) 
+and (max-width : 799px) 
+{	
+
+
+
+		/*----------- >  NAVIGATION AREA <----------- */
+		
+		nav {
+			height: 70px;
+		}
+		nav:before {
+			display: block;
+			
+		}
+		.logo {
+			top: 23px;
+			width: 135px;
+			left: 66px;
+		}
+		.dropmenu {
+			display: block;
+		}
+		.dropmenu select {
+			display: block;
+		}
+		.navsec li {
+			display: none;
+		}
+		
+		.navsec li.demo {
+			display: block;
+			position: absolute;
+			right: -20px;
+			top: 52px;
+		}
+		
+		nav a.button {
+			padding: 10px 20px;
+			font-size: 14px;
+		}
+		
+		.fa-bars {
+			display: block;
+		}
+		
+		
+		
+		
+		/*----------- >  GENERAL PAGE AREA <----------- */
+
+
+		.hello-container {
+			width: 90%;
+			height: 645px;
+		}
+		.hello {
+			padding: 70px 0 0 0;
+		}
+		
+		.hello h1 {
+			font-size: 40px;
+		}
+		.hello h2 {
+			font-size: 22px;
+		}
+		form .green {
+			float: left;
+			width: 32%;
+		}
+		
+		.signup {
+			padding: 10px 0 0 0;
+			height: 55px;
+		}
+		.signup input {
+			height: 40px;
+			margin-bottom: 2px;
+			width: 32%;
+			float: left;
+			margin-right: 5px;
+		}
+		
+		
+		
+		
+		
+		.welcome {
+			padding: 40px 0 50px 0;
+		}
+		.weare-icons:before {
+			display: none;
+		}
+		
+
+		
+		.distrubution .column_one_half {
+			display: none;
+		}
+		.distrubution .final {
+			width: 100%;
+			display: block;
+		}
+		
+		.iconlist {
+			padding-top: 30px;
+		}
+		
+		.iconlist li {
+			min-height: 180px;
+		}
+		
+		.iconlist li span {
+			min-height: 165px;
+			width: 45px;
+		}
+		
+		
+		
+		
+		
+		.footer .widecontainer .column_one_fourth {
+			width: 48%;
+		}
+		
+		.footer .widecontainer .column_one_fourth:nth-child(1) {
+			display: none;
+		}
+		
+		.footer .widecontainer .column_one_fourth:nth-child(3) {
+			display: none;
+		}
+		
+		
+		.footer p i {
+			font-size: 15px;
+		}
+
+		
+	.quotes {
+    	padding-left: 25px;
+      	padding-right: 35px;
+		}
+	
+	
+#parallax1 {
+    height: 700px;
+}
+	
+		
+}
+
+
+
+
+
+/* ================================================  SLIGHTLY SMALLER RESOLUTIONS, BUT NOT QUITE IPHONE ======================================= */
+
+
+@media only screen 
+and (min-width : 800px) 
+and (max-width : 854px) 
+{	
+
+
+
+		/*----------- >  NAVIGATION AREA <----------- */
+		
+		nav {
+			height: 70px;
+		}
+		nav:before {
+			display: block;
+			
+		}
+		.logo {
+			top: 23px;
+			width: 135px;
+			left: 66px;
+		}
+		.dropmenu {
+			display: block;
+		}
+		.dropmenu select {
+			display: block;
+		}
+		.navsec li {
+			display: none;
+		}
+		
+		.navsec li.demo {
+			display: block;
+			position: absolute;
+			right: -20px;
+			top: 52px;
+		}
+		
+		nav a.button {
+			padding: 10px 20px;
+			font-size: 14px;
+		}
+		
+		.fa-bars {
+			display: block;
+		}
+		
+		
+		
+		
+		/*----------- >  GENERAL PAGE AREA <----------- */
+
+
+		.hello-container {
+			width: 90%;
+			height: 645px;
+		}
+		.hello {
+			padding: 70px 0 0 0;
+		}
+		
+		.hello h1 {
+			font-size: 40px;
+		}
+		.hello h2 {
+			font-size: 22px;
+		}
+		form .green {
+			float: left;
+			width: 32%;
+		}
+		
+		.signup {
+			padding: 10px 0 0 0;
+			height: 55px;
+		}
+		.signup input {
+			height: 40px;
+			margin-bottom: 2px;
+			width: 32%;
+			float: left;
+			margin-right: 5px;
+		}
+		
+		
+		
+		
+		
+		.welcome {
+			padding: 40px 0 50px 0;
+		}
+		.weare-icons:before {
+			display: none;
+		}
+		
+
+		
+		.distrubution .column_one_half {
+			display: none;
+		}
+		.distrubution .final {
+			width: 100%;
+			display: block;
+		}
+		
+		.iconlist {
+			padding-top: 30px;
+		}
+		
+		.iconlist li {
+			min-height: 180px;
+		}
+		
+		.iconlist li span {
+			min-height: 165px;
+			width: 45px;
+		}
+		
+		
+		
+		
+		
+		.footer .widecontainer .column_one_fourth {
+			width: 48%;
+		}
+		
+		.footer .widecontainer .column_one_fourth:nth-child(1) {
+			display: none;
+		}
+		
+		.footer .widecontainer .column_one_fourth:nth-child(3) {
+			display: none;
+		}
+		
+		
+		.footer p i {
+			font-size: 15px;
+		}
+
+		
+		
+		.quotes {
+    	padding-left: 25px;
+      	padding-right: 35px;
+		}
+
+#parallax1 {
+    height: 700px;
+}
+
+
+
+}
+
+
+
+
+
+/* ================================================  LARGE PHONE SCREENS SMALLER RESOLUTIONS  ======================================= */
+
+
+@media only screen 
+and (min-width : 855px) 
+and (max-width : 960px) 
+{	
+
+
+
+		/*----------- >  GENERAL AREA <----------- */
+		
+		
+
+		.hello-container {
+			width: 90%;
+			height: 615px;
+		}
+	
+		nav {
+			height: 70px;
+		}
+		nav:before {
+			display: block;
+			
+		}
+		.logo {
+			top: 23px;
+			width: 135px;
+			left: 66px;
+		}
+		.dropmenu {
+			display: block;
+		}
+		.dropmenu select {
+			display: block;
+		}
+		.navsec li {
+			display: none;
+		}
+		
+		.navsec li.demo {
+			display: block;
+			position: absolute;
+			right: -20px;
+			top: 52px;
+		}
+		
+		nav a.button {
+			padding: 10px 20px;
+			font-size: 14px;
+		}
+		
+		.fa-bars {
+			display: block;
+		}
+	
+		form .green {
+			float: left;
+			width: 32%;
+		}
+		
+		.signup {
+			padding: 10px 0 0 0;
+			height: 55px;
+		}
+		.signup input {
+			height: 40px;
+			margin-bottom: 2px;
+			width: 32%;
+			float: left;
+			margin-right: 5px;
+		}
+	
+		.distrubution .final {
+		width: 22%;
+		}
+		
+		
+		.iconlist li span {
+			display: block;
+			width: inherit;
+			margin-right: 0;
+			height: 100%;
+			min-height: 63px;
+			float: none;
+			text-align: center;
+		}
+		
+		.iconlist li {
+			text-align: center;
+		}
+		.iconlist h2 {
+			text-align: center;
+			margin-bottom: 5px;
+		}	
+		
+		.iconlist li p {
+			height: 97px;
+			overflow: hidden;
+		}
+
+		.quotes {
+    	padding-left: 25px;
+      	padding-right: 35px;
+		}
+
+#parallax1 {
+    height: 700px;
+}
+
+}
+
+
+
+/* ================================================  IPADS AT LANDSCAPE WIDTH 1024  ======================================= */
+
+
+@media only screen 
+and (min-width : 961px) 
+and (max-width : 1024px) 
+{	
+
+	
+	
+	/*----------- >  GENERAL AREA <----------- */
+
+
+
+		.hello-container {
+			width: 80%;
+			margin: auto;
+		}
+		
+		
+		.narrowcontainer {
+			width: 80%;
+			margin: auto;
+		}
+		
+		.widecontainer {
+			width: 80%;
+			margin: auto;
+		}
+		
+		.hello-container {
+			width: 90%;
+			height: 715px;
+		}
+	
+		nav {
+			height: 70px;
+		}
+		nav:before {
+			display: block;
+			
+		}
+		.logo {
+			top: 23px;
+			width: 135px;
+			left: 66px;
+		}
+		.dropmenu {
+			display: block;
+		}
+		.dropmenu select {
+			display: block;
+		}
+		.navsec li {
+			display: none;
+		}
+		
+		.navsec li.demo {
+			display: block;
+			position: absolute;
+			right: -20px;
+			top: 52px;
+		}
+		
+		nav a.button {
+			padding: 10px 20px;
+			font-size: 14px;
+		}
+		
+		.fa-bars {
+			display: block;
+		}
+	
+		form .green {
+			float: left;
+			width: 32%;
+		}
+		
+		.signup {
+			padding: 10px 0 0 0;
+			height: 55px;
+		}
+		.signup input {
+			height: 40px;
+			margin-bottom: 2px;
+			width: 32%;
+			float: left;
+			margin-right: 5px;
+		}
+
+		#parallax1 {
+    height: 835px;
+}
+
+
+
+
+}
+
+
+/* ================================================  FIRST STAGE LARGER THAN 1024PX UP TO LARGER BROWSERS  ======================================= */
+
+
+
+@media only screen 
+and (min-width : 1025px) 
+and (max-width : 1223px) 
+{		
+		
+		
+		.hello-container {
+			width: 90%;
+			height: 715px;
+		}
+	
+		nav {
+			height: 70px;
+		}
+		nav:before {
+			display: block;
+			
+		}
+		.logo {
+			top: 23px;
+			width: 135px;
+			left: 66px;
+		}
+		.dropmenu {
+			display: block;
+		}
+		.dropmenu select {
+			display: block;
+		}
+		.navsec li {
+			display: none;
+		}
+		
+		.navsec li.demo {
+			display: block;
+			position: absolute;
+			right: -20px;
+			top: 52px;
+		}
+		
+		nav a.button {
+			padding: 10px 20px;
+			font-size: 14px;
+		}
+		
+		.fa-bars {
+			display: block;
+		}
+	
+		form .green {
+			float: left;
+			width: 32%;
+		}
+		
+		.signup {
+			padding: 10px 0 0 0;
+			height: 55px;
+		}
+		.signup input {
+			height: 40px;
+			margin-bottom: 2px;
+			width: 32%;
+			float: left;
+			margin-right: 5px;
+		}
+
+		#parallax1 {
+    height: 835px;
+}
+		
+		/*----------- >  GENERAL AREA <----------- */
+		
+	
+	
+	
+	
+	
+}
+
+
+
+/* #Narrow Screen, Below 1400px (Portrait)
+================================================== */
+
+    /* Note: Design for a width of 768px */
+
+
+
+@media only screen 
+and (min-width : 1224px) 
+and (max-width : 1300px) 
+{
+	
+	
+	
+	
+	
+
+}
+	
+
+@media only screen 
+and (min-width : 1224px) 
+and (max-width : 1399px) 
+{
+
+
+	
+
+
+
+
+}
+	
+	
+	
+
+
+@media only screen and (min-width: 1400px) and (max-width: 1450px) {
+		
+		
+		
+}
+
+
+@media only screen and (min-width: 1400px) {
+               
+               
+                nav .container,
+                #homepage .container,
+                #homepage .container
+                .sixteen.columns
+                { width: 96%; }
+
+                nav .four.columns { float: right; }
+                .slider-text { width: 100%; }
+                .line { width: 180px; }
+                
+                /*
+                #parallax1, #parallax2, #parallax3,
+                #parallax1 .vertical-text, #parallax2 .vertical-text,
+                #parallax3 .vertical-text, #parallax1 .pattern,
+                #parallax2 .pattern, #parallax3 .pattern
+                { height: 600px; }
+                */
+                
+                #prevslide, #nextslide{ position:absolute; height:30px; width:30px; top:210px; margin-top:-21px; opacity:0.6; }
+                .bg1, .bg2, .bg3 { background-size: 100%; }
+                
+               
+		
+
+                
+    } 
+
+
+
+
