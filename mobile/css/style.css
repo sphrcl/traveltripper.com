@@ -1763,7 +1763,7 @@ input#arrival_date.calendarsection {
 .registrationcontainer .reservationforms select {
 	color: #999;
     left: -4px;
-    padding: 5px 0 5px 5px;
+    padding: 5px 0;
     position: relative;
     text-align: left;
     width: 110%;
@@ -1949,7 +1949,7 @@ input#arrival_date.calendarsection {
 
 
 .kid-drop {
-	width: calc(50% - 8px);
+	width: calc(48% - 8px);
 	float: right;
 	position: relative;
 	padding: 8px 0;
@@ -1977,7 +1977,7 @@ input#arrival_date.calendarsection {
    	background: transparent;
    	padding: 5px;
    	display: block;
-   	font-size:10px;
+   	font-size:14px;
    	color: #fff;
 	text-transform: uppercase;
 	font-family: 'Montserrat', sans-serif;
@@ -4212,4 +4212,19 @@ body .ui-tooltip {
 
 .basecon {
 	background: #fff;
-}	
+}
+
+
+
+
+/* RESPONSIVE */
+
+
+@media only screen
+and (max-width: 479px) {
+	
+	.ad-drop, .kid-drop {
+		width: 100%;
+	}
+	
+}
