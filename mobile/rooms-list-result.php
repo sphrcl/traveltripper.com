@@ -77,9 +77,11 @@ include('includes/header.php'); ?>
 				  </div>
 				</div>
 				<div class="pagination pagination<?php echo $i; ?>"></div>
+				<div class="swroomslist arrow-left"><i class="fa fa-caret-left"></i></div>
+				<div class="swroomslist arrow-right"><i class="fa fa-caret-right"></i></div>
 			<!-- END SLIDER -->
 					<header>
-						<h3><?php echo $roomtype; ?> $<?php echo $avgprc[0]; ?></span> / night</h3>			
+						<h3><?php echo $roomtype; ?> <span>$<?php echo $avgprc[0]; ?></span> / night</h3>			
 						
 						
 					</header>

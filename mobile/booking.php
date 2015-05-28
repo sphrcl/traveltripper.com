@@ -271,10 +271,27 @@ include('includes/header.php'); ?>
 		
 		<h4>Please review your reservation and our policies</h4>
 		
+		<div class="termie">
+			<h4>View Terms and Conditions</h4>
+			<div style="display: none;">
+				
+				<p>lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor</p>
+			
+			</div>
+			
+			<script type="text/javascript">
+				$(document).ready(function() {
+					$('.termie h4').click(function() {
+						$('.termie div').slideToggle();
+					});
+				});
+			</script>
+		</div>
+		
 		<div class="recippt">
 			
 			<?php $days = floor($datediff/(60*60*24)); ?>
-			<div class="rec-rate">Your Rate:<span>$<?php echo $rate; ?></span></div>
+			<div class="rec-rate">Your Rate:<span>$<?php echo $rate; ?> per night</span></div>
 			<div class="rec-night">Nights:<span><?php echo $days; ?></span></div>
 			<div class="rec-taxes">Taxes<span>$<?php echo $bestrate; ?></span></div>
 

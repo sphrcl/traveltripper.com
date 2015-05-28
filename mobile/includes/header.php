@@ -305,7 +305,7 @@ $("document").ready(function(){
 	
 	<?php } else { ?>
 	<div class="other-menu-button"><i class="fa fa-calendar"></i></div>
-	<? } ?>
+	<?php } ?>
 </div>
 <!-- END MENU BUTTON -->
 

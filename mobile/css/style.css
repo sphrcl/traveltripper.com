@@ -751,6 +751,42 @@ height: 100%;
 
 
 
+.swroomslist {
+	background-color: rgba(0, 0, 0, 0.25);
+	height: 100%;
+	position: absolute;
+	top: 0;
+	vertical-align: middle;
+	width: 40px;
+	z-index: 999;
+}
+
+.swroomslist.arrow-left {
+	left: 0;
+}
+
+.swroomslist.arrow-right {
+	right: 0;
+}
+
+.swroomslist i {
+	color: #fff;
+	font-size: 30px;
+	position: absolute;
+	top: 50%;
+	margin-top: -15px;
+	line-height: 1;
+}
+
+.swroomslist.arrow-left i {
+	left: 50%;
+	margin-left: -7px;
+}
+
+.swroomslist.arrow-right i {
+	right: 50%;
+	margin-right: -7px;
+}
 
 
 
@@ -1790,9 +1826,26 @@ input#arrival_date.calendarsection {
 	border-radius: 0;
 	font-weight: 700;
 	color: #999;
-	padding: 0px 0 5px 0;
 	display: block;
-	font-size: 10px;
+	font-size: 14px;
+	line-height: 18px;
+	padding: 10px 10px 15px;
+}
+
+.termie {
+	border-bottom: 1px solid #555;
+}
+
+.termie h4 {
+	border: 0 none;
+	color: #e59107;
+	padding: 10px 10px 12px;
+}
+
+.termie div {
+	max-width: 500px;
+	padding: 0 20px;
+	margin: 0 auto;
 }
 
 .recippt {
@@ -1808,7 +1861,8 @@ input#arrival_date.calendarsection {
 	color: #e1ded9;
 	font-family: 'Montserrat', sans-serif;
 	border-radius: 0;
-	font-size: 13px;
+	font-size: 14px;
+	line-height: 22px;
 	font-weight: 700;
 }
 .recippt .rec-rate span {
@@ -1821,7 +1875,8 @@ input#arrival_date.calendarsection {
 	color: #e1ded9;
 	font-family: 'Montserrat', sans-serif;
 	border-radius: 0;
-	font-size: 13px;
+	font-size: 14px;
+	line-height: 22px;
 	font-weight: 700;
 }
 .recippt .rec-night span {
@@ -1834,7 +1889,8 @@ input#arrival_date.calendarsection {
 	color: #e1ded9;
 	font-family: 'Montserrat', sans-serif;
 	border-radius: 0;
-	font-size: 13px;
+	font-size: 14px;
+	line-height: 22px;
 	font-weight: 700;
 }
 .recippt .rec-taxes span {
@@ -1847,7 +1903,8 @@ input#arrival_date.calendarsection {
 	color: #e1ded9;
 	font-family: 'Montserrat', sans-serif;
 	border-radius: 0;
-	font-size: 13px;
+	font-size: 14px;
+	line-height: 22px;
 	margin: 5px 0 0 0;
 	border-top: 1px solid #555;
 	border-bottom: 1px solid #555;
@@ -1903,7 +1960,7 @@ input#arrival_date.calendarsection {
    	background: transparent;
    	padding: 5px;
    	display: block;
-   	font-size:10px;
+   	font-size:14px;
    	color: #fff;
 	text-transform: uppercase;
 	font-family: 'Montserrat', sans-serif;
@@ -1943,7 +2000,7 @@ input#arrival_date.calendarsection {
 	background: transparent;
 	border: none;
 	border-radius: 0;
-	font-size:10px;
+	font-size:14px;
    	color: #fff;
 	text-transform: uppercase;
 	font-family: 'Montserrat', sans-serif;
@@ -1965,7 +2022,7 @@ input#arrival_date.calendarsection {
 	background: transparent;
 	border: none;
 	border-radius: 0;
-	font-size:10px !important;
+	font-size:14px !important;
    	color: #fff;
 	text-transform: uppercase;
 	font-family: 'Montserrat', sans-serif;
@@ -2045,7 +2102,7 @@ input#arrival_date.calendarsection {
 	color: #888;
 	padding: 6px 10px;
 	display: block;
-	font-size: 9px
+	font-size: 14px;
 }
 
 .overview .bookedrate {
@@ -2080,7 +2137,7 @@ input#arrival_date.calendarsection {
 	text-align: center;
 	padding: 6px 0;
 	display: block;
-	font-size: 10px
+	font-size: 14px;
 }
 
 /*----------------------------------- Accordion ---*/
@@ -2657,6 +2714,10 @@ h1.main {
 	margin: 0px;
 	width: calc(50% - 26px);
 	float: left;
+}
+
+.rateboxes .specialbox .strokebutton {
+	float: right;
 }
 
 .toes {

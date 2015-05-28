@@ -101,7 +101,6 @@ $sessionid = substr(str_shuffle(MD5(microtime())), 0, 15);
 			<ul id="toggle-view">
 					<li><h3><a href="rooms-list.php">View all guest rooms</a></h3></li>
 						<li><h3><a href="#">Special Offers</h3><!--<div class="panel"><p>Ut eget mi tortor. Sed et mi ut felis consectetur porttitor. Cras eget turpis sit amet nulla auctor accumsan id pretium dui. Maecenas eget mauris augue, nec pretium magna. Proin sapien quam, fringilla sed hendrerit quis, rhoncus eget magna. <p></div>--></a></li>
-						<li><h3><a href="#">Explore</h3></a></li>
 						<li><h3><a href="#">Contact</h3></a></li>						
 						
 						</ul>
