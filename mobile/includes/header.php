@@ -7,13 +7,13 @@
 
 <!-- BEGIN FONTS + STYLESHEETS + JS INCLUDES -->
 
-<link rel='stylesheet' id='style-css' href='css/style.css' type='text/css' media='all' />
-<link rel='stylesheet' id='elements-css' href='css/elements.css' type='text/css' media='all' />
+<link rel='stylesheet' id='style-css' href='style.css' type='text/css' media='all' />
+<link rel='stylesheet' id='elements-css' href='elements.css' type='text/css' media='all' />
 
 <link href="http://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
 <script src="js/jquery-1.7.1.min.js"></script>
-<link rel="stylesheet" href="css/idangerous.swiper.css">
-<link rel="stylesheet" href="css/swiper-style.css">
+<link rel="stylesheet" href="/dangerous.swiper.css">
+<link rel="stylesheet" href="swiper-style.css">
 <script src="js/idangerous.swiper-1.9.1.min.js"></script>
 <script src="js/swiper-demos.js"></script>
 
@@ -24,7 +24,7 @@
 	$(document).ready(function(){
 
 		$.datepicker._defaults.dateFormat = 'yy-mm-dd';
-		
+
 		$(".datepicker").datepicker({
 			minDate: 0,
 			numberOfMonths: [1,1],
@@ -38,7 +38,7 @@
 				var date2 = $.datepicker.parseDate($.datepicker._defaults.dateFormat, $("#departure_date").val());
                 var selectedDate = $.datepicker.parseDate($.datepicker._defaults.dateFormat, dateText);
 
-                
+
                 if (!date1 || date2) {
 					$("#arrival_date").val(dateText);
 					$("#departure_date").val("");
@@ -53,9 +53,9 @@
 				}
 			}
 		});
-			
+
 		$.datepicker._defaults.dateFormat = 'yy-mm-dd';
-		
+
 		$(".datepickers").datepicker({
 			minDate: 0,
 			numberOfMonths: [1,1],
@@ -69,7 +69,7 @@
 				var date2 = $.datepicker.parseDate($.datepicker._defaults.dateFormat, $("#departure_dates").val());
                 var selectedDate = $.datepicker.parseDate($.datepicker._defaults.dateFormat, dateText);
 
-                
+
                 if (!date1 || date2) {
 					$("#arrival_dates").val(dateText);
 					$("#departure_dates").val("");
@@ -84,12 +84,12 @@
 				}
 			}
 		});
-		
+
 		$(".more").toggle(
 			function() {
 			    $(this).addClass('aaa');
 			    $(this).parent().addClass('longer');
-			}, 
+			},
 			function() {
 			    $(this).removeClass('aaa');
 			    $(this).parent().removeClass('longer');
@@ -183,7 +183,7 @@ $("document").ready(function(){
 
 		<!-- BEGIN LOGO -->
 		<div class="site-logo">
-			
+
 		</div>
 		<!-- END LOGO -->
 
@@ -219,19 +219,19 @@ $("document").ready(function(){
 <!-- BEGIN MENU INCLUDE -->
 <div id="other-menu"><!-- BEGIN MENU -->
 <div class="menucontainer">
-	
+
 	<div class="calendars">
 		<div class="datepickers"></div>
 	</div>
 	<div class="reservationforms">
-					
-		
+
+
 		<form method="get" action="rooms-list-result.php?=">
-			
+
 			<input type="hidden" name="hotel_id" value="TTDEMO">
 				<input type="hidden" name="currency" value="USD">
 				<input type="hidden" name="session_id" value="<?php echo $sessionid; ?>">
-				
+
 			<!-- hidden arrival and departure dates -->
 			<span class="calsec" style="display: none;">
 				<input type="text"  id="arrival_dates" name="arrival_date" placeholder="Arrival" class="calendarsection" />
@@ -239,7 +239,7 @@ $("document").ready(function(){
 				<input type="text" id="departure_dates" name="departure_date" placeholder="Departure" class="calendarsection" />
 				<input type="hidden" id="dep">
 			</span>
-			
+
 			<span class="ad-drop">
 				<select name="adults" class="halfsies">
 					<option value="1">1 Adult</option>
@@ -248,7 +248,7 @@ $("document").ready(function(){
 					<option value="4">4 Adults</option>
 				</select>
 			</span>
-			
+
 			<span class="kid-drop">
 				<select name="children" class="halfsies">
 					<option value="">0 Kids</option>
@@ -257,15 +257,15 @@ $("document").ready(function(){
 					<option value="3">3 Kids</option>
 				</select>
 			</span>
-			
+
 			<div class="clear"></div>
-			
+
 			<div class="inputpromo">
 				<input type="text" id="promo" name="promo" placeholder="Offer Code" />
 			</div>
-			
+
 			<div class="clear"></div>
-			
+
 			<button class="button" type="submit">Search Now</button>
 
 		</form>
@@ -273,7 +273,7 @@ $("document").ready(function(){
 </div>
 
 </div>
-<!-- END MENU -->	
+<!-- END MENU -->
 
 
 <!-- BEGIN MENU CLOSE AREA -->
@@ -302,7 +302,7 @@ $("document").ready(function(){
         if($homepage==$currentpage) {
 	 ?>
 	<?php } elseif($homepages==$currentpage) { ?>
-	
+
 	<?php } else { ?>
 	<div class="other-menu-button"><i class="fa fa-calendar"></i></div>
 	<?php } ?>
