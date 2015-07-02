@@ -155,6 +155,13 @@ img.right, img.alignright {float: right;margin: 0 0 7px 15px;}
   float: left;
 }
 
+a.button1 {
+  background-color: #93c01f;
+  color: #fff;
+  padding: 8px 25px;
+  border-radius: 20px;
+}
+
 
 /* Base Styles -----------------------------------------------------------*/
 
@@ -306,6 +313,11 @@ div#footer .footernav ul li a {
   font-size: 17px;
 }
 
+	div#footer .footernav ul li a:hover {
+	  color: #ec9103;
+	  font-weight: 900;
+	}
+
 div#footer .footeradd i {
   vertical-align: top;
   color: #33a1cc;
@@ -345,3 +357,29 @@ div#footer .footersocial p a {
   color: #33a1cc;
 }
 
+
+/* HOMEPAGE */
+div#banner {
+  background: url(images/banner1.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 600px;
+}
+
+div#banner .container {
+  margin: 0 80px;
+  padding-top: 220px;
+}
+
+div#banner h2 {
+  color: #fff;
+  font-size: 40px;
+  line-height: 60px;
+  font-weight: 300;
+}
+
+div#banner p {
+  color: #fff;
+  font-size: 22px;
+  line-height: 40px;
+}
