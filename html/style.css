@@ -18,7 +18,7 @@ time, mark, audio, video, button, textarea, a {
 	outline: 0;
 	text-decoration: none;
 	font-weight: normal;
-	font-family:"Arial", "Helvetica"
+	font-family: MuseoSans, "Arial", "Helvetica"
 }                  
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section { 
@@ -73,7 +73,7 @@ ul li {
 }
 
 p {
-	font-family: Arial;
+	font-family: MuseoSans, Arial;
 	color: #2e2d2d;
 	font-size: 13px;
 	line-height: 22px;	
@@ -85,7 +85,7 @@ a {
 
 article blockquote {
 	border-left: 1px solid #ebe0b5;
-	font-family: Arial;
+	font-family: MuseoSans, Arial;
 	color: #ebe0b5;
 	font-size: 13px;
 	line-height: 22px;
@@ -98,7 +98,7 @@ article ul {
 article ul li {
 	padding: 5px;
 	list-style: square;
-	font-family: Arial;
+	font-family: MuseoSans, Arial;
 	color: #ebe0b5;
 	font-size: 13px;
 	line-height: 22px;
@@ -110,7 +110,7 @@ article ol {
 article ol li {
 	padding: 5px;
 	list-style-type: decimal;
-	font-family: Arial;
+	font-family: MuseoSans, Arial;
 	color: #ebe0b5;
 	font-size: 13px;
 	line-height: 22px;
@@ -242,3 +242,58 @@ div#footer {
   background-color: #ededed;
   overflow: hidden;
 }
+
+div#footer .container {
+  margin: 60px 50px 30px;
+  overflow: hidden;
+}
+
+div#footer .footernav ul li {
+  margin-bottom: 10px;
+}
+
+div#footer .footernav ul li a {
+  color: #555555;
+  font-weight: 300;
+  font-size: 17px;
+}
+
+div#footer .footeradd i {
+  vertical-align: top;
+  color: #33a1cc;
+  margin-top: 4px;
+}
+
+div#footer .footeradd p {
+  padding-left: 5px;
+  display: inline-block;
+  font-size: 16px;
+  line-height: 1.8;
+  color: #555555;
+}
+
+div#footer .footersocial ul {
+  padding-bottom: 60px;
+}
+
+div#footer .footersocial ul li {
+  display: inline-block;
+  font-size: 25px;
+  margin: 0 5px;
+}
+
+
+div#footer .footersocial ul li i {
+  color: #33a1cc;
+}
+
+div#footer .footersocial p {
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+div#footer .footersocial p a {
+  color: #33a1cc;
+}
+

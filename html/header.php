@@ -27,6 +27,7 @@
 <meta http-equiv="X-UA-Compatible" content="chrome=1">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
+<link rel="stylesheet" type="text/css" href="css/font-awesome.css">
 <link rel="stylesheet" type="text/css" href="css/fonts.css">
 <link rel="stylesheet" type="text/css" href="style.css">
 
