@@ -165,9 +165,14 @@ div#header {
   overflow: hidden;
 }
 
+div#header .container {
+  margin: 0 15px;
+  overflow: hidden;
+}
+
 div#header .logo {
   float: left;
-  padding: 14px;
+  padding: 15px 15px 15px 0;
   border-right: 2px solid #c0c0c0;
 }
 
@@ -177,12 +182,11 @@ div#header .navigation {
 
 div#header .navigation ul {
   padding: 0;
-  margin-left: 5px;
 }
 
 div#header .navigation ul li {
   display: inline-block;
-  margin: 0 13px;
+  margin: 0 15px;
   line-height: 59px;
 }
 
@@ -193,13 +197,57 @@ div#header .navigation ul li a {
   letter-spacing: 0.05em;
   font-family: MuseoSans;
   font-weight: 500;
+  display: block;
 }
 
 	div#header .navigation ul li a:hover {
 	  color: #ec9103;
 	  font-weight: 900;
 	}
+	
+div#header .navigation ul li ul.subnavigation {
+  opacity: 0;
+  visibility: hidden;
+  position: absolute;
+  background-color: #f3f3f3;
+  margin-left: -15px;
+  -moz-box-shadow: -1px 1px 1px #ccc;
+  -webkit-box-shadow: -1px 1px 1px #ccc;
+  box-shadow: -1px 1px 1px #ccc;
+}
 
+div#header .navigation ul li:hover ul.subnavigation {
+    opacity: 1;
+	visibility: visible;
+}
+
+div#header .navigation ul li ul.subnavigation li {
+  display: block;
+  line-height: 40px;
+  border-bottom: 2px solid #c0c0c0;
+  padding-right: 40px;
+}
+
+	div#header .navigation ul ul.subnavigation li:last-child {
+	  border: none;
+	}
+
+li.icon-crs-distribution {
+  background: url(images/icon-crs-distribution.png) no-repeat center right;
+}
+li.icon-booking-engine {
+  background: url(images/icon-booking-engine.png) no-repeat center right;
+}
+li.icon-web-mobile {
+  background: url(images/icon-web-mobile.png) no-repeat center right;
+}
+li.icon-digital-marketing {
+  background: url(images/icon-digital-marketing.png) no-repeat center right;
+}
+li.icon-revenue-management {
+  background: url(images/icon-revenue-management.png) no-repeat center right;
+}
+	
 div#header .rightnav {
   float: right;
 }
@@ -210,7 +258,7 @@ div#header .rightnav ul {
 
 div#header .rightnav ul li {
   display: inline-block;
-  margin: 0 13px;
+  margin: 0 15px;
   line-height: 59px;
 }
 
