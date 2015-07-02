@@ -150,6 +150,95 @@ img.right, img.alignright {float: right;margin: 0 0 7px 15px;}
 	border: none !important;
 }
 
+.col_one_fourth {
+  width: 25%;
+  float: left;
+}
 
 
 /* Base Styles -----------------------------------------------------------*/
+
+
+/* HEADER */
+div#header {
+  background-color: #f3f3f3;
+  overflow: hidden;
+}
+
+div#header .logo {
+  float: left;
+  padding: 14px;
+  border-right: 2px solid #c0c0c0;
+}
+
+div#header .navigation {
+  float: left;
+}
+
+div#header .navigation ul {
+  padding: 0;
+  margin-left: 5px;
+}
+
+div#header .navigation ul li {
+  display: inline-block;
+  margin: 0 13px;
+  line-height: 59px;
+}
+
+div#header .navigation ul li a {
+  text-transform: uppercase;
+  color: #555555;
+  font-size: 13px;
+  letter-spacing: 0.05em;
+  font-family: MuseoSans;
+  font-weight: 500;
+}
+
+	div#header .navigation ul li a:hover {
+	  color: #ec9103;
+	  font-weight: 900;
+	}
+
+div#header .rightnav {
+  float: right;
+}
+
+div#header .rightnav ul {
+  padding: 0;
+}
+
+div#header .rightnav ul li {
+  display: inline-block;
+  margin: 0 13px;
+  line-height: 59px;
+}
+
+div#header .rightnav ul li a {
+  text-transform: uppercase;
+  color: #555555;
+  font-size: 13px;
+  letter-spacing: 0.05em;
+  font-family: MuseoSans;
+  font-weight: 500;
+}
+
+	div#header .rightnav ul li a:hover {
+	  color: #ec9103;
+	  font-weight: 900;
+	}
+
+div#header .rightnav ul li.demo-engine a {
+  background-color: #93c01f;
+  color: #fff;
+  padding: 8px 25px;
+  border-radius: 20px;
+}
+
+
+
+/* FOOTER */
+div#footer {
+  background-color: #ededed;
+  overflow: hidden;
+}

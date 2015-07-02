@@ -1,6 +1,6 @@
 <?php
 
-	$sitename = 'SITE NAME HERE';
+	$sitename = 'Travel Tripper';
 	$actual_link = "http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
 	$baseurl = "http://$_SERVER[HTTP_HOST]/[directory to installation if subdirectory]";
 
@@ -26,6 +26,8 @@
 <link rel="shortcut icon" type="image/x-icon" href="images/favicon.png" />
 <meta http-equiv="X-UA-Compatible" content="chrome=1">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+<link rel="stylesheet" type="text/css" href="css/fonts.css">
 <link rel="stylesheet" type="text/css" href="style.css">
 
 <!-- responsive style -->
@@ -47,3 +49,35 @@
 ?>
 
 <body class="<?php echo $bodyclass; ?>">
+
+	<div id="wrapper">
+
+		<div id="header">
+		
+			<div class="container">
+		
+				<div class="logo">
+					<a href="index.php"><img src="images/logo.png" alt="travel tripper" /></a>
+				</div>
+
+				<div class="navigation">
+					<ul>
+						<li><a href="solutions.php">Solutions</a></li>
+						<li><a href="resources.php">Resources</a></li>
+						<li><a href="blog.php">Blog</a></li>
+						<li><a href="aboutus.php">About Us</a></li>
+					</ul>
+				</div>
+				
+				<div class="rightnav">
+					<ul>
+						<li><a href="login.php">Login</a></li>
+						<li class="demo-engine"><a href="#">Demo Engine</a></li>
+
+					</ul>
+				</div>
+				
+			</div>
+		
+		</div>
+	
