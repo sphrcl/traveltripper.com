@@ -41,7 +41,7 @@ input, select { vertical-align:middle; }
 
 
 body {
-	background: #000;
+	background: #fff;
 	width: 100%;
 	height: 100%;
 }
@@ -155,11 +155,36 @@ img.right, img.alignright {float: right;margin: 0 0 7px 15px;}
   float: left;
 }
 
+.col_one_half {
+  width: 50%;
+  float: left;
+}
+
 a.button1 {
   background-color: #93c01f;
   color: #fff;
   padding: 8px 25px;
   border-radius: 20px;
+  display: inline-block;
+}
+
+a.button2 {
+  background-color: #fff;
+  color: #33a1cc;
+  padding: 8px 25px;
+  border-radius: 20px;
+  display: inline-block;
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+}
+
+a.button3 {
+  background-color: #ec9103;
+  color: #fff;
+  padding: 8px 25px;
+  border-radius: 20px;
+  display: inline-block;
 }
 
 
@@ -296,6 +321,7 @@ div#header .rightnav ul li.demo-engine a {
 div#footer {
   background-color: #ededed;
   overflow: hidden;
+  clear: both;
 }
 
 div#footer .container {
@@ -358,7 +384,7 @@ div#footer .footersocial p a {
 }
 
 
-/* HOMEPAGE */
+/* HOMEPAGE BANNER */
 div#banner {
   background: url(images/banner1.jpg);
   background-size: cover;
@@ -383,3 +409,195 @@ div#banner p {
   font-size: 22px;
   line-height: 40px;
 }
+
+/* HOMEPAGE SERVICES */
+div#services {
+  background-color: #33a1cc;
+  color: #fff;
+  overflow: hidden;
+}
+
+div#services .container {
+  margin: 50px;
+  overflow: hidden;
+}
+
+.servicesbox {
+  float: left;
+  width: 25%;
+  text-align: center;
+  position: relative;
+}
+
+.servicesbox:before {
+  content: "";
+  display: block;
+  background: url(images/arrow-right.png) no-repeat;
+  width: 180px;
+  height: 27px;
+  position: absolute;
+  right: -85px;
+  top: 8px;
+}
+
+.servicesbox:first-child:before, .servicesbox:last-child:before {
+  background:none;
+}
+
+.servicesbox img {
+  margin-bottom: 30px;
+  height: 40px;
+  width: auto;
+}
+
+.servicesbox h3 {
+  padding-right: 50px;
+  text-align: left;
+  font-size: 34px;
+  font-weight: 100;
+}
+
+.servicesbox h4 {
+  margin-bottom: 20px;
+  font-size: 22px;
+  font-weight: 300;
+}
+
+.servicesbox p {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 100;
+  letter-spacing: 0.01em;
+  padding: 0 28px 20px;
+}
+
+/* HOMEPAGE MAIN */
+div#main {
+  clear: both;
+}
+
+div#main .container {
+  margin: 50px 30px;
+}
+
+div#main h2 {
+  padding-bottom: 20px;
+  color: #4d4d4d;
+  font-size: 33px;
+}
+
+div#main p {
+  color: #4d4d4d;
+  font-size: 15px;
+  line-height: 28px;
+}
+
+div#crs {
+  overflow: hidden;
+  background: url(images/crs-graph.jpg) no-repeat bottom right;
+  background-size: contain;
+}
+
+.module {
+  float: left;
+  width: 20%;
+  position: relative;
+  right: -50px;
+  top: 360px;
+  padding: 0;
+}
+
+.module.scroll {
+  position: fixed;
+  right: 50px;
+  top: 50px;
+  width: 20%;
+  background-color: #fff;
+  padding: 10px;
+}
+
+.module .percent {
+  color: #ec9103;
+  font-size: 22px;
+  font-weight: 700;
+  float: left;
+  width: 20%;
+}
+
+.module .modulecontent {
+  float: left;
+  width: 80%;
+}
+
+div#main .module p {
+  font-size: 13px;
+}
+
+.module a {
+  color: #ec9103;
+}
+
+/* HOMEPAGE DIGITAL MARKETING */
+div#digital-marketing {
+  overflow: hidden;
+  color: #4d4d4d;
+  background: #fff url(images/digital-marketing.jpg) no-repeat;
+  background-size: 80%;
+  background-position: bottom right;
+}
+
+div#digital-marketing .container {
+  margin: 50px 30px 50px;
+  overflow: hidden;
+}
+
+div#digital-marketing .spacing {
+  padding-right: 70px;
+}
+
+div#digital-marketing h3 {
+  font-size: 30px;
+  color: #4d4d4d;
+  letter-spacing: 0.015em;
+  padding-bottom: 20px;
+}
+
+div#digital-marketing p {
+  font-size: 13px;
+  font-weight: 100;
+  line-height: 26px;
+  color: #4d4d4d;
+  letter-spacing: 0.015em;
+}
+
+
+ul.dmlogos {
+  margin-top: 56px;
+}
+
+ul.dmlogos li {
+  margin-bottom: 20px;
+}
+
+  
+  
+
+/* HOMEPAGE CALLTOACTION */
+div#calltoaction {
+  overflow: hidden;
+  background-color: #33a1cc;
+  color: #fff;
+  text-align: center;
+}
+
+div#calltoaction .container {
+  margin: 50px;
+}
+
+div#calltoaction h3 {
+  font-size: 33px;
+  padding-bottom: 20px;
+  letter-spacing: 0.015em;
+}
+
+

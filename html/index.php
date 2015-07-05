@@ -12,29 +12,130 @@ include('header.php');
 	
 		<div class="container">
 	
-		<h2>Be Direct.</h2>
-		<p>Innovative hotel digital solutions that increase<br/>direct reservations and maximize revenue.</p>
-		<a class="button1" href="#">LEARN MORE</a>
+			<h2>Be Direct.</h2>
+			<p>Innovative hotel digital solutions that increase<br/>direct reservations and maximize revenue.</p>
+			<a class="button1" href="#">LEARN MORE</a>
 		
 		</div>
 		
 	</div>
+	
+	<div id="services">
+	
+		<div class="container">
+		
+			<div class="servicesbox">
+				<h3>Your strategic partner from search to stay</h3>
+			</div>
+			
+			<div class="servicesbox">
+				<img src="images/icon-generate-demand.png" alt="generate demand" />
+				<h4>Generate Demand</h4>
+				<p>with a unified digital marketing and distribution strategy that expands yourhotel’s global reach.</p>
+				<a class="button2" href="#">LEARN MORE</a>
+			</div>
+		
+			<div class="servicesbox">
+				<img src="images/icon-optimize-conversion.png" alt="optimize conversion" />
+				<h4>Optimize Conversions</h4>
+				<p>with the industry’s most innovative web platform and booking engine.</p>
+				<a class="button2" href="#">LEARN MORE</a>
+			</div>
+		
+			<div class="servicesbox">
+				<img src="images/icon-maximize-revenue.png" alt="maximize revenue" />
+				<h4>Maximize Revenue</h4>
+				<p>with powerful pricing tools and analytics to make the most from your inventory.</p>
+				<a class="button2" href="#">LEARN MORE</a>
+			</div>
+		
+		</div>
+	
+	</div>
+	
+	<div id="main">
+	
+		<div class="container">
+		
+			<div id="crs">
+		
+				<div class="col_one_half">
+					<img src="images/crs.jpg" alt="crs" />
+				</div>
+				
+				<div class="col_one_fourth">
+					<h2>CRS</h2>
+					<p>Manage room rates and availability across all channels from one powerful platform. With Travel</p>
+					<a class="button1" href="#">LEARN MORE</a>
+				</div>
+				
+				<div class="module">
+					<div class="percent">84%</div>
+					<div class="modulecontent">
+					<p>Find out how Travel Tripper increased Mayfair Hotel & Spa’s website revenue by 84%.</p>
+					<a href="#">LEARN MORE</a>
+					</div>
+				</div>
+		
+			</div>
+			
+		
+			<p>&nbsp;</p>
+			<p>&nbsp;</p>
+			<p>&nbsp;</p>
+			<p>&nbsp;</p>
+			<p>&nbsp;</p>
+			<p>&nbsp;</p>
+			<p>&nbsp;</p>
+			<p>&nbsp;</p>
+			<p>&nbsp;</p>
+			<p>&nbsp;</p>
+		
+		
+		</div>
 
+	</div>
 
-	<section>
-
-	<br/>
-	<br/>
-	<br/>
-	<br/>
-	<br/>
-	<br/>
-	<br/>
-	<br/>
-	<br/>
-	<br/>
-
-
-	</section>
+	<div id="digital-marketing">
+	
+		<div class="container">
+		
+			<div class="col_one_fourth">
+			
+				<div class="spacing">
+					<h3>Digital Marketing</h3>
+					
+					<p>Increase awareness and drive more traffic to your hotel website with our personalized digital marketing services. From search marketing to metasearch placement, Travel Tripper’s dedicated team of marketing and distribution experts ensures that your hotel gets maximum visibility for minimum cost.</p>
+					
+					<a class="button1" href="#">LEARN MORE</a>
+				
+				</div>
+			
+			</div>
+			
+			<div class="col_one_fourth">
+			
+				<ul class="dmlogos">
+					<li><img src="images/logo-orbitz.png" alt="orbitz" /></li>
+					<li><img src="images/logo-google.png" alt="google" /></li>
+					<li><img src="images/logo-expedia.png" alt="expedia" /></li>
+					<li><img src="images/logo-kayak.png" alt="kayak" /></li>
+				</ul>
+			
+			</div>
+			
+		
+		</div>
+	
+	</div>
+	
+	<div id="calltoaction">
+		<div class="container">
+		
+			<h3>Book more. Be direct.</h3>
+			<a class="button3" href="#">REQUEST A DEMO</a>
+			
+		</div>
+	</div>
 
 <?php include('footer.php'); ?>
