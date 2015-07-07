@@ -32,9 +32,11 @@
 <link rel="stylesheet" type="text/css" href="style.css">
 
 <!-- responsive style -->
-
 <link rel="stylesheet" type="text/css" href="css/media.css">
+
 <script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+<script type="text/javascript" src="js/jquery.sticky.js"></script>
+<script type="text/javascript" src="js/general.js"></script>
 </head>
 
 <?php 

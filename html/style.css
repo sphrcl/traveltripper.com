@@ -480,6 +480,14 @@ div#main .container {
   margin: 50px 30px;
 }
 
+div#main .mainsection {
+  margin-bottom: 100px;
+}
+
+div#main img {
+  max-width: 100%;
+}
+
 div#main h2 {
   padding-bottom: 20px;
   color: #4d4d4d;
@@ -502,18 +510,15 @@ div#crs {
   float: left;
   width: 20%;
   position: relative;
+  margin-top: 360px;
   right: -50px;
-  top: 360px;
-  padding: 0;
+  padding: 10px;
 }
 
-.module.scroll {
-  position: fixed;
-  right: 50px;
-  top: 50px;
-  width: 20%;
-  background-color: #fff;
-  padding: 10px;
+.is-sticky .module {
+  right: 30px;
+  background: #fff url(images/crs-graph.jpg) no-repeat bottom right;
+  background-size: contain;
 }
 
 .module .percent {
@@ -540,6 +545,7 @@ div#main .module p {
 /* HOMEPAGE DIGITAL MARKETING */
 div#digital-marketing {
   overflow: hidden;
+  clear: both;
   color: #4d4d4d;
   background: #fff url(images/digital-marketing.jpg) no-repeat;
   background-size: 80%;

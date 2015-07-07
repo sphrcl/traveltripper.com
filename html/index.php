@@ -57,7 +57,7 @@ include('header.php');
 	
 		<div class="container">
 		
-			<div id="crs">
+			<div id="crs" class="mainsection">
 		
 				<div class="col_one_half">
 					<img src="images/crs.jpg" alt="crs" />
@@ -80,16 +80,19 @@ include('header.php');
 			</div>
 			
 		
-			<p>&nbsp;</p>
-			<p>&nbsp;</p>
-			<p>&nbsp;</p>
-			<p>&nbsp;</p>
-			<p>&nbsp;</p>
-			<p>&nbsp;</p>
-			<p>&nbsp;</p>
-			<p>&nbsp;</p>
-			<p>&nbsp;</p>
-			<p>&nbsp;</p>
+			<div id="booking-engine" class="mainsection">
+		
+				<div class="col_one_half">
+					<img src="images/mac-mobile.png" alt="mac mobile" />
+				</div>
+				
+				<div class="col_one_fourth">
+					<h2>Booking Engine</h2>
+					<p>We’ve built the industry’s most innovative booking engine to optimize conversions through your most profitable channel—your website. From its sleek design to unique features such as Automated Best Rate Guarantee and built­in email retargeting, find out why hotels love Travel Tripper.</p>
+					<a class="button1" href="#">LEARN MORE</a>
+				</div>
+		
+			</div>
 		
 		
 		</div>
