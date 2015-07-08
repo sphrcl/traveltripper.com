@@ -621,6 +621,26 @@ div#calltoaction h3 {
   letter-spacing: 0.015em;
 }
 
+/* PAGE TITLE */
+div#pagetitle {
+  background-color: #32a1cc;
+  color: #fff;
+  border-bottom: 20px solid #f1f1f2;
+  margin-bottom: 20px;
+}
+
+div#pagetitle .container {
+  padding: 40px 20px;
+}
+
+div#pagetitle h1 {
+  color: #fff;
+  font-size: 40px;
+  line-height: 60px;
+  font-weight: 300;
+}
+
+
 /* PAGE BANNER */
 div#pagebanner {
   background: url(images/banner1.jpg);
@@ -696,7 +716,7 @@ div#aboutmain .pagesection .spacing {
 
 div#aboutmain p {
   font-size: 16px;
-  line-height: 35px;
+  line-height: 30px;
   font-weight: 100;
   letter-spacing: 0.01em;
 }
@@ -834,4 +854,118 @@ div#solutionsmain .pagesection p.authorinfo {
 .flex-control-paging li a.flex-active,
 .flex-control-paging li a:hover {
   background-color: #c7c7c7;
+}
+
+/* RESOURCES */
+div#resourcesmain {
+  clear: both;
+  overflow: hidden;
+}
+
+div#resourcesmain .container {
+  margin: 0 20px;
+  overflow: hidden;
+  position: relative;
+}
+
+div#resourcesmain .respic {
+  width: 50%;
+  float: left;
+}
+
+div#resourcesmain .respic img {
+  max-width: 100%;
+}
+
+div#resourcesmain .resinfo {
+  float: left;
+  width: 50%;
+}
+
+div#resourcesmain .resinfo .spacing {
+  padding: 20px;
+  position: absolute;
+  bottom: 0;
+}
+
+div#resourcesmain .category {
+  color: #eb9223;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 40px;
+  letter-spacing: -0.01em;
+}
+
+div#resourcesmain h2 {
+  color: #34a4d9;
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 48px;
+  letter-spacing: -0.01em;
+}
+
+div#resourcesmain h2 a {
+  color: #34a4d9;
+}
+
+div#resourcesmain p {
+  color: #616161;
+  font-size: 28px;
+  font-weight: 100;
+  line-height: 36px;
+}
+
+div#resourceslist {
+  clear: both;
+  background-color: #f1f1f2;
+  overflow: hidden;
+}
+
+div#resourceslist .container {
+  padding: 20px 10px 40px;
+  overflow: hidden;
+}
+
+div#resourceslist .resourcebox {
+  float: left;
+  width: 25%;
+}
+
+div#resourceslist .resourcebox:nth-child(5n) {
+  clear: left;
+}
+
+div#resourceslist .resourcebox .spacing {
+  margin: 10px;
+  background-color: #fff;
+  -webkit-box-shadow: -2px 2px 2px #cdcbcb;
+  -moz-box-shadow: -2px 2px 2px #cdcbcb;
+  box-shadow: -2px 2px 2px #cdcbcb;
+}
+
+div#resourceslist .resourcebox img {
+  width: 100%;
+  max-width: 100%;
+}
+
+div#resourceslist .resourcebox .category {
+  padding: 10px 20px;
+  color: #eb9223;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: -0.01em;
+}
+
+div#resourceslist .resourcebox h3 {
+  padding: 10px 20px;
+  color: #34a4d9;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  min-height: 90px;
+}
+
+div#resourceslist .resourcebox h3 a {
+  color: #34a4d9;
 }
