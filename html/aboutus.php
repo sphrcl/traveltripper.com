@@ -1,18 +1,18 @@
 <?php 
 	
 	$description = '';
-	$pagetitle = '';
-	$image = '';
+	$pagetitle = 'About Travel Tripper';
+	$image = 'images/banner1.jpg';
 
 include('header.php'); 
 
 ?>
 
-	<div id="pagebanner" style="background: url(images/banner1.jpg);">
+	<div id="pagebanner" style="background-image: url(<?php echo $image; ?>);">
 	
 		<div class="container">
 	
-			<h2>About Travel Tripper</h2>
+			<h2><?php echo $pagetitle; ?></h2>
 		
 		</div>
 		
@@ -20,7 +20,7 @@ include('header.php');
 	
 	<div id="breadcrumbs">
 		<div class="container">
-			<a href="#">Home</a> > <a href="#">About Us</a>
+			<a href="index.php">Home</a> > <a href="#">About Us</a>
 		</div>
 	</div>
 	

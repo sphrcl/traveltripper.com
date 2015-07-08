@@ -29,6 +29,7 @@
 
 <link rel="stylesheet" type="text/css" href="css/font-awesome.css">
 <link rel="stylesheet" type="text/css" href="css/fonts.css">
+<link rel="stylesheet" type="text/css" href="css/flexslider.css" >
 <link rel="stylesheet" type="text/css" href="style.css">
 
 <!-- responsive style -->
@@ -36,6 +37,7 @@
 
 <script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
 <script type="text/javascript" src="js/jquery.sticky.js"></script>
+<script type="text/javascript" src="js/jquery.flexslider-min.js"></script>
 <script type="text/javascript" src="js/general.js"></script>
 </head>
 

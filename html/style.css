@@ -155,6 +155,11 @@ img.right, img.alignright {float: right;margin: 0 0 7px 15px;}
   float: left;
 }
 
+.col_one_third {
+  width: 33.3333%;
+  float: left;
+}
+
 .col_one_half {
   width: 50%;
   float: left;
@@ -189,6 +194,11 @@ a.button3 {
 
 strong {
   font-weight: 700;
+}
+
+.line1 {
+  height: 1px;
+  background-color: #c9c9c9;
 }
 
 /* Base Styles -----------------------------------------------------------*/
@@ -611,12 +621,12 @@ div#calltoaction h3 {
   letter-spacing: 0.015em;
 }
 
-/* ABOUT US BANNER */
+/* PAGE BANNER */
 div#pagebanner {
   background: url(images/banner1.jpg);
   background-size: cover;
   background-position: center;
-  height: 540px;
+  height: 520px;
 }
 
 div#pagebanner .container {
@@ -639,7 +649,7 @@ div#pagebanner p {
 }
 
 
-
+/* BREADCRUMBS */
 div#breadcrumbs {
   clear: both;
   color: #0094c3;
@@ -654,6 +664,7 @@ div#breadcrumbs .container {
   margin: 30px;
 }
 
+/* ABOUT US */
 div#aboutmain {
   clear: both;
 }
@@ -746,4 +757,83 @@ div#calltoaction2 input {
   font-weight: 300;
   font-size: 17px;
   line-height: 20px;
+}
+
+/* SOLUTIONS */
+div#solutionsmain {
+  clear: both;
+}
+
+div#solutionsmain .container {
+  margin: 0 80px;
+  text-align: center;
+}
+
+div#solutionsmain .container2 {
+  padding: 40px 80px 0;
+  text-align: center;
+  background-color: #f6f6f6;
+}
+
+div#solutionsmain .pagesection {
+  clear: both;
+  padding: 30px 0;
+  overflow: hidden;
+}
+
+div#solutionsmain .pagesection h3 {
+  font-size: 34px;
+  font-weight: 300;
+}
+
+div#solutionsmain .pagesection h4 {
+  font-size: 22px;
+  font-weight: 500;
+  padding-bottom: 20px;
+}
+
+div#solutionsmain .pagesection p {
+  font-size: 16px;
+  font-weight: 100;
+}
+
+div#solutionsmain .pagesection img {
+  padding-bottom: 30px;
+}
+
+div#solutionsmain .pagesection .spacing {
+  padding: 0 40px;
+}
+
+div#solutionsmain .pagesection .testiflex .slides img {
+  width: auto;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+div#solutionsmain .pagesection p.testimonials {
+  font-size: 22px;
+  font-weight: 500;
+}
+
+div#solutionsmain .pagesection p.author {
+  font-weight: 500;
+  padding: 0;
+}
+div#solutionsmain .pagesection p.authorinfo {
+  font-size: 12px;
+  padding: 0;
+}
+
+/* FLEXSLIDER CUSTOM */
+.flex-control-paging li a {
+  background-color: #e9e9e9;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+
+.flex-control-paging li a.flex-active,
+.flex-control-paging li a:hover {
+  background-color: #c7c7c7;
 }
