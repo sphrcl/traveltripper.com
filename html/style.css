@@ -187,6 +187,9 @@ a.button3 {
   display: inline-block;
 }
 
+strong {
+  font-weight: 700;
+}
 
 /* Base Styles -----------------------------------------------------------*/
 
@@ -594,6 +597,7 @@ div#calltoaction {
   background-color: #33a1cc;
   color: #fff;
   text-align: center;
+  clear: both;
 }
 
 div#calltoaction .container {
@@ -602,8 +606,144 @@ div#calltoaction .container {
 
 div#calltoaction h3 {
   font-size: 33px;
+  font-weight: 300;
   padding-bottom: 20px;
   letter-spacing: 0.015em;
 }
 
+/* ABOUT US BANNER */
+div#pagebanner {
+  background: url(images/banner1.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 540px;
+}
 
+div#pagebanner .container {
+  margin: 0 180px;
+  padding-top: 220px;
+}
+
+div#pagebanner h2 {
+  color: #fff;
+  font-size: 40px;
+  line-height: 60px;
+  font-weight: 300;
+  text-align: right;
+}
+
+div#pagebanner p {
+  color: #fff;
+  font-size: 22px;
+  line-height: 40px;
+}
+
+
+
+div#breadcrumbs {
+  clear: both;
+  color: #0094c3;
+  font-size: 11px;
+}
+
+div#breadcrumbs a {
+  color: #0094c3;
+}
+
+div#breadcrumbs .container {
+  margin: 30px;
+}
+
+div#aboutmain {
+  clear: both;
+}
+
+div#aboutmain .container {
+  margin: 0;
+}
+
+div#aboutmain .pagesection {
+  clear: both;
+  padding: 30px 0;
+  overflow: hidden;
+}
+
+div#aboutmain .pagesection:nth-child(2n) {
+  background-color: #f6f6f6;
+}
+
+div#aboutmain .pagesection h3 {
+  font-size: 34px;
+  color: #4d4d4d;
+  letter-spacing: 0.025em;
+  padding: 0 30px;
+}
+
+div#aboutmain .pagesection .spacing {
+  padding: 0 20px;
+}
+
+div#aboutmain p {
+  font-size: 16px;
+  line-height: 35px;
+  font-weight: 100;
+  letter-spacing: 0.01em;
+}
+
+div#aboutmain p.aboutus {
+  font-size: 25px;
+}
+
+div#aboutmain ul li {
+  list-style: disc;
+  list-style-position: inside;
+  font-weight: 100;
+  font-size: 16px;
+  line-height: 35px;
+  letter-spacing: 0.01em;
+}
+
+div#aboutmain #leadership .spacing {
+  text-align: center;
+}
+
+div#aboutmain #leadership .spacing h4 {
+  font-size: 24px;
+  margin: 30px 0 5px;
+}
+
+div#aboutmain #leadership .spacing p {
+  line-height: 1.5;
+}
+
+/* CALLTOACTION2 */
+div#calltoaction2 {
+  overflow: hidden;
+  background-color: #33a1cc;
+  color: #fff;
+  text-align: center;
+  clear: both;
+}
+
+div#calltoaction2 .container {
+  margin: 50px;
+  overflow: hidden;
+}
+
+div#calltoaction2 h3 {
+  font-size: 33px;
+  font-weight: 300;
+  letter-spacing: 0.015em;
+  text-align: left;
+}
+
+div#calltoaction2 input {
+  background-color: #fff;
+  color: #828282;
+  padding: 8px 25px;
+  border-radius: 20px;
+  display: inline-block;
+  font-weight: 300;
+  font-size: 17px;
+  line-height: 20px;
+}
