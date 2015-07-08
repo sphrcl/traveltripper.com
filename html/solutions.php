@@ -91,7 +91,7 @@ include('header.php');
 				<div class="col_one_third">
 					<div class="spacing">
 						
-						<p class="testimonials">Selected Clients & Testimonials</p>
+						<h4>Selected Clients & Testimonials</h4>
 					
 						<div class="flexslider testiflex">
 							<ul class="slides">

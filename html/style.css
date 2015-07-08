@@ -784,17 +784,20 @@ div#solutionsmain .pagesection {
 div#solutionsmain .pagesection h3 {
   font-size: 34px;
   font-weight: 300;
+  color: #4d4d4d;
 }
 
 div#solutionsmain .pagesection h4 {
   font-size: 22px;
   font-weight: 500;
   padding-bottom: 20px;
+  color: #4d4d4d;
 }
 
 div#solutionsmain .pagesection p {
   font-size: 16px;
   font-weight: 100;
+  letter-spacing: 0.01em;
 }
 
 div#solutionsmain .pagesection img {
@@ -809,11 +812,6 @@ div#solutionsmain .pagesection .testiflex .slides img {
   width: auto;
   max-width: 100%;
   margin: 0 auto;
-}
-
-div#solutionsmain .pagesection p.testimonials {
-  font-size: 22px;
-  font-weight: 500;
 }
 
 div#solutionsmain .pagesection p.author {
