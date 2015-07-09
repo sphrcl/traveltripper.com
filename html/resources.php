@@ -2,7 +2,7 @@
 	
 	$description = '';
 	$pagetitle = 'Resources';
-	$image = 'images/banner-solutions.jpg';
+	$image = '';
 
 include('header.php'); 
 
@@ -56,7 +56,7 @@ include('header.php');
 				<div class="spacing">
 					<a href="#"><img src="images/resources1.jpg" alt="resources1" /></a>
 					<div class="category">ARTICLE</div>
-					<h3><a href="#">Spot The Conversion Killers</a></h2>
+					<h3><a href="#">Spot The Conversion Killers</a></h3>
 				</div>
 			</div>
 			
@@ -64,7 +64,7 @@ include('header.php');
 				<div class="spacing">
 					<a href="#"><img src="images/resources2.jpg" alt="resources2" /></a>
 					<div class="category">ARTICLE</div>
-					<h3><a href="#">Tnooz: Hotels, OTAs battle tech solution</a></h2>
+					<h3><a href="#">Tnooz: Hotels, OTAs battle tech solution</a></h3>
 				</div>
 			</div>
 			
@@ -72,7 +72,7 @@ include('header.php');
 				<div class="spacing">
 					<a href="#"><img src="images/resources3.jpg" alt="resources3" /></a>
 					<div class="category">ARTICLE</div>
-					<h3><a href="#">Skift: Will Rethinking Metasearch Increase Direct Bookings for Hotels?</a></h2>
+					<h3><a href="#">Skift: Will Rethinking Metasearch Increase Direct Bookings for Hotels?</a></h3>
 				</div>
 			</div>
 			
@@ -80,7 +80,7 @@ include('header.php');
 				<div class="spacing">
 					<a href="#"><img src="images/resources4.jpg" alt="resources4" /></a>
 					<div class="category">ARTICLE</div>
-					<h3><a href="#">Skift: Paradox of Choice</a></h2>
+					<h3><a href="#">Skift: Paradox of Choice</a></h3>
 				</div>
 			</div>
 			
@@ -88,7 +88,7 @@ include('header.php');
 				<div class="spacing">
 					<a href="#"><img src="images/resources1.jpg" alt="resources1" /></a>
 					<div class="category">ARTICLE</div>
-					<h3><a href="#">Spot The Conversion Killers</a></h2>
+					<h3><a href="#">Spot The Conversion Killers</a></h3>
 				</div>
 			</div>
 			
@@ -96,7 +96,7 @@ include('header.php');
 				<div class="spacing">
 					<a href="#"><img src="images/resources2.jpg" alt="resources2" /></a>
 					<div class="category">ARTICLE</div>
-					<h3><a href="#">Tnooz: Hotels, OTAs battle tech solution</a></h2>
+					<h3><a href="#">Tnooz: Hotels, OTAs battle tech solution</a></h3>
 				</div>
 			</div>
 			
@@ -104,7 +104,7 @@ include('header.php');
 				<div class="spacing">
 					<a href="#"><img src="images/resources3.jpg" alt="resources3" /></a>
 					<div class="category">ARTICLE</div>
-					<h3><a href="#">Skift: Will Rethinking Metasearch Increase Direct Bookings for Hotels?</a></h2>
+					<h3><a href="#">Skift: Will Rethinking Metasearch Increase Direct Bookings for Hotels?</a></h3>
 				</div>
 			</div>
 			
@@ -112,7 +112,7 @@ include('header.php');
 				<div class="spacing">
 					<a href="#"><img src="images/resources4.jpg" alt="resources4" /></a>
 					<div class="category">ARTICLE</div>
-					<h3><a href="#">Skift: Paradox of Choice</a></h2>
+					<h3><a href="#">Skift: Paradox of Choice</a></h3>
 				</div>
 			</div>
 			
