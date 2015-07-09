@@ -15,8 +15,8 @@ include('header.php');
 			<div class="blogcontent">
 			
 				<div class="entry">
-					<a href="#"><img class="featured-image" src="images/blog1.jpg" alt="blog1" /></a>
-					<h2 class="blogtitle"><a href="#">Capture more direct reservations with TripConnect Instant Booking</a></h2>
+					<a href="blog-post.php"><img class="featured-image" src="images/blog1.jpg" alt="blog1" /></a>
+					<h2 class="blogtitle"><a href="blog-post.php">Capture more direct reservations with TripConnect Instant Booking</a></h2>
 					<p>Our elegant and easy-to-use website platform adipiscing elit. Maecenas ut cursus ligula. ROI pharetra consequat dolor non semper. Nam in ligula dictum, ultrices ante vitae, sollicitudin vitae.</p>
 					<div class="meta">
 						<span class="author">by <a href="#">Gautam Lulla</a></span>
