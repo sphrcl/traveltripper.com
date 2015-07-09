@@ -13,9 +13,9 @@
 <!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->
 <head>
 <meta charset="utf-8">
-<title><?php echo $sitename; echo $pagetitle; ?></title>
+<title><?php echo $sitename; ?> <?php echo $pagetitle; ?></title>
 
-<meta property="og:title" content="<?php echo $sitename; echo $pagetitle; ?>" />
+<meta property="og:title" content="<?php echo $sitename; ?> <?php echo $pagetitle; ?>" />
 <meta property="og:site_name" content="<?php echo $sitename; ?>"/>
 <meta property="og:url" content="<?php echo $actual_link; ?>" />
 <meta property="og:description" content="<?php echo $description; ?>" />

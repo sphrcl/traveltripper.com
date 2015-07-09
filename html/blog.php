@@ -12,7 +12,7 @@ include('header.php');
 	
 		<div class="container">
 	
-			<div class="blogroll">
+			<div class="blogcontent">
 			
 				<div class="entry">
 					<a href="#"><img class="featured-image" src="images/blog1.jpg" alt="blog1" /></a>

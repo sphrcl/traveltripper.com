@@ -54,8 +54,8 @@ html {
 .no-boxshadow textarea:invalid {  }
 
 /* By default the selection color is pink */
-::-moz-selection{ background: #468ab1; color:#fff; text-shadow: none; }
-::selection { background:#468ab1; color:#fff; text-shadow: none; }
+::-moz-selection{ background: #249fcd; color:#fff; text-shadow: none; }
+::selection { background:#249fcd; color:#fff; text-shadow: none; }
 .ie7 img { -ms-interpolation-mode: bicubic; }
 
 
@@ -80,7 +80,7 @@ p {
 }
 
 a {
-	color: #8d3d00;
+	color: #249fcd;
 }
 
 article blockquote {
@@ -602,7 +602,7 @@ ul.dmlogos li {
   
   
 
-/* HOMEPAGE CALLTOACTION */
+/* CALLTOACTION */
 div#calltoaction {
   overflow: hidden;
   background-color: #33a1cc;
@@ -620,6 +620,45 @@ div#calltoaction h3 {
   font-weight: 300;
   padding-bottom: 20px;
   letter-spacing: 0.015em;
+}
+
+/* CALLTOACTION2 */
+div#calltoaction2 {
+  overflow: hidden;
+  background-color: #33a1cc;
+  color: #fff;
+  text-align: center;
+  clear: both;
+}
+
+div#calltoaction2 .container {
+  margin: 50px;
+  overflow: hidden;
+}
+
+div#calltoaction2 h3 {
+  font-size: 33px;
+  font-weight: 300;
+  letter-spacing: 0.015em;
+  text-align: left;
+}
+
+div#calltoaction2 p {
+  font-size: 18px;
+  letter-spacing: 0.015em;
+  text-align: left;
+  color: #fff;
+}
+
+div#calltoaction2 input {
+  background-color: #fff;
+  color: #828282;
+  padding: 8px 25px;
+  border-radius: 20px;
+  display: inline-block;
+  font-weight: 300;
+  font-size: 17px;
+  line-height: 20px;
 }
 
 /* PAGE TITLE */
@@ -746,38 +785,6 @@ div#aboutmain #leadership .spacing h4 {
 
 div#aboutmain #leadership .spacing p {
   line-height: 1.5;
-}
-
-/* CALLTOACTION2 */
-div#calltoaction2 {
-  overflow: hidden;
-  background-color: #33a1cc;
-  color: #fff;
-  text-align: center;
-  clear: both;
-}
-
-div#calltoaction2 .container {
-  margin: 50px;
-  overflow: hidden;
-}
-
-div#calltoaction2 h3 {
-  font-size: 33px;
-  font-weight: 300;
-  letter-spacing: 0.015em;
-  text-align: left;
-}
-
-div#calltoaction2 input {
-  background-color: #fff;
-  color: #828282;
-  padding: 8px 25px;
-  border-radius: 20px;
-  display: inline-block;
-  font-weight: 300;
-  font-size: 17px;
-  line-height: 20px;
 }
 
 /* SOLUTIONS */
@@ -971,7 +978,7 @@ div#resourceslist .resourcebox h3 a {
   color: #34a4d9;
 }
 
-/* BLOG ROLL */
+/* BLOG ROLL - BLOG POST*/
 div#mainblog {
   clear: both;
   overflow: hidden;
@@ -982,7 +989,7 @@ div#mainblog .container {
   overflow: hidden;
 }
 
-.blogroll {
+.blogcontent {
   float: left;
   width: 66%;
 }
@@ -991,12 +998,35 @@ div#mainblog .container {
   margin-bottom: 60px;
 }
 
+.entry ul {
+  padding-left: 40px;
+}
+
+.entry ul li {
+  font-weight: 100;
+  line-height: 32px;
+  list-style-type: disc;
+}
+
+.entry img {
+  max-width: 100%;
+}
+
+.entry p {
+  color: #363636;
+  font-size: 16px;
+  font-weight: 100;
+  line-height: 32px;
+}
+
 img.featured-image {
   max-width: 100%;
   margin-bottom: 20px;
 }
 
-h2.blogtitle {
+h1.blogtitle, 
+h2.blogtitle, 
+.entry h2 {
   color: #34a4d9;
   font-size: 30px;
   line-height: 48px;
@@ -1005,15 +1035,10 @@ h2.blogtitle {
   margin-bottom: 20px;
 }
 
-h2.blogtitle a {
+h1.blogtitle a, 
+h2.blogtitle a, 
+.entry h2 a {
   color: #34a4d9;
-}
-
-.blogroll p {
-  color: #363636;
-  font-size: 16px;
-  font-weight: 100;
-  line-height: 32px;
 }
 
 .meta {
@@ -1064,6 +1089,42 @@ h2.blogtitle a {
 
 .pagenav span {
   margin-left: 20px;
+}
+
+.singlepost .blogcontent {
+  float: left;
+  width: 58%;
+}
+
+.socialshare {
+  float: left;
+  width: 8%;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.socialshare p {
+  font-size: 12px;
+  font-weight: 300;
+  color: #757576;
+  line-height: 20px;
+}
+
+.socialshare ul li {
+  margin-bottom: 20px;
+}
+
+.socialshare ul li a {
+  color: #fff;
+  background-color: #249fcd;
+  border-radius: 100%;
+  padding: 10px;
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  font-size: 25px;
+  line-height: 1.4;
+  text-align: center;
 }
 
 /* BLOG SIDEBAR */
@@ -1209,3 +1270,4 @@ h2.blogtitle a {
   margin-bottom: 20px;
   cursor: pointer;
 }
+
