@@ -8,7 +8,7 @@ include('header.php');
 
 ?>
 
-	<div id="pagetitle">
+	<div id="pagetitle" class="resources">
 	
 		<div class="container">
 	

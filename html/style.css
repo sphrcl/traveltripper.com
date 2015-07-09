@@ -599,9 +599,6 @@ ul.dmlogos li {
   margin-bottom: 20px;
 }
 
-  
-  
-
 /* CALLTOACTION */
 div#calltoaction {
   overflow: hidden;
@@ -661,6 +658,22 @@ div#calltoaction2 input {
   line-height: 20px;
 }
 
+/* PAGE TEMPLATE */
+div#mainpage {
+  clear: both;
+  overflow: hidden;
+}
+
+div#mainpage .container {
+  margin: 0 60px 30px;
+  overflow: hidden;
+}
+
+.pagecontent {
+  float: left;
+  width: 66%;
+}
+
 /* PAGE TITLE */
 div#pagetitle {
   background-color: #32a1cc;
@@ -670,7 +683,7 @@ div#pagetitle {
 }
 
 div#pagetitle .container {
-  padding: 40px 20px;
+  padding: 40px 60px;
 }
 
 div#pagetitle h1 {
@@ -679,7 +692,6 @@ div#pagetitle h1 {
   line-height: 60px;
   font-weight: 300;
 }
-
 
 /* PAGE BANNER */
 div#pagebanner {
@@ -721,7 +733,7 @@ div#breadcrumbs a {
 }
 
 div#breadcrumbs .container {
-  margin: 30px;
+  margin: 30px 60px;
 }
 
 /* ABOUT US */
@@ -865,6 +877,10 @@ div#solutionsmain .pagesection p.authorinfo {
 }
 
 /* RESOURCES */
+div#pagetitle.resources .container {
+  padding: 40px 20px;
+}
+
 div#resourcesmain {
   clear: both;
   overflow: hidden;
