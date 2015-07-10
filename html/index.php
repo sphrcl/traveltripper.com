@@ -66,10 +66,10 @@ include('header.php');
 				<div class="col_one_fourth">
 					<h2>CRS</h2>
 					<p>Manage room rates and availability across all channels from one powerful platform. With Travel</p>
-					<a class="button1" href="#">LEARN MORE</a>
+					<a class="button1" href="crs.php">LEARN MORE</a>
 				</div>
 				
-				<div class="module">
+				<div id="module">
 					<div class="percent">84%</div>
 					<div class="modulecontent">
 					<p>Find out how Travel Tripper increased Mayfair Hotel & Spa’s website revenue by 84%.</p>

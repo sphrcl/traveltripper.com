@@ -160,6 +160,11 @@ img.right, img.alignright {float: right;margin: 0 0 7px 15px;}
   float: left;
 }
 
+.col_two_third {
+  width: 66.6666%;
+  float: left;
+}
+
 .col_one_half {
   width: 50%;
   float: left;
@@ -519,7 +524,7 @@ div#crs {
   background-size: contain;
 }
 
-.module {
+#module {
   float: left;
   width: 20%;
   position: relative;
@@ -528,14 +533,14 @@ div#crs {
   padding: 10px;
 }
 
-.is-sticky .module {
+.is-sticky #module {
   right: 30px;
   background: #fff url(images/crs-graph.jpg) no-repeat bottom right;
   background-size: contain;
   z-index: 2;
 }
 
-.module .percent {
+#module .percent {
   color: #ec9103;
   font-size: 22px;
   font-weight: 700;
@@ -543,16 +548,16 @@ div#crs {
   width: 20%;
 }
 
-.module .modulecontent {
+#module .modulecontent {
   float: left;
   width: 80%;
 }
 
-div#main .module p {
+div#main #module p {
   font-size: 13px;
 }
 
-.module a {
+#module a {
   color: #ec9103;
 }
 
@@ -702,22 +707,40 @@ div#pagebanner {
 }
 
 div#pagebanner .container {
-  margin: 0 180px;
-  padding-top: 220px;
+  margin: 0 30px;
+  padding-top: 180px;
 }
 
+div#pagebanner.contentright .container {
+  width: 46%;
+  float: right;
+}
+
+div#pagebanner h1, 
 div#pagebanner h2 {
   color: #fff;
   font-size: 40px;
   line-height: 60px;
+  font-weight: 500;
+}
+
+div#pagebanner h3, 
+div#pagebanner h4 {
+  color: #fff;
+  font-size: 34px;
+  line-height: 46px;
   font-weight: 300;
-  text-align: right;
+}
+
+div#pagebanner h4 {
+  font-size: 23px;
 }
 
 div#pagebanner p {
   color: #fff;
-  font-size: 22px;
-  line-height: 40px;
+  font-size: 18px;
+  font-weight: 100;
+  line-height: 33px;
 }
 
 
@@ -1287,3 +1310,250 @@ h2.blogtitle a,
   cursor: pointer;
 }
 
+/* CRS OVERVIEW */
+div#crs-overview {
+  overflow: hidden;
+  clear: both;
+  color: #4d4d4d;
+  background: #f6f6f6;
+  background-size: 80%;
+  background-position: bottom right;
+}
+
+div#crs-overview .container {
+  margin: 50px 30px 10px;
+  overflow: hidden;
+}
+
+div#crs-overview .spacing {
+  padding-right: 40px;
+}
+
+div#crs-overview h3 {
+  font-size: 30px;
+  color: #4d4d4d;
+  letter-spacing: 0.015em;
+  padding-bottom: 20px;
+}
+
+div#crs-overview h4 {
+  padding-bottom: 20px;
+}
+
+div#crs-overview p {
+  font-size: 13px;
+  font-weight: 100;
+  line-height: 26px;
+  color: #4d4d4d;
+  letter-spacing: 0.015em;
+}
+
+ul.icon44 {
+  padding: 0 40px 0 0;
+}
+
+ul.icon44 h5 {
+  padding-bottom: 10px;
+}
+
+ul.icon44 p {
+  float: left;
+  width: calc(100% - 59px);
+}
+
+ul.icon44 li {
+  margin-bottom: 20px;
+    overflow: hidden;
+}
+
+ul.icon44 li:before {
+  background-image: url(images/icon44.png);
+  background-repeat: no-repeat;
+  width: 44px;
+  height: 44px;
+  content: '';
+  display: inline-block;
+  float: left;
+  margin-right: 15px;
+}
+
+li.icon44-dollar:before {
+  background-position: 0 0;
+}
+li.icon44-property:before {
+  background-position: -44px 0;
+}
+li.icon44-computer:before {
+  background-position: -88px 0;
+}
+li.icon44-arrows:before {
+  background-position: -132px 0;
+}
+li.icon44-metasearch:before {
+  background-position: 0 -44px;
+}
+li.icon44-user:before {
+  background-position: -44px -44px;
+}
+li.icon44-interface:before {
+  background-position: -88px -44px;
+}
+li.icon44-pci:before {
+  background-position: -132px -44px;
+}
+
+#module2 {
+  background-color: #fff;
+  border-radius: 20px;
+}
+
+.is-sticky #module2 {
+  right: 30px;
+  background-size: contain;
+  z-index: 2;
+}
+
+#module2 .spacing {
+  padding: 20px !important;
+  background-color: #fff;
+  overflow: hidden;
+  border: 1px solid #d4d4d4;
+  border-radius: 20px;
+  background-image: url(images/module2.jpg);
+  background-position: 10px 25px;
+  background-repeat: no-repeat;
+}
+
+#module2 .percent {
+  color: #ec9103;
+  font-size: 22px;
+  font-weight: 700;
+  float: left;
+  width: 42%;
+}
+
+#module2 .modulecontent {
+  float: left;
+  width: 58%;
+}
+
+#module2 p {
+  font-size: 13px !important;
+  line-height: 20px !important;
+  padding-bottom: 10px;
+}
+
+#module2 a {
+  color: #ec9103;
+}
+
+/* CRS PRICETOOL */
+div#crspricetool {
+  clear: both;
+  overflow: hidden;
+}
+
+div#crspricetool .container {
+  margin: 60px 30px;
+  overflow: hidden;
+}
+
+div#crspricetool .spacing {
+  padding-right: 40px;
+}
+
+div#crspricetool img {
+  max-width: 100%;
+}
+
+div#crspricetool h3 {
+  font-size: 30px;
+  color: #454545;
+  padding-bottom: 20px;
+}
+
+div#crspricetool p {
+  color: #363636;
+  font-size: 15px;
+  font-weight: 100;
+}
+
+div#crspricetool ul {
+  padding: 20px 0 0 0;
+  overflow: hidden;
+}
+
+div#crspricetool ul li {
+  float: left;
+  width: 50%;
+  text-align: center;
+}
+
+div#crspricetool ul li h4 {
+  padding-bottom: 10px;
+  font-size: 15px;
+}
+
+div#crspricetool ul li h4:before {
+  content: '';
+  background: url(images/check.png) no-repeat;
+  width: 18px;
+  height: 15px;
+  display: inline-block;
+  margin-right: 5px;
+}
+
+div#crspricetool ul li p {
+  font-size: 11px;
+  line-height: 20px;
+}
+
+/* CRS PMS RMS */
+div#crspmsrms {
+  background-color: #f6f6f6;
+  overflow: hidden;
+  clear: both;
+}
+
+div#crspmsrms .container {
+  margin: 60px 30px;
+  overflow: hidden;
+}
+
+div#crspmsrms .spacing {
+  padding-right: 40px;
+}
+
+div#crspmsrms h3 {
+  font-size: 30px;
+  color: #454545;
+  padding-bottom: 20px;
+}
+
+div#crspmsrms p {
+  color: #363636;
+  font-size: 15px;
+  font-weight: 100;
+}
+
+ul.checklist {
+  padding: 0;
+  margin: 0 100px;
+}
+
+ul.checklist li {
+  float: left;
+  margin: 20px 0;
+  width: 33.333%;
+}
+
+.checkbutton {
+  background-color: #fff;
+  padding: 8px 20px 8px 40px;
+  border-radius: 10px;
+  border: 1px solid #d4d4d4;
+  background: #fff url(images/check.png) no-repeat 10px;
+  color: #454545;
+  font-size: 16px;
+  letter-spacing: -0.005em;
+}

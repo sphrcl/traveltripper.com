@@ -8,11 +8,11 @@ include('header.php');
 
 ?>
 
-	<div id="pagebanner" style="background-image: url(<?php echo $image; ?>);">
+	<div id="pagebanner" class="contentright" style="background-image: url(<?php echo $image; ?>);">
 	
 		<div class="container">
 	
-			<h2><?php echo $pagetitle; ?></h2>
+			<h1><?php echo $pagetitle; ?></h1>
 		
 		</div>
 		
@@ -42,7 +42,7 @@ include('header.php');
 						<img src="images/icon-blue-crs.png" alt="crs" />
 						<h4>CRS & Distribution</h4>
 						<p>Powered by the world’s most innovative booking engine adipiscing elit. Maecenas ut cursus ligula. ROI pharetra consequat dolor non. semper. Nam in ligula dictum, ultrices ante vitae, sollicitudin vitae, sollicitudin.</p>
-						<p><a class="button1" href="#">LEARN MORE</a></p>
+						<p><a class="button1" href="crs.php">LEARN MORE</a></p>
 					</div>
 				</div>
 				

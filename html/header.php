@@ -70,7 +70,7 @@
 						<li>
 							<a href="solutions.php">Solutions</a>
 							<ul class="subnavigation">
-								<li class="icon-crs-distribution"><a href="#">CRS & Distribution</a></li>
+								<li class="icon-crs-distribution"><a href="crs.php">CRS & Distribution</a></li>
 								<li class="icon-booking-engine"><a href="#">Booking Engine</a></li>
 								<li class="icon-web-mobile"><a href="#">Web & Mobile</a></li>
 								<li class="icon-digital-marketing"><a href="#">Digital Marketing</a></li>
