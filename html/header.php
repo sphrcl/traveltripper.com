@@ -66,27 +66,27 @@
 				</div>
 
 				<div class="navigation">
-					<ul>
+					<ul class="main-nav">
 						<li>
-							<a href="solutions.php">Solutions</a>
+							<a title="Solutions" href="solutions.php">Solutions</a>
 							<ul class="subnavigation">
-								<li class="icon-crs-distribution"><a href="crs.php">CRS & Distribution</a></li>
-								<li class="icon-booking-engine"><a href="#">Booking Engine</a></li>
-								<li class="icon-web-mobile"><a href="#">Web & Mobile</a></li>
-								<li class="icon-digital-marketing"><a href="#">Digital Marketing</a></li>
-								<li class="icon-revenue-management"><a href="#">Revenue Management</a></li>
+								<li class="icon-crs-distribution"><a title="CRS &amp; Distribution" href="crs.php">CRS &amp; Distribution</a></li>
+								<li class="icon-booking-engine"><a title="Booking Engine" href="#">Booking Engine</a></li>
+								<li class="icon-web-mobile"><a title="Web &amp; Mobile" href="#">Web &amp; Mobile</a></li>
+								<li class="icon-digital-marketing"><a title="Digital Marketing" href="#">Digital Marketing</a></li>
+								<li class="icon-revenue-management"><a title="Revenue Management" href="#">Revenue Management</a></li>
 								
 							</ul>
 						</li>
-						<li><a href="resources.php">Resources</a></li>
-						<li><a href="blog.php">Blog</a></li>
-						<li><a href="aboutus.php">About Us</a></li>
+						<li><a title="Resources" href="resources.php">Resources</a></li>
+						<li><a title="Blog" href="blog.php">Blog</a></li>
+						<li><a title="About Us" href="aboutus.php">About Us</a></li>
 					</ul>
 				</div>
 				
 				<div class="rightnav">
 					<ul>
-						<li><a href="login.php">Login</a></li>
+						<li class="demo-login"><a href="login.php">Login</a></li>
 						<li class="demo-engine"><a href="#">Demo Engine</a></li>
 
 					</ul>

@@ -212,18 +212,22 @@ strong {
 /* HEADER */
 div#header {
   background-color: #f3f3f3;
-  overflow: hidden;
+  height: 60px;
 }
 
 div#header .container {
   margin: 0 15px;
-  overflow: hidden;
 }
 
 div#header .logo {
-  float: left;
-  padding: 15px 15px 15px 0;
   border-right: 2px solid #c0c0c0;
+  float: left;
+  height: 60px;
+}
+
+div#header .logo a {
+  display: block;
+  padding: 16px 20px 12px;
 }
 
 div#header .navigation {
@@ -237,7 +241,8 @@ div#header .navigation ul {
 div#header .navigation ul li {
   display: inline-block;
   margin: 0 15px;
-  line-height: 59px;
+  line-height: 60px;
+  text-align: center;
 }
 
 div#header .navigation ul li a {
@@ -255,6 +260,17 @@ div#header .navigation ul li a {
 	  font-weight: 900;
 	}
 	
+	div#header .navigation ul li a:after {
+		display:block;
+		content:attr(title);
+		font-weight: 900;
+		height:1px;
+		color:transparent;
+		overflow:hidden;
+		visibility:hidden;
+		margin-bottom:-1px;
+	}
+	
 div#header .navigation ul li ul.subnavigation {
   opacity: 0;
   visibility: hidden;
@@ -264,6 +280,7 @@ div#header .navigation ul li ul.subnavigation {
   -moz-box-shadow: -1px 1px 1px #ccc;
   -webkit-box-shadow: -1px 1px 1px #ccc;
   box-shadow: -1px 1px 1px #ccc;
+  text-align: left;
 }
 
 div#header .navigation ul li:hover ul.subnavigation {
@@ -276,6 +293,7 @@ div#header .navigation ul li ul.subnavigation li {
   line-height: 40px;
   border-bottom: 2px solid #c0c0c0;
   padding-right: 40px;
+  text-align: left;
 }
 
 	div#header .navigation ul ul.subnavigation li:last-child {
@@ -309,7 +327,7 @@ div#header .rightnav ul {
 div#header .rightnav ul li {
   display: inline-block;
   margin: 0 15px;
-  line-height: 59px;
+  line-height: 60px;
 }
 
 div#header .rightnav ul li a {
