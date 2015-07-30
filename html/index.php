@@ -58,10 +58,28 @@ include('header.php');
 		<div class="container">
 		
 			<div id="crs" class="mainsection">
-		
-				<div class="col_one_half">
-					<img src="images/crs.jpg" alt="crs" />
+			
+				<div class="engine">
+					<i class="cir cir1"><div></div><span>Channel MGT &amp; OTA Distribution</span></i>
+					<i class="cir cir2"><div></div><span>GDS</span></i>
+					<i class="cir cir3"><div></div><span>Web Booking Engine</span></i>
+					<i class="cir cir4"><div></div><span>Mobile Booking Engine</span></i>
+					<i class="cir cir5"><div></div><span>Call Center</span></i>
+					<i class="cir cir6"></i>
+					
+					<i class="blueline blueline1"><div></div></i>
+					<i class="blueline blueline2"><div></div></i>
+					<i class="blueline blueline3"><div></div></i>
+					<i class="blueline blueline4"><div></div></i>
+					<i class="blueline blueline5"><div></div></i>
+					<i class="bluelinea bluelinea1"></i>
+					
+					<i class="hots"><div></div><span>Hotel PMS</span></i>
+					
+					<i class="diagram"><img src="images/crs.jpg" /></i>
 				</div>
+				
+				<!--
 				
 				<div class="col_one_fourth">
 					<h2>CRS</h2>
@@ -76,11 +94,13 @@ include('header.php');
 					<a href="#">LEARN MORE</a>
 					</div>
 				</div>
+				
+				-->
 		
 			</div>
 			
 		
-			<div id="booking-engine" class="mainsection">
+			<div id="booking-engine" class="mainsection" style="display: none;">
 		
 				<div class="col_one_half">
 					<img src="images/mac-mobile.png" alt="mac mobile" />
