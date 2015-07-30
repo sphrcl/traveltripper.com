@@ -510,88 +510,96 @@ div#services .container {
 }
 
 /* HOMEPAGE MAIN */
-div#main {
-  clear: both;
-}
-
-div#main .container {
+#main .container {
   margin: 50px 30px;
+  max-width: 1550px;
 }
 
-div#main .mainsection {
-  margin-bottom: 100px;
+#main .left,
+#main .right {
+	width: 50%;
 }
 
-div#main img {
-  max-width: 100%;
+.topgraph h2 {
+	color: #4d4d4d;
+	font-size: 34px;
+	font-weight: 500;
+	margin-bottom: 20px;
 }
 
-div#main h2 {
-  padding-bottom: 20px;
-  color: #4d4d4d;
-  font-size: 33px;
+.topgraph p {
+	color: #4d4d4d;
+	font-size: 17px;
+	font-weight: 100;
+	line-height: 30px;
+	margin-bottom: 20px;
+	padding: 0;
+	width: 325px;
 }
 
-div#main p {
-  color: #4d4d4d;
-  font-size: 15px;
-  line-height: 28px;
+.topgraph .button1 {
+	font-size: 14px;
+	font-weight: 300;
 }
 
-div#crs {
-  overflow: hidden;
-  /*background: url(images/crs-graph.jpg) no-repeat bottom right;*/
-  background-size: contain;
+.graphics {
+	position: relative;
+	height: 591px;
 }
 
-#module {
-  float: left;
-  width: 20%;
-  position: relative;
-  margin-top: 360px;
-  right: -50px;
-  padding: 10px;
+.module {
+	bottom: 100px;
+	position: absolute;
+	right: 0;
 }
 
-.is-sticky #module {
-  right: 30px;
-  background: #fff url(images/crs-graph.jpg) no-repeat bottom right;
-  background-size: contain;
-  z-index: 2;
+.module h2 {
+	float: left;
+	color: #ec9103;
+	font-size: 24px;
+	font-weight: 700;
+	margin-right: 10px;
 }
 
-#module .percent {
-  color: #ec9103;
-  font-size: 22px;
-  font-weight: 700;
-  float: left;
-  width: 20%;
+.module p {
+	font-size: 13px;
+	color: #363636;
+	line-height: 24px;
+	font-weight: 300;
+	padding: 0 0 10px;
 }
 
-#module .modulecontent {
-  float: left;
-  width: 80%;
+.module a {
+	color: #ec9103;
+	font-size: 13px;
+	font-weight: 500;
 }
 
-div#main #module p {
-  font-size: 13px;
+.modulecontent {
+	float: left;
+	width: 220px;
 }
 
-#module a {
-  color: #ec9103;
+.graphss {
+	background: url('images/crs-graph.jpg') no-repeat scroll 0 0 transparent;
+	height: 591px;
+	width: 100%;
+	
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	z-index: -1;
 }
-
 
 .engine {
+	height: 535px;
 	width: 500px;
-	height: 600px;
 	margin: 0 auto;
 	position: relative;
 }
 
 .engine .cir {
 	position: absolute;
-	top: 50%;
 	left: 50%;
 }
 
@@ -615,57 +623,56 @@ div#main #module p {
 
 .engine .cir1 {
 	margin-left: -262px;
-	margin-top: -29px;
+	top: 221px;
 }
 	.engine .cir1 div { background: url('images/icon-channel-management.png') no-repeat scroll 0 0 transparent;}
 
 .engine .cir2 {
 	margin-left: -213px;
-	margin-top: -171px;
+	top: 79px;
 }
 	.engine .cir2 div { background: url('images/icon-gds.png') no-repeat scroll 0 0 transparent;}
 
 .engine .cir3 {
 	margin-left: -63px;
-	margin-top: -245px;
+	top: 0;
 }
 	.engine .cir3 div { background: url('images/icon-web-booking-engine.png') no-repeat scroll 0 0 transparent;}
 
 .engine .cir4 {
 	margin-left: 81px;
-	margin-top: -170px;
+	top: 79px;
 }
 	.engine .cir4 div { background: url('images/icon-mobile-booking-engine.png') no-repeat scroll 0 0 transparent;}
 
 .engine .cir5 {
 	margin-left: 116px;
-	margin-top: -28px;
+	top: 221px;
 }
 	.engine .cir5 div { background: url('images/icon-call-center.png') no-repeat scroll 0 0 transparent;}
 
 .engine .cir6 {
 	background: url('images/icon-travel-tripper.png') no-repeat scroll 0 0 transparent;
 	margin-left: -25px;
-	margin-top: -34px;
+	top: 216px;
 	
 	height: 76px;
 	width: 76px;
 }
-
 
 .engine .blueline {
 	height: 100px;
 	width: 100px;
 	
 	position: absolute;
-	top: 50%;
 	left: 50%;
 }
 	.engine .blueline div { background: url('images/blueline.png') repeat-y scroll center top transparent; width: 100%;}
 
 .engine .blueline1 {	
 	margin-left: -144px;
-	margin-top: -45px;
+	top: 205px;
+	
 	transform: rotate(-90deg);
 	-webkit-transform: rotate(-90deg);
 	-moz-transform: rotate(-90deg);
@@ -678,7 +685,8 @@ div#main #module p {
 
 .engine .blueline2 {	
 	margin-left: -127px;
-	margin-top: -130px;
+	top: 120px;
+	
 	transform: rotate(-45deg);
 	-webkit-transform: rotate(-45deg);
 	-moz-transform: rotate(-45deg);
@@ -691,7 +699,7 @@ div#main #module p {
 	
 .engine .blueline3 {	
 	margin-left: -37px;
-	margin-top: -155px;
+	top: 95px;
 }
 	.engine .blueline3 div {
 		height: 100px;
@@ -699,7 +707,8 @@ div#main #module p {
 
 .engine .blueline4 {	
 	margin-left: 24px;
-	margin-top: -100px;
+	top: 150px;
+	
 	transform: rotate(45deg);
 	-webkit-transform: rotate(45deg);
 	-moz-transform: rotate(45deg);
@@ -712,7 +721,8 @@ div#main #module p {
 
 .engine .blueline5 {	
 	margin-left: 47px;
-	margin-top: -45px;
+	top: 205px;
+	
 	transform: rotate(90deg);
 	-webkit-transform: rotate(90deg);
 	-moz-transform: rotate(90deg);
@@ -729,17 +739,15 @@ div#main #module p {
 	height: 115px;
 	
 	margin-left: 10px;
-	margin-top: 61px;
 	position: absolute;
-	top: 50%;
+	top: 311px;
 	left: 50%;
 }
 
 .hots {
-	margin-left: -60px;
-	margin-top: 186px;
+	margin-left: -62px;
 	position: absolute;
-	top: 50%;
+	top: 436px;
 	left: 50%;
 }
 
@@ -749,9 +757,85 @@ div#main #module p {
 	height: 70px;
 	margin: 0 auto;
 }
+
+
+/* HOMEPAGE BOOKING ENGINE */
+
+#bigmain .container {
+	max-width: 1500px;
+	position: relative;
+}
+
+.booking-engine {
+	padding: 0 300px 0 20px;
+}
+
+.bkimg {
+	float: left;
+	width: 50%;
+	text-align: center;
+}
+
+.bkimg img {
+	display: block;
+	max-width: 80%;
+	margin: 0 auto;
+}
+
+.bkcnt {
+	float: right;
+	width: 50%;
+}
+
+.bkcnt-block {
+	padding: 0 0 0 20px;
+}
+
+.bkcnt-block h2 {
+	color: #4d4d4d;
+	font-size: 34px;
+	margin-bottom: 20px;
+	font-weight: 300;
+}
 	
+	.bk-macico {
+		background: url('images/be-laptop.png') no-repeat scroll 0 0 transparent;
+		display: inline-block;
+		width: 27px;
+		height: 27px;
+		margin: 0 15px 0 10px;
+	}
+	
+	.bk-phoneico {
+		background: url('images/be-phone.png') no-repeat scroll 0 0 transparent;
+		display: inline-block;
+		width: 15px;
+		height: 23px;
+	}
+
+.bkcnt-block p {
+	color: #4d4d4d;
+	font-size: 17px;
+	line-height: 30px;
+	padding: 0 40px 20px 0;
+	font-weight: 100;
+}
+
+.bkcnt-block .button1 {
+    font-size: 14px;
+    font-weight: 300;
+}
+
+
+
+
+
+
+
+
 
 /* HOMEPAGE DIGITAL MARKETING */
+
 div#digital-marketing {
   overflow: hidden;
   clear: both;

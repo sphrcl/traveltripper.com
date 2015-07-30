@@ -56,67 +56,72 @@ include('header.php');
 	<div id="main">
 	
 		<div class="container">
-		
-			<div id="crs" class="mainsection">
 			
-				<div class="engine">
-					<i class="cir cir1"><div></div><span>Channel MGT &amp; OTA Distribution</span></i>
-					<i class="cir cir2"><div></div><span>GDS</span></i>
-					<i class="cir cir3"><div></div><span>Web Booking Engine</span></i>
-					<i class="cir cir4"><div></div><span>Mobile Booking Engine</span></i>
-					<i class="cir cir5"><div></div><span>Call Center</span></i>
-					<i class="cir cir6"></i>
-					
-					<i class="blueline blueline1"><div></div></i>
-					<i class="blueline blueline2"><div></div></i>
-					<i class="blueline blueline3"><div></div></i>
-					<i class="blueline blueline4"><div></div></i>
-					<i class="blueline blueline5"><div></div></i>
-					<i class="bluelinea bluelinea1"></i>
-					
-					<i class="hots"><div></div><span>Hotel PMS</span></i>
-					
-					<i class="diagram"><img src="images/crs.jpg" /></i>
-				</div>
+			<div class="left">
+			<div class="engine">
+				<i class="cir cir1"><div></div><span>Channel MGT &amp; OTA Distribution</span></i>
+				<i class="cir cir2"><div></div><span>GDS</span></i>
+				<i class="cir cir3"><div></div><span>Web Booking Engine</span></i>
+				<i class="cir cir4"><div></div><span>Mobile Booking Engine</span></i>
+				<i class="cir cir5"><div></div><span>Call Center</span></i>
+				<i class="cir cir6"></i>
 				
-				<!--
+				<i class="blueline blueline1"><div></div></i>
+				<i class="blueline blueline2"><div></div></i>
+				<i class="blueline blueline3"><div></div></i>
+				<i class="blueline blueline4"><div></div></i>
+				<i class="blueline blueline5"><div></div></i>
+				<i class="bluelinea bluelinea1"></i>
 				
-				<div class="col_one_fourth">
+				<i class="hots"><div></div><span>Hotel PMS</span></i>
+			</div>
+			</div>
+			
+			<div class="right">
+			<div class="graphics">
+				<div class="topgraph">
 					<h2>CRS</h2>
 					<p>Manage room rates and availability across all channels from one powerful platform. With Travel</p>
 					<a class="button1" href="crs.php">LEARN MORE</a>
 				</div>
 				
-				<div id="module">
-					<div class="percent">84%</div>
+				<div class="module">
+					<h2 class="percent">84%</h2>
 					<div class="modulecontent">
-					<p>Find out how Travel Tripper increased Mayfair Hotel & Spa’s website revenue by 84%.</p>
-					<a href="#">LEARN MORE</a>
+						<p>Find out how Travel Tripper increased Mayfair Hotel &amp; Spa&lsquo;s website revenue by 84%.</p>
+						<a href="#">LEARN MORE</a>
+					</div>
+					
+					<div class="clear"></div>
+				</div>
+				
+				<div class="graphss"></div>
+			</div>
+			</div>
+			
+			<div class="clear"></div>
+		
+		</div>
+	</div>
+	
+	<div id="bigmain">
+		<div class="container">
+			<div class="booking-engine">
+				
+				<div class="bkimg"><img src="images/mac-mobile.png" alt="mac mobile" /></div>
+				
+				<div class="bkcnt">
+					<div class="bkcnt-block">
+						<h2>Booking Engine <i class="bk-macico"></i><i class="bk-phoneico"></i></h2>
+						<p>We’ve built the industry’s most innovative booking engine to optimize conversions through your most profitable channel—your website. From its sleek design to unique features such as Automated Best Rate Guarantee and built­in email retargeting, find out why hotels love Travel Tripper.</p>
+						<a class="button1" href="#">LEARN MORE</a>
 					</div>
 				</div>
 				
-				-->
-		
+				<div class="clear"></div>
 			</div>
-			
-		
-			<div id="booking-engine" class="mainsection" style="display: none;">
-		
-				<div class="col_one_half">
-					<img src="images/mac-mobile.png" alt="mac mobile" />
-				</div>
-				
-				<div class="col_one_fourth">
-					<h2>Booking Engine</h2>
-					<p>We’ve built the industry’s most innovative booking engine to optimize conversions through your most profitable channel—your website. From its sleek design to unique features such as Automated Best Rate Guarantee and built­in email retargeting, find out why hotels love Travel Tripper.</p>
-					<a class="button1" href="#">LEARN MORE</a>
-				</div>
-		
-			</div>
-		
-		
 		</div>
-
+	
 	</div>
 
 	<div id="digital-marketing">
@@ -151,6 +156,8 @@ include('header.php');
 		</div>
 	
 	</div>
+	
+	
 	
 	<div id="calltoaction">
 		<div class="container">
