@@ -762,12 +762,18 @@ div#services .container {
 /* HOMEPAGE BOOKING ENGINE */
 
 #bigmain .container {
-	max-width: 1500px;
+	max-width: 1980px;
+	margin: 0 auto;
 	position: relative;
 }
 
-.booking-engine {
+.booking-engine,
+.web-engine {
 	padding: 0 300px 0 20px;
+}
+
+.booking-engine {
+	margin-bottom: 100px;
 }
 
 .bkimg {
@@ -789,6 +795,7 @@ div#services .container {
 
 .bkcnt-block {
 	padding: 0 0 0 20px;
+	max-width: 400px;
 }
 
 .bkcnt-block h2 {
@@ -826,9 +833,40 @@ div#services .container {
     font-weight: 300;
 }
 
+.modmove {
+	background: url("images/crs-graph.jpg") no-repeat scroll 0 bottom transparent;
+	background-size: 120px auto;
+	position: absolute;
+	width: 300px;
+	right: 100px;
+	top: 0;
+}
 
+.modmovecontent {
+	float: right;
+	width: 170px;
+}
 
+.modmove h2 {
+	float: left;
+    color: #ec9103;
+    font-size: 23px;
+    font-weight: 700;
+}
 
+.modmove p {
+	font-size: 13px;
+	line-height: 24px;
+	font-weight: 300;
+	padding: 0;
+}
+
+.modmove a {
+	color: #ec9103;
+	font-size: 12px;
+	font-weight: 500;
+	margin-bottom: 10px;
+}
 
 
 

@@ -86,7 +86,7 @@ include('header.php');
 				</div>
 				
 				<div class="module">
-					<h2 class="percent">84%</h2>
+					<h2>84%</h2>
 					<div class="modulecontent">
 						<p>Find out how Travel Tripper increased Mayfair Hotel &amp; Spa&lsquo;s website revenue by 84%.</p>
 						<a href="#">LEARN MORE</a>
@@ -120,6 +120,30 @@ include('header.php');
 				
 				<div class="clear"></div>
 			</div>
+			
+			<div class="web-engine">
+				
+				<div class="bkimg"><img src="images/mac-mobile.png" alt="mac mobile" /></div>
+				
+				<div class="bkcnt">
+					<div class="bkcnt-block">
+						<h2>Web &amp; Engine <i class="bk-macico"></i><i class="bk-phoneico"></i></h2>
+						<p>A powerful booking platform becomes even stronger with a beautiful website. Travel Tripper’s hotel web platform allows you or your design agency to create stunning responsive websites that are perfectly optimized across desktop and mobile devices. Dynamic integration with our CRS and booking engine makes managing e­commerce a breeze.</p>
+						<a class="button1" href="#">LEARN MORE</a>
+					</div>
+				</div>
+				
+				<div class="clear"></div>
+			</div>
+			
+			<div class="modmove">
+				<h2 class="percent">84%</h2>
+				<div class="modmovecontent">
+					<p>Find out how Travel Tripper increased Mayfair Hotel &amp; Spa&lsquo;s website revenue by 84%.</p>
+					<a href="#">LEARN MORE</a>
+				</div>
+			</div>
+			
 		</div>
 	
 	</div>
