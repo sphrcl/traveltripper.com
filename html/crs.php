@@ -30,7 +30,7 @@ include('header.php');
 	
 		<div class="container">
 		
-			<div class="col_one_fourth">
+			<div class="col_one_third">
 				<div class="spacing">
 					<h3>Overview of CRS</h3>
 					<h4>Best-in-class booking engine</h4>
@@ -39,7 +39,7 @@ include('header.php');
 				</div>
 			</div>
 			
-			<div class="col_one_fourth">
+			<div class="col_one_third">
 				<ul class="icon44">
 					<li class="icon44-dollar">
 						<h5>VERSATILE PRICING</h5>
@@ -60,7 +60,7 @@ include('header.php');
 				</ul>
 			</div>
 			
-			<div class="col_one_fourth">
+			<div class="col_one_third">
 				<ul class="icon44">
 					<li class="icon44-metasearch">
 						<h5>METASEARCH CONNECTIVITY</h5>
@@ -81,18 +81,21 @@ include('header.php');
 				</ul>
 			</div>
 			
-			<div id="module2" class="col_one_fourth">
-				<div class="spacing">
-					<div class="percent">34%</div>
-					<div class="modulecontent">
-					<p>We increased Parkside Hotel conversion rates by 34%</p>
-					<a href="#">LEARN MORE</a>
-				</div>
+			<div class="clear"></div>
+			
+			<div class="module2">
+				<div class="spacing2">
+					<h2>34%</h2>
+					<div class="modulecontent2">
+						<p>We increased Parkside Hotel conversion rates by 34%</p>
+						<a href="#">LEARN MORE</a>
+					</div>
 				</div>
 			</div>
 			
-		
 		</div>
+		
+
 	
 	</div>
 	
@@ -171,7 +174,7 @@ include('header.php');
 		
 	</div>
 	
-	<div id="pagebanner" class="contentright" style="background-image: url(images/banner-crs2.jpg);">
+	<div id="bottombanner" class="contentright" style="background-image: url(images/banner-crs2.jpg);">
 	
 		<div class="container">
 	

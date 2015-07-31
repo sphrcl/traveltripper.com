@@ -267,6 +267,12 @@ strong {
   font-family: MuseoSans;
   font-weight: 500;
   display: block;
+  
+  transition: none;
+  -webkit-transition: none;
+  -moz-transition: none;
+  -o-transition: none;
+  -ms-transition: none;
 }
 
 	#header .navigation ul li a:hover {
@@ -1036,7 +1042,7 @@ li.icon-revenue-management { background: url(images/icon-revenue-management.png)
 #digital-marketing .container {
 	padding: 30px;
 	position: relative;
-	max-width: 1600px;
+	max-width: 1540px;
 	margin: 0 auto;
 }
 
@@ -1155,6 +1161,7 @@ div#calltoaction2 input {
   font-weight: 300;
   font-size: 17px;
   line-height: 20px;
+  border: 0 none;
 }
 
 /* PAGE TEMPLATE */
@@ -1178,7 +1185,7 @@ div#pagetitle {
   background-color: #32a1cc;
   color: #fff;
   border-bottom: 20px solid #f1f1f2;
-  margin-bottom: 20px;
+  margin: 60px 0 20px;
 }
 
 div#pagetitle .container {
@@ -1192,45 +1199,53 @@ div#pagetitle h1 {
   font-weight: 300;
 }
 
-/* PAGE BANNER */
-div#pagebanner {
-  background: url(images/banner1.jpg);
+/* PAGE BANNER // BOTTOM BANNER */
+#pagebanner,
+#bottombanner {
+  background: url('images/banner1.jpg') no-repeat scroll center center transparent;
   background-size: cover;
-  background-position: center;
   height: 520px;
+  position: relative;
 }
+	#pagebanner {
+		margin-top: 60px;
+	}
 
-div#pagebanner .container {
+#pagebanner .container,
+#bottombanner .container {
   margin: 0 30px;
   padding-top: 180px;
 }
 
-div#pagebanner.contentright .container {
+#pagebanner.contentright .container,
+#bottombanner.contentright .container {
   width: 46%;
   float: right;
 }
 
-div#pagebanner h1, 
-div#pagebanner h2 {
+#pagebanner h1, #pagebanner h2,
+#bottombanner h1, #bottombanner h2 {
   color: #fff;
   font-size: 40px;
   line-height: 60px;
   font-weight: 500;
 }
 
-div#pagebanner h3, 
-div#pagebanner h4 {
+#pagebanner h3, #pagebanner h4,
+#bottombanner h3, #bottombanner h4 {
   color: #fff;
   font-size: 34px;
   line-height: 46px;
   font-weight: 300;
 }
 
-div#pagebanner h4 {
+#pagebanner h4,
+#bottombanner h4 {
   font-size: 23px;
 }
 
-div#pagebanner p {
+#pagebanner p,
+#bottombanner p {
   color: #fff;
   font-size: 18px;
   font-weight: 100;
@@ -1250,7 +1265,9 @@ div#breadcrumbs a {
 }
 
 div#breadcrumbs .container {
-  margin: 30px 60px;
+	margin: 0 auto;
+	max-width: 1540px;
+	padding: 30px;
 }
 
 /* ABOUT US */
@@ -1518,7 +1535,7 @@ div#mainblog {
 }
 
 div#mainblog .container {
-  margin: 30px 60px;
+  margin: 90px 60px 30px;
   overflow: hidden;
 }
 
@@ -1651,12 +1668,11 @@ h2.blogtitle a,
   color: #fff;
   background-color: #249fcd;
   border-radius: 100%;
-  padding: 10px;
   display: inline-block;
-  width: 30px;
-  height: 30px;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
   font-size: 25px;
-  line-height: 1.4;
   text-align: center;
 }
 
@@ -1805,36 +1821,36 @@ h2.blogtitle a,
 }
 
 /* CRS OVERVIEW */
-div#crs-overview {
-  overflow: hidden;
-  clear: both;
+#crs-overview {
   color: #4d4d4d;
   background: #f6f6f6;
   background-size: 80%;
   background-position: bottom right;
 }
 
-div#crs-overview .container {
-  margin: 50px 30px 10px;
-  overflow: hidden;
+#crs-overview .container {
+  max-width: 1210px;
+  margin: 0 auto;
+  padding: 40px 360px 40px 30px;
+  position: relative;
 }
 
-div#crs-overview .spacing {
+#crs-overview .spacing {
   padding-right: 40px;
 }
 
-div#crs-overview h3 {
+#crs-overview h3 {
   font-size: 30px;
   color: #4d4d4d;
   letter-spacing: 0.015em;
   padding-bottom: 20px;
 }
 
-div#crs-overview h4 {
+#crs-overview h4 {
   padding-bottom: 20px;
 }
 
-div#crs-overview p {
+#crs-overview p {
   font-size: 13px;
   font-weight: 100;
   line-height: 26px;
@@ -1896,50 +1912,46 @@ li.icon44-pci:before {
   background-position: -132px -44px;
 }
 
-#module2 {
-  background-color: #fff;
-  border-radius: 20px;
+.module2 {
+	background: url("images/crs-graph.jpg") no-repeat scroll 20px 20px #fff;
+	background-size: 103px auto;
+	position: absolute;
+	width: 290px;
+	right: 20px;
+	top: 30px;
+	border: 1px solid #ccc;
+	border-radius: 20px;
+	padding: 25px;
 }
 
-.is-sticky #module2 {
-  right: 30px;
-  background-size: contain;
-  z-index: 2;
+.modulecontent2 {
+	float: right;
+	width: 180px;
 }
 
-#module2 .spacing {
-  padding: 20px !important;
-  background-color: #fff;
-  overflow: hidden;
-  border: 1px solid #d4d4d4;
-  border-radius: 20px;
-  background-image: url(images/module2.jpg);
-  background-position: 10px 25px;
-  background-repeat: no-repeat;
+.module2 h2 {
+	float: left;
+    color: #ec9103;
+    font-size: 23px;
+    font-weight: 700;
 }
 
-#module2 .percent {
-  color: #ec9103;
-  font-size: 22px;
-  font-weight: 700;
-  float: left;
-  width: 42%;
+.module2 p {
+	font-size: 13px;
+	line-height: 24px;
+	font-weight: 300;
+	padding: 0;
 }
 
-#module2 .modulecontent {
-  float: left;
-  width: 58%;
+.module2 a {
+	color: #ec9103;
+	font-size: 12px;
+	font-weight: 500;
+	margin-bottom: 10px;
 }
 
-#module2 p {
-  font-size: 13px !important;
-  line-height: 20px !important;
-  padding-bottom: 10px;
-}
 
-#module2 a {
-  color: #ec9103;
-}
+
 
 /* CRS PRICETOOL */
 div#crspricetool {
@@ -1948,8 +1960,10 @@ div#crspricetool {
 }
 
 div#crspricetool .container {
-  margin: 60px 30px;
-  overflow: hidden;
+	margin: 60px auto;
+	max-width: 1540px;
+	overflow: hidden;
+	padding: 0 30px;
 }
 
 div#crspricetool .spacing {
@@ -2002,6 +2016,10 @@ div#crspricetool ul li p {
   line-height: 20px;
 }
 
+#crspricetool .col_two_third {
+	text-align: center;
+}
+
 /* CRS PMS RMS */
 div#crspmsrms {
   background-color: #f6f6f6;
@@ -2010,8 +2028,10 @@ div#crspmsrms {
 }
 
 div#crspmsrms .container {
-  margin: 60px 30px;
-  overflow: hidden;
+	margin: 60px auto;
+	max-width: 1540px;
+	overflow: hidden;
+	padding: 0 30px;
 }
 
 div#crspmsrms .spacing {
