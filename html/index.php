@@ -150,35 +150,31 @@ include('header.php');
 
 	<div id="digital-marketing">
 	
+		<div class="dmborder"></div>
+	
 		<div class="container">
 		
-			<div class="col_one_fourth">
-			
-				<div class="spacing">
-					<h3>Digital Marketing</h3>
-					
-					<p>Increase awareness and drive more traffic to your hotel website with our personalized digital marketing services. From search marketing to metasearch placement, Travel Tripper’s dedicated team of marketing and distribution experts ensures that your hotel gets maximum visibility for minimum cost.</p>
-					
-					<a class="button1" href="#">LEARN MORE</a>
-				
-				</div>
-			
+			<div class="dmtext">
+				<h3>Digital Marketing</h3>
+				<p>Increase awareness and drive more traffic to your hotel website with our personalized digital marketing services. From search marketing to metasearch placement, Travel Tripper’s dedicated team of marketing and distribution experts ensures that your hotel gets maximum visibility for minimum cost.</p>
+				<a class="button1" href="#">LEARN MORE</a>
 			</div>
 			
-			<div class="col_one_fourth">
-			
-				<ul class="dmlogos">
+			<div class="dmlogos">
+				<ul>
 					<li><img src="images/logo-orbitz.png" alt="orbitz" /></li>
 					<li><img src="images/logo-google.png" alt="google" /></li>
 					<li><img src="images/logo-expedia.png" alt="expedia" /></li>
 					<li><img src="images/logo-kayak.png" alt="kayak" /></li>
 				</ul>
-			
 			</div>
 			
-		
+			<div class="clear"></div>
+			
 		</div>
-	
+		
+		<div class="dmimg"><img src="images/digitalmarketing.png" /></div>
+		
 	</div>
 	
 	

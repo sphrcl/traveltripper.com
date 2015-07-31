@@ -6,6 +6,48 @@ $(document).ready(function(){
 	});
 	
 	
+	// HOMEPAGE #services
+	
+	$('#services').one('inview', function(event, isInView, visiblePartX, visiblePartY) {
+		if (isInView) {
+			if (visiblePartY == 'top') {
+				$(this).addClass('active');
+			} else if (visiblePartY == 'bottom') {
+				$(this).addClass('active');
+			} else {
+				$(this).addClass('active');
+			}
+		}
+	});
+	
+	
+	// HOMEPAGE #main
+	
+	$('.engine').one('inview', function(event, isInView, visiblePartX, visiblePartY) {
+		if (isInView) {
+			if (visiblePartY == 'top') {
+				$(this).addClass('active');
+			} else if (visiblePartY == 'bottom') {
+				$(this).addClass('active');
+			} else {
+				$(this).addClass('active');
+			}
+		}
+	});
+	
+	$('.graphics').one('inview', function(event, isInView, visiblePartX, visiblePartY) {
+		if (isInView) {
+			if (visiblePartY == 'top') {
+				$(this).addClass('active');
+			} else if (visiblePartY == 'bottom') {
+				$(this).addClass('active');
+			} else {
+				$(this).addClass('active');
+			}
+		}
+	});
+	
+	
 	// HOMEPAGE .modmove
 	
 	var moving = function() {
@@ -41,10 +83,10 @@ $(document).ready(function(){
 		
 		if ((bw >= mh) && (mw >= bw)) {
 			if(calcbwmw > wm) {
-				carrythiss.addClass('sticky');
 				carrythiss.css('top', wm);
 			} else {
 				carrythiss.css('top', calcbwmw);
+				carrythiss.addClass('sticky');
 			}
 		}
 	});
