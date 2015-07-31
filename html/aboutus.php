@@ -25,7 +25,7 @@ include('header.php');
 	</div>
 	
 	
-	<div id="aboutmain">
+	<div id="aboutmain" class="wrapper">
 	
 		<div class="container">
 		

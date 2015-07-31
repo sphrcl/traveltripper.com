@@ -156,7 +156,8 @@ img.right, img.alignright {float: right;margin: 0 0 7px 15px;}
 	border: none !important;
 }
 
-.col_one_fourth {
+.col_one_fourth,
+.pagesection > .col_one_fourth.left {
   width: 25%;
   float: left;
 }
@@ -1279,39 +1280,47 @@ div#aboutmain .container {
   margin: 0;
 }
 
-div#aboutmain .pagesection {
+.pagesection {
   clear: both;
   padding: 30px 0;
   overflow: hidden;
+}
+
+.pagesection > .right {
+    width: 75%;
+}
+
+.pagesection > .left {
+    width: 55%;
 }
 
 div#aboutmain .pagesection:nth-child(2n) {
   background-color: #f6f6f6;
 }
 
-div#aboutmain .pagesection h3 {
+.pagesection h3 {
   font-size: 34px;
   color: #4d4d4d;
   letter-spacing: 0.025em;
   padding: 0 30px;
 }
 
-div#aboutmain .pagesection .spacing {
+.pagesection .spacing {
   padding: 0 20px;
 }
 
-div#aboutmain p {
+.wrapper .container p {
   font-size: 16px;
   line-height: 30px;
   font-weight: 100;
   letter-spacing: 0.01em;
 }
 
-div#aboutmain p.aboutus {
+.wrapper .container .spacing p {
   font-size: 25px;
 }
 
-div#aboutmain ul li {
+.wrapper .container ul li {
   list-style: disc;
   list-style-position: inside;
   font-weight: 100;
@@ -2070,4 +2079,29 @@ ul.checklist li {
   color: #454545;
   font-size: 16px;
   letter-spacing: -0.005em;
+}
+
+
+
+/* PAGE - Careers #################################################################################### */
+
+.pagesection.positiions .spacing h3 {
+    font-size: 20px;
+    line-height: 1.4;
+    margin-bottom: 20px;
+    padding: 0;
+}
+
+.pagesection.positiions .spacing a strong {
+    text-transform: uppercase;
+}
+
+.pagesection.positiions .col_one_half {
+    margin-bottom: 60px;
+}
+
+.wrapper .container .pagesection.positiions .spacing p {
+    color: #4d4d4d;
+    font-size: 18px;
+    padding-bottom: 20px;
 }

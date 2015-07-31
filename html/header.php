@@ -56,7 +56,7 @@
 
 ?>
 
-<body class="<?php echo $bodyclass; ?>">
+<body class="<?php echo $bodyclass; ?> <?php echo $template_class; ?>">
 
 	<div id="wrapper">
 
