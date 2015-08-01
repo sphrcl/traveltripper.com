@@ -76,8 +76,8 @@
 								<li class="icon-crs-distribution"><a title="CRS &amp; Distribution" href="crs.php">CRS &amp; Distribution</a></li>
 								<li class="icon-booking-engine"><a title="Booking Engine" href="booking-engine.php">Booking Engine</a></li>
 								<li class="icon-web-mobile"><a title="Web &amp; Mobile" href="#">Web &amp; Mobile</a></li>
-								<li class="icon-digital-marketing"><a title="Digital Marketing" href="#">Digital Marketing</a></li>
-								<li class="icon-revenue-management"><a title="Revenue Management" href="#">Revenue Management</a></li>
+								<li class="icon-digital-marketing"><a title="Digital Marketing" href="digital-marketing.php">Digital Marketing</a></li>
+								<li class="icon-revenue-management"><a title="Revenue Management" href="revup.php">Revenue Management</a></li>
 								
 							</ul>
 						</li>
