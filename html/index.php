@@ -114,7 +114,7 @@ include('header.php');
 					<div class="bkcnt-block">
 						<h2>Booking Engine <i class="bk-macico"></i><i class="bk-phoneico"></i></h2>
 						<p>We’ve built the industry’s most innovative booking engine to optimize conversions through your most profitable channel—your website. From its sleek design to unique features such as Automated Best Rate Guarantee and built­in email retargeting, find out why hotels love Travel Tripper.</p>
-						<a class="button1" href="#">LEARN MORE</a>
+						<a class="button1" href="booking-engine.php">LEARN MORE</a>
 					</div>
 				</div>
 				

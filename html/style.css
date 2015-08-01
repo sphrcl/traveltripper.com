@@ -162,6 +162,11 @@ img.right, img.alignright {float: right;margin: 0 0 7px 15px;}
   float: left;
 }
 
+.col_three_fourth {
+  width: 75%;
+  float: left;
+}
+
 .col_one_third {
   width: 33.3333%;
   float: left;
@@ -2105,3 +2110,140 @@ ul.checklist li {
     font-size: 18px;
     padding-bottom: 20px;
 }
+
+
+
+/* PAGE - Booking Engine #################################################################################### */
+
+.template-booking-engine #pagebanner.contentright .container {
+  padding-top: 150px;
+}
+
+.template-booking-engine #pagebanner p {
+  width: 60%;
+}
+
+.template-booking-engine #breadcrumbs {
+  background-color: #f6f6f6;
+}
+
+.page-layer {
+  overflow: hidden;
+}
+
+.page-layer .container {
+  position: relative;
+}
+
+.page-layer h3 {
+  font-size: 30px;
+  color: #4d4d4d;
+  letter-spacing: 0.015em;
+  padding-bottom: 10px;
+}
+
+.page-layer h4 {
+  padding-bottom: 10px;
+}
+
+#page-layer-1 {
+  background: #f6f6f6;
+}
+
+#page-layer-1 img {
+  max-width: 94%;
+}
+
+#page-layer-1 .spacing {
+  margin-top: 140px;
+}
+
+#page-layer-2 .spacing {
+  margin-top: 200px;
+  margin-left: 20px;
+}
+
+#page-layer-2 .col_three_fourth {
+  text-align: right;
+}
+
+#page-layer-2 .col_three_fourth img {
+  max-width: 82%;
+}
+
+#page-layer-2 ul li {
+  float: left;
+  width: 75%;
+  text-align: center;
+}
+
+#page-layer-2 ul li h4 {
+  padding-bottom: 10px;
+  font-size: 15px;
+}
+
+#page-layer-2 ul li h4:before {
+  content: '';
+  background: url(images/check.png) no-repeat;
+  width: 18px;
+  height: 15px;
+  display: inline-block;
+  margin-right: 5px;
+}
+
+#page-layer-2 ul li p {
+  font-size: 11px;
+  line-height: 20px;
+  color: #363636;
+  font-weight: 100;
+}
+
+#page-layer-3 {
+  background: #f6f6f6;
+}
+
+#page-layer-3 .container {
+  padding: 40px 20px 0;
+  overflow: hidden;
+}
+
+#page-layer-3 .col_one_half {
+  text-align: center;
+}
+
+#page-layer-3 .spacing {
+  margin-top: 170px;
+}
+
+#page-layer-4 .container {
+  padding: 40px 20px;
+  overflow: hidden;
+}
+
+#page-layer-4 .col_one_fourth {
+  text-align: center;
+}
+
+#page-layer-4 .spacing {
+  padding: 0 30px;
+}
+
+#page-layer-4 h3 {
+  padding-bottom: 40px;
+}
+
+#page-layer-4 h4:before {
+  content: '';
+  background: url(images/check.png) no-repeat;
+  width: 18px;
+  height: 15px;
+  display: inline-block;
+  margin-right: 5px;
+}
+
+#page-layer-4 p {
+  font-size: 14px;
+  font-weight: 100;
+}
+
+
