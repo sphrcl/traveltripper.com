@@ -2246,4 +2246,106 @@ ul.checklist li {
   font-weight: 100;
 }
 
+/* PAGE - Rev Up #################################################################################### */
 
+
+.template-revup #pagebanner.contentright .container {
+  padding-top: 150px;
+}
+
+.template-revup #pagebanner h3 {
+  font-size: 22px;
+  line-height: 26px;
+  font-weight: 500;
+  padding-bottom: 10px;
+}
+
+.template-revup #pagebanner p {
+  width: 60%;
+}
+
+.revup-layer {
+  overflow: hidden;
+}
+
+.revup-layer .container {
+  position: relative;
+}
+
+.revup-layer h3 {
+  font-size: 30px;
+  color: #4d4d4d;
+  letter-spacing: 0.015em;
+  padding-bottom: 10px;
+}
+
+.revup-layer h4 {
+  padding-bottom: 10px;
+}
+
+.revup-layer img {
+  max-width: 100%;
+}
+
+#revup-layer-1 {
+  padding: 0 0 40px;
+}
+
+#revup-layer-1 img {
+  max-width: 94%;
+}
+
+#revup-layer-1 .spacing {
+  margin-top: 50px;
+}
+
+#revup-layer-1 .module2 {
+  box-shadow: -2px -1px 5px #ccc;
+  border: 0;
+}
+
+#revup-layer-2 {
+  background-color: #f6f6f6;
+}
+
+#revup-layer-2 .col_three_fourth {
+  text-align: right;
+}
+
+#revup-layer-2 .spacing {
+  margin-top: 200px;
+  margin-left: 40px;
+}
+
+#revup-layer-2 h4 {
+  font-size: 18px;
+}
+
+#revup-layer-3 {
+  padding: 60px 0;
+}
+
+#revup-layer-3 img {
+  max-width: 94%;
+}
+
+#revup-layer-3 .spacing {
+  margin-top: 90px;
+}
+
+#revup-layer-4 {
+  background-color: #f6f6f6;
+}
+
+#revup-layer-4 .spacing {
+  margin-top: 140px;
+  margin-left: 40px;
+}
+
+#revup-layer-4 .col_three_fourth {
+  text-align: right;
+}
+
+#revup-layer-4 .col_three_fourth img {
+  max-width: 82%;
+}
