@@ -357,7 +357,8 @@ ins {text-decoration: none;}
 		/*- PAGINATION BUTTONS --------*/
 		.pagination .next a{background-color: #3B4950; background-image: url(images/layout/pagination-arrows.png); background-position: -45px 8px; background-repeat: no-repeat;}
 		.pagination .previous a{background-color: #3B4950; background-image: url(images/layout/pagination-arrows.png); background-position: 8px 8px; background-repeat: no-repeat;}
-		.pagination .next a:hover, .pagination .previous a:hover{background-color: #000;}
+		.pagination .next a:hover{background-color: #000; background-image: url(images/layout/pagination-arrows.png); background-position: -45px 8px; background-repeat: no-repeat;}
+		.pagination .previous a:hover{background-color: #000; background-image: url(images/layout/pagination-arrows.png); background-position: 8px 8px; background-repeat: no-repeat;}
 		
 		
 		/*-----------------------------*/
@@ -682,10 +683,10 @@ ins {text-decoration: none;}
 	/*- PAGINATION ---------------*/
 	.pagination{overflow: hidden; clear: both; display: block; text-align: center;}
 	.pagination li{display: inline;}
-	.pagination li.page-count{margin: 0px 15px; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 12px; font-weight: 600;}
+	.pagination li.page-count{margin: 0px 0px; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 12px; font-weight: 600;}
 	.pagination .next, .pagination .previous{}
 	.pagination .next a, .pagination .previous a{display: inline-block; height: 25px; width: 25px; border-radius: 2px;}
-	.pagination li.page-count{margin-top: 2px; display: block; clear: both; text-align: center;}
+	.pagination li.page-count{margin-top: 15px; display: block; clear: both; text-align: center;}
 
 
 /*-------------------------------------------------------------------------------------------*/
@@ -1472,4 +1473,8 @@ nav li {
 .copy a {
     color: #2ba6cb;
     font-weight: bold;
+}
+
+.pagination {
+	height: 4.5em !important;
 }
