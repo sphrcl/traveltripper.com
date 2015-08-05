@@ -1478,3 +1478,16 @@ nav li {
 .pagination {
 	height: 4.5em !important;
 }
+
+.error p, .error a, .error h1 {
+    text-align: center;	
+}
+
+.error h1 {
+    font-size: 125px;
+}
+
+
+
+
+
