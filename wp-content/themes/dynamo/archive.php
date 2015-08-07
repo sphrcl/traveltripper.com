@@ -25,7 +25,10 @@ $pagetitle_copy = get_option("ocmx_pagetitle_copy");
                 ocmx_no_posts();
             endif; ?>
         </ul>
-        <?php motionpic_pagination("clearfix", "pagination clearfix"); ?>
+        <div class="pagination">
+            <?php echo paginate_links( $args ); ?>
+        </div>
+        <!-- <?php motionpic_pagination("clearfix", "pagination clearfix"); ?> -->
     </div>
 
     <?php if(get_option("ocmx_sidebar_layout") != "sidebarnone"): ?>

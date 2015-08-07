@@ -1487,6 +1487,74 @@ nav li {
     font-size: 125px;
 }
 
+/*-------------------------------------------------------------------------------------------*/
+/*- SMALL EDITS ---------------------------------------------------------------------------*/
+/*-------------------------------------------------------------------------------------------*/	
+
+
+::-moz-selection { /* Code for Firefox */
+    background: #b2d0fe !important;
+}
+
+::selection {
+    background: #b2d0fe !important;
+}
+
+.pagination a {
+    color: #0192d1;
+    font-size: 14px;
+    letter-spacing: 1px;
+    margin-top: 20px;
+}
+
+ 
+
+a.prev.page-numbers {
+    top: 13px;
+    position: relative;
+    padding: 10px;
+   	background: #fff;
+    position: relative;
+    border-radius: 4px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);    
+}
+
+a.next.page-numbers {
+    top: 13px;
+    position: relative;
+    padding: 10px;
+   	background: #fff;
+    position: relative;
+    border-radius: 4px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2); 
+}
+
+a.page-numbers {
+    position: relative;
+    top: 13px;
+    padding: 0px 12px;
+}
+
+span.page-numbers.current {
+    position: relative;
+    top: 13px;
+    /* padding: 0px 12px; */
+    background-color: #fff;
+    padding: 9px 15px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2); 
+    border-radius: 7px;
+}
+
+span.page-numbers.dots {
+    position: relative;
+    top: 14px;
+    color: #0192d1;
+}
+
+a.next.page-numbers:hover, a.prev.page-numbers:hover  {
+    background-color: #fafafa;
+}
+
 
 
 
