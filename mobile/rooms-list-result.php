@@ -107,10 +107,8 @@ include('includes/header.php'); ?>
 			
 			
 				<div class="gen-content" style="min-height: 20px;">
-			
-					<h1>no rooms available</h1>
-					
-					<p>Please try your search again.</p>
+
+					<h1>Sorry, there is no availability for the dates you selected. Please try another search.</h1>
 			
 				</div>
 				
