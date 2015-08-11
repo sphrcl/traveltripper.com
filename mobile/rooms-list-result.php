@@ -37,6 +37,7 @@ include('includes/header.php'); ?>
 		$results = json_decode($data, true);
 			
 			$i = 1;
+			$j = 1;
 			
 			foreach($results['rooms'] AS $post) { 
 			 
@@ -77,8 +78,8 @@ include('includes/header.php'); ?>
 				  </div>
 				</div>
 				<div class="pagination pagination<?php echo $i; ?>"></div>
-				<div class="swroomslist arrow-left"><i class="fa fa-caret-left"></i></div>
-				<div class="swroomslist arrow-right"><i class="fa fa-caret-right"></i></div>
+				<div class="swroomslist arrow-left arr-left<?php echo $j; ?>"><i class="fa fa-caret-left"></i></div>
+				<div class="swroomslist arrow-right arr-right<?php echo $j; ?>"><i class="fa fa-caret-right"></i></div>
 			<!-- END SLIDER -->
 					<header>
 						<h3><?php echo $roomtype; ?> <span>$<?php echo $avgprc[0]; ?></span> / night</h3>			
@@ -119,6 +120,7 @@ include('includes/header.php'); ?>
 			}
 		    
 		     $i++; 
+		     $j++;
 		}  
 		
 		
