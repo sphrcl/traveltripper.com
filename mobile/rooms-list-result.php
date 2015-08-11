@@ -37,6 +37,7 @@ include('includes/header.php'); ?>
 		$results = json_decode($data, true);
 			
 			$i = 1;
+			$check = 0;
 			
 			foreach($results['rooms'] AS $post) { 
 			 
@@ -103,7 +104,7 @@ include('includes/header.php'); ?>
 			
 			} else {
 			
-			if($i = 1) { ?>
+			if($i == 1) { ?>
 			
 			
 				<div class="gen-content" style="min-height: 20px;">
