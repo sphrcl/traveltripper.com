@@ -37,7 +37,6 @@ include('includes/header.php'); ?>
 		$results = json_decode($data, true);
 			
 			$i = 1;
-			$check = 0;
 			
 			foreach($results['rooms'] AS $post) { 
 			 

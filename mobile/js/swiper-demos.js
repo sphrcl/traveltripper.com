@@ -13,11 +13,11 @@ $(function(){
 		grabCursor: true
 	});
 	//Navigation arrows
-	$('.arrow-left').click(function(e) {
+	$('.arr-left1').click(function(e) {
         e.preventDefault()
 		swiper.swipePrev()
     });
-	$('.arrow-right').click(function(e) {
+	$('.arr-right1').click(function(e) {
         e.preventDefault()
 		swiper.swipeNext()
     });
@@ -35,11 +35,11 @@ $(function(){
 		grabCursor: true
 	});
 	//Navigation arrows
-	$('.arrow-left').click(function(e) {
+	$('.arr-left2').click(function(e) {
         e.preventDefault()
 		swiper2.swipePrev()
     });
-	$('.arrow-right').click(function(e) {
+	$('.arr-right2').click(function(e) {
         e.preventDefault()
 		swiper2.swipeNext()
     });
@@ -57,11 +57,11 @@ $(function(){
 		grabCursor: true
 	});
 	//Navigation arrows
-	$('.arrow-left').click(function(e) {
+	$('.arr-left3').click(function(e) {
         e.preventDefault()
 		swiper3.swipePrev()
     });
-	$('.arrow-right').click(function(e) {
+	$('.arr-right3').click(function(e) {
         e.preventDefault()
 		swiper3.swipeNext()
     });
@@ -79,11 +79,11 @@ $(function(){
 		grabCursor: true
 	});
 	//Navigation arrows
-	$('.arrow-left').click(function(e) {
+	$('.arr-left4').click(function(e) {
         e.preventDefault()
 		swiper4.swipePrev()
     });
-	$('.arrow-right').click(function(e) {
+	$('.arr-right4').click(function(e) {
         e.preventDefault()
 		swiper4.swipeNext()
     });
@@ -101,11 +101,11 @@ $(function(){
 		grabCursor: true
 	});
 	//Navigation arrows
-	$('.arrow-left').click(function(e) {
+	$('.arr-left5').click(function(e) {
         e.preventDefault()
 		swiper5.swipePrev()
     });
-	$('.arrow-right').click(function(e) {
+	$('.arr-right5').click(function(e) {
         e.preventDefault()
 		swiper5.swipeNext()
     });
@@ -123,11 +123,11 @@ $(function(){
 		grabCursor: true
 	});
 	//Navigation arrows
-	$('.arrow-left').click(function(e) {
+	$('.arr-left6').click(function(e) {
         e.preventDefault()
 		swiper6.swipePrev()
     });
-	$('.arrow-right').click(function(e) {
+	$('.arr-right6').click(function(e) {
         e.preventDefault()
 		swiper6.swipeNext()
     });
@@ -144,11 +144,11 @@ $(function(){
 		grabCursor: true
 	});
 	//Navigation arrows
-	$('.arrow-left').click(function(e) {
+	$('.arr-left7').click(function(e) {
         e.preventDefault()
 		swiper7.swipePrev()
     });
-	$('.arrow-right').click(function(e) {
+	$('.arr-right7').click(function(e) {
         e.preventDefault()
 		swiper7.swipeNext()
     });
@@ -167,11 +167,11 @@ $(function(){
 		grabCursor: true
 	});
 	//Navigation arrows
-	$('.arrow-left').click(function(e) {
+	$('.arr-left8').click(function(e) {
         e.preventDefault()
 		swiper8.swipePrev()
     });
-	$('.arrow-right').click(function(e) {
+	$('.arr-right8').click(function(e) {
         e.preventDefault()
 		swiper8.swipeNext()
     });
@@ -189,11 +189,11 @@ $(function(){
 		grabCursor: true
 	});
 	//Navigation arrows
-	$('.arrow-left').click(function(e) {
+	$('.arr-left9').click(function(e) {
         e.preventDefault()
 		swiper9.swipePrev()
     });
-	$('.arrow-right').click(function(e) {
+	$('.arr-right9').click(function(e) {
         e.preventDefault()
 		swiper9.swipeNext()
     });
