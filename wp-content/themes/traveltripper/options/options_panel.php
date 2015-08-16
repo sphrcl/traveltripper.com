@@ -84,7 +84,7 @@ function misfit_add_admin() {
 		}
     }
 		
-    $tt_page = add_object_page($themename, $themename, 'administrator', 'misfit','misfit_options_page','../wp-content/themes/framework/options/images/icon_options.png');
+    $tt_page = add_object_page($themename, $themename, 'administrator', 'misfit','misfit_options_page','../wp-content/themes/traveltripper/options/images/icon_options.png');
 
 	add_action("admin_print_scripts-$tt_page", 'of_load_only');
 	add_action("admin_print_styles-$tt_page",'of_style_only');

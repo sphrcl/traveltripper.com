@@ -59,3 +59,9 @@ include(TEMPLATEPATH . '/library/widgets.php');
 define( 'SS_BASE_DIR', TEMPLATEPATH . '/' );
 define( 'SS_BASE_URL', get_template_directory_uri() . '/' );
 
+/* Flush rewrite rules for custom post types. */
+add_action( 'after_switch_theme', 'bt_flush_rewrite_rules' );
+/* Flush your rewrite rules */
+function bt_flush_rewrite_rules() {
+     flush_rewrite_rules();
+}
