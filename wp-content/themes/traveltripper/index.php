@@ -5,8 +5,9 @@
 		<div class="container">
 	
 			<h2>Be Direct.</h2>
-			<p>Innovative hotel digital solutions that increase<br/>direct reservations and maximize revenue.</p>
-			<a class="button1" href="#">LEARN MORE</a>
+			<p>Innovative hotel digital solutions that increase<br />direct reservations and maximize revenue.</p>
+			<p class="banner-desc">Discover Travel Tripper’s powerful hotel platforms designed to increase direct reservations and maximize revenue</p>
+			<a class="button1" href="?p=5">LEARN MORE</a>
 		
 		</div>
 		
@@ -17,13 +18,13 @@
 		<div class="container">
 		
 			<div class="servicesbox">
-				<h3>Your strategic partner from search to stay</h3>
+				<h3>Dominate digitally from search to stay</h3>
 			</div>
 			
 			<div class="servicesbox">
 				<img src="<?php bloginfo('template_url'); ?>/images/icon-generate-demand.png" alt="generate demand" />
 				<h4>Generate Demand</h4>
-				<p>with a unified digital marketing and distribution strategy that expands yourhotel’s global reach.</p>
+				<p>with a unified digital marketing and distribution strategy that expands your hotel’s global reach.</p>
 				<a class="button2" href="#">LEARN MORE</a>
 			</div>
 		
@@ -73,8 +74,8 @@
 			<div class="graphics">
 				<div class="topgraph">
 					<h2>CRS</h2>
-					<p>Manage room rates and availability across all channels from one powerful platform. With Travel</p>
-					<a class="button1" href="crs.php">LEARN MORE</a>
+					<p>Manage room rates and availability across all channels from one powerful platform. With Travel Tripper’s central reservations system, you’ll get comprehensive hotel distribution with seamless connectivity to all major PMS/RMS services, as well as robust tools for pricing and revenue management. </p>
+					<a class="button1" href="?p=17">LEARN MORE</a>
 				</div>
 				
 				<div class="module">
@@ -105,8 +106,8 @@
 				<div class="bkcnt">
 					<div class="bkcnt-block">
 						<h2>Booking Engine <i class="bk-macico"></i><i class="bk-phoneico"></i></h2>
-						<p>We’ve built the industry’s most innovative booking engine to optimize conversions through your most profitable channel—your website. From its sleek design to unique features such as Automated Best Rate Guarantee and built­in email retargeting, find out why hotels love Travel Tripper.</p>
-						<a class="button1" href="booking-engine.php">LEARN MORE</a>
+						<p>Discover why hotels love RezTrip, our sleek and innovative booking engine that optimizes conversions through your most profitable channel—your website. With its user-friendly design and unique features such as Automated Best Rate Guarantee, Travel Tripper’s booking engine is truly designed to “be direct.” </p>
+						<a class="button1" href="?p=19">LEARN MORE</a>
 					</div>
 				</div>
 				
@@ -119,9 +120,9 @@
 				
 				<div class="bkcnt">
 					<div class="bkcnt-block">
-						<h2>Web &amp; Engine <i class="bk-macico"></i><i class="bk-phoneico"></i></h2>
-						<p>A powerful booking platform becomes even stronger with a beautiful website. Travel Tripper’s hotel web platform allows you or your design agency to create stunning responsive websites that are perfectly optimized across desktop and mobile devices. Dynamic integration with our CRS and booking engine makes managing e­commerce a breeze.</p>
-						<a class="button1" href="#">LEARN MORE</a>
+						<h2>Web &amp; Mobile <i class="bk-macico"></i><i class="bk-phoneico"></i></h2>
+						<p>A powerful booking platform becomes even stronger with a beautiful website. Travel Tripper Web, our new cloud web and booking platform, allows you or your design agency to create stunning responsive websites that are perfectly optimized across desktop and mobile devices. Dynamic rate integration with Travel Tripper CRS and booking engine makes managing e-commerce a breeze.</p>
+						<a class="button1" href="?p=21">LEARN MORE</a>
 					</div>
 				</div>
 				
@@ -149,7 +150,7 @@
 			<div class="dmtext">
 				<h3>Digital Marketing</h3>
 				<p>Increase awareness and drive more traffic to your hotel website with our personalized digital marketing services. From search marketing to metasearch placement, Travel Tripper’s dedicated team of marketing and distribution experts ensures that your hotel gets maximum visibility for minimum cost.</p>
-				<a class="button1" href="#">LEARN MORE</a>
+				<a class="button1" href="?p=23">LEARN MORE</a>
 			</div>
 			
 			<div class="dmlogos">
@@ -174,7 +175,8 @@
 	<div id="calltoaction">
 		<div class="container">
 		
-			<h3>Book more. Be direct.</h3>
+			<h3>It’s time to be more direct.</h3>
+			<p class="cta-text">Find out how Travel Tripper can help your hotel increase direct bookings and maximize revenue.</p>
 			<a class="button3" href="#">REQUEST A DEMO</a>
 			
 		</div>

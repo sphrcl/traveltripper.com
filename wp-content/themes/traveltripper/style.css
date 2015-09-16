@@ -477,9 +477,15 @@ li.icon-revenue-management { background: url(images/icon-revenue-management.png)
 }
 
 #banner p {
-  color: #fff;
-  font-size: 22px;
-  line-height: 40px;
+    color: #fff;
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 40px;
+}
+
+.banner-desc {
+    font-size: 20px !important;
+    font-weight: normal !important;
 }
 
 /* HOMEPAGE SERVICES */
@@ -1141,6 +1147,12 @@ li.icon-revenue-management { background: url(images/icon-revenue-management.png)
 }
 
 /* CALLTOACTION2 */
+
+.cta-text {
+    color: #fff;
+    font-size: 20px;
+}
+
 div#calltoaction2 {
   overflow: hidden;
   background-color: #33a1cc;
