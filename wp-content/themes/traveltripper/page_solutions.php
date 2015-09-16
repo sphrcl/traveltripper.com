@@ -24,7 +24,7 @@ if ($imgsrc) {
 		<div class="container">
 	
 			<h1><?php the_title(); ?></h1>
-			<p>Discover how our complete e-commerce suite and digital marketing services works to increase<br />reservations and maximize revenue for your hotel </p>
+			<?php the_content(); ?>
 		
 		</div>
 		
