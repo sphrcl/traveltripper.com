@@ -24,6 +24,7 @@ if ($imgsrc) {
 		<div class="container">
 	
 			<h1><?php the_title(); ?></h1>
+			<p>Discover how our complete e-commerce suite and digital marketing services works to increase<br />reservations and maximize revenue for your hotel </p>
 		
 		</div>
 		
@@ -42,7 +43,7 @@ if ($imgsrc) {
 		
 			<div class="pagesection">
 		
-				<h3>Providing solution from search to stay</h3>
+				<h3>The “suite” solution from search to stay</h3>
 		
 			</div>
 			
@@ -52,7 +53,7 @@ if ($imgsrc) {
 					<div class="spacing">
 						<img src="<?php bloginfo('template_url'); ?>/images/icon-blue-crs.png" alt="crs" />
 						<h4>CRS & Distribution</h4>
-						<p>Powered by the world’s most innovative booking engine adipiscing elit. Maecenas ut cursus ligula. ROI pharetra consequat dolor non. semper. Nam in ligula dictum, ultrices ante vitae, sollicitudin vitae, sollicitudin.</p>
+						<p>Travel Tripper CRS is your most powerful tool in managing room rates, inventory, and reservations. Our platform provides comprehensive hotel distribution to all major channels, seamless connectivity to the major PMS/RMS services, and robust tools for pricing and revenue management. </p>
 						<p><a class="button1" href="crs.php">LEARN MORE</a></p>
 					</div>
 				</div>
@@ -61,7 +62,7 @@ if ($imgsrc) {
 					<div class="spacing">
 						<img src="<?php bloginfo('template_url'); ?>/images/icon-blue-booking-engine.png" alt="booking engine" />
 						<h4>Booking Engine</h4>
-						<p>Powered by the world’s most innovative booking engine adipiscing elit. Maecenas ut cursus ligula. ROI pharetra consequat dolor non. semper. Nam in ligula dictum, ultrices ante vitae, sollicitudin vitae, sollicitudin.</p>
+						<p>Find out why hotels love RezTrip, Travel Tripper’s innovative booking engine. With its sleek, user-friendly booking flow and unique features such as Automated Best Rate Guarantee, this booking engine is designed to optimize conversions through your most profitable channel—your website.</p>
 						<p><a class="button1" href="#">LEARN MORE</a></p>
 					</div>
 				</div>
@@ -70,7 +71,7 @@ if ($imgsrc) {
 					<div class="spacing">
 						<img src="<?php bloginfo('template_url'); ?>/images/icon-blue-web-mobile.png" alt="web mobile" />
 						<h4>Web & Mobile</h4>
-						<p>Powered by the world’s most innovative booking engine adipiscing elit. Maecenas ut cursus ligula. ROI pharetra consequat dolor non. semper. Nam in ligula dictum, ultrices ante vitae, sollicitudin vitae, sollicitudin.</p>
+						<p>Introducing Travel Tripper Web, a cloud web and booking platform designed specifically for hotels to entice travelers and drive direct bookings. Create stunning responsive websites perfect for web and mobile, and tap into intelligent features such as dynamic rate integration and interactive maps and calendars.</p>
 						<p><a class="button1" href="#">LEARN MORE</a></p>
 					</div>
 				</div>
@@ -85,7 +86,7 @@ if ($imgsrc) {
 					<div class="spacing">
 						<img src="<?php bloginfo('template_url'); ?>/images/icon-blue-digital-marketing.png" alt="digital marketing" />
 						<h4>Digital Marketing</h4>
-						<p>Powered by the world’s most innovative booking engine adipiscing elit. Maecenas ut cursus ligula. ROI pharetra consequat dolor non. semper. Nam in ligula dictum, ultrices ante vitae, sollicitudin vitae, sollicitudin.</p>
+						<p>Generate awareness and increase traffic to your hotel site with our digital marketing services. From managing search marketing to developing custom special offers, our dedicated marketing team ensures that your hotel gets maximum visibility for minimum cost.</p>
 						<p><a class="button1" href="#">LEARN MORE</a></p>
 					</div>
 				</div>
@@ -94,7 +95,7 @@ if ($imgsrc) {
 					<div class="spacing">
 						<img src="<?php bloginfo('template_url'); ?>/images/icon-blue-revenue-management.png" alt="revenue management" />
 						<h4>Revenue Management</h4>
-						<p>Powered by the world’s most innovative booking engine adipiscing elit. Maecenas ut cursus ligula. ROI pharetra consequat dolor non. semper. Nam in ligula dictum, ultrices ante vitae, sollicitudin vitae, sollicitudin.</p>
+						<p>Make the smartest pricing decisions for your hotel with RevUP, Travel Tripper’s comprehensive revenue management software. Track past performance and future projections, anticipate market demand with flight data, monitor comp set and market data, and generate detailed reporting all from one dashboard.</p>
 						<p><a class="button1" href="#">LEARN MORE</a></p>
 					</div>
 				</div>
@@ -147,21 +148,21 @@ if ($imgsrc) {
 				<div class="col_one_third">
 					<div class="spacing">
 						<h4>Dedicated Service</h4>
-						<p>Powered by the world’s most innovative booking engine adipiscing elit. Maecenas ut cursus ligula. ROI pharetra consequat dolor non. semper. Nam in ligula dictum, ultrices ante vitae, sollicitudin vitae, sollicitudin. </p>
+						<p>Travel Tripper’s integrated client services ensures that you’ll get hands-on support on all your questions from a dedicated account team.</p>
 					</div>
 				</div>
 				
 				<div class="col_one_third">
 					<div class="spacing">
 						<h4>Unparalleled Expertise</h4>
-						<p>Powered by the world’s most innovative booking engine adipiscing elit. Maecenas ut cursus ligula. ROI pharetra consequat dolor non. semper. Nam in ligula dictum, ultrices ante vitae, sollicitudin vitae, sollicitudin. </p>
+						<p>We’re built for hoteliers by hoteliers—our team will provide the expertise and insights needed to make sure your hotel succeeds.</p>
 					</div>
 				</div>
 				
 				<div class="col_one_third">
 					<div class="spacing">
 						<h4>Constant Innovation</h4>
-						<p>Powered by the world’s most innovative booking engine adipiscing elit. Maecenas ut cursus ligula. ROI pharetra consequat dolor non. semper. Nam in ligula dictum, ultrices ante vitae, sollicitudin vitae, sollicitudin. </p>
+						<p>At Travel Tripper, our success depends directly on yours. We never stop striving to make our solutions better, faster, and more powerful.</p>
 					</div>
 				</div>
 			
@@ -175,7 +176,8 @@ if ($imgsrc) {
 		<div class="container">
 		
 			<div class="col_one_fourth">
-				<h3>Book more. Be direct.</h3>
+				<h3>It’s time to be more direct.</h3>
+				<p class="cta-text">Find out how Travel Tripper can help your hotel increase direct bookings and maximize revenue.</p>
 			</div>
 			
 			<form name="" action="#" method="get">
