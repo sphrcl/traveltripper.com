@@ -13,7 +13,12 @@ include('header.php');
 		<div class="container">
 	
 			<h1><?php echo $pagetitle; ?></h1>
-		
+			<p>
+				Discover how complete e-commerce suite and digital
+				and marketing services works to increase<br> reservations
+				and maximize revenue for your hotel
+			</p>	
+
 		</div>
 		
 	</div>
