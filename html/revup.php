@@ -40,7 +40,7 @@ include('header.php');
 			<div class="col_one_fourth">
 				<div class="spacing">
 					<h3>Track and monitor demand trends</h3>
-					<p>The industry’s most innovative hotel reservations solution. Maecenas ut cursus ligula. ROI pharetra consequat dolor non. semper. Nam in ligula dictum, ultrices ante vitae, sollicitudin</p>
+					<p>Make smart decisions based on historical and future data. RevUp’s powerful hotel revenue management dashboard includes pace calendars, on-the-books stats, variance of current vs. last year figures, as well as foward-looking demand data for many markets.</p>
 				</div>
 			</div>
 			
@@ -48,7 +48,7 @@ include('header.php');
 			
 			</div>
 			
-			<div class="module2">
+			<!-- <div class="module2">
 					<div class="spacing2">
 						<h2>34%</h2>
 						<div class="modulecontent2">
@@ -56,7 +56,7 @@ include('header.php');
 							<a href="#">LEARN MORE</a>
 						</div>
 					</div>
-				</div>
+				</div> -->
 			
 		</div>
 		
@@ -68,9 +68,8 @@ include('header.php');
 		
 			<div class="col_one_fourth">
 				<div class="spacing">
-					<h3>Powerful Reports</h3>
-					<h4>Automated Best Rate Guarantee</h4>
-					<p>Powerful intelligence reporting. Maecenas ut cursus ligula. ROI pharetra consequat dolor non semper. Nam in ligula dictum, ultrices ante vitae, sollicitudin vitae, sollicitudin. </p>
+					<h3>Powerful reports</h3>
+					<p>RevUp captures daily revenue performance, eliminates the time associated with gathering historical data, and provides instant analytical reports. It gives users powerful tools, such as pickup and pace-by-day reports that analyze revenue projects across key hotel metrics. </p>
 				</div>
 			</div>
 			
@@ -92,7 +91,7 @@ include('header.php');
 		
 			<div class="col_one_fourth">
 				<div class="spacing">
-					<h3>Real Time Comp Set and Market Data</h3>
+					<h3>Real-time comp set and market data</h3>
 					<p>Powerful intelligence reporting. Maecenas ut cursus ligula. ROI pharetra consequat dolor non semper. Nam in ligula dictum, ultrices ante vitae, sollicitudin vitae, sollicitudin. </p>
 				</div>
 			</div>
@@ -107,9 +106,8 @@ include('header.php');
 		
 			<div class="col_one_fourth">
 				<div class="spacing">
-					<h3>Forecast Data</h3>
-					<h4>Customer service</h4>
-					<p>Powerful intelligence reporting. Maecenas ut cursus ligula. ROI pharetra consequat dolor non semper. Nam in ligula dictum, ultrices ante ROI pharetra consequat dolor non semper. Nam in ligula dictum, ultrices ante.</p>
+					<h3>Forecast data</h3>
+					<p>Anticipate market demand with access to daily flight data and trends, and adjust pricing strategies ahead of the competition. </p>
 				</div>
 			</div>
 			
@@ -128,7 +126,8 @@ include('header.php');
 		<div class="container">
 		
 			<div class="col_one_fourth">
-				<h3>Book more. Be direct.</h3>
+				<h3>It’s time to be more direct.</h3>
+				<p class="cta-text">Find out how Travel Tripper can help your hotel increase direct bookings and maximize revenue.</p>
 			</div>
 			
 			<form name="" action="#" method="get">
