@@ -37,9 +37,8 @@ include('header.php');
 			
 			<div class="col_one_fourth">
 				<div class="spacing">
-					<h3>Designed to convert</h3>
-					<h4>Best-in-class booking engine</h4>
-					<p>The industry’s most innovative hotel reservations solution. Maecenas ut cursus ligula. ROI pharetra consequat dolor non. semper. Nam in ligula dictum, ultrices ante vitae, sollicitudin vitae, sollicitudin.</p>
+					<h3>Designed to be direct  </h3>
+					<p>We’ve created the industry’s most innovative booking engine—intuitive, elegant, and packed with features designed to convert lookers into bookers. Hotels that switch to RezTrip routinely see significant increases in their direct bookings, revenue, and conversion rates. </p>
 				</div>
 			</div>
 			
@@ -51,7 +50,7 @@ include('header.php');
 					<div class="spacing2">
 						<h2>76%</h2>
 						<div class="modulecontent2">
-							<p>Find out how Mayfair Hotel & Spa in Miami increased direct bookings by 76% </p>
+							<p>Find out how Mayfair Hotel & Spa in Miami increased direct bookings by 76% with Travel Tripper’s booking engine.</p>
 							<a href="#">LEARN MORE</a>
 						</div>
 					</div>
@@ -67,14 +66,16 @@ include('header.php');
 		
 			<div class="col_one_fourth">
 				<div class="spacing">
-					<h3>Built-in tools to maximize conversions</h3>
-					<h4>Automated Best Rate Guarantee</h4>
-					<p>Powerful intelligence reporting. Maecenas ut cursus ligula. ROI pharetra consequat dolor non semper. Nam in ligula dictum, ultrices ante vitae, sollicitudin vitae, sollicitudin.</p>
+					<h3>Built-in features to maximize conversions</h3>
 					
 					<ul>
 						<li>
-							<h4>Automated Email Retargeting</h4>
-							<p>The industry’s most innovative hotel reservations solution. Maecenas ut cursus ligula. ROI pharetra.</p>
+							<h4>Automated Best Rate Guarantee</h4>
+							<p>Inspire guests to book with unprecedented pricing transparency. Our integrated metasearch tool, the first of its kind, can search real-time rates on OTA sites and automatically price match whenever prices are lower elsewhere.</p>
+						</li>
+						<li>
+							<h4>Rate calendar</h4>
+							<p>Help travelers find the perfect dates and rates for their stay. Our integrated rate calendar allows travelers to easily see when the lowest prices are available, as well as when hotels are fully booked.</p>
 						</li>
 					</ul>
 					
@@ -99,9 +100,20 @@ include('header.php');
 			
 			<div class="col_one_fourth">
 				<div class="spacing">
-					<h3>Optimized for mobile booking</h3>
-					<h4>Mobile-specific pricing</h4>
-					<p>Powerful intelligence reporting. Maecenas ut cursus ligula. ROI pharetra consequat dolor non semper. Nam in ligula dictum, ultrices ante vitae, sollicitudin vitae, sollicitudin. </p>
+					<ul>
+						<li>
+							<h4>Drive bookings the OTA way</h4>
+							<p>Take advantage of similar tools that OTAs use to capture reservations. </p>
+						</li>
+						<li>
+							<h4>Create urgency</h4>
+							<p>Encourage fast booking with tools that create urgency for guests, including a countdown clock on special offers and widgets that show “rooms remaining” and number of recent bookings.</p>
+						</li>
+						<li>
+							<h4>Instill confidence</h4>
+							<p>Enhance your hotel’s appeal with an integrated TripAdvisor badge on your booking engine. Travelers can read reviews, see your star rating, and most importantly, gain the confidence to book directly with your hotel.</p>
+						</li>
+					</ul>
 				</div>
 			</div>
 			
@@ -117,29 +129,29 @@ include('header.php');
 		
 			<div class="col_one_fourth">
 				<div class="spacing">
-					<h4>Rate Calendar</h4>
-					<p>The industry’s most innovative hotel reservations solution. Maecenas ut cursus ligula. ROI pharetra.</p>
+					<h4>Mobile optimized </h4>
+					<p>RezTrip is perfectly optimized across web and mobile devices and can track statistics across type of device. Enable mobile-specific pricing using our CRS to target mobile users with special offers and deals.</p>
 				</div>
 			</div>
 			
 			<div class="col_one_fourth">
 				<div class="spacing">
 					<h4>Muli-property Search</h4>
-					<p>The industry’s most innovative hotel reservations solution. Maecenas ut cursus ligula. ROI pharetra.</p>
+					<p>Offer a portal booking engine for all of your hotel group’s properties. RezTrip allows for reservations search across any number of hotels, grouped by any criteria required (location, star rating, amenities, etc.)</p>
 				</div>
 			</div>
 			
 			<div class="col_one_fourth">
 				<div class="spacing">
 					<h4>Seamless Currency Conversion</h4>
-					<p>The industry’s most innovative hotel reservations solution. Maecenas ut cursus ligula. ROI pharetra.</p>
+					<p>Travelers can easily convert displayed rates into their home currency with RezTrip’s built-in currency conversion. Hotels have the option to choose which currencies to display on the booking engine. </p>
 				</div>
 			</div>
 			
 			<div class="col_one_fourth">
 				<div class="spacing">
-					<h4>Language Conversion</h4>
-					<p>The industry’s most innovative hotel reservations solution. Maecenas ut cursus ligula. ROI pharetra.</p>
+					<h4>Multilingual translations</h4>
+					<p>Travel Tripper’s booking engine can display in multiple languages, including Spanish, French, German, Portuguese, and more. Hotels can select which language options they want to include.</p>
 				</div>
 			</div>
 			
@@ -154,7 +166,8 @@ include('header.php');
 		<div class="container">
 		
 			<div class="col_one_fourth">
-				<h3>Book more. Be direct.</h3>
+				<h3>It’s time to be more direct.</h3>
+				<p class="cta-text">Find out how Travel Tripper can help your hotel increase direct bookings and maximize revenue.</p>
 			</div>
 			
 			<form name="" action="#" method="get">

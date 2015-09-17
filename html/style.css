@@ -2078,7 +2078,8 @@ ul.checklist {
 ul.checklist li {
   float: left;
   margin: 20px 0;
-  width: 33.333%;
+  /*width: 33.333%;*/
+  widows: 25%;
 }
 
 .checkbutton {
