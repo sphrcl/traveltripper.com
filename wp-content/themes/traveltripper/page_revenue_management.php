@@ -100,7 +100,7 @@ if ($imgsrc) {
 			<div class="col_one_fourth">
 				<div class="spacing">
 					<h3>Real-time comp set and market data</h3>
-					<p>Powerful intelligence reporting. Maecenas ut cursus ligula. ROI pharetra consequat dolor non semper. Nam in ligula dictum, ultrices ante vitae, sollicitudin vitae, sollicitudin. </p>
+					<p>With RevUp’s real-time compset and market data, revenue managers are capable of instantaneously reacting to market changes and creating a strong competitive advantage.</p>
 				</div>
 			</div>
 

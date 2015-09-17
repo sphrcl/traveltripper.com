@@ -47,7 +47,7 @@ if ($imgsrc) {
 					
 					<ul class="icon44">
 						<li class="icon44-www">
-							<h4>PPC Search Marketin</h4>
+							<h4>PPC Search Marketing</h4>
 							<p>Travel Tripper’s pay-per-click strategic management can help your hotel increase interested traffic through geo-targeted, cost-effective campaigns. Our expertise includes market analysis, keyword targeting, bidding, ad and landing page development, and budgeting. </p>
 						</li>
 						<li class="icon44-computer">
