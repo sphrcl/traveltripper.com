@@ -13,8 +13,9 @@ include('header.php');
 		<div class="container">
 	
 			<h2>Be Direct.</h2>
-			<p>Innovative hotel digital solutions that increase<br/>direct reservations and maximize revenue.</p>
-			<a class="button1" href="#">LEARN MORE</a>
+			<p>Innovative hotel digital solutions that increase<br />direct reservations and maximize revenue.</p>
+			<p class="banner-desc">Discover Travel Tripper’s powerful hotel platforms designed to increase direct reservations and maximize revenue</p>
+			<a class="button1" href="?p=5">LEARN MORE</a>
 		
 		</div>
 		

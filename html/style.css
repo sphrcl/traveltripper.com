@@ -467,9 +467,15 @@ li.icon-revenue-management { background: url(images/icon-revenue-management.png)
 }
 
 #banner p {
-  color: #fff;
-  font-size: 22px;
-  line-height: 40px;
+    color: #fff;
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 40px;
+}
+
+.banner-desc {
+    font-size: 20px !important;
+    font-weight: normal !important;
 }
 
 /* HOMEPAGE SERVICES */
