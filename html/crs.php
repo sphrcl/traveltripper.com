@@ -13,7 +13,7 @@ include('header.php');
 		<div class="container">
 	
 			<h1><?php echo $pagetitle; ?></h1>
-			<p>Comprehensive distribution and seamless connectivity in one powerful platform</p>
+			<p>Comprehensive distribution and <br>seamless connectivity in one <br>powerful platform</p>
 			<a class="button1" href="#">ASK FOR QUOTE &nbsp; ></a>
 		
 		</div>
