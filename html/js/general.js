@@ -51,6 +51,7 @@ $(document).ready(function(){
 	// HOMEPAGE .modmove
 	
 	var moving = function() {
+		if ($('.modmove').hasClass('modmove')) {
 		var getheight = $('#bigmain').height();
 		wholeheight = getheight;
 		
@@ -63,12 +64,14 @@ $(document).ready(function(){
 		carrythiss = thiss,
 		carrymodtop = modtop - modcsstop,
 		carrymodheight = modheight;
+		}
 	}
 	
 	$(window).load(function() { moving(); });
 	$(window).resize(function() { moving(); });
 	
 	$(window).scroll(function() {
+		if($('.modmovecontent').hasClass('modmovecontent')) {
 		windowheight = $(window).height();
 		bodytop = $('html').scrollTop(),
 		margin = 30,
@@ -88,6 +91,7 @@ $(document).ready(function(){
 				carrythiss.css('top', calcbwmw);
 				carrythiss.addClass('sticky');
 			}
+		}
 		}
 	});
 	
