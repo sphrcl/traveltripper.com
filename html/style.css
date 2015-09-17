@@ -267,7 +267,7 @@ strong {
 
 #header .navigation ul li a {
   text-transform: uppercase;
-  color: #555555;
+  color: #4d4d4d;
   font-size: 13px;
   letter-spacing: 0.05em;
   font-family: MuseoSans;
@@ -349,7 +349,7 @@ li.icon-revenue-management { background: url(images/icon-revenue-management.png)
 #header .rightnav ul li a {
   text-transform: uppercase;
   display: inline-block;
-  color: #555555;
+  color: #4d4d4d;
   font-size: 13px;
   line-height: 24px;
   letter-spacing: 0.05em;
@@ -392,7 +392,7 @@ li.icon-revenue-management { background: url(images/icon-revenue-management.png)
 }
 
 #footer .footernav ul li a {
-  color: #555555;
+  color: #4d4d4d;
   font-weight: 300;
   font-size: 17px;
 }
@@ -413,7 +413,7 @@ li.icon-revenue-management { background: url(images/icon-revenue-management.png)
   display: inline-block;
   font-size: 16px;
   line-height: 1.8;
-  color: #555555;
+  color: #4d4d4d;
 }
 
 #footer .footersocial ul {
@@ -1315,6 +1315,7 @@ div#aboutmain .pagesection:nth-child(2n) {
   letter-spacing: 0.025em;
   padding: 0 30px;
 }
+	.pagesection h3.diff { font-size: 18px;}
 
 .pagesection .spacing {
   padding: 0 20px;

@@ -78,7 +78,7 @@ include('header.php');
 			<div class="pagesection">
 		
 				<div class="col_one_fourth">
-						<h3>Why we are different</h3>
+						<h3 class="diff">Why we are different</h3>
 				</div>
 				
 				<div class="col_one_fourth">
@@ -102,7 +102,7 @@ include('header.php');
 			<div class="pagesection">
 		
 				<div class="col_one_fourth">
-						<h3>Working for Travel Tripper</h3>
+						<h3 class="diff">Working for Travel Tripper</h3>
 				</div>
 				
 				<div class="col_one_fourth">
