@@ -2249,6 +2249,10 @@ ul.checklist li {
   margin-top: 170px;
 }
 
+#page-layer-3 .spacing p {
+ line-height: 28px;
+}
+
 #page-layer-4 .container {
   padding: 40px 20px;
   overflow: hidden;
@@ -2278,6 +2282,7 @@ ul.checklist li {
 #page-layer-4 p {
   font-size: 14px;
   font-weight: 100;
+  line-height: 28px;
 }
 
 /* PAGE - Rev Up #################################################################################### */
