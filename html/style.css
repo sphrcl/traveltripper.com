@@ -1780,7 +1780,8 @@ h2.blogtitle a,
 }
 
 .widgets.textwidget h3 a {
-  color: #454546;
+  /*color: #454546;*/
+  color: #A3A3A3;
 }
 
 .widgets.textwidget p {

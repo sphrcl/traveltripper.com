@@ -114,7 +114,7 @@ include('header.php');
 					<h3 class="widgettitle">Join Our Newsletter</h3>
 				
 					<form name="" action="#" method="get">
-						<input type="text" name="email" value="" placeholder="E-MAIL ADDRESS">
+						<input type="text" name="email" value="" placeholder="E-MAIL ADDRESS"><br>
 						<input type="submit" name="submit" value="SIGN UP">
 					</form>
 				
