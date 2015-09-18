@@ -2,7 +2,8 @@
 	
 	$description = '';
 	$pagetitle = 'Digital Marketing';
-	$image = 'images/digital-marketing-banner.jpg';
+	// $image = 'images/digital-marketing-banner.jpg';
+	$image = 'images/DigitalMarketing-TravelTripper-GasolineAlley.jpg';
 	$template_class = "template-digital-marketing";
 
 include('header.php'); 
@@ -127,7 +128,7 @@ include('header.php');
 	</div>
 	
 	
-	<div id="bottombanner" class="contentleft" style="background-image: url(images/banner-digital-marketing2.jpg);">
+	<div id="bottombanner" class="contentleft" style="background-image: url(images/DigitalMarketing-TravelTripper-Office.jpg);">
 	
 		<div class="container dm">
 	
