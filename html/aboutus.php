@@ -78,10 +78,10 @@ include('header.php');
 			<div class="pagesection">
 		
 				<div class="col_one_fourth">
-						<h3 class="diff">Why we are different</h3>
+						<h3>Why we are different</h3>
 				</div>
 				
-				<div class="col_one_fourth">
+				<div class="col_one_fourth diff">
 					<div class="spacing">
 						<p><strong>We are a full-service shop.<br/>
 						We build modern solutions.<br/>
@@ -91,7 +91,7 @@ include('header.php');
 					</div>
 				</div>
 				
-				<div class="col_one_fourth">
+				<div class="col_one_fourth diff">
 					<div class="spacing">
 						<p>At Travel Tripper, being direct is not just a distribution strategy; it’s our philosophy. Innovation is in our nature, and we constantly strive to find ways to make our solutions and services better, faster, and more powerful. Because with us, our success depends—directly—on yours.</p>
 					</div>
@@ -102,16 +102,16 @@ include('header.php');
 			<div class="pagesection">
 		
 				<div class="col_one_fourth">
-						<h3 class="diff">Working for Travel Tripper</h3>
+						<h3>Working for Travel Tripper</h3>
 				</div>
 				
-				<div class="col_one_fourth">
+				<div class="col_one_fourth diff">
 					<div class="spacing">
 						<p>Travel Tripper is a young and dynamic, profitable, fast-growing company based in Manhattan. Our team is comprised of professionals that bring their expertise in the hotel industry itself, marketing, technology, and more. </p>
 					</div>
 				</div>
 				
-				<div class="col_one_fourth">
+				<div class="col_one_fourth diff">
 					<div class="spacing">
 						<p>We work together collaboratively and cross-functionally to brainstorm, refine, and then shape new ideas into great products for our customers.</p>
 						<p>For any additional questions, email careers@traveltripper.com</p>

@@ -1376,7 +1376,7 @@ div#aboutmain .pagesection:nth-child(2n) {
   letter-spacing: 0.025em;
   padding: 0 30px;
 }
-	.pagesection h3.diff { font-size: 18px;}
+	.pagesection .diff p { font-size: 18px !important;}
 
 .pagesection .spacing {
   padding: 0 20px;
