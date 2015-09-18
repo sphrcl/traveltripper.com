@@ -1769,11 +1769,12 @@ h2.blogtitle a,
   letter-spacing: -0.005em;
   color: #33a4d9;
   border-bottom: 1px solid #d3d3d3;
-  padding: 20px;
+  /*padding: 20px;*/
+  padding: 20px 20px 20px 40px;
 }
 
 .widgets.textwidget h3 {
-  padding: 20px;
+  padding: 20px 20px 20px 40px;
   font-size: 18px;
   color: #454546;
 }
@@ -1793,7 +1794,8 @@ h2.blogtitle a,
 }
 
 .widgets ul {
-  padding: 20px;
+  /*padding: 20px;*/
+  padding: 30px 90px 10px 40px;
 }
 
 .widgets ul li {
