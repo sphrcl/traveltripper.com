@@ -130,7 +130,7 @@ include('header.php');
 	
 	<div id="bottombanner" class="contentleft" style="background-image: url(images/banner-digital-marketing2.jpg);">
 	
-		<div class="container">
+		<div class="container dm">
 	
 			<h3>Your personal revenue optimization team</h3>
 			<p>With Travel Tripper, you’ll get dedicated, hands-on support from hotel marketing and distribution experts that will guide your hotel to success. Our integrated client services and customer support teams allow for a single point of contact so you can quickly get the help and answers you need. </p>
