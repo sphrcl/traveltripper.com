@@ -1300,6 +1300,14 @@ div#aboutmain .container {
   margin: 0;
 }
 
+div#aboutmain .pagesection .spacing strong {
+	line-height: 2.5;
+}
+
+div#aboutmain .pagesection .spacing p {
+	padding: 0;
+}
+
 .pagesection {
   clear: both;
   padding: 30px 0;
