@@ -158,7 +158,7 @@ include('header.php');
 			<div class="dmtext">
 				<h3>Digital Marketing</h3>
 				<p>Increase awareness and drive more traffic to your hotel website with our personalized digital marketing services. From search marketing to metasearch placement, Travel Tripper’s dedicated team of marketing and distribution experts ensures that your hotel gets maximum visibility for minimum cost.</p>
-				<a class="button1" href="#">LEARN MORE</a>
+				<a class="button1" href="digital-marketing.php">LEARN MORE</a>
 			</div>
 			
 			<div class="dmlogos">
