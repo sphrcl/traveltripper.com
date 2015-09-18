@@ -2533,12 +2533,13 @@ ul.checklist li {
 }
 
 .webmobilelayer .container {
-	padding: 0 30px;
+	padding: 100px 30px;
 }
 
 .webmobilelayer h3 {
 	font-size: 30px;
 	color: #4D4D4D;
+	line-height: 40px;
 	letter-spacing: 0.015em;
 	padding: 0 0 30px;
 }
@@ -2571,14 +2572,44 @@ ul.checklist li {
 
 
 #webmobilelayer2 .webbox {
-	padding: 0 300px 0 0;
+	width: 60%;
 }
 
 #webmobilelayer2 .webbox .one .spacing {
 	padding: 0 80px 0 0;
 }
 
+#webmobilelayer2 .webbox .two .spacing {
+	max-width: 365px;
+}
 
+.iconbarge {
+	margin: 0 0 50px;
+	position: relative;
+}
+
+.iconbarge.last { margin: 0;}
+
+.iconbarge img {
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+.iconbarge p.one {
+	font-size: 15px;
+	text-transform: uppercase;
+	font-weight: 10px;
+	font-weight: 700;
+	line-height: 26px;
+	padding: 3px 0 7px 85px;
+}
+
+.iconbarge p.two {
+	font-size: 13px;
+	line-height: 22px;
+	padding: 7px 0 0 85px;
+}
 
 
 /* PAGE - Digital Marketing #################################################################################### */

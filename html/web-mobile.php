@@ -46,15 +46,42 @@ include('header.php');
 			<div class="webbox">
 				<div class="col_one_half one">
 					<div class="spacing">
-						<h3>Dynamic Booking</h3>
+						<h3>Dynamic Booking integration</h3>
 						<p>Powerful intelligence reporting. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi rhoncus, neque at efficitur condimentum.</p>
 					</div>
 				</div>
 				
 				<div class="col_one_half two">
 					<div class="spacing">
-						<h3>Powerful reports</h3>
-						<p>RevUp captures daily revenue performance, eliminates the time associated with gathering historical data, and provides instant analytical reports. It gives users powerful tools, such as pickup and pace-by-day reports that analyze revenue projects across key hotel metrics. </p>
+						<div class="iconbarge">
+							<img src="images/icon-gds.png" />
+							<p class="one">Automatically promote specials</p>
+							<p class="two">The industry's most innovative Lorem ipsum dolor sit amet, consectetur.</p>
+						</div>
+						
+						<div class="iconbarge">
+							<img src="images/icon-gds.png" />
+							<p class="one">Responsive Design across <br>any screen or device</p>
+							<p class="two">The industry's most innovative Lorem ipsum dolor sit amet, consectetur.</p>
+						</div>
+						
+						<div class="iconbarge">
+							<img src="images/icon-gds.png" />
+							<p class="one">Best rate guarantee</p>
+							<p class="two">The industry's most innovative Lorem ipsum dolor sit amet, consectetur.</p>
+						</div>
+						
+						<div class="iconbarge">
+							<img src="images/icon-gds.png" />
+							<p class="one">Tripadvisor reviews</p>
+							<p class="two">The industry's most innovative Lorem ipsum dolor sit amet, consectetur.</p>
+						</div>
+						
+						<div class="iconbarge last">
+							<img src="images/icon-gds.png" />
+							<p class="one">Interactive maps</p>
+							<p class="two">The industry's most innovative Lorem ipsum dolor sit amet, consectetur.</p>
+						</div>
 					</div>
 				</div>
 				
