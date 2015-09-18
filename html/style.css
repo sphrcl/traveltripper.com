@@ -229,6 +229,23 @@ a.button3 {
   font-weight: 300;
 }
 
+	a.button1
+	a.button2
+	a.button3 {
+		transition: all 0.5s ease;
+		-o-transition: all 0.5s ease;
+		-moz-transition: all 0.5s ease;
+		-webkit-transition: all 0.5s ease;
+	}
+
+
+
+	a.button1:hover,
+	a.button2:hover,
+	a.button3:hover {
+		opacity: 0.8;
+	}
+
 strong {
   font-weight: 700;
 }
@@ -397,7 +414,18 @@ li.icon-revenue-management { background: url(images/icon-revenue-management.png)
   padding: 8px 25px;
   border-radius: 20px;
   font-weight: 300;
+
+
+
+  transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
 }
+
+	#header .rightnav ul li.demo-engine a:hover {
+		opacity: 0.8;
+	}
 
 .active-page {
 	color: #ec9103 !important;
@@ -459,8 +487,18 @@ li.icon-revenue-management { background: url(images/icon-revenue-management.png)
   display: inline-block;
   font-size: 25px;
   margin: 0 5px;
+
+
+
+  transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
 }
 
+	#footer .footersocial ul li:hover {
+		opacity: 0.8;
+	}
 
 #footer .footersocial ul li i {
   color: #33a1cc;
