@@ -162,6 +162,12 @@ img.right, img.alignright {float: right;margin: 0 0 7px 15px;}
   float: left;
 }
 
+.col_one_fourth.two p {
+ line-height: 28px;
+ padding: 0;
+ font-weight: 300;	
+}
+
 .col_three_fourth {
   width: 75%;
   float: left;
@@ -482,7 +488,7 @@ li.icon-revenue-management { background: url(images/icon-revenue-management.png)
   width: 80%;
   left: 10%;
   margin: 0;
-  top: 50%;
+  top: 30%;
   position: absolute;
 }
 
