@@ -14,6 +14,7 @@
 <head>
 <meta charset="utf-8">
 <title><?php echo $sitename; ?> <?php echo $pagetitle; ?></title>
+<meta name="description" content="<?php echo $description; ?>"/>
 
 <meta property="og:title" content="<?php echo $sitename; ?> <?php echo $pagetitle; ?>" />
 <meta property="og:site_name" content="<?php echo $sitename; ?>"/>
