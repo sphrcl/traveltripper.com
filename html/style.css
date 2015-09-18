@@ -237,7 +237,7 @@ strong {
 	background-color: #f3f3f3;
 	height: 60px;
 	position: fixed;
-	top: 10px;
+	top: 10px; /* DINO: This is intended. Do not remove */
 	width: 100%;
 	z-index: 9999;
 }
@@ -1215,6 +1215,11 @@ div#calltoaction2 input {
   line-height: 20px;
   border: 0 none;
 }
+
+div#calltoaction2 .stacked {
+  margin-top: 15px;	
+}
+
 
 /* PAGE TEMPLATE */
 div#mainpage {
