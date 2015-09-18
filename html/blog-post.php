@@ -15,9 +15,9 @@ include('header.php');
 			<div class="socialshare">
 				<p>211 people <br/>shared this</p>
 				<ul>
-					<li><a href="http://www.twitter.com/"><i class="fa fa-twitter"></i></a></li>
-					<li><a href="http://www.facebook.com/"><i class="fa fa-facebook-square"></i></a></li>
-					<li><a href="http://www.linkedin.com/"><i class="fa fa-linkedin"></i></a></li>
+					<li><a href="http://www.twitter.com/" target="_blank"><i class="fa fa-twitter"></i></a></li>
+					<li><a href="http://www.facebook.com/" target="_blank"><i class="fa fa-facebook-square"></i></a></li>
+					<li><a href="http://www.linkedin.com/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
 				</ul>
 			</div>
 	
@@ -72,9 +72,9 @@ include('header.php');
 				<div class="widgets social">
 				
 					<ul>
-						<li><a href="http://www.linkedin.com/"><i class="fa fa-linkedin"></i></a></li>
-						<li><a href="http://www.facebook.com/"><i class="fa fa-facebook-square"></i></a></li>
-						<li><a href="http://www.twitter.com/"><i class="fa fa-twitter"></i></a></li>
+						<li><a href="http://www.linkedin.com/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+						<li><a href="http://www.facebook.com/" target="_blank"><i class="fa fa-facebook-square"></i></a></li>
+						<li><a href="http://www.twitter.com/" target="_blank"><i class="fa fa-twitter"></i></a></li>
 					</ul>
 				
 				</div>
