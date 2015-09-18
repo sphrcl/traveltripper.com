@@ -3,7 +3,7 @@
 	$description = '';
 	$pagetitle = 'Web & mobile ';
 	$image = 'images/banner-webmobile.jpg';
-	$template_class = "template-revup";
+	$template_class = "template-webmobile";
 
 include('header.php'); 
 
@@ -13,11 +13,10 @@ include('header.php');
 	
 		<div class="container">
 	
-			<h1>RevUp</h1>
-			<h3>Hotel Revenue<br/>
-			Management Platform</h3>
-			<p>Trending analysis and forecasting tools that help  revenue managers make the best pricing decisions for their hotels.</p>
-			<a class="button1" href="#">ASK FOR QUOTE &nbsp; ></a>
+			<h1>Travel Tripper</h1>
+			<h3>Web &amp; Mobile</h3>
+			<p>Hotels that switch to Travel Tripper <br>Web see increases in direct revenue of <br>between 25 and 100% within weeks.</p>
+			<a class="button1" href="#">Demo Engine &nbsp; ></a>
 		
 		</div>
 		
@@ -25,39 +24,17 @@ include('header.php');
 
 	<div id="breadcrumbs">
 		<div class="container">
-			<a href="index.php">Home</a> > <a href="solutions.php">Solutions</a> > <a href="revup.php">RevUp</a>
+			<a href="index.php">Home</a> > <a href="web-mobile.php">Travel Tripper Web &amp; Mobile</a>
 		</div>
 	</div>
 	
-	<div id="revup-layer-1" class="revup-layer">
+	<div id="webmobilelayer1" class="webmobilelayer">
 	
 		<div class="container">
+			
+			<h3>Introducing our cloud <br>hotel web and mobile platform</h3>
+			<p>higher conversion rate, increased direct revenue</p>
 		
-			<div class="col_one_half">
-				<img src="images/revup-track-monitor.jpg" alt="Designed to convert" />
-			</div>
-			
-			<div class="col_one_fourth">
-				<div class="spacing">
-					<h3>Track and monitor demand trends</h3>
-					<p>Make smart decisions based on historical and future data. RevUp’s powerful hotel revenue management dashboard includes pace calendars, on-the-books stats, variance of current vs. last year figures, as well as foward-looking demand data for many markets.</p>
-				</div>
-			</div>
-			
-			<div class="col_one_fourth">
-			
-			</div>
-			
-			<!-- <div class="module2">
-					<div class="spacing2">
-						<h2>34%</h2>
-						<div class="modulecontent2">
-							<p>We increased Parkside Hotel conversion rates by 34%</p>
-							<a href="#">LEARN MORE</a>
-						</div>
-					</div>
-				</div> -->
-			
 		</div>
 		
 	</div>
