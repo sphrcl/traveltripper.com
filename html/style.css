@@ -447,7 +447,8 @@ li.icon-revenue-management { background: url(images/icon-revenue-management.png)
 }
 
 #footer .col_one_fourth.one .footernav p {	
-	text-align: right;
+	/*text-align: right;*/
+	padding-left: 30px;
 }
 
 
