@@ -143,7 +143,7 @@ include('header.php');
 		<div class="container">
 		
 			<div class="col_one_fourth">
-				<h3>Book more. Be direct.</h3>
+				<h3>Book more. <br>Be direct.</h3>
 			</div>
 			
 			<form name="" action="#" method="get">

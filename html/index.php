@@ -183,7 +183,7 @@ include('header.php');
 	<div id="calltoaction">
 		<div class="container">
 		
-			<h3>Book more. Be direct.</h3>
+			<h3>Book more. <br>Be direct.</h3>
 			<a class="button3" href="#">REQUEST A DEMO</a>
 			
 		</div>
