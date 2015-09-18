@@ -2,7 +2,7 @@
 	
 	$description = '';
 	$pagetitle = 'Digital Marketing';
-	$image = 'images/banner-digital-marketing.jpg';
+	$image = 'images/digital-marketing-banner.jpg';
 	$template_class = "template-digital-marketing";
 
 include('header.php'); 
