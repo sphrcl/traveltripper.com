@@ -1354,7 +1354,6 @@ div#pagetitle h1 {
   color: #fff;
   font-size: 40px;
   line-height: 60px;
-  font-weight: 300;
 }
 
 #pagebanner h3, #pagebanner h4,
@@ -1362,7 +1361,6 @@ div#pagetitle h1 {
   color: #fff;
   font-size: 34px;
   line-height: 46px;
-  font-weight: 300;
 }
 
 #pagebanner h4,
@@ -1608,7 +1606,6 @@ div#resourcesmain h2 {
 
 div#resourcesmain h2 a {
   color: #34a4d9;
-  font-weight: 300;
 }
 
 div#resourcesmain p {
@@ -1671,7 +1668,6 @@ div#resourceslist .resourcebox h3 {
 
 div#resourceslist .resourcebox h3 a {
   color: #34a4d9;
-  font-weight: 300;
 }
 
 /* BLOG ROLL - BLOG POST*/
@@ -1737,7 +1733,6 @@ h1.blogtitle a,
 h2.blogtitle a, 
 .entry h2 a {
   color: #34a4d9;
-  font-weight: 300;
 }
 
 .meta {
