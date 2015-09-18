@@ -126,9 +126,9 @@ $(document).ready(function(){
 	$(window).scroll(function() {
 		if(($('.modmovecontent').hasClass('modmovecontent')) || ($('.module2').hasClass('module2')) || ($('.module3').hasClass('module3')) || ($('.module4').hasClass('module4'))) {
 		
-		// get user's screen height and get html position
+		// get user's screen height and get user screen position
 		windowheight = $(window).height();
-		bodytop = $('html').scrollTop();
+		bodytop = $(window).scrollTop();
 		
 		// offset.
 		// used to add some spacing at the bottom of the stickybox
