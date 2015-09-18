@@ -138,13 +138,13 @@ include('header.php');
 			
 			<form name="" action="#" method="get">
 
-				<div class="col_one_fourth">
+				<div class="col_one_fourth" style="margin-top: 10px;">
 					<input type="text" name="email" value="" placeholder="E-MAIL ADDRESS">
 				</div>
 			
 			</form>
 			
-			<div class="col_one_fourth">
+			<div class="col_one_fourth" style="margin-top: 10px;">
 				<a class="button3" href="#">SIGN UP</a>
 			</div>
 
