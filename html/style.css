@@ -448,6 +448,9 @@ li.icon-revenue-management { background: url(images/icon-revenue-management.png)
 
 #footer .footersocial p a {
   color: #33a1cc;
+  font-weight: 700;
+  font-family: MuseoSans,Arial;
+  font-size: 23px;
 }
 
 
