@@ -2,7 +2,7 @@
 	
 	$description = '';
 	$pagetitle = 'About Travel Tripper';
-	$image = 'images/about-us.png';
+	$image = 'images/about-us.jpg';
 
 include('header.php'); 
 
