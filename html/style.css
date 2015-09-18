@@ -2548,11 +2548,22 @@ ul.checklist li {
 }
 
 #webmobilelayer1 {
-	background-color: #f6f6f6;
+	background: url('images/webmoblayer1.jpg') no-repeat scroll 90% center #f6f6f6;
+	background-size: 500px auto;
 }
 
 #webmobilelayer1 .container {
 	padding: 100px 0 100px 30px;
+}
+
+#webmobilelayer1 .webtable {
+	display: table;
+	height: 250px;	
+}
+
+#webmobilelayer1 .webtable div {
+	display: table-cell;
+	vertical-align: middle;
 }
 
 #webmobilelayer1 h3 {
@@ -2567,12 +2578,18 @@ ul.checklist li {
 }
 
 
+
+#webmobilelayer2 {
+	background: url('images/webmoblayer2.jpg') no-repeat scroll right bottom transparent;
+}
+
 #webmobilelayer2 .webbox {
 	width: 60%;
 }
 
 #webmobilelayer2 .webbox .one .spacing {
-	padding: 0 80px 0 0;
+	padding: 0 30px 0 0;
+	max-width: 350px;
 }
 
 #webmobilelayer2 .webbox .two .spacing {
@@ -2605,6 +2622,103 @@ ul.checklist li {
 	font-size: 13px;
 	line-height: 22px;
 	padding: 7px 0 0 85px;
+}
+
+
+#webmobilelayer3 {
+	background: url('images/webmoblayer3.jpg') no-repeat scroll right bottom #f6f6f6;
+}
+
+#webmobilelayer3 .webbox {
+	width: 60%;
+}
+
+#webmobilelayer3 .webbox .one .spacing {
+	padding: 0 30px 0 0;
+	max-width: 350px;
+}
+
+.centerbarge {
+	text-align: center;
+	margin: 0 0 40px;
+}
+
+.centerbarge {
+	margin: 0 0 0 30px;
+	width: 190px;
+}
+
+.centerbarge p.one {
+	position: relative;
+	font-size: 15px;
+	text-transform: uppercase;
+	font-weight: 10px;
+	font-weight: 700;
+	line-height: 26px;
+	padding: 0;
+}
+
+.centerbarge p.one img {
+	float: left;
+	max-width: 100px;
+	margin: 13px 0;
+}
+
+.centerbarge p.one:before {
+	background: url('images/check.png') no-repeat scroll left center transparent;
+	display: block;
+	content: '';
+	width: 18px;
+	height: 15px;
+	position: absolute;
+	top: 50%;
+	left: 0;
+	margin: -8px 0 0 -10px;
+}
+
+.centerbarge p.two {
+	font-size: 13px;
+	line-height: 22px;
+	margin: 10px auto 0;
+}
+
+
+
+#webmobilelayer4 .container {
+	background: url('images/knickerbg.jpg') no-repeat scroll right center transparent;
+	background-size: 900px auto;
+}
+
+
+#webmobilelayer4 .webbox {
+	height: 500px;
+	position: relative;
+}
+
+#webmobilelayer4 .col_sec.one {
+	max-width: 300px;
+	height: 100%;
+}
+
+#webmobilelayer4 .col_sec.two {
+	position: absolute;
+	bottom: 0;
+	text-align: center;
+}
+
+#webmobilelayer4 .col_sec.two p {
+	font-size: 15px;
+	font-weight: 10px;
+	line-height: 26px;
+	padding: 0;
+}
+
+#webmobilelayer4 .col_sec.two img {
+	margin: 0 0 20px;
+}
+
+#webmobilelayer4 .col_sec.two p.one {
+	font-weight: 500;
 }
 
 

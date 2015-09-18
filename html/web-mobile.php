@@ -32,8 +32,12 @@ include('header.php');
 	
 		<div class="container">
 			
-			<h3>Introducing our cloud <br>hotel web and mobile platform</h3>
-			<p>higher conversion rate, increased direct revenue</p>
+			<div class="webtable">
+				<div>
+					<h3>Introducing our cloud <br>hotel web and mobile platform</h3>
+					<p>higher conversion rate, increased direct revenue</p>
+				</div>
+			</div>
 		
 		</div>
 		
@@ -92,38 +96,67 @@ include('header.php');
 		
 	</div>
 	
-	<div id="revup-layer-3" class="revup-layer">
+	
+	<div id="webmobilelayer3" class="webmobilelayer">
 	
 		<div class="container">
 		
-			<div class="col_one_half">
-				<img src="images/revup-layer-3.jpg" alt="revup3" />
-			</div>
-		
-			<div class="col_one_fourth">
-				<div class="spacing">
-					<h3>Real-time comp set and market data</h3>
-					<p>With RevUp’s real-time compset and market data, revenue managers are capable of instantaneously reacting to market changes and creating a strong competitive advantage.</p>
+			<div class="webbox">
+				<div class="col_one_half one">
+					<div class="spacing">
+						<h3>Easy content management</h3>
+						<p>Powerful intelligence reporting. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi rhoncus, neque at efficitur condimentum.</p>
+					</div>
 				</div>
+				
+				<div class="col_one_half two">
+					<div class="spacing">
+						<div class="centerbarge">
+							<p class="one">Drag-and-drop content creation</p>
+							<p class="two">The industry's most innovative Lorem ipsum dolor sit amet, consectetur.</p>
+						</div>
+						
+						<div class="centerbarge">
+							<p class="one">In-line editing</p>
+							<p class="two">The industry's most innovative Lorem ipsum dolor sit amet, consectetur.</p>
+						</div>
+						
+						<div class="centerbarge">
+							<p class="one">Responsive Editing and previewing</p>
+							<p class="two">The industry's most innovative Lorem ipsum dolor sit amet, consectetur.</p>
+						</div>
+					</div>
+				</div>
+				
+				<div class="clear"></div>
 			</div>
 
 		</div>
 		
 	</div>
 	
-	<div id="revup-layer-4" class="revup-layer">
+
+	<div id="webmobilelayer4" class="webmobilelayer">
 	
 		<div class="container">
 		
-			<div class="col_one_fourth">
-				<div class="spacing">
-					<h3>Forecast data</h3>
-					<p>Anticipate market demand with access to daily flight data and trends, and adjust pricing strategies ahead of the competition. </p>
+			<div class="webbox">
+				<div class="col_sec one">
+					<div class="spacing">
+						<h3>Featured Clients</h3>
+						<p>Powerful intelligence reporting. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi rhoncus, neque at efficitur condimentum.</p>
+					</div>
 				</div>
-			</div>
-			
-			<div class="col_three_fourth">
-				<img src="images/revup-layer-4.jpg" alt="revup4" />
+				
+				<div class="col_sec two">
+					<div class="spacing">
+						<img src="images/knickerbg1.jpg" />
+						<p class="one">Westhouse Hotel New York</p>
+						<p class="two">201 West 55th Street New York, NY 10019</p>
+					</div>
+				</div>
+				
+				<div class="clear"></div>
 			</div>
 
 		</div>
@@ -137,23 +170,22 @@ include('header.php');
 		<div class="container">
 		
 			<div class="col_one_fourth">
-				<h3>It’s time to be more direct.</h3>
-				<p class="cta-text">Find out how Travel Tripper can help your hotel increase direct bookings and maximize revenue.</p>
+				<h3>Book more. <br>Be direct.</h3>
 			</div>
 			
 			<form name="" action="#" method="get">
 
-				<div class="col_one_fourth">
+				<div class="col_one_fourth stacked">
 					<input type="text" name="name" value="" placeholder="NAME">
 				</div>
 				
-				<div class="col_one_fourth">
+				<div class="col_one_fourth stacked">
 					<input type="text" name="email" value="" placeholder="E-MAIL ADDRESS">
 				</div>
 			
 			</form>
 			
-			<div class="col_one_fourth">
+			<div class="col_one_fourth stacked">
 				<a class="button3" href="#">REQUEST A DEMO</a>
 			</div>
 
