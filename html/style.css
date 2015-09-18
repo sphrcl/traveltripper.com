@@ -442,6 +442,15 @@ li.icon-revenue-management { background: url(images/icon-revenue-management.png)
 }
 
 
+#footer .col_one_fourth.one .footernav {
+	max-width: 250px;
+}
+
+#footer .col_one_fourth.one .footernav p {	
+	text-align: right;
+}
+
+
 /* HOMEPAGE BANNER */
 #banner {
   background: url('images/banner1.jpg') no-repeat scroll center center transparent;

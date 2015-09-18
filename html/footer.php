@@ -4,7 +4,7 @@
 		
 			<div class="container">
 			
-				<div class="col_one_fourth">
+				<div class="col_one_fourth one">
 					<div class="footernav">
 						<a href="index.php"><img src="images/logo.png" alt="travel tripper" /></a>
 						<br/><br/><br/><br/>
@@ -12,11 +12,11 @@
 					</div>
 				</div>
 				
-				<div class="col_one_fourth">
+				<div class="col_one_fourth two">
 					<div class="footernav">
 						<ul>
 							<li><a href="company.php">Company</a></li>
-							<li><a href="product-services.php">Product & Services</a></li>
+							<li><a href="product-services.php">Product &amp; Services</a></li>
 							<li><a href="careers.php">Careers</a></li>
 							<li><a href="terms.php">Terms of Service</a></li>
 							<li><a href="privacy-policy.php">Privacy Policy</a></li>
@@ -24,7 +24,7 @@
 					</div>
 				</div>
 				
-				<div class="col_one_fourth">
+				<div class="col_one_fourth three">
 					<div class="footeradd">
 						<i class="fa fa-map-marker"></i>
 						<p>370 Lexington Avenue,<br/>
@@ -34,7 +34,7 @@
 					</div>
 				</div>
 				
-				<div class="col_one_fourth">
+				<div class="col_one_fourth four">
 					<div class="footersocial">
 						<ul>
 							<li><a href="http://www.linkedin.com/"><i class="fa fa-linkedin"></i></a></li>
