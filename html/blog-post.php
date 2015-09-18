@@ -146,20 +146,20 @@ include('header.php');
 			<div class="col_one_fourth">
 				<h3>Newsletter</h3>
 			</div>
-			
-			<div class="col_one_fourth">
-				<p>Release notes, new feature sets, lorem ipsum dolor sit amet.</p>
+
+			<div class="col_one_fourth two">
+				<p>Release notes, new feature sets, loreem ipsum dolor sit amet.</p>
 			</div>
 			
 			<form name="" action="#" method="get">
 
-				<div class="col_one_fourth">
+				<div class="col_one_fourth" style="margin-top: 10px;">
 					<input type="text" name="email" value="" placeholder="E-MAIL ADDRESS">
 				</div>
 			
 			</form>
 			
-			<div class="col_one_fourth">
+			<div class="col_one_fourth" style="margin-top: 10px;">
 				<a class="button3" href="#">SIGN UP</a>
 			</div>
 
