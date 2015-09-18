@@ -140,13 +140,16 @@ include('header.php');
 	</div>
 	
 	<div id="calltoaction2">
-		<div class="container">
+		<div class="container with-text">
 		
 			<div class="col_one_fourth">
 				<h3>It’s time to be more direct.</h3>
+			</div>
+
+			<div class="col_one_fourth two">
 				<p class="cta-text">Find out how Travel Tripper can help your hotel increase direct bookings and maximize revenue.</p>
 			</div>
-			
+
 			<form name="" action="#" method="get">
 
 				<div class="col_one_fourth">
@@ -160,7 +163,7 @@ include('header.php');
 			</form>
 			
 			<div class="col_one_fourth">
-				<a class="button3" href="#">REQUEST A DEMO</a>
+				<a class="button3 with-text-butt" href="#">REQUEST A DEMO</a>
 			</div>
 
 		</div>

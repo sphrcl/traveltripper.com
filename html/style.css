@@ -162,6 +162,19 @@ img.right, img.alignright {float: right;margin: 0 0 7px 15px;}
   float: left;
 }
 
+.with-text .col_one_fourth {
+	width: 20%;
+}
+
+.with-text .col_one_fourth input {
+	padding: 8px 0 8px 25px !important;
+}
+
+.with-text .col_one_fourth input,
+.with-text .col_one_fourth .with-text-butt {
+	margin-top: 10px;
+}
+
 .col_one_fourth.two p {
  line-height: 28px;
  padding: 0;
