@@ -1,4 +1,13 @@
+/* ================================================  MOBILES BELOW 399 ======================================= */
 
+
+@media only screen and (max-width : 1279px) {	
+
+	.template-digital-marketing #bottombanner .container {
+	    width: 60%;
+	}
+
+}
 
 /* ================================================  MOBILES BELOW 399 ======================================= */
 
