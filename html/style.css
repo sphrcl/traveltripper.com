@@ -230,7 +230,7 @@ strong {
 	background-color: #f3f3f3;
 	height: 60px;
 	position: fixed;
-	top: 0;
+	top: 10px;
 	width: 100%;
 	z-index: 9999;
 }
@@ -1220,13 +1220,13 @@ div#pagetitle h1 {
   position: relative;
 }
 	#pagebanner {
-		margin-top: 60px;
+		/*margin-top: 60px;*/
 	}
 
 #pagebanner .container,
 #bottombanner .container {
   margin: 0 30px;
-  padding-top: 180px;
+  padding-top: 240px;
   width: 46%;
 }
 
