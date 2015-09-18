@@ -1268,13 +1268,8 @@ div#pagetitle h1 {
 
 #bottombanner .container {
   margin: 0 30px;
-<<<<<<< HEAD
-  padding-top: 180px;
-  width: 46%;
-=======
   padding-top: 160px;
-  width: 46%;	
->>>>>>> origin/master
+  width: 46%;
 }
 
 #pagebanner.contentright .container,
