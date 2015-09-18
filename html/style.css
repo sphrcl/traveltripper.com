@@ -2497,8 +2497,6 @@ ul.checklist li {
 
 /* PAGE - Web & Mobile #################################################################################### */
 
-
-
 .template-webmobile div#breadcrumbs {
 	position: absolute;
 }
@@ -2517,10 +2515,14 @@ ul.checklist li {
 	font-size: 30px;
 	color: #4D4D4D;
 	letter-spacing: 0.015em;
+	padding: 0 0 30px;
 }
 
 .webmobilelayer p {
+	font-size: 17px;
 	color: #4d4d4d;
+	font-weight: 100;
+	line-height: 34px;
 }
 
 #webmobilelayer1 {
@@ -2538,9 +2540,18 @@ ul.checklist li {
 
 #webmobilelayer1 p {
 	font-size: 17px;
+	line-height: 1;
 	font-weight: 100;
 }
 
+
+#webmobilelayer2 .webbox {
+	padding: 0 300px 0 0;
+}
+
+#webmobilelayer2 .webbox .one .spacing {
+	padding: 0 80px 0 0;
+}
 
 
 

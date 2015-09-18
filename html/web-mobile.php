@@ -39,19 +39,26 @@ include('header.php');
 		
 	</div>
 	
-	<div id="revup-layer-2" class="revup-layer">
+	<div id="webmobilelayer2" class="webmobilelayer">
 	
 		<div class="container">
 		
-			<div class="col_one_fourth">
-				<div class="spacing">
-					<h3>Powerful reports</h3>
-					<p>RevUp captures daily revenue performance, eliminates the time associated with gathering historical data, and provides instant analytical reports. It gives users powerful tools, such as pickup and pace-by-day reports that analyze revenue projects across key hotel metrics. </p>
+			<div class="webbox">
+				<div class="col_one_half one">
+					<div class="spacing">
+						<h3>Dynamic Booking</h3>
+						<p>Powerful intelligence reporting. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi rhoncus, neque at efficitur condimentum.</p>
+					</div>
 				</div>
-			</div>
-			
-			<div class="col_three_fourth">
-				<img src="images/revup-layer-2.jpg" alt="revup2" />
+				
+				<div class="col_one_half two">
+					<div class="spacing">
+						<h3>Powerful reports</h3>
+						<p>RevUp captures daily revenue performance, eliminates the time associated with gathering historical data, and provides instant analytical reports. It gives users powerful tools, such as pickup and pace-by-day reports that analyze revenue projects across key hotel metrics. </p>
+					</div>
+				</div>
+				
+				<div class="clear"></div>
 			</div>
 
 		</div>
