@@ -1216,7 +1216,8 @@ div#pagetitle {
   background-color: #32a1cc;
   color: #fff;
   /*border-bottom: 20px solid #f1f1f2;*/
-  margin: 60px 0 20px;
+  /*margin: 60px 0 20px;*/
+  margin: 60px 0 0;
 }
 
 div#pagetitle .container {
