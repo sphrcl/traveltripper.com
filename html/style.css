@@ -2180,6 +2180,10 @@ ul.checklist li {
   background: #f6f6f6;
 }
 
+#page-layer-1 .spacing p {
+	line-height: 28px;
+}
+
 #page-layer-1 img {
   max-width: 94%;
 }
