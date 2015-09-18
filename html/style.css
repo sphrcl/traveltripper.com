@@ -1312,9 +1312,15 @@ div#pagetitle h1 {
 }
 
 /* PAGE BANNER // BOTTOM BANNER */
-#pagebanner,
-#bottombanner {
+#pagebanner {
   background: url('images/banner1.jpg') no-repeat scroll center center transparent;
+  background-size: cover;
+  height: 520px;
+  position: relative;
+}
+
+#bottombanner {
+  background: url('images/banner1.jpg') no-repeat scroll center bottom transparent;
   background-size: cover;
   height: 520px;
   position: relative;

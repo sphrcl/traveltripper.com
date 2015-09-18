@@ -185,7 +185,7 @@ include('header.php');
 		
 	</div>
 	
-	<div id="bottombanner" class="contentright" style="background-image: url(images/banner-crs2.jpg);">
+	<div id="bottombanner" class="contentright" style="background-image: url(images/CRS-TravelTripper-Office.jpg);">
 	
 		<div class="container">
 	
