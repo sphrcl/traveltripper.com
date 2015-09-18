@@ -121,7 +121,7 @@ include('header.php');
 							<h4>Geo-targeted pricing</h4>
 							<p>Using our geographic pricing tools, penetrate new markets with special rates and offers without diluting ADR from the rest of the world, and prevent competitor hotels from knowing your global pricing strategy. </p>
 						</li>
-						<li>
+						<li style="margin-left: 40px;">
 							<h4>Dynamic pricing module</h4>
 							<p>Easily create multiple rate plans, promotions, and special offers targeted to specific markets, and the booking engine will serve up the most attractive offer to guests who meet the qualifying criteria for the promotion.</p>
 						</li>

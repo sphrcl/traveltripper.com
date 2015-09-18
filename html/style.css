@@ -1251,11 +1251,16 @@ div#pagetitle h1 {
 		/*margin-top: 60px;*/
 	}
 
-#pagebanner .container,
-#bottombanner .container {
+#pagebanner .container {
   margin: 0 30px;
   padding-top: 240px;
   width: 46%;
+}
+
+#bottombanner .container {
+  margin: 0 30px;
+  padding-top: 160px;
+  width: 46%;	
 }
 
 #pagebanner.contentright .container,
@@ -2043,6 +2048,7 @@ div#crspricetool p {
   color: #363636;
   font-size: 15px;
   font-weight: 100;
+  line-height: 28px;
 }
 
 div#crspricetool ul {
@@ -2052,7 +2058,7 @@ div#crspricetool ul {
 
 div#crspricetool ul li {
   float: left;
-  width: 50%;
+  width: 40%;
   text-align: center;
 }
 
@@ -2117,8 +2123,7 @@ ul.checklist {
 ul.checklist li {
   float: left;
   margin: 20px 0;
-  /*width: 33.333%;*/
-  widows: 25%;
+  width: 33.333%;
 }
 
 .checkbutton {
