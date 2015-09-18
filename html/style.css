@@ -1251,10 +1251,15 @@ div#pagetitle h1 {
 		/*margin-top: 60px;*/
 	}
 
-#pagebanner .container,
-#bottombanner .container {
+#pagebanner .container {
   margin: 0 30px;
   padding-top: 240px;
+  width: 46%;
+}
+
+#bottombanner .container {
+  margin: 0 30px;
+  padding-top: 180px;
   width: 46%;
 }
 
