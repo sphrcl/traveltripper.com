@@ -1253,7 +1253,7 @@ div#pagetitle h1 {
 
 #pagebanner .container {
   margin: 0 30px;
-  padding-top: 240px;
+  padding-top: 160px;
   width: 46%;
 }
 
@@ -2439,7 +2439,7 @@ ul.checklist li {
   font-size: 30px;
   color: #4d4d4d;
   letter-spacing: 0.015em;
-  padding-bottom: 10px;
+  padding-bottom: 50px;
 }
 
 .dm-layer h4 {
@@ -2561,5 +2561,6 @@ span.dm-up {
   width: 30%;
 }
 
-
-
+#bottombanner .dm p {
+ padding-top: 30px;
+}
