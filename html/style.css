@@ -255,6 +255,10 @@ strong {
   background-color: #c9c9c9;
 }
 
+.clear {
+	clear: both;
+}
+
 /* Base Styles -----------------------------------------------------------*/
 
 #wrapper {
@@ -2055,7 +2059,8 @@ li.icon44-pci:before {
   background-position: -132px -44px;
 }
 
-.module2 {
+.module2,
+.module3 {
 	background: url("images/crs-graph.jpg") no-repeat scroll 20px 20px #fff;
 	background-size: 103px auto;
 	position: absolute;
@@ -2067,26 +2072,30 @@ li.icon44-pci:before {
 	padding: 25px;
 }
 
-.modulecontent2 {
+.modulecontent2,
+.modulecontent3 {
 	float: right;
 	width: 180px;
 }
 
-.module2 h2 {
+.module2 h2,
+.module3 h2 {
 	float: left;
     color: #ec9103;
     font-size: 23px;
     font-weight: 700;
 }
 
-.module2 p {
+.module2 p,
+.module3 p {
 	font-size: 13px;
 	line-height: 24px;
 	font-weight: 300;
 	padding: 0;
 }
 
-.module2 a {
+.module2 a,
+.module3 a {
 	color: #ec9103;
 	font-size: 12px;
 	font-weight: 500;

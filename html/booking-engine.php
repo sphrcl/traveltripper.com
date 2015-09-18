@@ -42,19 +42,17 @@ include('header.php');
 				</div>
 			</div>
 			
-			<div class="col_one_fourth">
-			
-			</div>
-			
-			<div class="module2">
-					<div class="spacing2">
+			<div class="module3">
+					<div class="spacing3">
 						<h2>76%</h2>
-						<div class="modulecontent2">
-							<p>Find out how Mayfair Hotel & Spa in Miami increased direct bookings by 76% with Travel Tripper’s booking engine.</p>
+						<div class="modulecontent3">
+							<p>Find out how Mayfair Hotel &amp; Spa in Miami increased direct bookings by 76% with Travel Tripper’s booking engine.</p>
 							<a href="#">LEARN MORE</a>
 						</div>
 					</div>
 				</div>
+			
+			<div class="clear"></div>
 			
 		</div>
 		

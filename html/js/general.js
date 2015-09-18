@@ -84,11 +84,28 @@ $(document).ready(function(){
 		}
 	}
 	
-	$(window).load(function() { moving(); moving2(); });
+	var moving3 = function() {
+		if ($('.module3').hasClass('module3')) {
+		var getheight = $('#page-layer-1').height();
+		wholeheight = getheight;
+		
+		var thiss = $('.module3'),
+		modtop = thiss.offset().top,
+		modxs = thiss.css('top'),
+		modcsstop = modxs.replace('px', '');
+		modheight = thiss.height();
+		
+		carrythiss = thiss,
+		carrymodtop = modtop - modcsstop,
+		carrymodheight = modheight;
+		}
+	}
+	
+	$(window).load(function() { moving(); moving2(); moving3(); });
 	$(window).resize(function() { moving(); moving2(); });
 	
 	$(window).scroll(function() {
-		if(($('.modmovecontent').hasClass('modmovecontent')) || ($('.module2').hasClass('module2'))) {
+		if(($('.modmovecontent').hasClass('modmovecontent')) || ($('.module2').hasClass('module2')) || ($('.module3').hasClass('module3'))) {
 		
 		// get user's screen height and get html position
 		windowheight = $(window).height();
@@ -104,6 +121,9 @@ $(document).ready(function(){
 		} else if ($('.module2').hasClass('module2')) {
 			margin = 80;
 			paddingadded = 80;
+		} else if ($('.module3').hasClass('module3')) {
+			margin = 30;
+			paddingadded = 50;
 		} else {
 			margin = 30;
 			paddingadded = 0;
