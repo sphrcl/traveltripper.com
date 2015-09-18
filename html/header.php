@@ -71,7 +71,7 @@
 				<div class="navigation">
 					<ul class="main-nav">
 						<li>
-							<a title="Solutions" href="solutions.php">Solutions</a>
+							<a title="Solutions" href="solutions.php" class="<?php if($basename == 'solutions') { ?>active<?php } ?>">Solutions</a>
 							<ul class="subnavigation">
 								<li class="icon-crs-distribution"><a title="CRS &amp; Distribution" href="crs.php">CRS &amp; Distribution</a></li>
 								<li class="icon-booking-engine"><a title="Booking Engine" href="booking-engine.php">Booking Engine</a></li>
@@ -81,9 +81,9 @@
 								
 							</ul>
 						</li>
-						<li><a title="Resources" href="resources.php">Resources</a></li>
-						<li><a title="Blog" href="blog.php">Blog</a></li>
-						<li><a title="About Us" href="aboutus.php">About Us</a></li>
+						<li><a title="Resources" href="resources.php" class="<?php if($basename == 'resources') { ?>active<?php } ?>">Resources</a></li>
+						<li><a title="Blog" href="blog.php" class="<?php if($basename == 'blog') { ?>active<?php } ?>">Blog</a></li>
+						<li><a title="About Us" href="aboutus.php" class="<?php if($basename == 'aboutus') { ?>active<?php } ?>">About Us</a></li>
 					</ul>
 				</div>
 				
