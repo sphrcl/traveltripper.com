@@ -2,7 +2,7 @@
 	
 	$description = '';
 	$pagetitle = 'Digital Marketing';
-	$image = 'images/banner-digital-marketing.jpg';
+	$image = 'images/digital-marketing-banner.jpg';
 	$template_class = "template-digital-marketing";
 
 include('header.php'); 
@@ -26,8 +26,6 @@ include('header.php');
 			<a href="index.php">Home</a> > <a href="#"><?php echo $pagetitle; ?></a>
 		</div>
 	</div>
-	
-	<div class="canned">
 	
 	<div id="dm-layer-1" class="dm-layer">
 	
@@ -72,6 +70,16 @@ include('header.php');
 			
 			<div class="clear"></div>
 			
+			<div class="module4">
+				<div class="spacing4">
+					<h2>100%</h2>
+					<div class="modulecontent4">
+						<p>Find out how Mayfair Hotel &amp; Spa in Miami more than doubled the ROI of their search marketing after switching to Travel Tripper.</p>
+						<a href="#">LEARN MORE</a>
+					</div>
+				</div>
+			</div>
+			
 		</div>
 		
 	</div>
@@ -115,18 +123,6 @@ include('header.php');
 		</div>
 		
 
-	
-	</div>
-	
-	<div class="module4">
-		<div class="spacing4">
-			<h2>100%</h2>
-			<div class="modulecontent4">
-				<p>Find out how Mayfair Hotel &amp; Spa in Miami more than doubled the ROI of their search marketing after switching to Travel Tripper.</p>
-				<a href="#">LEARN MORE</a>
-			</div>
-		</div>
-	</div>
 	
 	</div>
 	

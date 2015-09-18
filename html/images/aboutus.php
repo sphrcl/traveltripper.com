@@ -1,29 +1,18 @@
 <?php 
-/* 
-Template Name: About Us
-*/
+	
+	$description = '';
+	$pagetitle = 'About Travel Tripper';
+	$image = 'images/banner1.jpg';
+
+include('header.php'); 
+
 ?>
 
-<?php get_header(); ?>
-
-<?php 
-if(have_posts()) : while(have_posts()) : the_post();
-$imgsrc = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), "Full");
-?>
-
-<?php
-if ($imgsrc) {
-	$image = $imgsrc[0];
-} else {
-	$image = get_bloginfo('template_url') . '/images/about-us.png';
-}
-?>
-
-	<div id="pagebanner" style="background-image: url(<?php echo $image; ?>);">
+	<div id="pagebanner" class="about" style="background-image: url(<?php echo $image; ?>);">
 	
 		<div class="container">
 	
-			<!--<h2><?php the_title(); ?></h2>-->
+			<h2><?php echo $pagetitle; ?></h2>
 		
 		</div>
 		
@@ -31,7 +20,7 @@ if ($imgsrc) {
 	
 	<div id="breadcrumbs">
 		<div class="container">
-			<?php custom_breadcrumbs(); ?>
+			<a href="index.php">Home</a> > <a href="#">About Us</a>
 		</div>
 	</div>
 	
@@ -62,7 +51,7 @@ if ($imgsrc) {
 				
 				<div class="col_one_fourth">
 					<div class="spacing">
-						<img src="<?php bloginfo('template_url'); ?>/images/about-gautam.png" alt="gautam" />
+						<img src="images/about-gautam.png" alt="gautam" />
 						<h4>Gautam Lulla</h4>
 						<p>CEO</p>
 					</div>
@@ -70,7 +59,7 @@ if ($imgsrc) {
 				
 				<div class="col_one_fourth">
 					<div class="spacing">
-						<img src="<?php bloginfo('template_url'); ?>/images/about-steffan.png" alt="steffan" />
+						<img src="images/about-steffan.png" alt="steffan" />
 						<h4>Steffan Berelowitx Lulla</h4>
 						<p>VP Digital Platforms</p>
 					</div>
@@ -78,7 +67,7 @@ if ($imgsrc) {
 				
 				<div class="col_one_fourth">
 					<div class="spacing">
-						<img src="<?php bloginfo('template_url'); ?>/images/about-pj.png" alt="pj" />
+						<img src="images/about-pj.png" alt="pj" />
 						<h4>PJ MacIntyre</h4>
 						<p>Senior Director of Sales and Business Development</p>
 					</div>
@@ -92,7 +81,7 @@ if ($imgsrc) {
 						<h3>Why we are different</h3>
 				</div>
 				
-				<div class="col_one_fourth">
+				<div class="col_one_fourth diff">
 					<div class="spacing">
 						<p><strong>We are a full-service shop.<br/>
 						We build modern solutions.<br/>
@@ -102,7 +91,7 @@ if ($imgsrc) {
 					</div>
 				</div>
 				
-				<div class="col_one_fourth">
+				<div class="col_one_fourth diff">
 					<div class="spacing">
 						<p>At Travel Tripper, being direct is not just a distribution strategy; it’s our philosophy. Innovation is in our nature, and we constantly strive to find ways to make our solutions and services better, faster, and more powerful. Because with us, our success depends—directly—on yours.</p>
 					</div>
@@ -116,13 +105,13 @@ if ($imgsrc) {
 						<h3>Working for Travel Tripper</h3>
 				</div>
 				
-				<div class="col_one_fourth">
+				<div class="col_one_fourth diff">
 					<div class="spacing">
 						<p>Travel Tripper is a young and dynamic, profitable, fast-growing company based in Manhattan. Our team is comprised of professionals that bring their expertise in the hotel industry itself, marketing, technology, and more. </p>
 					</div>
 				</div>
 				
-				<div class="col_one_fourth">
+				<div class="col_one_fourth diff">
 					<div class="spacing">
 						<p>We work together collaboratively and cross-functionally to brainstorm, refine, and then shape new ideas into great products for our customers.</p>
 						<p>For any additional questions, email careers@traveltripper.com</p>
@@ -154,28 +143,26 @@ if ($imgsrc) {
 		<div class="container">
 		
 			<div class="col_one_fourth">
-				<h3>Book more. Be direct.</h3>
+				<h3>Book more. <br>Be direct.</h3>
 			</div>
 			
 			<form name="" action="#" method="get">
 
-				<div class="col_one_fourth">
+				<div class="col_one_fourth stacked">
 					<input type="text" name="name" value="" placeholder="NAME">
 				</div>
 				
-				<div class="col_one_fourth">
+				<div class="col_one_fourth stacked">
 					<input type="text" name="email" value="" placeholder="E-MAIL ADDRESS">
 				</div>
 			
 			</form>
 			
-			<div class="col_one_fourth">
+			<div class="col_one_fourth stacked">
 				<a class="button3" href="#">REQUEST A DEMO</a>
 			</div>
 
 		</div>
 	</div>
-	
-<?php endwhile; endif; wp_reset_query(); ?>
 
-<?php get_footer(); ?>
+<?php include('footer.php'); ?>

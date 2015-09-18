@@ -5,6 +5,7 @@
 	// $image = 'images/banner1.jpg';
 	$image = 'images/About-TravelTripper-Office.jpg';
 
+
 include('header.php'); 
 
 ?>
@@ -13,7 +14,7 @@ include('header.php');
 	
 		<div class="container">
 	
-			<h2><?php echo $pagetitle; ?></h2>
+			<!--<h2><?php echo $pagetitle; ?></h2>-->
 		
 		</div>
 		

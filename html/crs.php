@@ -2,7 +2,7 @@
 	
 	$description = '';
 	$pagetitle = 'Travel Tripper CRS';
-	$image = 'images/banner-crs.jpg';
+	$image = 'images/crs-banner.jpg';
 
 include('header.php'); 
 
