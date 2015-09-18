@@ -98,6 +98,7 @@ $(document).ready(function(){
 		carrythiss = thiss,
 		carrymodtop = modtop - modcsstop,
 		carrymodheight = modheight;
+		
 		}
 	}
 	
@@ -122,7 +123,7 @@ $(document).ready(function(){
 			margin = 80;
 			paddingadded = 80;
 		} else if ($('.module3').hasClass('module3')) {
-			margin = 30;
+			margin = 70;
 			paddingadded = 50;
 		} else {
 			margin = 30;
