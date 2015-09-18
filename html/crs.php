@@ -20,14 +20,20 @@ include('header.php');
 		
 	</div>
 
-	<div id="breadcrumbs">
+	<!-- <div id="breadcrumbs">
 		<div class="container">
 			<a href="index.php">Home</a> > <a href="#"><?php echo $pagetitle; ?></a>
 		</div>
-	</div>
+	</div> -->
 	
 	<div id="crs-overview">
-	
+		
+		<div id="breadcrumbs">
+			<div class="container">
+				<a href="index.php">Home</a> > <a href="#"><?php echo $pagetitle; ?></a>
+			</div>
+		</div>
+		
 		<div class="container">
 		
 			<div class="col_one_third">
