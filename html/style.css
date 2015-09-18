@@ -245,8 +245,13 @@ strong {
   height: 60px;
 }
 
+#header .logo img {
+	max-width: 100%;
+}
+
 #header .logo a {
   display: block;
+  width: 155px;
   padding: 16px 20px 12px;
 }
 
@@ -444,6 +449,10 @@ li.icon-revenue-management { background: url(images/icon-revenue-management.png)
 
 #footer .col_one_fourth.one .footernav {
 	max-width: 250px;
+}
+
+#footer .col_one_fourth.one .footernav img {
+	max-width: 100%;
 }
 
 #footer .col_one_fourth.one .footernav p {	

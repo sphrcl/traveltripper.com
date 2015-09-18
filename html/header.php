@@ -65,7 +65,7 @@
 			<div class="container">
 		
 				<div class="logo">
-					<a href="index.php"><img src="images/logo.png" alt="travel tripper" /></a>
+					<a href="index.php"><img src="images/traveltripperlogo.png" alt="travel tripper" /></a>
 				</div>
 
 				<div class="navigation">

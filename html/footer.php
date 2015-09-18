@@ -6,7 +6,7 @@
 			
 				<div class="col_one_fourth one">
 					<div class="footernav">
-						<a href="index.php"><img src="images/logo.png" alt="travel tripper" /></a>
+						<a href="index.php"><img src="images/traveltripperlogo.png" alt="travel tripper" /></a>
 						<br/><br/><br/><br/>
 						<p>&copy; 2015 Travel Tripper Inc.</p>
 					</div>
