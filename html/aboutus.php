@@ -14,7 +14,7 @@ include('header.php');
 	
 		<div class="container">
 	
-			<!--<h2><?php echo $pagetitle; ?></h2>-->
+			<h2><?php echo $pagetitle; ?></h2>
 		
 		</div>
 		
