@@ -2,7 +2,7 @@
 	
 	$description = '';
 	$pagetitle = 'About Travel Tripper';
-	$image = 'images/banner1.jpg';
+	$image = 'images/about-us.png';
 
 include('header.php'); 
 
@@ -12,7 +12,7 @@ include('header.php');
 	
 		<div class="container">
 	
-			<h2><?php echo $pagetitle; ?></h2>
+			<!--<h2><?php echo $pagetitle; ?></h2>-->
 		
 		</div>
 		

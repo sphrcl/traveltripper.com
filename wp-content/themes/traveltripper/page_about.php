@@ -15,7 +15,7 @@ $imgsrc = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), "Full
 if ($imgsrc) {
 	$image = $imgsrc[0];
 } else {
-	$image = get_bloginfo('template_url') . '/images/banner1.jpg';
+	$image = get_bloginfo('template_url') . '/images/about-us.png';
 }
 ?>
 
@@ -23,7 +23,7 @@ if ($imgsrc) {
 	
 		<div class="container">
 	
-			<h2><?php the_title(); ?></h2>
+			<!--<h2><?php the_title(); ?></h2>-->
 		
 		</div>
 		
