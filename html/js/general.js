@@ -104,7 +104,7 @@ $(document).ready(function(){
 	
 	var moving4 = function() {
 		if ($('.module4').hasClass('module4')) {
-		var getheight = $('.canned').height();
+		var getheight = $('#dm-layer-1').height();
 		wholeheight = getheight;
 		
 		var thiss = $('.module4'),
