@@ -82,7 +82,6 @@ p {
 
 a {
 	color: #249fcd;
-	
 	transition: all 0.4s ease 0s;
 	-webkit-transition: all 0.4s ease 0s;
 	-moz-transition: all 0.4s ease 0s;
@@ -277,6 +276,7 @@ strong {
 	top: 10px; /* DINO: This is intended. Do not remove */
 	width: 100%;
 	z-index: 9999;
+	border: 1px solid #d2d2d2;
 }
 
 #header .container {
@@ -284,7 +284,7 @@ strong {
 }
 
 #header .logo {
-  border-right: 2px solid #c0c0c0;
+  border-right: 1px solid #d2d2d2;
   float: left;
   height: 60px;
 }
@@ -1240,6 +1240,7 @@ div#calltoaction2 {
   color: #fff;
   text-align: center;
   clear: both;
+  border-top: 1px solid #3292A7;
 }
 
 div#calltoaction2 .container {
@@ -1268,8 +1269,9 @@ div#calltoaction2 input {
   border-radius: 20px;
   display: inline-block;
   font-weight: 300;
-  font-size: 17px;
+  font-size: 16px;
   line-height: 20px;
+  letter-spacing: 1px;
   border: 0 none;
   font-family: inherit;
 }
@@ -1320,6 +1322,7 @@ div#pagetitle h1 {
   background-size: cover;
   height: 620px;
   position: relative;
+  border-bottom: 1px solid #d2d2d2;
 }
 
 #bottombanner {
@@ -2189,6 +2192,7 @@ div#crspmsrms {
   background-color: #f6f6f6;
   overflow: hidden;
   clear: both;
+  border-bottom: 1px solid #d2d2d2;
 }
 
 div#crspmsrms .container {

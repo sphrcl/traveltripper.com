@@ -2,7 +2,7 @@
 	
 	$description = '';
 	$pagetitle = 'Travel Tripper CRS';
-	$image = 'images/crs-banner.jpg';
+	$image = 'images/crs-travel-tripper.jpg';
 
 include('header.php'); 
 
@@ -14,7 +14,7 @@ include('header.php');
 	
 			<h1><?php echo $pagetitle; ?></h1>
 			<p>Comprehensive distribution and <br>seamless connectivity in one <br>powerful platform</p>
-			<a class="button1" href="#">ASK FOR QUOTE &nbsp; ></a>
+			<a class="button1" href="#">ASK FOR QUOTE &nbsp; <i class="fa fa-angle-right"></i></a>
 		
 		</div>
 		
@@ -30,7 +30,7 @@ include('header.php');
 		
 		<div id="breadcrumbs">
 			<div class="container">
-				<a href="index.php">Home</a> > <a href="#"><?php echo $pagetitle; ?></a>
+				<a href="index.php">Home</a> <i class="fa fa-angle-right"></i> <a href="#"><?php echo $pagetitle; ?></a>
 			</div>
 		</div>
 		
@@ -185,7 +185,7 @@ include('header.php');
 		
 	</div>
 	
-	<div id="bottombanner" class="contentright" style="background-image: url(images/CRS-TravelTripper-Office.jpg);">
+	<div id="bottombanner" class="contentright" style="background-image: url(images/crs-travel-tripper-office.jpg);">
 	
 		<div class="container">
 	
