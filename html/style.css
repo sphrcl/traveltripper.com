@@ -168,7 +168,7 @@ img.right, img.alignright {float: right;margin: 0 0 7px 15px;}
 }
 
 .with-text .col_one_fourth input {
-	padding: 8px 0 8px 25px !important;
+	padding: 8px 30px 8px 25px !important;
 }
 
 .with-text .col_one_fourth input,
@@ -203,11 +203,12 @@ img.right, img.alignright {float: right;margin: 0 0 7px 15px;}
 }
 
 a.button1 {
-  background-color: #93c01f;
-  color: #fff;
-  padding: 8px 25px;
-  border-radius: 20px;
-  display: inline-block;
+	background-color: #93c01f;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 20px;
+    display: inline-block;
+    letter-spacing: 1px;
 }
 
 a.button2 {
@@ -228,6 +229,7 @@ a.button3 {
   border-radius: 20px;
   display: inline-block;
   font-weight: 300;
+  letter-spacing: 1px;
 }
 
 	a.button1
@@ -1269,6 +1271,7 @@ div#calltoaction2 input {
   font-size: 17px;
   line-height: 20px;
   border: 0 none;
+  font-family: inherit;
 }
 
 div#calltoaction2 .stacked {
@@ -1315,14 +1318,14 @@ div#pagetitle h1 {
 #pagebanner {
   background: url('images/banner1.jpg') no-repeat scroll center center transparent;
   background-size: cover;
-  height: 520px;
+  height: 620px;
   position: relative;
 }
 
 #bottombanner {
   background: url('images/banner1.jpg') no-repeat scroll center bottom transparent;
   background-size: cover;
-  height: 520px;
+  height: 620px;
   position: relative;
 }
 	#pagebanner {
@@ -1331,7 +1334,7 @@ div#pagetitle h1 {
 
 #pagebanner .container {
   margin: 0 30px;
-  padding-top: 160px;
+  padding-top: 170px;
   width: 46%;
 }
 
@@ -1344,7 +1347,7 @@ div#pagetitle h1 {
 
 #bottombanner .container {
   margin: 0 30px;
-  padding-top: 160px;
+  padding-top: 150px;
   width: 46%;
 }
 
@@ -2871,3 +2874,14 @@ span.dm-up {
 #bottombanner .dm p {
  padding-top: 30px;
 }
+
+
+/* ========== EDITS ================= */
+
+#pagebanner .button1 i {
+    font-size: 19px;
+    font-weight: bold;
+}
+
+
+

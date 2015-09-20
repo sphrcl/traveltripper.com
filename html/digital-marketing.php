@@ -3,7 +3,7 @@
 	$description = '';
 	$pagetitle = 'Digital Marketing';
 	// $image = 'images/digital-marketing-banner.jpg';
-	$image = 'images/DigitalMarketing-TravelTripper-GasolineAlley.jpg';
+	$image = 'images/digital-marketing-traveltripper.jpg';
 	$template_class = "template-digital-marketing";
 
 include('header.php'); 
@@ -16,7 +16,7 @@ include('header.php');
 	
 			<h1>Digital Marketing</h1>
 			<p>Powered by the world’s most innovative booking engine adipiscing elit. Maecenas ut cursus ligula. ROI pharetra consequat dolor non. semper. Nam in ligula dictum, ultrices ante vitae, vitae, sollicitudin.</p>
-			<a class="button1" href="#">ASK FOR QUOTE &nbsp; ></a>
+			<a class="button1" href="#">ASK FOR QUOTE &nbsp; <i class="fa fa-angle-right"></i></a>
 		
 		</div>
 		
@@ -24,7 +24,7 @@ include('header.php');
 
 	<div id="breadcrumbs">
 		<div class="container">
-			<a href="index.php">Home</a> > <a href="#"><?php echo $pagetitle; ?></a>
+			<a href="index.php">Home</a> <i class="fa fa-angle-right"></i> <a href="#"><?php echo $pagetitle; ?></a>
 		</div>
 	</div>
 	
@@ -55,6 +55,7 @@ include('header.php');
 			</div>
 			
 			<div class="col_one_fourth">
+				<!-- 
 				<div class="dmlogos">
 					<ul>
 						<li><img src="images/logo-orbitz.png" alt="orbitz"></li>
@@ -63,15 +64,16 @@ include('header.php');
 						<li><img src="images/logo-kayak.png" alt="kayak"></li>
 					</ul>
 				</div>
+				-->
 			</div>
 			
 			<div class="col_one_half">
-				<img src="images/dm-layer1.jpg" alt="dm layer1" />
+				<img src="images/digital-marketing-traveltripper-device.jpg" alt="dm layer1" />
 			</div>
 			
 			<div class="clear"></div>
 			
-			<div class="module4">
+			<div class="module2">
 				<div class="spacing4">
 					<h2>100%</h2>
 					<div class="modulecontent4">
@@ -126,9 +128,9 @@ include('header.php');
 
 	
 	</div>
-	
-	
+
 	<div id="bottombanner" class="contentleft" style="background-image: url(images/DigitalMarketing-TravelTripper-Office.jpg);">
+	
 	
 		<div class="container dm">
 	
@@ -140,6 +142,7 @@ include('header.php');
 	</div>
 	
 	<div id="calltoaction2">
+		
 		<div class="container with-text">
 		
 			<div class="col_one_fourth">
@@ -168,5 +171,7 @@ include('header.php');
 
 		</div>
 	</div>
+
+
 
 <?php include('footer.php'); ?>
