@@ -2,7 +2,7 @@
 	
 	$description = '';
 	$pagetitle = 'Web & mobile ';
-	$image = 'images/banner-webmobile.jpg';
+	$image = 'images/web-mobile-travel-tripper.jpg';
 	$template_class = "template-webmobile";
 
 include('header.php'); 
@@ -16,7 +16,7 @@ include('header.php');
 			<h1>Travel Tripper</h1>
 			<h3>Web &amp; Mobile</h3>
 			<p>Hotels that switch to Travel Tripper <br>Web see increases in direct revenue of <br>between 25 and 100% within weeks.</p>
-			<a class="button1" href="#">Demo Engine &nbsp; ></a>
+			<a class="button1" href="#">Demo Engine &nbsp; <i class="fa fa-angle-right"></i></a>
 		
 		</div>
 		
@@ -24,7 +24,7 @@ include('header.php');
 
 	<div id="breadcrumbs">
 		<div class="container">
-			<a href="index.php">Home</a> > <a href="web-mobile.php">Travel Tripper Web &amp; Mobile</a>
+			<a href="index.php">Home</a> <i class="fa fa-angle-right"></i> <a href="web-mobile.php">Travel Tripper Web &amp; Mobile</a>
 		</div>
 	</div>
 	
@@ -150,7 +150,7 @@ include('header.php');
 				
 				<div class="col_sec two">
 					<div class="spacing">
-						<img src="images/knickerbg1.jpg" />
+						<img src="images/westhouse-logo.png" />
 						<p class="one">Westhouse Hotel New York</p>
 						<p class="two">201 West 55th Street New York, NY 10019</p>
 					</div>

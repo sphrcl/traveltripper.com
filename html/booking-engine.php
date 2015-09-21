@@ -15,7 +15,7 @@ include('header.php');
 	
 			<h1>Booking Engine</h1>
 			<p>Powered by the world’s most innovative booking engine adipiscing elit. Maecenas ut cursus ligula. ROI pharetra consequat dolor non. semper. Nam in ligula dictum, ultrices ante vitae, vitae, sollicitudin. </p>
-			<a class="button1" href="#">ASK FOR QUOTE &nbsp; ></a>
+			<a class="button1" href="#">ASK FOR QUOTE &nbsp; <i class="fa fa-angle-right"></i></a>
 		
 		</div>
 		
@@ -23,7 +23,7 @@ include('header.php');
 
 	<div id="breadcrumbs">
 		<div class="container">
-			<a href="index.php">Home</a> > <a href="booking-engine.php">Travel Tripper Booking Engine</a>
+			<a href="index.php">Home</a> <i class="fa fa-angle-right"></i> <a href="booking-engine.php">Travel Tripper Booking Engine</a>
 		</div>
 	</div>
 	

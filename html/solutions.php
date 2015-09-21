@@ -2,7 +2,7 @@
 	
 	$description = '';
 	$pagetitle = 'Hotel Digital Solutions';
-	$image = 'images/banner-solutions.jpg';
+	$image = 'images/solutions-travel-tripper.jpg';
 
 include('header.php'); 
 

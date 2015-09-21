@@ -208,6 +208,7 @@ a.button1 {
     border-radius: 20px;
     display: inline-block;
     letter-spacing: 1px;
+    text-transform: uppercase;
 }
 
 a.button2 {
@@ -332,7 +333,7 @@ strong {
 
 	#header .navigation ul li a:hover {
 	  color: #ec9103;
-	  font-weight: 900;
+	  /* font-weight: 900; */
 	}
 	
 	#header .navigation ul li a:after {
