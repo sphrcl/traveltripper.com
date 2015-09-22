@@ -262,6 +262,11 @@ strong {
 	clear: both;
 }
 
+.container {
+	max-width: 1500px;
+	margin: 0 auto;
+}
+
 /* Base Styles -----------------------------------------------------------*/
 
 #wrapper {
@@ -281,7 +286,9 @@ strong {
 }
 
 #header .container {
-  margin: 0 15px;
+  margin: 0 auto;
+  max-width: 1600px;
+  padding: 0 15px;
 }
 
 #header .logo {
@@ -584,7 +591,7 @@ li.icon-revenue-management { background: url(images/icon-revenue-management.png)
 }
 
 #services .container {
-  margin: 50px;
+  padding: 50px;
   overflow: hidden;
 }
 
@@ -697,13 +704,18 @@ li.icon-revenue-management { background: url(images/icon-revenue-management.png)
 
 /* HOMEPAGE MAIN */
 #main .container {
-  margin: 50px 30px;
-  max-width: 1550px;
+	padding: 50px 0 0 30px;
+	max-width: 1600px;
 }
 
 #main .left,
 #main .right {
 	width: 50%;
+}
+
+#main .left {
+	position: relative;
+	height: 535px;
 }
 
 .topgraph h2 {
@@ -778,10 +790,11 @@ li.icon-revenue-management { background: url(images/icon-revenue-management.png)
 }
 
 .engine {
-	height: 535px;
+	height: 100%;
 	width: 500px;
-	margin: 0 auto;
-	position: relative;
+	left: 50%;
+	margin: 0 0 0 -250px;
+	position: absolute;
 }
 
 .engine .cir {
