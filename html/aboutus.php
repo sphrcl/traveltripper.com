@@ -4,6 +4,7 @@
 	$pagetitle = 'About Travel Tripper';
 	// $image = 'images/banner1.jpg';
 	$image = 'images/About-TravelTripper-Office.jpg';
+	$template_class = "template-aboutus";
 
 
 include('header.php'); 

@@ -2,24 +2,38 @@
 	
 	$description = '';
 	$pagetitle = 'RevUp ';
-	$image = 'images/banner-revup.jpg';
+	$image = 'images/banner1.jpg';
 	$template_class = "template-revup";
 
 include('header.php'); 
 
 ?>
 	
-	<div id="pagebanner" class="contentright" style="background-image: url(<?php echo $image; ?>);">
+	<div id="pagebanner" style="background-image: url(<?php echo $image; ?>);">
 	
 		<div class="container">
-	
-			<h1>RevUp</h1>
-			<h3>Hotel Revenue<br/>
-			Management Platform</h3>
-			<p>Trending analysis and forecasting tools that help  revenue managers make the best pricing decisions for their hotels.</p>
-			<a class="button1" href="#">ASK FOR QUOTE &nbsp; ></a>
+			
+			<div class="col_one_half left">
+				<div class="spacing">
+					<img src="images/banner-revup.png" />
+				</div>
+			</div>
+			
+			<div class="col_one_half right">
+			
+				<h1>RevUp</h1>
+				<h3>Hotel Revenue<br/>
+				Management Platform</h3>
+				<p>Trending analysis and forecasting tools that help  revenue managers make the best pricing decisions for their hotels.</p>
+				<a class="button1" href="#">ASK FOR QUOTE &nbsp; ></a>
 		
+			</div>
+			
+			<div class="clear"></div>
+			
 		</div>
+		
+		
 		
 	</div>
 
@@ -32,6 +46,12 @@ include('header.php');
 	<div id="revup-layer-1" class="revup-layer">
 	
 		<div class="container">
+			
+			<div class="col_one_half left">
+				<div class="spacing">
+					<img src="images/revup-track-monitor.jpg" />
+				</div>
+			</div>
 			
 			<div class="col_one_half right">
 				<div class="spacing">
@@ -60,11 +80,17 @@ include('header.php');
 	
 		<div class="container">
 		
-			<div class="col_one_half">
+			<div class="col_one_half left">
 				<div class="spacing">
 					<h3>Powerful reports</h3>
 					<h4>Automated Best Rate Guarantee</h4>
 					<p>RevUp captures daily revenue performance, eliminates the time associated with gathering historical data, and provides instant analytical reports. It gives users powerful tools, such as pickup and pace-by-day reports that analyze revenue projects across key hotel metrics. </p>
+				</div>
+			</div>
+			
+			<div class="col_one_half right">
+				<div class="spacing">
+					<img src="images/revup-layer-2.png" />
 				</div>
 			</div>
 			
@@ -78,16 +104,20 @@ include('header.php');
 	
 		<div class="container">
 		
-			<div class="col_one_half">
-				<img src="images/revup-layer-3.jpg" alt="revup3" />
+			<div class="col_one_half left">
+				<div class="spacing">
+					<img src="images/revup-layer-3.jpg" />
+				</div>
 			</div>
 		
-			<div class="col_one_fourth">
+			<div class="col_one_half right">
 				<div class="spacing">
 					<h3>Real-time comp set and market data</h3>
 					<p>With RevUp’s real-time compset and market data, revenue managers are capable of instantaneously reacting to market changes and creating a strong competitive advantage.</p>
 				</div>
 			</div>
+			
+			<div class="clear"></div> 
 
 		</div>
 		
@@ -97,16 +127,21 @@ include('header.php');
 	
 		<div class="container">
 		
-			<div class="col_one_fourth">
+			<div class="col_one_third left">
 				<div class="spacing">
 					<h3>Forecast data</h3>
+					<h4>Customer service</h4>
 					<p>Anticipate market demand with access to daily flight data and trends, and adjust pricing strategies ahead of the competition. </p>
 				</div>
 			</div>
 			
-			<div class="col_three_fourth">
-				<img src="images/revup-layer-4.jpg" alt="revup4" />
+			<div class="col_two_third right">
+				<div class="spacing">
+					<img src="images/revup-layer-42.jpg" />
+				</div>
 			</div>
+			
+			<div class="clear"></div> 
 
 		</div>
 		
