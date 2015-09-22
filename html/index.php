@@ -107,15 +107,20 @@ include('header.php');
 	
 	<div id="bigmain">
 		<div class="container">
+		
 			<div class="booking-engine">
 				
-				<div class="bkimg"><img src="images/mac-mobile.png" alt="mac mobile" /></div>
+				<div class="left">
+					<div class="bkimg"><img src="images/mac-mobile.png" alt="mac mobile" /></div>
+				</div>
 				
-				<div class="bkcnt">
-					<div class="bkcnt-block">
-						<h2>Booking Engine <i class="bk-macico"></i><i class="bk-phoneico"></i></h2>
-						<p>We’ve built the industry’s most innovative booking engine to optimize conversions through your most profitable channel—your website. From its sleek design to unique features such as Automated Best Rate Guarantee and built­in email retargeting, find out why hotels love Travel Tripper.</p>
-						<a class="button1" href="booking-engine.php">LEARN MORE</a>
+				<div class="right">
+					<div class="bkcnt">
+						<div class="bkcnt-block">
+							<h2>Booking Engine <i class="bk-macico"></i><i class="bk-phoneico"></i></h2>
+							<p>We’ve built the industry’s most innovative booking engine to optimize conversions through your most profitable channel—your website. From its sleek design to unique features such as Automated Best Rate Guarantee and built­in email retargeting, find out why hotels love Travel Tripper.</p>
+							<a class="button1" href="booking-engine.php">LEARN MORE</a>
+						</div>
 					</div>
 				</div>
 				
@@ -124,13 +129,17 @@ include('header.php');
 			
 			<div class="web-engine">
 				
-				<div class="bkimg"><img src="images/mac-mobile.png" alt="mac mobile" /></div>
+				<div class="left">
+					<div class="bkimg"><img src="images/mac-mobile.png" alt="mac mobile" /></div>
+				</div>
 				
-				<div class="bkcnt">
-					<div class="bkcnt-block">
-						<h2>Web &amp; Engine <i class="bk-macico"></i><i class="bk-phoneico"></i></h2>
-						<p>A powerful booking platform becomes even stronger with a beautiful website. Travel Tripper Web, our new cloud web and booking platform, allows you or your design agency to create stunning responsive websites that are perfectly optimized across desktop and mobile devices. Dynamic rate integration with Travel Tripper CRS and booking engine makes managing e-commerce a breeze. </p>
-						<a class="button1" href="#">LEARN MORE</a>
+				<div class="right">
+					<div class="bkcnt">
+						<div class="bkcnt-block">
+							<h2>Web &amp; Engine <i class="bk-macico"></i><i class="bk-phoneico"></i></h2>
+							<p>A powerful booking platform becomes even stronger with a beautiful website. Travel Tripper Web, our new cloud web and booking platform, allows you or your design agency to create stunning responsive websites that are perfectly optimized across desktop and mobile devices. Dynamic rate integration with Travel Tripper CRS and booking engine makes managing e-commerce a breeze. </p>
+							<a class="button1" href="#">LEARN MORE</a>
+						</div>
 					</div>
 				</div>
 				

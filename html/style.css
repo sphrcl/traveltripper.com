@@ -609,7 +609,7 @@ li.icon-revenue-management { background: url(images/icon-revenue-management.png)
   height: 27px;
   position: absolute;
   left: 50%;
-  margin-left: 50px;
+  margin-left: 25%;
   top: 8px;
 }
 
@@ -704,7 +704,7 @@ li.icon-revenue-management { background: url(images/icon-revenue-management.png)
 
 /* HOMEPAGE MAIN */
 #main .container {
-	padding: 50px 0 0 30px;
+	padding: 50px 0 0 50px;
 	max-width: 1600px;
 }
 
@@ -992,6 +992,7 @@ li.icon-revenue-management { background: url(images/icon-revenue-management.png)
 
 .topgraph {
 	opacity: 0;
+	padding: 0 0 0 15px;
 	transition: all 0.8s ease 2.3s;
 	-webkit-transition: all 0.8s ease 2.3s;
 	-moz-transition: all 0.8s ease 2.3s;
@@ -1031,22 +1032,17 @@ li.icon-revenue-management { background: url(images/icon-revenue-management.png)
 
 #bigmain .container {
 	max-width: 1600px;
-	margin: 0 auto;
+	padding: 0 0 0 50px;
 	position: relative;
 }
 
-.booking-engine,
-.web-engine {
-	padding: 0 300px 0 20px;
-}
-
-.booking-engine {
-	margin-bottom: 100px;
+#bigmain .left,
+#bigmain .right {
+	width: 50%;
+	
 }
 
 .bkimg {
-	float: left;
-	width: 50%;
 	text-align: center;
 }
 
@@ -1056,14 +1052,8 @@ li.icon-revenue-management { background: url(images/icon-revenue-management.png)
 	margin: 0 auto;
 }
 
-.bkcnt {
-	float: right;
-	width: 50%;
-}
-
 .bkcnt-block {
-	padding: 0 0 0 20px;
-	max-width: 400px;
+	padding: 0 380px 0 15px;
 }
 
 .bkcnt-block h2 {
@@ -1092,7 +1082,7 @@ li.icon-revenue-management { background: url(images/icon-revenue-management.png)
 	color: #4d4d4d;
 	font-size: 17px;
 	line-height: 30px;
-	padding: 0 40px 20px 0;
+	padding: 0 0 20px 0;
 	font-weight: 100;
 }
 
@@ -1100,6 +1090,20 @@ li.icon-revenue-management { background: url(images/icon-revenue-management.png)
     font-size: 14px;
     font-weight: 300;
 }
+
+.booking-engine {
+	margin-bottom: 100px;
+}
+
+.web-engine .bkimg {
+	opacity: 0.5;
+}
+
+
+
+
+
+
 
 .modmove {
 	background: url("images/crs-graph.jpg") no-repeat scroll 0 bottom transparent;
@@ -1163,10 +1167,8 @@ li.icon-revenue-management { background: url(images/icon-revenue-management.png)
 }
 
 #digital-marketing .container {
-	padding: 30px;
+	padding: 50px;
 	position: relative;
-	max-width: 1540px;
-	margin: 0 auto;
 }
 
 .dmborder {
