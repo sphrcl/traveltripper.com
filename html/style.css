@@ -263,7 +263,7 @@ strong {
 }
 
 .container {
-	max-width: 1500px;
+	max-width: 1600px;
 	margin: 0 auto;
 }
 
@@ -1433,25 +1433,23 @@ div#breadcrumbs a {
 }
 
 div#breadcrumbs .container {
-	margin: 0 auto;
-	max-width: 1540px;
-	padding: 30px;
+	padding: 50px 0 50px 50px;
 }
 
 /* ABOUT US */
-div#aboutmain {
+#aboutmain {
   clear: both;
 }
 
-div#aboutmain .container {
-  margin: 0;
+#aboutmain .container {
+padding: 0 0 0 50px;
 }
 
-div#aboutmain .pagesection .spacing strong {
+#aboutmain .pagesection .spacing strong {
 	line-height: 2.5;
 }
 
-div#aboutmain .pagesection .spacing p {
+#aboutmain .pagesection .spacing p {
 	padding: 0;
 }
 
@@ -1469,7 +1467,7 @@ div#aboutmain .pagesection .spacing p {
     width: 55%;
 }
 
-div#aboutmain .pagesection:nth-child(2n) {
+#aboutmain .leadership {
   background-color: #f6f6f6;
 }
 
