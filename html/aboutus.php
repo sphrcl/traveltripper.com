@@ -42,6 +42,8 @@ include('header.php');
 						<p class="aboutus">Travel Tripper is a full-service hotel web technology provider and strategic partner in helping hotels worldwide to optimize conversions, expand reach, and generate demand. We power properties with innovative technological solutions, including RezTrip, our industry leading central reservation system and hotel booking engine.</p>
 					</div>
 				</div>
+				
+				<div class="clear"></div>
 			
 			</div>
 		
@@ -78,6 +80,8 @@ include('header.php');
 						<p>Senior Director of Sales and Business Development</p>
 					</div>
 				</div>
+				
+				<div class="clear"></div>
 			
 			</div>
 		
@@ -106,6 +110,8 @@ include('header.php');
 						<p>At Travel Tripper, being direct is not just a distribution strategy; it’s our philosophy. Innovation is in our nature, and we constantly strive to find ways to make our solutions and services better, faster, and more powerful. Because with us, our success depends—directly—on yours.</p>
 					</div>
 				</div>
+				
+				<div class="clear"></div>
 				
 			</div>
 		
@@ -144,7 +150,9 @@ include('header.php');
 						<p><strong>SEE ALL OPEN POSITIONS</strong></p>
 					</div>
 				</div>
-			
+				
+				<div class="clear"></div>
+				
 			</div>
 	
 		</div>

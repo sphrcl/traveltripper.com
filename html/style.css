@@ -18,6 +18,7 @@ time, mark, audio, video, button, textarea, a {
 	outline: 0;
 	text-decoration: none;
 	font-weight: normal;
+	color: #4d4d4d;
 	font-family: MuseoSans, "Arial", "Helvetica"
 }                  
 article, aside, details, figcaption, figure,
@@ -74,7 +75,6 @@ ul li {
 
 p {
 	font-family: MuseoSans, Arial;
-	color: #2e2d2d;
 	font-size: 13px;
 	line-height: 22px;	
 	font-weight: 100;
@@ -519,7 +519,6 @@ li.icon-revenue-management { background: url(images/icon-revenue-management.png)
   padding: 0 0 0 20px;
   font-size: 16px;
   line-height: 28px;
-  color: #4d4d4d;
   font-weight: 400;
 }
 
@@ -744,14 +743,12 @@ li.icon-revenue-management { background: url(images/icon-revenue-management.png)
 }
 
 .topgraph h2 {
-	color: #4d4d4d;
 	font-size: 34px;
 	font-weight: 500;
 	margin-bottom: 20px;
 }
 
 .topgraph p {
-	color: #4d4d4d;
 	font-size: 17px;
 	font-weight: 100;
 	line-height: 30px;
@@ -1082,7 +1079,6 @@ li.icon-revenue-management { background: url(images/icon-revenue-management.png)
 }
 
 .bkcnt-block h2 {
-	color: #4d4d4d;
 	font-size: 34px;
 	margin-bottom: 20px;
 	font-weight: 300;
@@ -1104,7 +1100,6 @@ li.icon-revenue-management { background: url(images/icon-revenue-management.png)
 	}
 
 .bkcnt-block p {
-	color: #4d4d4d;
 	font-size: 17px;
 	line-height: 30px;
 	padding: 0 0 20px 0;
@@ -1186,7 +1181,6 @@ li.icon-revenue-management { background: url(images/icon-revenue-management.png)
 /* HOMEPAGE DIGITAL MARKETING */
 
 #digital-marketing {
-  color: #4d4d4d;
   background: none repeat scroll 0 0 #fff;
   position: relative;
 }
@@ -1207,14 +1201,12 @@ li.icon-revenue-management { background: url(images/icon-revenue-management.png)
 
 .dmtext h3 {
   font-size: 30px;
-  color: #4d4d4d;
   letter-spacing: 0.015em;
   padding-bottom: 20px;
   font-weight: 300;
 }
 
 .dmtext p {
-	color: #4d4d4d;
 	font-size: 17px;
 	font-weight: 100;
 	letter-spacing: 0.015em;
@@ -1291,6 +1283,7 @@ div#calltoaction2 .container {
 
 div#calltoaction2 h3 {
   font-size: 33px;
+  color: #fff;
   font-weight: 300;
   letter-spacing: 0.015em;
   text-align: left;
@@ -1443,22 +1436,7 @@ div#breadcrumbs .container {
 	padding: 50px 0 50px 50px;
 }
 
-/* ABOUT US */
-#aboutmain {
-  clear: both;
-}
-
-#aboutmain .container {
-padding: 0 0 0 50px;
-}
-
-#aboutmain .pagesection .spacing strong {
-	line-height: 2.5;
-}
-
-#aboutmain .pagesection .spacing p {
-	padding: 0;
-}
+/* MAIN STYLES - pagesection */
 
 .pagesection {
   clear: both;
@@ -1474,13 +1452,8 @@ padding: 0 0 0 50px;
     width: 55%;
 }
 
-#aboutmain .leadership {
-  background-color: #f6f6f6;
-}
-
 .pagesection h3 {
   font-size: 34px;
-  color: #4d4d4d;
   letter-spacing: 0.025em;
   padding: 0 30px;
   font-weight: 300;
@@ -1511,18 +1484,62 @@ padding: 0 0 0 50px;
   letter-spacing: 0.01em;
 }
 
-div#aboutmain #leadership .spacing {
+/* ABOUT US */
+
+#aboutmain .container {
+  padding: 0 0 0 50px;
+}
+
+#aboutmain .pagesection {
+	padding: 0;
+}
+
+#aboutmain .pagesection .spacing strong {
+  line-height: 2.5;
+}
+
+#aboutmain .pagesection .spacing p {
+	padding: 0;
+}
+
+#aboutmain .pagesection h3 {
+	padding: 0 20px 0 0;
+	font-size: 36px;
+	line-height: 56px;
+	max-width: 300px;
+	margin: -4px 0 0;
+}
+
+#aboutmain .strategic .container,
+#aboutmain .leadership .container,
+#aboutmain .different .container,
+#aboutmain .working .container {
+	padding: 50px 0 50px 40px;
+}
+
+#aboutmain .strategic.pagesection .spacing p {
+	font-size: 28px;
+	line-height: 36px;
+}
+
+#aboutmain .leadership {
+  background-color: #f6f6f6;
+}
+
+#aboutmain .leadership .spacing {
   text-align: center;
 }
 
-div#aboutmain #leadership .spacing h4 {
+#aboutmain .leadership h4 {
   font-size: 24px;
   margin: 30px 0 5px;
 }
 
-div#aboutmain #leadership .spacing p {
+#aboutmain .leadership p {
   line-height: 1.5;
 }
+
+
 
 /* SOLUTIONS */
 div#solutionsmain {
@@ -1549,14 +1566,12 @@ div#solutionsmain .pagesection {
 div#solutionsmain .pagesection h3 {
   font-size: 34px;
   font-weight: 300;
-  color: #4d4d4d;
 }
 
 div#solutionsmain .pagesection h4 {
   font-size: 22px;
   font-weight: 500;
   padding-bottom: 20px;
-  color: #4d4d4d;
 }
 
 div#solutionsmain .pagesection p {
@@ -2018,7 +2033,6 @@ h2.blogtitle a,
 
 /* CRS OVERVIEW */
 #crs-overview {
-  color: #4d4d4d;
   background: #f6f6f6;
   background-size: 80%;
   background-position: bottom right;
@@ -2037,7 +2051,6 @@ h2.blogtitle a,
 
 #crs-overview h3 {
   font-size: 30px;
-  color: #4d4d4d;
   letter-spacing: 0.015em;
   padding-bottom: 20px;
 }
@@ -2050,7 +2063,6 @@ h2.blogtitle a,
   font-size: 13px;
   font-weight: 100;
   line-height: 26px;
-  color: #4d4d4d;
   letter-spacing: 0.015em;
 }
 
@@ -2300,7 +2312,6 @@ ul.checklist li {
 }
 
 .wrapper .container .pagesection.positiions .spacing p {
-    color: #4d4d4d;
     font-size: 18px;
     padding-bottom: 20px !important;
 }
@@ -2333,7 +2344,6 @@ ul.checklist li {
 
 .page-layer h3 {
   font-size: 30px;
-  color: #4d4d4d;
   letter-spacing: 0.015em;
   padding-bottom: 10px;
   font-weight: 300;
@@ -2484,7 +2494,6 @@ ul.checklist li {
 
 .revup-layer h3 {
   font-size: 30px;
-  color: #4d4d4d;
   letter-spacing: 0.015em;
   padding-bottom: 10px;
   font-weight: 300;
@@ -2580,7 +2589,6 @@ ul.checklist li {
 
 .webmobilelayer h3 {
 	font-size: 30px;
-	color: #4D4D4D;
 	line-height: 40px;
 	letter-spacing: 0.015em;
 	padding: 0 0 30px;
@@ -2588,7 +2596,6 @@ ul.checklist li {
 
 .webmobilelayer p {
 	font-size: 17px;
-	color: #4d4d4d;
 	font-weight: 100;
 	line-height: 34px;
 }
@@ -2790,7 +2797,6 @@ ul.checklist li {
 
 .dm-layer h3 {
   font-size: 30px;
-  color: #4d4d4d;
   letter-spacing: 0.015em;
   padding-bottom: 50px;
 }
@@ -2804,7 +2810,6 @@ ul.checklist li {
   font-size: 13px;
   font-weight: 100;
   line-height: 26px;
-  color: #4d4d4d;
   letter-spacing: 0.015em;
 }
 
