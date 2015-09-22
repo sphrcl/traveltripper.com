@@ -609,7 +609,7 @@ li.icon-revenue-management { background: url(images/icon-revenue-management.png)
 }
 
 #services .container {
-  padding: 50px;
+  padding: 50px 0 50px 50px;
   overflow: hidden;
 }
 
@@ -659,13 +659,20 @@ li.icon-revenue-management { background: url(images/icon-revenue-management.png)
   font-size: 16px;
   font-weight: 100;
   letter-spacing: 0.01em;
-  padding: 0 28px 20px;
+  padding: 0 20px 20px;
+  max-width: 255px;
+  margin: 0 auto;
+}
+
+.servicesbox.three p,
+.servicesbox.four p {
+	max-width: 200px;
 }
 
 
 /* HOMEPAGE SERVICES ANIMATIONS */
 
-.servicesbox:nth-child(2) {
+.servicesbox.two {
 	opacity: 0;
 	transition: all 0.4s ease 0s;
 	-webkit-transition: all 0.4s ease 0s;
@@ -674,7 +681,7 @@ li.icon-revenue-management { background: url(images/icon-revenue-management.png)
 	-ms-transition: all 0.4s ease 0s;
 }
 
-.servicesbox:nth-child(2):before {
+.servicesbox.two:before {
 	transition: all 0.4s ease 0.4s;
 	-webkit-transition: all 0.4s ease 0.4s;
 	-moz-transition: all 0.4s ease 0.4s;
@@ -682,7 +689,7 @@ li.icon-revenue-management { background: url(images/icon-revenue-management.png)
 	-ms-transition: all 0.4s ease 0.4s;
 }
 
-.servicesbox:nth-child(3) {
+.servicesbox.three {
 	transition: all 0.4s ease 1s;
 	-webkit-transition: all 0.4s ease 1s;
 	-moz-transition: all 0.4s ease 1s;
@@ -690,7 +697,7 @@ li.icon-revenue-management { background: url(images/icon-revenue-management.png)
 	-ms-transition: all 0.4s ease 1s;
 }
 
-.servicesbox:nth-child(3):before {
+.servicesbox.three:before {
 	transition: all 0.4s ease 1.4s;
 	-webkit-transition: all 0.4s ease 1.4s;
 	-moz-transition: all 0.4s ease 1.4s;
@@ -698,7 +705,7 @@ li.icon-revenue-management { background: url(images/icon-revenue-management.png)
 	-ms-transition: all 0.4s ease 1.4s;
 }
 
-.servicesbox:nth-child(4) {
+.servicesbox.four {
 	transition: all 0.4s ease 2s;
 	-webkit-transition: all 0.4s ease 2s;
 	-moz-transition: all 0.4s ease 2s;
@@ -706,15 +713,15 @@ li.icon-revenue-management { background: url(images/icon-revenue-management.png)
 	-ms-transition: all 0.4s ease 2s;
 }
 
-.servicesbox:nth-child(2),
-.servicesbox:nth-child(3),
-.servicesbox:nth-child(4) {
+.servicesbox.two,
+.servicesbox.three,
+.servicesbox.four {
 	opacity: 0;
 }
 	#services.active .servicesbox { opacity: 1;}
 
-.servicesbox:nth-child(2):before,
-.servicesbox:nth-child(3):before {
+.servicesbox.two:before,
+.servicesbox.three:before {
 	width: 0;
 }
 	#services.active .servicesbox:before { width: 180px;}

@@ -25,25 +25,25 @@ include('header.php');
 	
 		<div class="container">
 		
-			<div class="servicesbox">
+			<div class="servicesbox one">
 				<h3>Your strategic partner from search to stay</h3>
 			</div>
 			
-			<div class="servicesbox">
+			<div class="servicesbox two">
 				<img src="images/icon-generate-demand.png" alt="generate demand" />
 				<h4>Generate Demand</h4>
 				<p>with a unified digital marketing and distribution strategy that expands yourhotel’s global reach.</p>
 				<a class="button2" href="#">LEARN MORE</a>
 			</div>
 		
-			<div class="servicesbox">
+			<div class="servicesbox three">
 				<img src="images/icon-optimize-conversion.png" alt="optimize conversion" />
 				<h4>Optimize Conversions</h4>
 				<p>with the industry’s most innovative web platform and booking engine.</p>
 				<a class="button2" href="#">LEARN MORE</a>
 			</div>
 		
-			<div class="servicesbox">
+			<div class="servicesbox four">
 				<img src="images/icon-maximize-revenue.png" alt="maximize revenue" />
 				<h4>Maximize Revenue</h4>
 				<p>with powerful pricing tools and analytics to make the most from your inventory.</p>
