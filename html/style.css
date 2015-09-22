@@ -2566,6 +2566,8 @@ ul.checklist li {
 
 .template-revup #pagebanner p {
   width: 60%;
+  max-width: 330px;
+  line-height: 20px;
 }
 
 .revup-layer {
@@ -2578,8 +2580,13 @@ ul.checklist li {
   max-width: 1540px;
 }
 
+.revup-layer p {
+	font-size: 18px;
+	line-height: 34px;
+}
+
 .revup-layer h3 {
-  font-size: 30px;
+  font-size: 36px;
   letter-spacing: 0.015em;
   padding-bottom: 10px;
   font-weight: 300;
@@ -2594,15 +2601,26 @@ ul.checklist li {
 }
 
 #revup-layer-1 {
-  padding: 0 0 40px;
+  background: url('images/revup-track-monitor.jpg') no-repeat scroll 0 50px transparent; 
 }
 
-#revup-layer-1 img {
-  max-width: 94%;
+#revup-layer-1 .container {
+  min-height: 423px;
+  padding: 50px 0;
+  max-width: 1600px;
+}
+
+#revup-layer-1 .spacing h3 {
+	margin: 0 0 10px;
 }
 
 #revup-layer-1 .spacing {
-  margin-top: 50px;
+	padding: 0;
+	width: 350px;
+}
+
+#revup-layer-1 .right {
+	float: right;
 }
 
 #revup-layer-1 .module2 {
@@ -2611,21 +2629,27 @@ ul.checklist li {
 }
 
 #revup-layer-2 {
-  background-color: #f6f6f6;
-}
-
-#revup-layer-2 .col_three_fourth {
-  text-align: right;
-}
-
-#revup-layer-2 .spacing {
-  margin-top: 200px;
-  margin-left: 40px;
+  background: url('images/revup-layer-2.jpg') no-repeat scroll right bottom #f6f6f6; 
 }
 
 #revup-layer-2 h4 {
-  font-size: 18px;
+  font-size: 24px;
 }
+
+#revup-layer-2 .container {
+	padding: 150px 0;
+	max-width: 1600px;
+}
+
+#revup-layer-2 .spacing {
+	padding: 0 0 0 100px;
+	width: 400px;
+}
+#revup-layer-2 .spacing h4 {
+	margin: 0 0 10px;
+}
+
+
 
 #revup-layer-3 {
   padding: 60px 0;

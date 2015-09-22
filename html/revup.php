@@ -32,21 +32,15 @@ include('header.php');
 	<div id="revup-layer-1" class="revup-layer">
 	
 		<div class="container">
-		
-			<div class="col_one_half">
-				<img src="images/revup-track-monitor.jpg" alt="Designed to convert" />
-			</div>
 			
-			<div class="col_one_fourth">
+			<div class="col_one_half right">
 				<div class="spacing">
 					<h3>Track and monitor demand trends</h3>
 					<p>Make smart decisions based on historical and future data. RevUp’s powerful hotel revenue management dashboard includes pace calendars, on-the-books stats, variance of current vs. last year figures, as well as foward-looking demand data for many markets.</p>
 				</div>
 			</div>
 			
-			<div class="col_one_fourth">
-			
-			</div>
+			<div class="clear"></div>
 			
 			<!-- <div class="module2">
 					<div class="spacing2">
@@ -66,17 +60,16 @@ include('header.php');
 	
 		<div class="container">
 		
-			<div class="col_one_fourth">
+			<div class="col_one_half">
 				<div class="spacing">
 					<h3>Powerful reports</h3>
+					<h4>Automated Best Rate Guarantee</h4>
 					<p>RevUp captures daily revenue performance, eliminates the time associated with gathering historical data, and provides instant analytical reports. It gives users powerful tools, such as pickup and pace-by-day reports that analyze revenue projects across key hotel metrics. </p>
 				</div>
 			</div>
 			
-			<div class="col_three_fourth">
-				<img src="images/revup-layer-2.jpg" alt="revup2" />
-			</div>
-
+			<div class="clear"></div>
+			
 		</div>
 		
 	</div>
