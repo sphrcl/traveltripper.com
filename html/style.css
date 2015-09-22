@@ -455,12 +455,16 @@ li.icon-revenue-management { background: url(images/icon-revenue-management.png)
   clear: both;
 }
 
+#footer ul {
+	padding: 0;
+}
+
 #footer p {
 	font-weight: 300;
 }
 
 #footer .container {
-  margin: 60px 50px 30px;
+  padding: 50px;
   overflow: hidden;
 }
 
@@ -479,19 +483,48 @@ li.icon-revenue-management { background: url(images/icon-revenue-management.png)
 	  font-weight: 900;
 	}
 
+
+#footer .col_one_fourth.one .footernav {
+	max-width: 250px;
+	padding: 0 25px 0 0;
+}
+
+#footer .col_one_fourth.one .footernav img {
+	max-width: 100%;
+}
+
+#footer .col_one_fourth.one .footernav p {	
+	font-size: 17px;
+	text-align: right;
+	padding: 0;
+}
+
+#footer .col_one_fourth.two .footernav {
+	padding: 0 0 0 30px;
+}
+
+#footer .footeradd {
+	position: relative;
+}
+
 #footer .footeradd i {
-  vertical-align: top;
-  color: #33a1cc;
-  margin-top: 4px;
+  color: #33A1CC;
+  font-size: 18px;
+  line-height: 24px;
+  position: absolute;
+  left: -6px;
 }
 
 #footer .footeradd p {
-  padding-left: 5px;
-  display: inline-block;
+  padding: 0 0 0 20px;
   font-size: 16px;
-  line-height: 1.8;
+  line-height: 28px;
   color: #4d4d4d;
   font-weight: 400;
+}
+
+#footer .footersocial {
+	padding: 0 0 0 40px;
 }
 
 #footer .footersocial ul {
@@ -502,8 +535,6 @@ li.icon-revenue-management { background: url(images/icon-revenue-management.png)
   display: inline-block;
   font-size: 25px;
   margin: 0 5px;
-
-
 
   transition: all 0.5s ease;
   -o-transition: all 0.5s ease;
@@ -533,19 +564,6 @@ li.icon-revenue-management { background: url(images/icon-revenue-management.png)
 }
 
 
-#footer .col_one_fourth.one .footernav {
-	max-width: 250px;
-}
-
-#footer .col_one_fourth.one .footernav img {
-	max-width: 100%;
-}
-
-#footer .col_one_fourth.one .footernav p {	
-	font-size: 17px;
-	text-align: right;
-	padding: 0;
-}
 
 
 /* HOMEPAGE BANNER */
