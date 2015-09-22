@@ -77,7 +77,7 @@ include('header.php');
 					<div class="spacing">
 						<img src="images/about-pj.png" alt="pj" />
 						<h4>PJ MacIntyre</h4>
-						<p>Senior Director of Sales and Business Development</p>
+						<p>Senior Director of Sales <br>and Business Development</p>
 					</div>
 				</div>
 				
@@ -95,17 +95,17 @@ include('header.php');
 					<h3>Why we are different</h3>
 				</div>
 				
-				<div class="col_one_fourth two diff">
+				<div class="col_one_fourth two">
 					<div class="spacing">
-						<p><strong>We are a full-service shop.<br/>
-						We build modern solutions.<br/>
-						We are built by hoteliers for hoteliers.<br/>
-						We are tied to your success.<br/>
-						We are a part of your team.</strong></p>
+						<p>We are a full-service shop.</p>
+						<p>We build modern solutions.</p>
+						<p>We are built by hoteliers <br>for hoteliers.</p>
+						<p>We are tied to your success.</p>
+						<p>We are a part of your team.</p>
 					</div>
 				</div>
 					
-				<div class="col_one_fourth three diff">
+				<div class="col_one_fourth three">
 					<div class="spacing">
 						<p>At Travel Tripper, being direct is not just a distribution strategy; it’s our philosophy. Innovation is in our nature, and we constantly strive to find ways to make our solutions and services better, faster, and more powerful. Because with us, our success depends—directly—on yours.</p>
 					</div>
@@ -125,29 +125,29 @@ include('header.php');
 					<h3>Working for Travel Tripper</h3>
 				</div>
 				
-				<div class="col_one_fourth two diff">
+				<div class="col_one_fourth two">
 					<div class="spacing">
 						<p>Travel Tripper is a young and dynamic, profitable, fast-growing company based in Manhattan. Our team is comprised of professionals that bring their expertise in the hotel industry itself, marketing, technology, and more. </p>
 					</div>
 				</div>
 				
-				<div class="col_one_fourth three diff">
+				<div class="col_one_fourth three">
 					<div class="spacing">
-						<p>We work together collaboratively and cross-functionally to brainstorm, refine, and then shape new ideas into great products for our customers.</p>
-						<p>For any additional questions, email careers@traveltripper.com</p>
+						<p class="one">We work together collaboratively and cross-functionally to brainstorm, refine, and then shape new ideas into great products for our customers.</p>
+						<p class="two">For any additional questions, email <a href="mailto:careers@traveltripper.com">careers@traveltripper.com</a>
 					</div>
 				</div>
 				
 				<div class="col_one_fourth four">
 					<div class="spacing">
-						<p><strong>OPEN POSITIONS:</strong></p>
+						<p>Open positions:</p>
 						<ul>
 							<li>Revenue Analyst New York, NY</li>
 							<li>Finance &amp; Admin. Associat New York, NY</li>
 							<li>Business Development Director<br/>
 							US: Major Metro Areas</li>
 						</ul>
-						<p><strong>SEE ALL OPEN POSITIONS</strong></p>
+						<a href="#">SEE ALL OPEN POSITIONS</a>
 					</div>
 				</div>
 				

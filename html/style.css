@@ -461,6 +461,7 @@ li.icon-revenue-management { background: url(images/icon-revenue-management.png)
 
 #footer p {
 	font-weight: 300;
+	color: #282828;
 }
 
 #footer .container {
@@ -473,7 +474,7 @@ li.icon-revenue-management { background: url(images/icon-revenue-management.png)
 }
 
 #footer .footernav ul li a {
-  color: #4d4d4d;
+  color: #282828;
   font-weight: 400;
   font-size: 17px;
 }
@@ -1433,7 +1434,7 @@ div#breadcrumbs a {
 }
 
 div#breadcrumbs .container {
-	padding: 50px 0 50px 50px;
+	padding: 30px 0 30px 40px;
 }
 
 /* MAIN STYLES - pagesection */
@@ -1494,10 +1495,6 @@ div#breadcrumbs .container {
 	padding: 0;
 }
 
-#aboutmain .pagesection .spacing strong {
-  line-height: 2.5;
-}
-
 #aboutmain .pagesection .spacing p {
 	padding: 0;
 }
@@ -1510,11 +1507,25 @@ div#breadcrumbs .container {
 	margin: -4px 0 0;
 }
 
-#aboutmain .strategic .container,
 #aboutmain .leadership .container,
 #aboutmain .different .container,
 #aboutmain .working .container {
 	padding: 50px 0 50px 40px;
+}
+
+#aboutmain .leadership,
+#aboutmain .working {
+  background-color: #f6f6f6;
+}
+
+
+
+#aboutmain .strategic .container {
+	padding: 0 0 50px 40px;
+}
+
+#aboutmain .strategic .spacing {
+	padding: 0;
 }
 
 #aboutmain .strategic.pagesection .spacing p {
@@ -1522,21 +1533,96 @@ div#breadcrumbs .container {
 	line-height: 36px;
 }
 
-#aboutmain .leadership {
-  background-color: #f6f6f6;
-}
+
 
 #aboutmain .leadership .spacing {
   text-align: center;
 }
 
+#aboutmain .leadership img {
+	margin: 0 0 30px;
+}
+
 #aboutmain .leadership h4 {
   font-size: 24px;
-  margin: 30px 0 5px;
+  margin: 0 0 4px;
+  font-weight: 500;
 }
 
 #aboutmain .leadership p {
-  line-height: 1.5;
+	font-size: 18px;
+	line-height: 28px;
+}
+
+
+
+#aboutmain .different .spacing {
+	padding: 0;
+}
+
+#aboutmain .different .col_one_fourth.two .spacing {
+	padding: 0 40px 0 0;
+}
+
+#aboutmain .different .col_one_fourth.two p {
+	font-size: 23px;
+	line-height: 34px;
+	font-weight: 700;
+	padding: 0 0 15px;
+}
+
+#aboutmain .different .col_one_fourth.three p {
+	font-size: 18px;
+	line-height: 34px;
+	font-weight: 100;
+}
+
+
+
+#aboutmain .working .spacing {
+	padding: 0 40px 0 0;
+}
+
+#aboutmain .working p {
+	font-size: 18px;
+	line-height: 34px;
+	font-weight: 100;
+}
+
+#aboutmain .working a {
+	font-size: 18px;
+	line-height: 34px;
+	color: #4d4d4d;
+	font-weight: 100;
+}
+	#aboutmain .working a:hover { color: #249FCD;}
+
+#aboutmain .working .col_one_fourth.four .spacing {
+	padding: 0;
+}
+
+#aboutmain .working .col_one_fourth.three p.one {
+	padding: 0 0 30px;
+}
+
+#aboutmain .working .col_one_fourth.four p {
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+#aboutmain .working .col_one_fourth.four a {
+	text-transform: uppercase;
+}
+
+#aboutmain .working .col_one_fourth.four ul {
+	padding: 0 0 20px 20px;
+}
+	
+#aboutmain .working .col_one_fourth.four ul li {
+	list-style: outside none disc;
+	font-size: 18px;
+	line-height: 34px;
+	font-weight: 100;
 }
 
 
