@@ -7,7 +7,7 @@ b, i,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, figcaption, figure, 
+article, aside, canvas, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section, summary,
 time, mark, audio, video, button, textarea, a {
   	background: transparent;
@@ -20,9 +20,9 @@ time, mark, audio, video, button, textarea, a {
 	font-weight: normal;
 	color: #4d4d4d;
 	font-family: MuseoSans, "Arial", "Helvetica"
-}                  
+}
 article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section { 
+footer, header, hgroup, menu, nav, section {
     display:block;
 }
 blockquote, q { quotes:none; }
@@ -51,7 +51,7 @@ html {
 	height: 100%;
 }
 
-.no-boxshadow input:invalid, 
+.no-boxshadow input:invalid,
 .no-boxshadow textarea:invalid {  }
 
 /* By default the selection color is pink */
@@ -76,7 +76,7 @@ ul li {
 p {
 	font-family: MuseoSans, Arial;
 	font-size: 13px;
-	line-height: 22px;	
+	line-height: 22px;
 	font-weight: 100;
 }
 
@@ -131,9 +131,9 @@ a img {border:0}
 
 /* Float Definitions -----------------------------------------------------------*/
 
-.clear {clear:both;} 
+.clear {clear:both;}
 
-.right {float: right;} 
+.right {float: right;}
 
 .left {float: left;}
 
@@ -178,7 +178,7 @@ img.right, img.alignright {float: right;margin: 0 0 7px 15px;}
 .col_one_fourth.two p {
  line-height: 28px;
  padding: 0;
- font-weight: 100;	
+ font-weight: 100;
 }
 
 .col_three_fourth {
@@ -270,8 +270,9 @@ strong {
 /* Base Styles -----------------------------------------------------------*/
 
 #wrapper {
-	height: 100%;
-	width: 100%;
+    height: 100%;
+    width: 100%;
+    position: relative;
 }
 
 /* HEADER */
@@ -330,7 +331,7 @@ strong {
   font-family: MuseoSans;
   font-weight: 500;
   display: block;
-  
+
   transition: none;
   -webkit-transition: none;
   -moz-transition: none;
@@ -342,7 +343,7 @@ strong {
 	  color: #ec9103;
 	  /* font-weight: 900; */
 	}
-	
+
 	#header .navigation ul li a:after {
 		display:block;
 		content:attr(title);
@@ -353,7 +354,7 @@ strong {
 		visibility:hidden;
 		margin-bottom:-1px;
 	}
-	
+
 #header .navigation ul li ul.subnavigation {
   opacity: 0;
   visibility: hidden;
@@ -388,7 +389,7 @@ li.icon-booking-engine { background: url(images/icon-booking-engine.png) no-repe
 li.icon-web-mobile { background: url(images/icon-web-mobile.png) no-repeat center right;}
 li.icon-digital-marketing { background: url(images/icon-digital-marketing.png) no-repeat center right;}
 li.icon-revenue-management { background: url(images/icon-revenue-management.png) no-repeat center right;}
-	
+
 #header .rightnav {
   float: right;
 }
@@ -494,7 +495,7 @@ li.icon-revenue-management { background: url(images/icon-revenue-management.png)
 	max-width: 100%;
 }
 
-#footer .col_one_fourth.one .footernav p {	
+#footer .col_one_fourth.one .footernav p {
 	font-size: 17px;
 	text-align: right;
 	padding: 0;
@@ -564,11 +565,12 @@ li.icon-revenue-management { background: url(images/icon-revenue-management.png)
 }
 
 
-
+#main, #bigmain {
+    background: #fff;
+}
 
 /* HOMEPAGE BANNER */
 #banner {
-  background: url('images/banner1.jpg') no-repeat scroll center center transparent;
   background-size: cover;
   height: 100%;
   width: 100%;
@@ -805,11 +807,11 @@ li.icon-revenue-management { background: url(images/icon-revenue-management.png)
 	background: url('images/crs-graph.jpg') no-repeat scroll 0 0 transparent;
 	height: 591px;
 	width: 100%;
-	
+
 	position: absolute;
 	left: 0;
 	bottom: 0;
-	z-index: -1;
+	z-index: 1;
 }
 
 .engine {
@@ -877,7 +879,7 @@ li.icon-revenue-management { background: url(images/icon-revenue-management.png)
 	background: url('images/icon-travel-tripper.png') no-repeat scroll 0 0 transparent;
 	margin-left: -25px;
 	top: 216px;
-	
+
 	height: 76px;
 	width: 76px;
 }
@@ -885,16 +887,16 @@ li.icon-revenue-management { background: url(images/icon-revenue-management.png)
 .engine .blueline {
 	height: 100px;
 	width: 100px;
-	
+
 	position: absolute;
 	left: 50%;
 }
 	.engine .blueline div { background: url('images/blueline.png') repeat-y scroll center top transparent; width: 100%;}
 
-.engine .blueline1 {	
+.engine .blueline1 {
 	margin-left: -144px;
 	top: 205px;
-	
+
 	transform: rotate(-90deg);
 	-webkit-transform: rotate(-90deg);
 	-moz-transform: rotate(-90deg);
@@ -902,26 +904,26 @@ li.icon-revenue-management { background: url(images/icon-revenue-management.png)
 	-ms-transform: rotate(-90deg);
 }
 
-.engine .blueline2 {	
+.engine .blueline2 {
 	margin-left: -127px;
 	top: 120px;
-	
+
 	transform: rotate(-45deg);
 	-webkit-transform: rotate(-45deg);
 	-moz-transform: rotate(-45deg);
 	-o-transform: rotate(-45deg);
 	-ms-transform: rotate(-45deg);
 }
-	
-.engine .blueline3 {	
+
+.engine .blueline3 {
 	margin-left: -37px;
 	top: 95px;
 }
 
-.engine .blueline4 {	
+.engine .blueline4 {
 	margin-left: 24px;
 	top: 150px;
-	
+
 	transform: rotate(45deg);
 	-webkit-transform: rotate(45deg);
 	-moz-transform: rotate(45deg);
@@ -930,21 +932,21 @@ li.icon-revenue-management { background: url(images/icon-revenue-management.png)
 }
 
 
-.engine .blueline5 {	
+.engine .blueline5 {
 	margin-left: 47px;
 	top: 205px;
-	
+
 	transform: rotate(90deg);
 	-webkit-transform: rotate(90deg);
 	-moz-transform: rotate(90deg);
 	-o-transform: rotate(90deg);
 	-ms-transform: rotate(90deg);
 }
-	
+
 .bluelinea {
 	background: url('images/blueline-arrow.png') no-repeat scroll center bottom transparent;
 	width: 10px;
-	
+
 	margin-left: 10px;
 	position: absolute;
 	top: 311px;
@@ -1022,7 +1024,8 @@ li.icon-revenue-management { background: url(images/icon-revenue-management.png)
 	-o-transition: all 0.8s ease 2.3s;
 	-ms-transition: all 0.8s ease 2.3s;
 }
-	.graphics.active .topgraph { opacity: 1;}
+	.graphics.active .topgraph { opacity: 1;     position: relative;
+    z-index: 2; }
 
 .graphss {
 	width: 0;
@@ -1041,6 +1044,7 @@ li.icon-revenue-management { background: url(images/icon-revenue-management.png)
 	-moz-transition: all 0.8s ease 3.5s;
 	-o-transition: all 0.8s ease 3.5s;
 	-ms-transition: all 0.8s ease 3.5s;
+        z-index: 2;
 }
 	.graphics.active .module { opacity: 1;}
 
@@ -1050,7 +1054,7 @@ li.icon-revenue-management { background: url(images/icon-revenue-management.png)
 /* HOMEPAGE BOOKING ENGINE */
 
 #bigmain {
-	margin: 50px 0;
+	padding: 50px 0;
 }
 
 #bigmain .container {
@@ -1062,7 +1066,7 @@ li.icon-revenue-management { background: url(images/icon-revenue-management.png)
 #bigmain .left,
 #bigmain .right {
 	width: 50%;
-	
+
 }
 
 .bkimg {
@@ -1084,7 +1088,7 @@ li.icon-revenue-management { background: url(images/icon-revenue-management.png)
 	margin-bottom: 20px;
 	font-weight: 300;
 }
-	
+
 	.bk-macico {
 		background: url('images/be-laptop.png') no-repeat scroll 0 0 transparent;
 		display: inline-block;
@@ -1092,7 +1096,7 @@ li.icon-revenue-management { background: url(images/icon-revenue-management.png)
 		height: 27px;
 		margin: 0 15px 0 10px;
 	}
-	
+
 	.bk-phoneico {
 		background: url('images/be-phone.png') no-repeat scroll 0 0 transparent;
 		display: inline-block;
@@ -1312,7 +1316,7 @@ div#calltoaction2 input {
 }
 
 div#calltoaction2 .stacked {
-  margin-top: 15px;	
+  margin-top: 15px;
 }
 
 
@@ -1621,7 +1625,7 @@ div#pagetitle h1 {
 #aboutmain .working .col_one_fourth.four ul {
 	padding: 0 0 20px 20px;
 }
-	
+
 #aboutmain .working .col_one_fourth.four ul li {
 	list-style: outside none disc;
 	font-size: 18px;
@@ -1897,8 +1901,8 @@ img.featured-image {
   margin-bottom: 20px;
 }
 
-h1.blogtitle, 
-h2.blogtitle, 
+h1.blogtitle,
+h2.blogtitle,
 .entry h2 {
   color: #34a4d9;
   font-size: 30px;
@@ -1908,8 +1912,8 @@ h2.blogtitle,
   margin-bottom: 20px;
 }
 
-h1.blogtitle a, 
-h2.blogtitle a, 
+h1.blogtitle a,
+h2.blogtitle a,
 .entry h2 a {
   color: #34a4d9;
 }
@@ -2651,7 +2655,7 @@ ul.checklist li {
 }
 
 #revup-layer-1 {
-  background: url('images/revup-track-monitor.jpg') no-repeat scroll 0 50px transparent; 
+  background: url('images/revup-track-monitor.jpg') no-repeat scroll 0 50px transparent;
 }
 
 #revup-layer-1 .container {
@@ -2808,7 +2812,7 @@ ul.checklist li {
 
 #webmobilelayer1 .webtable {
 	display: table;
-	height: 250px;	
+	height: 250px;
 }
 
 #webmobilelayer1 .webtable div {
@@ -3129,4 +3133,16 @@ span.dm-up {
 }
 
 
+
+/* PLUGIN - BIG VIDEO -----------------------------------------------------------*/
+
+#bigvideo {
+    z-index: -1;
+}
+
+.vjs-control-bar,
+.vjs-error-display,
+.vjs-caption-settings {
+    display: none;
+}
 
