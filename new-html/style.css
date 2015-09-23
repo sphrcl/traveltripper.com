@@ -1281,18 +1281,18 @@ div#calltoaction2 input {
   font-family: inherit;
 }
 
-div#calltoaction2 .stacked {
+#calltoaction2 .stacked {
   margin-top: 15px;
 }
 
 
 /* PAGE TEMPLATE */
-div#mainpage {
+#mainpage {
   clear: both;
   overflow: hidden;
 }
 
-div#mainpage .container {
+#mainpage .container {
   margin: 0 60px 30px;
   overflow: hidden;
 }
@@ -1303,7 +1303,7 @@ div#mainpage .container {
 }
 
 /* PAGE TITLE */
-div#pagetitle {
+#pagetitle {
   background-color: #32a1cc;
   color: #fff;
   /*border-bottom: 20px solid #f1f1f2;*/
@@ -1311,11 +1311,11 @@ div#pagetitle {
   margin: 60px 0 0;
 }
 
-div#pagetitle .container {
+#pagetitle .container {
   padding: 40px 60px;
 }
 
-div#pagetitle h1 {
+#pagetitle h1 {
   color: #fff;
   font-size: 40px;
   line-height: 60px;
@@ -1694,102 +1694,130 @@ div#pagetitle h1 {
 }
 
 /* RESOURCES */
-div#pagetitle.resources .container {
-  padding: 40px 20px;
+
+.template-resources #pagetitle {
+	margin: 72px 0 0;
 }
 
-div#resourcesmain {
-  clear: both;
-  overflow: hidden;
+.template-resources #pagetitle .container {
+  padding: 30px 0;
 }
 
-div#resourcesmain .container {
-  margin: 0 20px;
-  overflow: hidden;
+#resourcesmain {
+}
+
+#resourcesmain .container {
+  background-color: #fff;
+  padding: 30px 0;
   position: relative;
 }
 
-div#resourcesmain .respic {
+#resourcesmain .subcontainer {
+	padding: 0 30px;
+	position: relative;
+}
+
+#resourcesmain .respic {
   width: 50%;
   float: left;
 }
 
-div#resourcesmain .respic img {
-  max-width: 100%;
+#resourcesmain .respic .spacing {
+	padding: 0 15px 0 0;
 }
 
-div#resourcesmain .resinfo {
-  float: left;
+#resourcesmain .respic a {
+	background-size: 100% auto;
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-position:  center center;
+	background-color: transparent;
+	
+	display: block;
+	width: 100%;
+	height: 525px;
+}
+
+
+#resourcesmain .resinfo {
   width: 50%;
-}
-
-div#resourcesmain .resinfo .spacing {
-  padding: 20px;
   position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+#resourcesmain .resinfo .spacing {
+  padding: 0 30px 0 15px;
   bottom: 0;
 }
 
-div#resourcesmain .category {
+#resourcesmain .category {
   color: #eb9223;
   font-size: 14px;
+  padding: 0 0 10px;
   font-weight: 500;
-  line-height: 40px;
   letter-spacing: -0.01em;
 }
 
-div#resourcesmain h2 {
+#resourcesmain h2 {
   color: #34a4d9;
   font-size: 36px;
   font-weight: 500;
   line-height: 48px;
   letter-spacing: -0.01em;
+  padding: 0 0 30px;
 }
 
-div#resourcesmain h2 a {
+#resourcesmain h2 a {
   color: #34a4d9;
 }
 
-div#resourcesmain p {
+#resourcesmain p {
   color: #616161;
   font-size: 28px;
   font-weight: 100;
   line-height: 36px;
+  padding: 0;
 }
 
-div#resourceslist {
-  clear: both;
-  background-color: #f1f1f2;
-  overflow: hidden;
+#resourceslist {
+	background-color: #f1f1f2;
 }
 
-div#resourceslist .container {
-  padding: 20px 10px 40px;
-  overflow: hidden;
+#resourceslist .container {
+	padding: 30px 0 35px;
 }
 
-div#resourceslist .resourcebox {
+#resourceslist .subcontainer {
+	padding: 0 15px;
+}
+
+#resourceslist .resourcebox {
   float: left;
   width: 25%;
 }
 
-div#resourceslist .resourcebox:nth-child(5n) {
-  clear: left;
-}
-
-div#resourceslist .resourcebox .spacing {
-  margin: 10px;
+#resourceslist .resourcebox .spacing {
+  margin: 0 15px 30px;
   background-color: #fff;
   -webkit-box-shadow: -2px 2px 2px #cdcbcb;
   -moz-box-shadow: -2px 2px 2px #cdcbcb;
   box-shadow: -2px 2px 2px #cdcbcb;
 }
 
-div#resourceslist .resourcebox img {
+#resourceslist .resourcebox .resourceimg {
+	background-size: 100% auto;
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-position:  center center;
+	background-color: transparent;
+  
+  display: block;
   width: 100%;
-  max-width: 100%;
+  height: 245px;
 }
 
-div#resourceslist .resourcebox .category {
+#resourceslist .resourcebox .category {
   padding: 10px 20px;
   color: #eb9223;
   font-size: 14px;
@@ -1798,16 +1826,16 @@ div#resourceslist .resourcebox .category {
   letter-spacing: -0.01em;
 }
 
-div#resourceslist .resourcebox h3 {
+#resourceslist .resourcebox h3 {
   padding: 10px 20px;
   color: #34a4d9;
   font-size: 20px;
   font-weight: 500;
   line-height: 30px;
-  min-height: 90px;
+  min-height: 120px;
 }
 
-div#resourceslist .resourcebox h3 a {
+#resourceslist .resourcebox h3 a {
   color: #34a4d9;
 }
 

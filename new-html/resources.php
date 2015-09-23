@@ -3,6 +3,7 @@
 	$description = '';
 	$pagetitle = 'Resources';
 	$image = '';
+	$template_class = "template-resources";
 
 include('header.php'); 
 
@@ -11,9 +12,11 @@ include('header.php');
 	<div id="pagetitle" class="resources">
 	
 		<div class="container">
+		<div class="subcontainer">
 	
 			<h1><?php echo $pagetitle; ?></h1>
 		
+		</div>
 		</div>
 		
 	</div>
@@ -29,8 +32,12 @@ include('header.php');
 	<div id="resourcesmain">
 	
 		<div class="container">
+		<div class="subcontainer">
+			
 			<div class="respic">
-				<a href="#"><img src="images/mayfair.jpg" alt="mayfair" /></a>
+				<div class="spacing">
+					<a href="#" style="background-image: url('images/mayfair.jpg');"></a>
+				</div>
 			</div>
 			
 			<div class="resinfo">
@@ -43,7 +50,10 @@ include('header.php');
 				</div>
 			
 			</div>
+			
+			<div class="clear"></div>
 
+		</div>
 		</div>
 
 	</div>
@@ -51,79 +61,84 @@ include('header.php');
 	<div id="resourceslist">
 	
 		<div class="container">
+		<div class="subcontainer">
 		
-			<div class="resourcebox">
+			<div class="resourcebox one">
 				<div class="spacing">
-					<a href="#"><img src="images/resources1.jpg" alt="resources1" /></a>
+					<a class="resourceimg" href="#" style="background-image: url('images/resources1.jpg');"></a>
 					<div class="category">ARTICLE</div>
 					<h3><a href="#">Spot The Conversion Killers</a></h3>
 				</div>
 			</div>
 			
-			<div class="resourcebox">
+			<div class="resourcebox two">
 				<div class="spacing">
-					<a href="#"><img src="images/resources2.jpg" alt="resources2" /></a>
+					<a class="resourceimg" href="#" style="background-image: url('images/resources2.jpg');"></a>
 					<div class="category">ARTICLE</div>
 					<h3><a href="#">Tnooz: Hotels, OTAs battle tech solution</a></h3>
 				</div>
 			</div>
 			
-			<div class="resourcebox">
+			<div class="resourcebox three">
 				<div class="spacing">
-					<a href="#"><img src="images/resources3.jpg" alt="resources3" /></a>
+					<a class="resourceimg" href="#" style="background-image: url('images/resources3.jpg');"></a>
 					<div class="category">ARTICLE</div>
 					<h3><a href="#">Skift: Will Rethinking Metasearch Increase Direct Bookings for Hotels?</a></h3>
 				</div>
 			</div>
 			
-			<div class="resourcebox">
+			<div class="resourcebox four">
 				<div class="spacing">
-					<a href="#"><img src="images/resources4.jpg" alt="resources4" /></a>
+					<a class="resourceimg" href="#" style="background-image: url('images/resources4.jpg');"></a>
 					<div class="category">ARTICLE</div>
 					<h3><a href="#">Skift: Paradox of Choice</a></h3>
 				</div>
 			</div>
 			
-			<div class="resourcebox">
+			<div class="clear clear4"></div>
+			
+			<div class="resourcebox one">
 				<div class="spacing">
-					<a href="#"><img src="images/resources1.jpg" alt="resources1" /></a>
+					<a class="resourceimg" href="#" style="background-image: url('images/resources1.jpg');"></a>
 					<div class="category">ARTICLE</div>
 					<h3><a href="#">Spot The Conversion Killers</a></h3>
 				</div>
 			</div>
 			
-			<div class="resourcebox">
+			<div class="resourcebox two">
 				<div class="spacing">
-					<a href="#"><img src="images/resources2.jpg" alt="resources2" /></a>
+					<a class="resourceimg" href="#" style="background-image: url('images/resources2.jpg');"></a>
 					<div class="category">ARTICLE</div>
 					<h3><a href="#">Tnooz: Hotels, OTAs battle tech solution</a></h3>
 				</div>
 			</div>
 			
-			<div class="resourcebox">
+			<div class="resourcebox three">
 				<div class="spacing">
-					<a href="#"><img src="images/resources3.jpg" alt="resources3" /></a>
+					<a class="resourceimg" href="#" style="background-image: url('images/resources3.jpg');"></a>
 					<div class="category">ARTICLE</div>
 					<h3><a href="#">Skift: Will Rethinking Metasearch Increase Direct Bookings for Hotels?</a></h3>
 				</div>
 			</div>
 			
-			<div class="resourcebox">
+			<div class="resourcebox four">
 				<div class="spacing">
-					<a href="#"><img src="images/resources4.jpg" alt="resources4" /></a>
+					<a class="resourceimg" href="#" style="background-image: url('images/resources4.jpg');"></a>
 					<div class="category">ARTICLE</div>
 					<h3><a href="#">Skift: Paradox of Choice</a></h3>
 				</div>
 			</div>
 			
-			
+			<div class="clear clear4"></div>
 		
+		</div>
 		</div>
 		
 	</div>
 	
 	<div id="calltoaction2">
 		<div class="container">
+		<div class="subcontainer">
 		
 			<div class="col_one_fourth">
 				<h3>Book more. <br>Be direct.</h3>
@@ -144,7 +159,10 @@ include('header.php');
 			<div class="col_one_fourth stacked">
 				<a class="button3" href="#">REQUEST A DEMO</a>
 			</div>
+			
+			<div class="clear"></div>
 
+		</div>
 		</div>
 	</div>
 
