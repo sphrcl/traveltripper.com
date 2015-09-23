@@ -1,0 +1,18 @@
+/* ================================================  1599 - 0000  ================================================ */
+
+@media only screen 
+and (max-width : 1599px) {
+
+	/* Rev Up */
+	
+	#revup-layer-1 .left .spacing,
+	#revup-layer-2 .right,
+	#revup-layer-3 .left .spacing,
+	#revup-layer-4 .right {
+		display: block;
+	}
+	
+	#revup-layer-1, #revup-layer-3 { background: none repeat scroll 0 0 transparent;}
+	#revup-layer-2, #revup-layer-4 { background: none repeat scroll 0 0 #f6f6f6;}
+	
+}
