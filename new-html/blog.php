@@ -3,6 +3,7 @@
 	$description = '';
 	$pagetitle = 'Blog';
 	$image = '';
+	$template_class = "template-blog";
 
 include('header.php'); 
 
@@ -172,6 +173,7 @@ include('header.php');
 	
 	<div id="calltoaction2">
 		<div class="container">
+		<div class="subcontainer">
 		
 			<div class="col_one_fourth">
 				<h3>Newsletter</h3>
@@ -192,7 +194,10 @@ include('header.php');
 			<div class="col_one_fourth" style="margin-top: 10px;">
 				<a class="button3" href="#">SIGN UP</a>
 			</div>
+			
+			<div class="clear"></div>
 
+		</div>
 		</div>
 	</div>
 
