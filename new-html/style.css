@@ -633,7 +633,7 @@ li.icon-revenue-management { background: url(images/icon-revenue-management.png)
   top: 8px;
 }
 
-.servicesbox:first-child:before, .servicesbox:last-child:before {
+.servicesbox.one:before, .servicesbox.four:before {
   background:none;
 }
 
@@ -644,6 +644,7 @@ li.icon-revenue-management { background: url(images/icon-revenue-management.png)
 }
 
 .servicesbox h3 {
+  color: #fff;
   padding-right: 50px;
   text-align: left;
   font-size: 34px;
@@ -651,6 +652,7 @@ li.icon-revenue-management { background: url(images/icon-revenue-management.png)
 }
 
 .servicesbox h4 {
+  color: #fff;
   margin-bottom: 20px;
   font-size: 22px;
   font-weight: 300;
@@ -1117,7 +1119,7 @@ li.icon-revenue-management { background: url(images/icon-revenue-management.png)
 }
 
 .booking-engine {
-	margin-bottom: 100px;
+	padding: 0 0 100px;
 }
 
 .web-engine .bkimg {
@@ -1265,6 +1267,7 @@ li.icon-revenue-management { background: url(images/icon-revenue-management.png)
 }
 
 #calltoaction h3 {
+  color: #fff;
   font-size: 33px;
   font-weight: 300;
   padding-bottom: 20px;
@@ -2439,8 +2442,10 @@ ul.checklist li {
 
 /* PAGE - Booking Engine #################################################################################### */
 
-.template-booking-engine #pagebanner.contentright .container {
-  padding-top: 150px;
+.template-booking-engine #pagebanner .container {
+  padding: 150px 0 0;
+  width: 1600px;
+  margin: 0 auto;
 }
 
 .template-booking-engine #pagebanner p {
@@ -2449,6 +2454,21 @@ ul.checklist li {
 
 .template-booking-engine #breadcrumbs {
   background-color: #f6f6f6;
+}
+
+.template-booking-engine #pagebanner .left {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+
+.template-booking-engine #pagebanner .left .spacing {
+	background: url('images/banner-booking-engine.png') no-repeat scroll center bottom transparent;
+	height: 461px;
+}
+
+.template-booking-engine #pagebanner .right {
+	float: right;
 }
 
 .page-layer {
@@ -2609,20 +2629,20 @@ ul.checklist li {
 	position: absolute;
 	bottom: 0;
 	left: 0;
+	max-width: 795px;
 }
 
 .template-revup #pagebanner .left .spacing {
-	padding: 0 40px 0 0;
-}
-
-.template-revup #pagebanner img {
-	display: block;
-	max-width: 100%;
-	padding: 0 40px 0 0;
+	background: url('images/banner-revup.png') no-repeat scroll right bottom transparent;
+	height: 490px;
 }
 
 .template-revup #pagebanner .right {
 	float: right;
+}
+
+.template-revup #pagebanner .right .spacing {
+	padding: 0 0 0 40px;
 }
 
 .revup-layer {
@@ -3130,6 +3150,7 @@ span.dm-up {
 #pagebanner .button1 i {
     font-size: 19px;
     font-weight: bold;
+	color: #fff;
 }
 
 

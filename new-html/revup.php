@@ -14,19 +14,17 @@ include('header.php');
 		<div class="container">
 			
 			<div class="col_one_half left">
-				<div class="spacing">
-					<img src="images/banner-revup.png" />
-				</div>
+				<div class="spacing"></div>
 			</div>
 			
 			<div class="col_one_half right">
-			
-				<h1>RevUp</h1>
-				<h3>Hotel Revenue<br/>
-				Management Platform</h3>
-				<p>Trending analysis and forecasting tools that help  revenue managers make the best pricing decisions for their hotels.</p>
-				<a class="button1" href="#">ASK FOR QUOTE &nbsp; ></a>
-		
+				<div class="spacing">
+					<h1>RevUp</h1>
+					<h3>Hotel Revenue<br/>
+					Management Platform</h3>
+					<p>Trending analysis and forecasting tools that help  revenue managers make the best pricing decisions for their hotels.</p>
+					<a class="button1" href="#">ASK FOR QUOTE &nbsp; ></a>
+				</div>
 			</div>
 			
 			<div class="clear"></div>

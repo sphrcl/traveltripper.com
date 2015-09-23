@@ -2,20 +2,28 @@
 	
 	$description = '';
 	$pagetitle = 'Booking Engine';
-	$image = 'images/banner-booking-engine.jpg';
+	$image = 'images/banner1.jpg';
 	$template_class = "template-booking-engine";
 
 include('header.php'); 
 
 ?>
 	
-	<div id="pagebanner" class="contentright" style="background-image: url(<?php echo $image; ?>);">
+	<div id="pagebanner" style="background-image: url(<?php echo $image; ?>);">
 	
 		<div class="container">
-	
-			<h1>Booking Engine</h1>
-			<p>Powered by the world’s most innovative booking engine adipiscing elit. Maecenas ut cursus ligula. ROI pharetra consequat dolor non. semper. Nam in ligula dictum, ultrices ante vitae, vitae, sollicitudin. </p>
-			<a class="button1" href="#">ASK FOR QUOTE &nbsp; <i class="fa fa-angle-right"></i></a>
+			
+			<div class="col_one_half left">
+				<div class="spacing"></div>
+			</div>
+			
+			<div class="col_one_half right">
+			
+				<h1>Booking Engine</h1>
+				<p>Powered by the world’s most innovative booking engine adipiscing elit. Maecenas ut cursus ligula. ROI pharetra consequat dolor non. semper. Nam in ligula dictum, ultrices ante vitae, vitae, sollicitudin. </p>
+				<a class="button1" href="#">ASK FOR QUOTE &nbsp; <i class="fa fa-angle-right"></i></a>
+			
+			</div>
 		
 		</div>
 		
