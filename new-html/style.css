@@ -2109,16 +2109,18 @@ h2.blogtitle a,
 }
 
 /* CRS OVERVIEW */
+.template-crs #breadcrumbs {
+	background-color: #f6f6f6;
+}
+
 #crs-overview {
-  background: #f6f6f6;
+  background-color: #f6f6f6;
   background-size: 80%;
   background-position: bottom right;
 }
 
 #crs-overview .container {
-  max-width: 1210px;
-  margin: 0 auto;
-  padding: 40px 360px 40px 30px;
+  padding: 0 370px 40px 0;
   position: relative;
 }
 
@@ -2127,7 +2129,8 @@ h2.blogtitle a,
 }
 
 #crs-overview h3 {
-  font-size: 30px;
+  font-size: 36px;
+  line-height: 48px;
   letter-spacing: 0.015em;
   padding-bottom: 20px;
 }
@@ -2137,9 +2140,9 @@ h2.blogtitle a,
 }
 
 #crs-overview p {
-  font-size: 13px;
+  font-size: 18px;
+  line-height: 28px;
   font-weight: 100;
-  line-height: 26px;
   letter-spacing: 0.015em;
 }
 
@@ -2199,56 +2202,53 @@ li.icon44-pci:before {
 
 
 /* CRS PRICETOOL */
-div#crspricetool {
+#crspricetool {
   clear: both;
   overflow: hidden;
 }
 
-div#crspricetool .container {
-	margin: 60px auto;
-	max-width: 1540px;
-	overflow: hidden;
-	padding: 0 30px;
+#crspricetool .container {
+	padding: 50px 0;
 }
 
-div#crspricetool .spacing {
+#crspricetool .spacing {
   padding-right: 40px;
 }
 
-div#crspricetool img {
+#crspricetool img {
   max-width: 100%;
 }
 
-div#crspricetool h3 {
-  font-size: 30px;
+#crspricetool h3 {
+  font-size: 36px;
+  line-height: 40px;
   color: #454545;
   padding-bottom: 20px;
 }
 
-div#crspricetool p {
+#crspricetool p {
   color: #363636;
-  font-size: 15px;
-  font-weight: 100;
+  font-size: 18px;
   line-height: 28px;
+  font-weight: 100;
 }
 
-div#crspricetool ul {
+#crspricetool ul {
   padding: 20px 0 0 0;
-  overflow: hidden;
-}
-
-div#crspricetool ul li {
-  float: left;
-  width: 40%;
   text-align: center;
 }
 
-div#crspricetool ul li h4 {
-  padding-bottom: 10px;
-  font-size: 15px;
+#crspricetool ul li {
+  width: 45%;
 }
 
-div#crspricetool ul li h4:before {
+#crspricetool ul li h4 {
+  padding-bottom: 10px;
+  font-size: 15px;
+  text-indent: -18px;
+}
+
+#crspricetool ul li h4:before {
   content: '';
   background: url(images/check.png) no-repeat;
   width: 18px;
@@ -2257,9 +2257,9 @@ div#crspricetool ul li h4:before {
   margin-right: 5px;
 }
 
-div#crspricetool ul li p {
-  font-size: 11px;
-  line-height: 20px;
+#crspricetool ul li p {
+  font-size: 12px;
+  line-height: 22px;
 }
 
 #crspricetool .col_two_third {
@@ -2267,33 +2267,32 @@ div#crspricetool ul li p {
 }
 
 /* CRS PMS RMS */
-div#crspmsrms {
+#crspmsrms {
   background-color: #f6f6f6;
   overflow: hidden;
   clear: both;
   border-bottom: 1px solid #d2d2d2;
 }
 
-div#crspmsrms .container {
-	margin: 60px auto;
-	max-width: 1540px;
-	overflow: hidden;
-	padding: 0 30px;
+#crspmsrms .container {
+	padding: 50px 0;
 }
 
-div#crspmsrms .spacing {
+#crspmsrms .spacing {
   padding-right: 40px;
 }
 
-div#crspmsrms h3 {
-  font-size: 30px;
+#crspmsrms h3 {
+  font-size: 36px;
+  line-height: 48px;
   color: #454545;
   padding-bottom: 20px;
 }
 
-div#crspmsrms p {
+#crspmsrms p {
   color: #363636;
-  font-size: 15px;
+  font-size: 18px;
+  line-height: 28px;
   font-weight: 100;
 }
 
@@ -2318,6 +2317,28 @@ ul.checklist li {
   font-size: 16px;
   letter-spacing: -0.005em;
 }
+
+
+#bottombanner.crs .container {
+	padding: 150px 0 0;
+	margin: 0 auto;
+	width: auto;
+}
+
+#bottombanner.crs .subcontainer {
+	width: 50%;
+	float: right;
+}
+
+#bottombanner.crs .spacing {
+	max-width: 550px;
+	padding: 0 30px 0 0;
+}
+
+#bottombanner.crs h3 {
+	padding: 0 0 20px;
+}
+
 
 
 
@@ -3043,9 +3064,6 @@ span.dm-up {
 #bottombanner.dm .container {
 	margin: 0 auto;
 	width: auto;
-}
-
-#bottombanner.dm .subcontainer {
 }
 
 #bottombanner.dm h3 {

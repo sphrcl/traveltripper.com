@@ -3,6 +3,7 @@
 	$description = '';
 	$pagetitle = 'Travel Tripper CRS';
 	$image = 'images/crs-travel-tripper.jpg';
+	$template_class = "template-crs";
 
 include('header.php'); 
 
@@ -19,22 +20,21 @@ include('header.php');
 		</div>
 		
 	</div>
-
-	<!-- <div id="breadcrumbs">
+	
+	
+	<div id="breadcrumbs">
 		<div class="container">
-			<a href="index.php">Home</a> > <a href="#"><?php echo $pagetitle; ?></a>
+		<div class="subcontainer">
+			<a href="index.php">Home</a> <i class="fa fa-angle-right"></i> <a href="#"><?php echo $pagetitle; ?></a>
 		</div>
-	</div> -->
+		</div>
+	</div>
+	
 	
 	<div id="crs-overview">
-		
-		<div id="breadcrumbs">
-			<div class="container">
-				<a href="index.php">Home</a> <i class="fa fa-angle-right"></i> <a href="#"><?php echo $pagetitle; ?></a>
-			</div>
-		</div>
-		
+	
 		<div class="container">
+		<div class="subcontainer">
 		
 			<div class="col_one_third">
 				<div class="spacing">
@@ -92,12 +92,13 @@ include('header.php');
 				<div class="spacing2">
 					<h2>84%</h2>
 					<div class="modulecontent2">
-						<p>Find out how Mayfair Hotel & Spa in Miami increased website revenue by 84% after switching to Travel Tripper CRS.</p>
+						<p>Find out how Mayfair Hotel &amp; Spa in Miami increased website revenue by 84% after switching to Travel Tripper CRS.</p>
 						<a href="#">LEARN MORE</a>
 					</div>
 				</div>
 			</div>
 			
+		</div>
 		</div>
 		
 
@@ -107,6 +108,7 @@ include('header.php');
 	<div id="crspricetool">
 	
 		<div class="container">
+		<div class="subcontainer">
 		
 			<div class="col_one_third">
 			
@@ -117,14 +119,16 @@ include('header.php');
 					<p>Travel Tripper’s central reservation system allows hotels to manage rates and special offers with an unprecedented degree of granularity. Set specific rates based on geography, booking dates, length of stay, type of device, and more.</p>
 					
 					<ul>
-						<li>
+						<li class="left">
 							<h4>Geo-targeted pricing</h4>
 							<p>Using our geographic pricing tools, penetrate new markets with special rates and offers without diluting ADR from the rest of the world, and prevent competitor hotels from knowing your global pricing strategy. </p>
 						</li>
-						<li style="margin-left: 40px;">
+						<li class="right">
 							<h4>Dynamic pricing module</h4>
 							<p>Easily create multiple rate plans, promotions, and special offers targeted to specific markets, and the booking engine will serve up the most attractive offer to guests who meet the qualifying criteria for the promotion.</p>
 						</li>
+						
+						<div class="clear"></div>
 					</ul>
 				
 				</div>
@@ -136,7 +140,10 @@ include('header.php');
 				<img src="images/crs-map.jpg" alt="crs map" />
 				
 			</div>
+			
+			<div class="clear"></div>
 		
+		</div>
 		</div>
 		
 	</div>
@@ -144,6 +151,7 @@ include('header.php');
 	<div id="crspmsrms">
 	
 		<div class="container">
+		<div class="subcontainer">
 		
 			<div class="col_one_third">
 			
@@ -177,27 +185,40 @@ include('header.php');
 					<li><span class="checkbutton">Springer Miller</span></li>
 					<li><span class="checkbutton">Protel</span></li>
 					<li><span class="checkbutton">iDeaS – RMS</span></li>
+					<div class="clear"></div>
 				</ul>
 				
 			</div>
+			
+			<div class="clear"></div>
 		
+		</div>
 		</div>
 		
 	</div>
 	
-	<div id="bottombanner" class="contentright" style="background-image: url(images/crs-travel-tripper-office.jpg);">
+	<div id="bottombanner" class="crs" style="background-image: url(images/crs-travel-tripper-office.jpg);">
 	
 		<div class="container">
-	
-			<h3>Dedicated and personal account service<br />from our expert team</h3>
-			<p>Travel Tripper’s CRS is supported by dedicated team of revenue optimization and marketing experts that will guide your hotel to success. Our integrated client services and customer support teams allow for a single point of contact so you can quickly get the answers and help that you need. </p>
+		<div class="subcontainer">
+			<div class="spacing">
 			
+				<h3>Dedicated and personal account service from our expert team</h3>
+				<p>Travel Tripper’s CRS is supported by dedicated team of revenue optimization and marketing experts that will guide your hotel to success. Our integrated client services and customer support teams allow for a single point of contact so you can quickly get the answers and help that you need. </p>
+			
+			</div>
+			
+		</div>
+		
+		<div class="clear"></div>
+		
 		</div>
 		
 	</div>
 	
 	<div id="calltoaction2">
 		<div class="container with-text">
+		<div class="subcontainer">
 		
 			<div class="col_one_fourth">
 				<h3>It’s time to be more direct.</h3>
@@ -222,7 +243,10 @@ include('header.php');
 			<div class="col_one_fourth">
 				<a class="button3 with-text-butt" href="#">REQUEST A DEMO</a>
 			</div>
-
+			
+			<div class="clear"></div>
+			
+		</div>
 		</div>
 	</div>
 
