@@ -775,39 +775,6 @@ li.icon-revenue-management { background: url(images/icon-revenue-management.png)
 	height: 591px;
 }
 
-.module {
-	bottom: 100px;
-	position: absolute;
-	right: 0;
-}
-
-.module h2 {
-	float: left;
-	color: #ec9103;
-	font-size: 24px;
-	font-weight: 700;
-	margin-right: 10px;
-}
-
-.module p {
-	font-size: 13px;
-	color: #363636;
-	line-height: 24px;
-	font-weight: 300;
-	padding: 0 0 10px;
-}
-
-.module a {
-	color: #ec9103;
-	font-size: 13px;
-	font-weight: 500;
-}
-
-.modulecontent {
-	float: left;
-	width: 220px;
-}
-
 .graphss {
 	background: url('images/crs-graph.jpg') no-repeat scroll 0 0 transparent;
 	height: 591px;
@@ -1171,15 +1138,7 @@ li.icon-revenue-management { background: url(images/icon-revenue-management.png)
 
 /* HOMEPAGE BOOKING ENGINE ANIMATIONS */
 
-.modmove {
-	opacity: 0;
-	transition: all 0.4s ease 0s;
-	-webkit-transition: all 0.4s ease 0s;
-	-moz-transition: all 0.4s ease 0s;
-	-o-transition: all 0.4s ease 0s;
-	-ms-transition: all 0.4s ease 0s;
-}
-	.modmove.sticky { opacity: 1;}
+
 
 
 
@@ -1429,7 +1388,7 @@ div#pagetitle h1 {
   color: #fff;
   font-size: 18px;
   font-weight: 100;
-  line-height: 33px;
+  line-height: 34px;
 }
 
 
@@ -2949,20 +2908,12 @@ ul.checklist li {
   background-color: #f6f6f6;
 }
 
-.dm-layer {
-  overflow: hidden;
-}
-
 .dm-layer .container {
   position: relative;
-  margin: 0 auto;
-  max-width: 1540px;
 }
 
 .dm-layer h3 {
-  font-size: 30px;
   letter-spacing: 0.015em;
-  padding-bottom: 50px;
 }
 
 .dm-layer h4 {
@@ -2983,15 +2934,18 @@ ul.checklist li {
 
 #dm-layer-1 {
   background: #f6f6f6;
-  overflow: visible;
 }
 
-#dm-layer-1 .spacing {
-  margin-left: 40px;
+#dm-layer-1 .container {
+	padding: 0 0 50px;
 }
 
-#dm-layer-1 .col_one_half {
-  text-align: right;
+#dm-layer-1 .col_one_fourth .spacing .pageuptitle-a {
+	max-width: 300px;
+}
+
+#dm-layer-1 .col_three_fourth {
+  text-align: center;
 }
 
 #dm-layer-1 .module2 {
@@ -3004,7 +2958,7 @@ ul.checklist li {
 
 #dm-layer-1 .icon44 p {
   font-size: 12px;
-  line-height: 18px;
+  line-height: 22px;
 }
 
 ul.icon44 li.icon44-www:before {
@@ -3028,16 +2982,23 @@ ul.icon44 li.icon44-search:before {
   margin-bottom: 30px;
 }
 
-#dm-layer-2 .container {
-  padding: 40px;
-  background: url(images/dm-graph.jpg);
-  overflow: hidden;
+#dm-layer-2 {
+  background: url(images/dm-graph.jpg) no-repeat scroll right center transparent;
   background-size: cover;
+}
+
+#dm-layer-2 .container {
+  padding: 50px 0;
   height: 450px;
 }
 
-#dm-layer-2 .spacing {
-  margin-top: 120px;
+#dm-layer-2 p {
+	font-size: 18px;
+	line-height: 28px;
+}
+
+#dm-layer-2 .col_one_fourth {
+	max-width: 350px;
 }
 
 #dm-layer-2 .col_one_half {
@@ -3079,12 +3040,21 @@ span.dm-up {
   position: absolute;
 }
 
-.template-digital-marketing #bottombanner .container {
-  width: 30%;
+#bottombanner.dm .container {
+	margin: 0 auto;
+	width: auto;
 }
 
-#bottombanner .dm p {
- padding-top: 30px;
+#bottombanner.dm .subcontainer {
+}
+
+#bottombanner.dm h3 {
+	width: 400px;
+	margin: 0 0 15px;
+}
+
+#bottombanner.dm p {
+	width: 430px;
 }
 
 
@@ -3099,9 +3069,42 @@ span.dm-up {
 
 /* MODULES -----------------------------------------------------------*/
 
+.module {
+	bottom: 100px;
+	position: absolute;
+	right: 0;
+}
+
+.module h2 {
+	float: left;
+	color: #ec9103;
+	font-size: 24px;
+	font-weight: 700;
+	margin-right: 10px;
+}
+
+.module p {
+	font-size: 13px;
+	color: #363636;
+	line-height: 24px;
+	font-weight: 300;
+	padding: 0 0 10px;
+}
+
+.module a {
+	color: #ec9103;
+	font-size: 13px;
+	font-weight: 500;
+}
+
+.modulecontent {
+	float: left;
+	width: 220px;
+}
 
 .module2,
-.module3 {
+.module3,
+.module4 {
 	background: url("images/crs-graph.jpg") no-repeat scroll 20px 20px #fff;
 	background-size: 103px auto;
 	position: absolute;
@@ -3118,13 +3121,15 @@ span.dm-up {
 }
 
 .modulecontent2,
-.modulecontent3 {
+.modulecontent3,
+.modulecontent4 {
 	float: right;
 	width: 180px;
 }
 
 .module2 h2,
-.module3 h2 {
+.module3 h2,
+.module4 h2 {
 	float: left;
     color: #ec9103;
     font-size: 23px;
@@ -3132,7 +3137,8 @@ span.dm-up {
 }
 
 .module2 p,
-.module3 p {
+.module3 p,
+.module4 p {
 	font-size: 13px;
 	line-height: 24px;
 	font-weight: 300;
@@ -3140,12 +3146,28 @@ span.dm-up {
 }
 
 .module2 a,
-.module3 a {
+.module3 a,
+.module4 a {
 	color: #ec9103;
 	font-size: 12px;
 	font-weight: 500;
 	margin-bottom: 10px;
 }
+
+.modmove,
+.module4 {
+	opacity: 0;
+	transition: all 0.4s ease 0s;
+	-webkit-transition: all 0.4s ease 0s;
+	-moz-transition: all 0.4s ease 0s;
+	-o-transition: all 0.4s ease 0s;
+}
+
+.modmove,
+.module4 { opacity: 0;}
+
+.modmove.sticky,
+.module4.sticky { opacity: 1;}
 
 
 

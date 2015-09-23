@@ -24,17 +24,22 @@ include('header.php');
 
 	<div id="breadcrumbs">
 		<div class="container">
+		<div class="subcontainer">
 			<a href="index.php">Home</a> <i class="fa fa-angle-right"></i> <a href="#"><?php echo $pagetitle; ?></a>
+		</div>
 		</div>
 	</div>
 	
 	<div id="dm-layer-1" class="dm-layer">
 	
 		<div class="container">
+		<div class="subcontainer">
 		
 			<div class="col_one_fourth">
 				<div class="spacing">
-					<h3>Target audiences with precision</h3>
+					<div class="pageuptitle-a">
+						<h3>Target audiences with precision</h3>
+					</div>
 					
 					<ul class="icon44">
 						<li class="icon44-www">
@@ -54,8 +59,9 @@ include('header.php');
 				</div>
 			</div>
 			
+			<!-- 
 			<div class="col_one_fourth">
-				<!-- 
+				
 				<div class="dmlogos">
 					<ul>
 						<li><img src="images/logo-orbitz.png" alt="orbitz"></li>
@@ -64,16 +70,17 @@ include('header.php');
 						<li><img src="images/logo-kayak.png" alt="kayak"></li>
 					</ul>
 				</div>
-				-->
+				
 			</div>
+			-->
 			
-			<div class="col_one_half">
+			<div class="col_three_fourth">
 				<img src="images/digital-marketing-traveltripper-device.jpg" alt="dm layer1" />
 			</div>
 			
 			<div class="clear"></div>
 			
-			<div class="module2">
+			<div class="module4">
 				<div class="spacing4">
 					<h2>100%</h2>
 					<div class="modulecontent4">
@@ -84,22 +91,23 @@ include('header.php');
 			</div>
 			
 		</div>
+		</div>
 		
 	</div>
 	
 	<div id="dm-layer-2" class="dm-layer">
 	
 		<div class="container">
+		<div class="subcontainer">
 		
 			<div class="col_one_fourth">
 				<div class="spacing">
-					<h3>Maximum visibility for minimum cost</h3>
+					<div class="pageuptitle-a">
+						<h3>Maximum visibility for minimum cost</h3>
+					</div>
 					<p>Successful digital marketing is not just about generating clicks and bookings—we closely monitor and track marketing spend and ROI to ensure you’re getting meaningful results and making the most of your advertising dollars. </p>
-					
 				</div>
 			</div>
-			
-
 			
 			<div class="col_one_half">
 
@@ -124,19 +132,21 @@ include('header.php');
 			</div>
 			
 		</div>
+		</div>
 		
 
 	
 	</div>
 
-	<div id="bottombanner" class="contentleft" style="background-image: url(images/DigitalMarketing-TravelTripper-Office.jpg);">
-	
-	
-		<div class="container dm">
+	<div id="bottombanner" class="dm" style="background-image: url(images/DigitalMarketing-TravelTripper-Office.jpg);">
+		
+		<div class="container">
+		<div class="subcontainer">
 	
 			<h3>Your personal revenue optimization team</h3>
 			<p>With Travel Tripper, you’ll get dedicated, hands-on support from hotel marketing and distribution experts that will guide your hotel to success. Our integrated client services and customer support teams allow for a single point of contact so you can quickly get the help and answers you need. </p>
 			
+		</div>
 		</div>
 		
 	</div>
@@ -144,6 +154,7 @@ include('header.php');
 	<div id="calltoaction2">
 		
 		<div class="container with-text">
+		<div class="subcontainer">
 		
 			<div class="col_one_fourth">
 				<h3>It’s time to be more direct.</h3>
@@ -168,7 +179,10 @@ include('header.php');
 			<div class="col_one_fourth">
 				<a class="button3 with-text-butt" href="#">REQUEST A DEMO</a>
 			</div>
-
+			
+			<div class="clear"></div>
+			
+		</div>
 		</div>
 	</div>
 

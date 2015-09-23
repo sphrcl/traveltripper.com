@@ -158,6 +158,7 @@ include('header.php');
 	
 	<div id="calltoaction2">
 		<div class="container with-text">
+		<div class="subcontainer">
 		
 			<div class="col_one_fourth">
 				<h3>It’s time to be more direct.</h3>
@@ -182,7 +183,10 @@ include('header.php');
 			<div class="col_one_fourth">
 				<a class="button3 with-text-butt" href="#">REQUEST A DEMO</a>
 			</div>
+			
+			<div class="clear"></div>
 
+		</div>
 		</div>
 	</div>
 
