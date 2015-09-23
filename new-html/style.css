@@ -2459,12 +2459,15 @@ ul.checklist li {
 
 
 
-#page-layer-2 .col_three_fourth {
-  text-align: right;
+#page-layer-2 .container {
+	background: url('images/booking-engine-best-rate-guaranteed.png') no-repeat scroll right bottom transparent;
+	background-size: auto 100%;
+	padding: 50px 0;
 }
 
-#page-layer-2 .col_three_fourth img {
-  max-width: 82%;
+#page-layer-2 .col_one_half {
+  padding: 100px 0 0;
+  width: 400px;
 }
 
 #page-layer-2 ul {
@@ -2493,35 +2496,35 @@ ul.checklist li {
 
 #page-layer-2 ul li p {
   font-size: 12px;
-  line-height: 24px;
+  line-height: 22px;
   color: #363636;
   font-weight: 100;
 }
+
+
 
 #page-layer-3 {
   background: #f6f6f6;
 }
 
 #page-layer-3 .container {
-  padding: 40px 20px 0;
-  overflow: hidden;
+	padding: 100px 0;
 }
 
 #page-layer-3 .col_one_half {
   text-align: center;
 }
 
-#page-layer-3 .spacing {
-}
-
 #page-layer-3 h4 {
 	font-size: 24px;
 	font-weight: 300;
+	margin: 0 0 10px;
 }
 
+
+
 #page-layer-4 .container {
-  padding: 40px 20px;
-  overflow: hidden;
+  padding: 50px 0;
 }
 
 #page-layer-4 .col_one_fourth {
@@ -2533,7 +2536,12 @@ ul.checklist li {
 }
 
 #page-layer-4 h3 {
-  padding-bottom: 40px;
+  margin: 0 0 50px;
+}
+
+#page-layer-4 h4 {
+	text-indent: -18px;
+	margin: 0 0 10px;
 }
 
 #page-layer-4 h4:before {
@@ -2546,9 +2554,9 @@ ul.checklist li {
 }
 
 #page-layer-4 p {
-  font-size: 14px;
-  font-weight: 100;
-  line-height: 28px;
+	font-size: 14px;
+	font-weight: 100;
+	line-height: 26px;
 }
 
 /* PAGE - Rev Up #################################################################################### */

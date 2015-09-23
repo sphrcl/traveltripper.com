@@ -33,7 +33,9 @@ include('header.php');
 
 	<div id="breadcrumbs">
 		<div class="container">
+		<div class="subcontainer">
 			<a href="index.php">Home</a> <i class="fa fa-angle-right"></i> <a href="booking-engine.php">Travel Tripper Booking Engine</a>
+		</div>
 		</div>
 	</div>
 	
@@ -76,6 +78,7 @@ include('header.php');
 	<div id="page-layer-2" class="page-layer">
 	
 		<div class="container">
+		<div class="subcontainer">
 		
 			<div class="col_one_half">
 				<div class="spacing">
@@ -97,11 +100,10 @@ include('header.php');
 					
 				</div>
 			</div>
-		
-			<div class="col_one_half" style="display: none;">
-				<img src="images/booking-engine-best-rate-guaranteed.png" alt="Best rate guaranteed" />
-			</div>
+			
+			<div class="clear"></div>
 
+		</div>
 		</div>
 		
 	</div>
@@ -109,6 +111,7 @@ include('header.php');
 	<div id="page-layer-3" class="page-layer">
 	
 		<div class="container">
+		<div class="subcontainer">
 		
 			<div class="col_one_half">
 				<img src="images/booking-engine-iphone.png" alt="mobile" />
@@ -133,6 +136,9 @@ include('header.php');
 				</div>
 			</div>
 			
+			<div class="clear"></div>
+			
+		</div>
 		</div>
 		
 	</div>
@@ -140,6 +146,7 @@ include('header.php');
 	<div id="page-layer-4" class="page-layer">
 	
 		<div class="container">
+		<div class="subcontainer">
 			
 			<div class="pageuptitle-a">
 				<h3>Other key features</h3>
@@ -154,7 +161,7 @@ include('header.php');
 			
 			<div class="col_one_fourth">
 				<div class="spacing">
-					<h4>Muli-property Search</h4>
+					<h4>Multi-property Search</h4>
 					<p>Offer a portal booking engine for all of your hotel group’s properties. RezTrip allows for reservations search across any number of hotels, grouped by any criteria required (location, star rating, amenities, etc.)</p>
 				</div>
 			</div>
@@ -173,6 +180,9 @@ include('header.php');
 				</div>
 			</div>
 			
+			<div class="clear"></div>
+			
+		</div>
 		</div>
 		
 	</div>
@@ -182,6 +192,7 @@ include('header.php');
 	
 	<div id="calltoaction2">
 		<div class="container with-text">
+		<div class="subcontainer">
 		
 			<div class="col_one_fourth">
 				<h3>It’s time to be more direct.</h3>
@@ -206,7 +217,10 @@ include('header.php');
 			<div class="col_one_fourth">
 				<a class="button3 with-text-butt" href="#">REQUEST A DEMO</a>
 			</div>
+			
+			<div class="clear"></div>
 
+		</div>
 		</div>
 	</div>
 
