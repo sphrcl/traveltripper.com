@@ -3149,27 +3149,27 @@ span.dm-up {
 .module3 h2,
 .module4 h2 {
 	float: left;
-    color: #ec9103;
-    font-size: 23px;
-    font-weight: 700;
+    color: #ec9103 !important;
+    font-size: 23px !important;
+    font-weight: 700 !important;
 }
 
 .module2 p,
 .module3 p,
 .module4 p {
-	font-size: 13px;
-	line-height: 24px;
-	font-weight: 300;
-	padding: 0;
+	font-size: 13px !important;
+	line-height: 24px !important;
+	font-weight: 300 !important;
+	padding: 0 !important;
 }
 
 .module2 a,
 .module3 a,
 .module4 a {
-	color: #ec9103;
-	font-size: 12px;
-	font-weight: 500;
-	margin-bottom: 10px;
+	color: #ec9103 !important;
+	font-size: 12px !important;
+	font-weight: 500 !important;
+	margin-bottom: 10px !important;
 }
 
 .modmove,
