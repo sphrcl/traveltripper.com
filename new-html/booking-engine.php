@@ -24,6 +24,8 @@ include('header.php');
 				<a class="button1" href="#">ASK FOR QUOTE &nbsp; <i class="fa fa-angle-right"></i></a>
 			
 			</div>
+			
+			<div class="clear"></div>
 		
 		</div>
 		
@@ -39,26 +41,31 @@ include('header.php');
 	
 		<div class="container">
 		
-			<div class="col_one_half">
-				<img src="images/booking-engine-designed-to-convert.png" alt="Designed to convert" />
-			</div>
-			
-			<div class="col_one_fourth">
+			<!-- <div class="col_one_half left">
 				<div class="spacing">
-					<h3>Designed to be direct  </h3>
+					<img src="images/booking-engine-designed-to-convert.png" alt="Designed to convert" />
+				</div>
+			</div>-->
+			
+			<div class="col_one_half right">
+				<div class="spacing">
+					<div class="pageuptitle-b">
+						<h3>Designed to be direct</h3>
+						<h4>Best-in-class booking engine</h4>
+					</div>
 					<p>We’ve created the industry’s most innovative booking engine—intuitive, elegant, and packed with features designed to convert lookers into bookers. Hotels that switch to RezTrip routinely see significant increases in their direct bookings, revenue, and conversion rates. </p>
 				</div>
 			</div>
 			
 			<div class="module3">
-					<div class="spacing3">
-						<h2>76%</h2>
-						<div class="modulecontent3">
-							<p>Find out how Mayfair Hotel &amp; Spa in Miami increased direct bookings by 76% with Travel Tripper’s booking engine.</p>
-							<a href="#">LEARN MORE</a>
-						</div>
+				<div class="spacing3">
+					<h2>76%</h2>
+					<div class="modulecontent3">
+						<p>Find out how Mayfair Hotel &amp; Spa in Miami increased direct bookings by 76% with Travel Tripper’s booking engine.</p>
+						<a href="#">LEARN MORE</a>
 					</div>
 				</div>
+			</div>
 			
 			<div class="clear"></div>
 			
@@ -70,9 +77,12 @@ include('header.php');
 	
 		<div class="container">
 		
-			<div class="col_one_fourth">
+			<div class="col_one_half">
 				<div class="spacing">
-					<h3>Built-in features to maximize conversions</h3>
+				
+					<div class="pageuptitle-a">
+						<h3>Built-in features to maximize conversions</h3>
+					</div>
 					
 					<ul>
 						<li>
@@ -88,7 +98,7 @@ include('header.php');
 				</div>
 			</div>
 		
-			<div class="col_three_fourth">
+			<div class="col_one_half" style="display: none;">
 				<img src="images/booking-engine-best-rate-guaranteed.png" alt="Best rate guaranteed" />
 			</div>
 
@@ -130,8 +140,10 @@ include('header.php');
 	<div id="page-layer-4" class="page-layer">
 	
 		<div class="container">
-		
-			<h3>Other key features</h3>
+			
+			<div class="pageuptitle-a">
+				<h3>Other key features</h3>
+			</div>
 		
 			<div class="col_one_fourth">
 				<div class="spacing">

@@ -53,7 +53,9 @@ include('header.php');
 			
 			<div class="col_one_half right">
 				<div class="spacing">
-					<h3>Track and monitor demand trends</h3>
+					<div class="pageuptitle-a">
+						<h3>Track and monitor demand trends</h3>
+					</div>
 					<p>Make smart decisions based on historical and future data. RevUp’s powerful hotel revenue management dashboard includes pace calendars, on-the-books stats, variance of current vs. last year figures, as well as foward-looking demand data for many markets.</p>
 				</div>
 			</div>
@@ -80,8 +82,10 @@ include('header.php');
 		
 			<div class="col_one_half left">
 				<div class="spacing">
-					<h3>Powerful reports</h3>
-					<h4>Automated Best Rate Guarantee</h4>
+					<div class="pageuptitle-b">
+						<h3>Powerful reports</h3>
+						<h4>Automated Best Rate Guarantee</h4>
+					</div>
 					<p>RevUp captures daily revenue performance, eliminates the time associated with gathering historical data, and provides instant analytical reports. It gives users powerful tools, such as pickup and pace-by-day reports that analyze revenue projects across key hotel metrics. </p>
 				</div>
 			</div>
@@ -110,7 +114,9 @@ include('header.php');
 		
 			<div class="col_one_half right">
 				<div class="spacing">
-					<h3>Real-time comp set and market data</h3>
+					<div class="pageuptitle-a">
+						<h3>Real-time comp set and market data</h3>
+					</div>
 					<p>With RevUp’s real-time compset and market data, revenue managers are capable of instantaneously reacting to market changes and creating a strong competitive advantage.</p>
 				</div>
 			</div>
@@ -127,8 +133,10 @@ include('header.php');
 		
 			<div class="col_one_third left">
 				<div class="spacing">
-					<h3>Forecast data</h3>
-					<h4>Customer service</h4>
+					<div class="pageuptitle-b">
+						<h3>Forecast data</h3>
+						<h4>Customer service</h4>
+					</div>
 					<p>Anticipate market demand with access to daily flight data and trends, and adjust pricing strategies ahead of the competition. </p>
 				</div>
 			</div>

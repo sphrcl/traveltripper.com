@@ -1441,7 +1441,7 @@ div#pagetitle h1 {
 }
 
 #breadcrumbs .container {
-	padding: 50px;
+	padding: 30px 50px;
 }
 
 /* MAIN STYLES - pagesection */
@@ -2242,55 +2242,6 @@ li.icon44-pci:before {
   background-position: -132px -44px;
 }
 
-.module2,
-.module3 {
-	background: url("images/crs-graph.jpg") no-repeat scroll 20px 20px #fff;
-	background-size: 103px auto;
-	position: absolute;
-	width: 290px;
-	right: 20px;
-	top: 30px;
-	border: 1px solid #ccc;
-	border-radius: 20px;
-	padding: 25px;
-}
-
-.module3 {
-	top: 0;
-}
-
-.modulecontent2,
-.modulecontent3 {
-	float: right;
-	width: 180px;
-}
-
-.module2 h2,
-.module3 h2 {
-	float: left;
-    color: #ec9103;
-    font-size: 23px;
-    font-weight: 700;
-}
-
-.module2 p,
-.module3 p {
-	font-size: 13px;
-	line-height: 24px;
-	font-weight: 300;
-	padding: 0;
-}
-
-.module2 a,
-.module3 a {
-	color: #ec9103;
-	font-size: 12px;
-	font-weight: 500;
-	margin-bottom: 10px;
-}
-
-
-
 
 /* CRS PRICETOOL */
 div#crspricetool {
@@ -2444,12 +2395,13 @@ ul.checklist li {
 
 .template-booking-engine #pagebanner .container {
   padding: 150px 0 0;
-  width: 1600px;
+  max-width: 1600px;
   margin: 0 auto;
+  width: auto;
 }
 
 .template-booking-engine #pagebanner p {
-  width: 60%;
+  width: 300px;
 }
 
 .template-booking-engine #breadcrumbs {
@@ -2477,42 +2429,59 @@ ul.checklist li {
 
 .page-layer .container {
   position: relative;
-  margin: 0 auto;
-  max-width: 1540px;
 }
 
-.page-layer h3 {
-  font-size: 30px;
+.pageuptitle-a h3,
+.pageuptitle-b h3 {
+  font-size: 36px;
   letter-spacing: 0.015em;
-  padding-bottom: 10px;
   font-weight: 300;
 }
 
-.page-layer h4 {
-  padding-bottom: 10px;
+.pageuptitle-a h3 { margin: 0 0 30px;}
+.pageuptitle-b h3 { margin: 0 0 5px;}
+
+.pageuptitle-b h4 {
+  font-size: 24px;
+  margin: 0 0 10px;
+  font-weight: 300;
 }
+
+.page-layer p {
+	font-size: 18px;
+	line-height: 34px;
+}
+
+
 
 #page-layer-1 {
-  background: #f6f6f6;
-}
-
-#page-layer-1 .spacing p {
-	line-height: 28px;
-	font-weight: 100 !important;
-}
-
-#page-layer-1 img {
-  max-width: 94%;
+	background: url('images/booking-engine-designed-to-convert.png') no-repeat scroll left bottom #f6f6f6;
 }
 
 #page-layer-1 .spacing {
-  margin-top: 140px;
+	padding: 0;
 }
 
-#page-layer-2 .spacing {
-  margin-top: 200px;
-  margin-left: 20px;
+#page-layer-1 .container {
+	padding: 70px 0px 150px;
 }
+
+#page-layer-1 .col_one_half.left {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+
+#page-layer-1 .col_one_half.right {
+	float: right;
+}
+
+#page-layer-1 .col_one_half.right .spacing {
+	padding: 0 390px 0 0;
+}
+
+
+
 
 #page-layer-2 .col_three_fourth {
   text-align: right;
@@ -2522,15 +2491,19 @@ ul.checklist li {
   max-width: 82%;
 }
 
+#page-layer-2 ul {
+	max-width: 300px;
+}
+
 #page-layer-2 ul li {
-  float: left;
-  width: 75%;
   text-align: center;
 }
 
 #page-layer-2 ul li h4 {
   padding-bottom: 10px;
-  font-size: 15px;
+  font-size: 16px;
+  font-weight: 500;
+  text-indent: -18px;
 }
 
 #page-layer-2 ul li h4:before {
@@ -2543,8 +2516,8 @@ ul.checklist li {
 }
 
 #page-layer-2 ul li p {
-  font-size: 11px;
-  line-height: 20px;
+  font-size: 12px;
+  line-height: 24px;
   color: #363636;
   font-weight: 100;
 }
@@ -2563,12 +2536,11 @@ ul.checklist li {
 }
 
 #page-layer-3 .spacing {
-  margin-top: 170px;
 }
 
-#page-layer-3 .spacing p {
- line-height: 28px;
- font-weight: 100;
+#page-layer-3 h4 {
+	font-size: 24px;
+	font-weight: 300;
 }
 
 #page-layer-4 .container {
@@ -2658,17 +2630,6 @@ ul.checklist li {
 	line-height: 34px;
 }
 
-.revup-layer h3 {
-  font-size: 36px;
-  letter-spacing: 0.015em;
-  padding-bottom: 10px;
-  font-weight: 300;
-}
-
-.revup-layer h4 {
-  padding-bottom: 10px;
-}
-
 .revup-layer img {
   max-width: 100%;
   display: block;
@@ -2682,10 +2643,6 @@ ul.checklist li {
   min-height: 423px;
   padding: 50px 0;
   max-width: 1600px;
-}
-
-#revup-layer-1 .spacing h3 {
-	margin: 0 0 10px;
 }
 
 #revup-layer-1 .left .spacing {
@@ -2721,11 +2678,6 @@ ul.checklist li {
 #revup-layer-2 .left .spacing {
 	padding: 0 0 0 100px;
 	max-width: 400px;
-}
-
-#revup-layer-2 .spacing h4 {
-	font-size: 24px;
-	margin: 0 0 10px;
 }
 
 #revup-layer-2 .right {
@@ -2770,11 +2722,6 @@ ul.checklist li {
 	padding: 150px 0;
 }
 
-#revup-layer-4 .spacing h4 {
-	font-size: 24px;
-	margin: 0 0 10px;
-}
-
 #revup-layer-4 .left .spacing {
 	padding: 0 0 0 100px;
 	max-width: 400px;
@@ -2794,7 +2741,7 @@ ul.checklist li {
 
 /* PAGE - Web & Mobile #################################################################################### */
 
-.template-webmobile div#breadcrumbs {
+.template-webmobile #breadcrumbs {
 	position: absolute;
 }
 
@@ -3151,6 +3098,57 @@ span.dm-up {
     font-size: 19px;
     font-weight: bold;
 	color: #fff;
+}
+
+
+/* MODULES -----------------------------------------------------------*/
+
+
+.module2,
+.module3 {
+	background: url("images/crs-graph.jpg") no-repeat scroll 20px 20px #fff;
+	background-size: 103px auto;
+	position: absolute;
+	width: 290px;
+	right: 20px;
+	top: 30px;
+	border: 1px solid #ccc;
+	border-radius: 20px;
+	padding: 25px;
+}
+
+.module3 {
+	top: 0;
+}
+
+.modulecontent2,
+.modulecontent3 {
+	float: right;
+	width: 180px;
+}
+
+.module2 h2,
+.module3 h2 {
+	float: left;
+    color: #ec9103;
+    font-size: 23px;
+    font-weight: 700;
+}
+
+.module2 p,
+.module3 p {
+	font-size: 13px;
+	line-height: 24px;
+	font-weight: 300;
+	padding: 0;
+}
+
+.module2 a,
+.module3 a {
+	color: #ec9103;
+	font-size: 12px;
+	font-weight: 500;
+	margin-bottom: 10px;
 }
 
 
