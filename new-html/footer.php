@@ -3,6 +3,7 @@
 		<div id="footer">
 		
 			<div class="container">
+			<div class="subcontainer">
 			
 				<div class="col_one_fourth one">
 					<div class="footernav">
@@ -52,6 +53,7 @@
 					</div>
 				</div>
 				
+			</div>
 			</div>
 		</div>
 

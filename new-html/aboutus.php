@@ -23,7 +23,9 @@ include('header.php');
 	
 	<div id="breadcrumbs">
 		<div class="container">
+		<div class="subcontainer">
 			<a href="index.php">Home</a> > <a href="#">About Us</a>
+		</div>
 		</div>
 	</div>
 	
@@ -33,6 +35,7 @@ include('header.php');
 		<div class="strategic pagesection">
 			
 			<div class="container">
+			<div class="subcontainer">
 			
 				<div class="col_one_fourth">
 					<h3>Strategic partner in hotel distribution</h3>
@@ -47,12 +50,14 @@ include('header.php');
 				<div class="clear"></div>
 			
 			</div>
+			</div>
 		
 		</div>
 		
 		<div class="leadership pagesection">
 			
 			<div class="container">
+			<div class="subcontainer">
 			
 				<div class="col_one_fourth one">
 					<h3>Leaderships</h3>
@@ -85,12 +90,14 @@ include('header.php');
 				<div class="clear"></div>
 			
 			</div>
+			</div>
 		
 		</div>
 		
 		<div class="different pagesection">
 			
 			<div class="container">
+			<div class="subcontainer">
 				
 				<div class="col_one_fourth one">
 					<h3>Why we are different</h3>
@@ -115,12 +122,14 @@ include('header.php');
 				<div class="clear"></div>
 				
 			</div>
+			</div>
 		
 		</div>
 		
 		<div class="working pagesection">
 			
 			<div class="container">
+			<div class="subcontainer">
 			
 				<div class="col_one_fourth one">
 					<h3>Working for Travel Tripper</h3>
@@ -155,6 +164,7 @@ include('header.php');
 				<div class="clear"></div>
 				
 			</div>
+			</div>
 	
 		</div>
 		
@@ -162,6 +172,7 @@ include('header.php');
 	
 	<div id="calltoaction2">
 		<div class="container">
+		<div class="subcontainer">
 		
 			<div class="col_one_fourth">
 				<h3>Book more. <br>Be direct.</h3>
@@ -182,7 +193,10 @@ include('header.php');
 			<div class="col_one_fourth stacked">
 				<a class="button3" href="#">REQUEST A DEMO</a>
 			</div>
+			
+			<div class="clear"></div>
 
+		</div>
 		</div>
 	</div>
 

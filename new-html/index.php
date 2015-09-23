@@ -85,7 +85,8 @@ include('header.php');
 	<div id="services">
 
 		<div class="container">
-
+		<div class="subcontainer">
+		
 			<div class="servicesbox one">
 				<h3>Your strategic partner from search to stay</h3>
 			</div>
@@ -110,7 +111,10 @@ include('header.php');
 				<p>with powerful pricing tools and analytics to make the most from your inventory.</p>
 				<a class="button2" href="#">LEARN MORE</a>
 			</div>
+			
+			<div class="clear"></div>
 
+		</div>
 		</div>
 
 	</div>
@@ -118,6 +122,7 @@ include('header.php');
 	<div id="main">
 
 		<div class="container">
+		<div class="subcontainer">
 
 			<div class="left">
 			<div class="engine">
@@ -164,10 +169,12 @@ include('header.php');
 			<div class="clear"></div>
 
 		</div>
+		</div>
 	</div>
 
 	<div id="bigmain">
 		<div class="container">
+		<div class="subcontainer">
 
 			<div class="booking-engine">
 
@@ -214,7 +221,8 @@ include('header.php');
 					<a href="#">LEARN MORE</a>
 				</div>
 			</div>
-
+		
+		</div>
 		</div>
 
 	</div>
@@ -224,6 +232,7 @@ include('header.php');
 		<div class="dmborder"></div>
 
 		<div class="container">
+		<div class="subcontainer">
 
 			<div class="dmtext">
 				<h3>Digital Marketing</h3>
@@ -242,6 +251,7 @@ include('header.php');
 
 			<div class="clear"></div>
 
+		</div>
 		</div>
 
 		<div class="dmimg"><img src="images/digitalmarketing.png" /></div>
