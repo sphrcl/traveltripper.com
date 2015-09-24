@@ -12,9 +12,11 @@ include('header.php');
 	<div id="pagetitle">
 	
 		<div class="container">
+		<div class="subcontainer">
 	
 			<h1><?php echo $pagetitle; ?></h1>
 		
+		</div>
 		</div>
 		
 	</div>
