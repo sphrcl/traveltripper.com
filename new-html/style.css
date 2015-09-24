@@ -2831,10 +2831,16 @@ ul.checklist li {
 	background-color: #f6f6f6;
 }
 
-.template-webmobile #pagebanner h3 {
-	font-size: 42px;
-	font-weight: 500;
-	padding: 0 0 20px;
+.template-webmobile #pagebanner .subcontainer {
+	padding: 0;
+}
+
+.template-webmobile #pagebanner h1 {
+	padding: 0 0 10px;
+}
+
+.template-webmobile #pagebanner p {
+	max-width: 340px;
 }
 
 .webtext h1 {
@@ -2974,8 +2980,26 @@ ul.checklist li {
 	padding: 0 0 50px;
 }
 
+#webmobilelayer1 .subcontainer {
+	padding: 0 50px;
+}
+
 #webmobilelayer1 .webbox.left {
 	width: 50%;
+}
+
+#webmobilelayer1 .webbox-one {
+	width: 50%;
+	float: left;
+}
+
+#webmobilelayer1 .webbox-two {
+	width: 50%;
+	float: right;
+}
+
+#webmobilelayer1 .webbox-two img {
+	max-width: 100%;
 }
 
 #webmobilelayer1 .webbox-one .spacing {
@@ -3066,9 +3090,6 @@ ul.checklist li {
 	max-width: 95px;
 }
 
-
-
-
 #webmobilelayer2 .webbox-three {
 	width: 400px;
 	position: absolute;
@@ -3091,24 +3112,12 @@ ul.checklist li {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 #webmobilelayer3 {
 	background: url('images/webmoblayer3.jpg') no-repeat scroll right bottom #f6f6f6;
 }
 
-#webmobilelayer3 .webbox {
-	width: 60%;
+#webmobilelayer3 .container {
+	padding: 100px 0 50px;
 }
 
 #webmobilelayer3 .webbox .one .spacing {
@@ -3116,25 +3125,49 @@ ul.checklist li {
 	max-width: 350px;
 }
 
-.centerbarge {
-	text-align: center;
-	margin: 0 0 40px;
+#webmobilelayer3 .webbox {
+	width: 50%;
+}
+
+#webmobilelayer3 .webbox-one {
+	width: 50%;
+	float: left;
+}
+
+#webmobilelayer3 .webbox-two {
+	width: 50%;
+	float: right;
+}
+
+#webmobilelayer3 .webbox-one .webtext h1 {
+	margin: 0 0 20px;
+}
+
+#webmobilelayer3 .webbox-one .webtext p {
+	max-width: 320px;
 }
 
 .centerbarge {
-	margin: 0 0 0 30px;
-	width: 190px;
+	margin: 0 0 30px 20%;
+	width: 220px;
+	text-align: center;
 }
+
+.centerbarge.three { margin: 0 0 0 20%;}
 
 .centerbarge p.one {
 	position: relative;
-	font-size: 15px;
+	font-size: 14px;
+	line-height: 18px;
 	text-transform: uppercase;
-	font-weight: 10px;
-	font-weight: 700;
-	line-height: 26px;
+	font-weight: 500;
 	padding: 0;
+	margin: 0 auto;
 }
+
+.centerbarge.one p.one { max-width: 145px;}
+.centerbarge.two p.one { max-width: 130px;}
+.centerbarge.three p.one { max-width: 185px;}
 
 .centerbarge p.one img {
 	float: left;
@@ -3151,53 +3184,68 @@ ul.checklist li {
 	position: absolute;
 	top: 50%;
 	left: 0;
-	margin: -8px 0 0 -10px;
+	margin: -8px 0 0 -15px;
 }
 
 .centerbarge p.two {
-	font-size: 13px;
-	line-height: 22px;
+	font-size: 12px;
+	line-height: 20px;
 	margin: 10px auto 0;
 }
 
 
 
 #webmobilelayer4 .container {
-	background: url('images/knickerbg.jpg') no-repeat scroll right center transparent;
-	background-size: 900px auto;
+	padding: 50px 0;
 }
 
+#webmobilelayer4 .subcontainer {
+	padding: 0 50px;
+}
 
-#webmobilelayer4 .webbox {
-	height: 500px;
-	position: relative;
+#webmobilelayer4 h1 {
+	margin: 0 0 30px;
 }
 
 #webmobilelayer4 .col_sec.one {
-	max-width: 300px;
+	height: 350px;
+	width: 40%;
+	float: left;
+	text-align: center;
+}
+
+#webmobilelayer4 .col_sec.one .spacing {
 	height: 100%;
 }
 
 #webmobilelayer4 .col_sec.two {
-	position: absolute;
-	bottom: 0;
+	float: right;
+	width: 60%;
 	text-align: center;
 }
 
-#webmobilelayer4 .col_sec.two p {
+#webmobilelayer4 .col_sec.two img {
+	max-width: 95%;
+}
+
+#webmobilelayer4 .col_sec.one p {
 	font-size: 15px;
-	font-weight: 10px;
 	line-height: 26px;
 	padding: 0;
 }
 
-#webmobilelayer4 .col_sec.two img {
-	margin: 0 0 20px;
+#webmobilelayer4 .col_sec.one img {
+	max-width: 100%;
+	display: inline-block;
+	margin: 0 0 30px;
 }
 
-#webmobilelayer4 .col_sec.two p.one {
+#webmobilelayer4 .col_sec.one p.one {
 	font-weight: 500;
 }
+
+.webfeattable { display: table; height: 100%; width: 100%;}
+.webfeatcell { display: table-cell; vertical-align: middle;}
 
 
 /* PAGE - Digital Marketing #################################################################################### */

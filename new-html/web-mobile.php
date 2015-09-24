@@ -12,12 +12,13 @@ include('header.php');
 	<div id="pagebanner" class="contentright" style="background-image: url(<?php echo $image; ?>);">
 	
 		<div class="container">
+		<div class="subcontainer">
 	
-			<h1>Travel Tripper</h1>
-			<h3>Web &amp; Mobile</h3>
-			<p>Hotels that switch to Travel Tripper <br>Web see increases in direct revenue of <br>between 25 and 100% within weeks.</p>
+			<h1>Travel Tripper Web</h1>
+			<p>Beautiful hotel websites driving higher guest engagement and increased conversions across all devices</p>
 			<a class="button1" href="#">Demo Engine &nbsp; <i class="fa fa-angle-right"></i></a>
 		
+		</div>
 		</div>
 		
 	</div>
@@ -48,6 +49,9 @@ include('header.php');
 			</div>
 			
 			<div class="webbox-two">
+				<div class="spacing">
+					<img src="images/feat-forms.png" />
+				</div>
 			</div>
 			
 			<div class="clear"></div>
@@ -175,37 +179,39 @@ include('header.php');
 	<div id="webmobilelayer3">
 	
 		<div class="container">
-		
+		<div class="subcontainer">
+			
 			<div class="webbox">
-				<div class="col_one_half one">
-					<div class="spacing">
-						<h3>Easy content management</h3>
-						<p>Powerful intelligence reporting. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi rhoncus, neque at efficitur condimentum.</p>
+				<div class="webbox-one">
+					<div class="webtext one">
+						<h1>Ideal for 1 or 100 sites</h1>
+						<p>Our cloud-based web platform offers the speed and flexibility to scale to your needs, whether you are a small independent hotel or a large hotel group. And our intuitive content management system ensures that hotel marketers can update sites simply and quickly.</p>
 					</div>
 				</div>
 				
-				<div class="col_one_half two">
+				<div class="webbox-two">
 					<div class="spacing">
-						<div class="centerbarge">
-							<p class="one">Drag-and-drop content creation</p>
-							<p class="two">The industry's most innovative Lorem ipsum dolor sit amet, consectetur.</p>
+						<div class="centerbarge one">
+							<p class="one">Multiple Hotel Websites</p>
+							<p class="two">Manage multiple hotel websites from one dashboard with multiple users—perfect for hotel groups</p>
 						</div>
 						
-						<div class="centerbarge">
-							<p class="one">In-line editing</p>
-							<p class="two">The industry's most innovative Lorem ipsum dolor sit amet, consectetur.</p>
+						<div class="centerbarge two">
+							<p class="one">Responsive inline editing</p>
+							<p class="two">Responsive in-line editing and asset management so that WYSIWYG—what you see is what you get</p>
 						</div>
 						
-						<div class="centerbarge">
-							<p class="one">Responsive Editing and previewing</p>
-							<p class="two">The industry's most innovative Lorem ipsum dolor sit amet, consectetur.</p>
+						<div class="centerbarge three">
+							<p class="one">Consistent platform updates</p>
+							<p class="two">Consistent platform updates with innovative features—add new features without having to manually update code or plugins</p>
 						</div>
 					</div>
 				</div>
 				
 				<div class="clear"></div>
 			</div>
-
+				
+		</div>
 		</div>
 		
 	</div>
@@ -214,26 +220,31 @@ include('header.php');
 	<div id="webmobilelayer4" class="webmobilelayer">
 	
 		<div class="container">
-		
-			<div class="webbox">
-				<div class="col_sec one">
-					<div class="spacing">
-						<h3>Featured Clients</h3>
-						<p>Powerful intelligence reporting. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi rhoncus, neque at efficitur condimentum.</p>
+		<div class="subcontainer">
+			
+			<h1>Featured Clients</h1>
+			
+			<div class="col_sec one">
+				<div class="spacing">
+					<div class="webfeattable">
+						<div class="webfeatcell">
+							<img src="images/westhouse-logo.png" />
+							<p class="one">Westhouse Hotel New York</p>
+							<p class="two">201 West 55th Street New York, NY 10019</p>
+						</div>
 					</div>
 				</div>
-				
-				<div class="col_sec two">
-					<div class="spacing">
-						<img src="images/westhouse-logo.png" />
-						<p class="one">Westhouse Hotel New York</p>
-						<p class="two">201 West 55th Street New York, NY 10019</p>
-					</div>
-				</div>
-				
-				<div class="clear"></div>
 			</div>
-
+			
+			<div class="col_sec two">
+				<div class="spacing">
+					<img src="images/feat-westhouse.png" />
+				</div>
+			</div>
+			
+			<div class="clear"></div>
+			
+		</div>
 		</div>
 		
 	</div>
@@ -243,6 +254,7 @@ include('header.php');
 	
 	<div id="calltoaction2">
 		<div class="container">
+		<div class="subcontainer">
 		
 			<div class="col_one_fourth">
 				<h3>Book more. <br>Be direct.</h3>
@@ -263,7 +275,10 @@ include('header.php');
 			<div class="col_one_fourth stacked">
 				<a class="button3" href="#">REQUEST A DEMO</a>
 			</div>
-
+			
+			<div class="clear"></div>
+			
+		</div>
 		</div>
 	</div>
 
