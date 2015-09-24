@@ -2,7 +2,7 @@
 	
 	$description = '';
 	$pagetitle = 'Booking Engine';
-	$image = 'images/banner-booking-engine.jpg';
+	$image = 'images/travel-tripper-booking-engine-banner.jpg';
 	$template_class = "template-booking-engine";
 
 include('header.php'); 
@@ -32,7 +32,7 @@ include('header.php');
 		<div class="container">
 		
 			<div class="col_one_half">
-				<img src="images/booking-engine-designed-to-convert.png" alt="Designed to convert" />
+				<img src="images/travel-tripper-booking-engine-page-layer1.jpg" alt="Designed to convert" />
 			</div>
 			
 			<div class="col_one_fourth">
@@ -81,7 +81,7 @@ include('header.php');
 			</div>
 		
 			<div class="col_three_fourth">
-				<img src="images/booking-engine-best-rate-guaranteed.png" alt="Best rate guaranteed" />
+				<img src="images/travel-tripper-booking-engine-page-layer2.jpg" alt="Best rate guaranteed" />
 			</div>
 
 		</div>

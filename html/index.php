@@ -186,7 +186,7 @@ include('header.php');
 
 		</div>
 
-		<div class="dmimg"><img src="images/digitalmarketing.png" /></div>
+		<div class="dmimg"><img src="images/homepage-bottom-travel-tripper.png" /></div>
 
 	</div>
 

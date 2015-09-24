@@ -133,7 +133,7 @@ include('header.php');
 			
 			<div class="col_two_third">
 				
-				<img src="images/crs-map.jpg" alt="crs map" />
+				<img width="65%" src="images/crs-map.jpg" alt="crs map" />
 				
 			</div>
 		
@@ -185,7 +185,7 @@ include('header.php');
 		
 	</div>
 	
-	<div id="bottombanner" class="contentright" style="background-image: url(images/crs-travel-tripper-office.jpg);">
+	<div id="bottombanner" class="contentright" style="background-image: url(images/travel-tripper-crs-bottom-banner.jpg);">
 	
 		<div class="container">
 	
