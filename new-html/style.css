@@ -1288,19 +1288,50 @@ div#calltoaction2 input {
 
 
 /* PAGE TEMPLATE */
+.template-base #breadcrumbs .container,
+.template-base #pagetitle .container,
+.template-base #mainpage .container {
+	max-width: 1350px;
+	margin: 0 auto;
+}
+
 #mainpage {
   clear: both;
   overflow: hidden;
 }
 
-#mainpage .container {
-  margin: 0 60px 30px;
-  overflow: hidden;
+#mainpage .subcontainer {
+	margin: 0 0 0 50px;
+	padding: 0;
+	position: relative;
+}
+
+#mainpage .subcontainer:before,
+#mainpage .subcontainer:after {
+	display: block;
+	content: '';
+	height: 100%;
+	background-color: #ccc;
+	width: 1px;
+	position: absolute;
+	top: 0;
+}
+
+#mainpage .subcontainer:before {
+	right: 30%;
+	margin: 0 -1px 0 0;
+}
+#mainpage .subcontainer:after {
+	right: 0;
 }
 
 .pagecontent {
   float: left;
-  width: 66%;
+  width: 70%;
+}
+
+.pagecontent .spacing {
+	padding: 0 30px 0 0;
 }
 
 /* PAGE TITLE */

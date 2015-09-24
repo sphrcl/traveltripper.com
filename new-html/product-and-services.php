@@ -3,6 +3,7 @@
 	$description = '';
 	$pagetitle = 'Product and Services';
 	$image = '';
+	$template_class = 'template-base';
 
 include('header.php'); 
 
@@ -22,16 +23,21 @@ include('header.php');
 
 	<div id="breadcrumbs">
 		<div class="container">
+		<div class="subcontainer">
 			<a href="index.php">Home</a> > <a href="#">Page Template</a>
+		</div>
 		</div>
 	</div>
 	
 	<div id="mainpage">
 	
 		<div class="container">
+		<div class="subcontainer">
 	
 			<div class="pagecontent">
-			
+				
+				<div class="spacing">
+				
 				<div class="entry">
 					
 					<h2>Another page heading</h2>
@@ -53,6 +59,8 @@ include('header.php');
 					
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lectus nisl, fermentum sed lacus vel, porttitor imperdiet lectus. Pellentesque sit amet dictum erat, quis congue tortor. Sed viverra tellus sapien, id imperdiet arcu imperdiet quis. Phasellus at metus non augue pharetra rutrum. Donec non neque pellentesque, egestas magna vitae, sodales tortor. In eu purus ultricies felis vestibulum congue ac at ex. Suspendisse at pellentesque lectus. Vivamus sagittis <a href="#">eget elit in semper</a>. Etiam molestie interdum commodo. Nam ultricies nunc a dictum malesuada. Phasellus vel neque nibh. </p>
 
+				</div>
+				
 				</div>
 				
 			</div>
@@ -134,6 +142,9 @@ include('header.php');
 		
 			</div>
 		
+			<div class="clear"></div>
+		
+		</div>
 		</div>
 		
 		
@@ -142,6 +153,7 @@ include('header.php');
 	
 	<div id="calltoaction2">
 		<div class="container">
+		<div class="subcontainer">
 		
 			<div class="col_one_fourth">
 				<h3>Newsletter</h3>
@@ -162,7 +174,10 @@ include('header.php');
 			<div class="col_one_fourth">
 				<a class="button3" href="#">SIGN UP</a>
 			</div>
+			
+			<div class="clear"></div>
 
+		</div>
 		</div>
 	</div>
 
