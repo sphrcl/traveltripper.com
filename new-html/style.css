@@ -1,3 +1,4 @@
+
 html, body, div, span, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 abbr, address, cite, code,
@@ -1840,21 +1841,46 @@ div#calltoaction2 input {
 }
 
 /* BLOG ROLL - BLOG POST*/
-div#mainblog {
-  clear: both;
-  overflow: hidden;
-}
 
-div#mainblog .container {
-	margin: 90px auto 30px;
-	overflow: hidden;
+#mainblog .container {
+	margin: 90px auto 0;
 	max-width: 1300px;
 	padding: 0 20px;
 }
 
+#mainblog .subcontainer {
+	padding: 0;
+	position: relative;
+}
+
+#mainblog .subcontainer:before,
+#mainblog .subcontainer:after {
+	background-color: #ccc;
+	position: absolute;
+	display: block;
+	content: '';
+	width: 1px;
+	height: 100%;
+	top: 0;
+}
+
+#mainblog .subcontainer:before {
+	right: 30%;
+	margin: 0 -1px 0 0;
+}
+
+#mainblog .subcontainer:after {
+	right: 0;
+}
+
 .blogcontent {
   float: left;
-  width: 66%;
+  width: 70%;
+  margin: 0 0 15px;
+}
+
+.blogcontent .spacing {
+	padding: 0 30px 0 0;
 }
 
 .entry {
@@ -1940,14 +1966,18 @@ h2.blogtitle a,
 
 .pagenav {
   text-align: right;
-  margin-bottom: 20px;
   color: #363636;
   font-size: 12px;
   font-weight: 700;
 }
 
 .pagenav a {
-  color: #34a4d9;
+  color: #4d4d4d;
+}
+
+.pagenav a:hover,
+.pagenav a.active {
+	color: #249FCD;
 }
 
 .pagenav span {
@@ -2095,6 +2125,9 @@ h2.blogtitle a,
   border-left: 1px solid #d3d3d3;
   padding: 20px 0;
 }
+.widgets.social a i {
+  color: #33a4d9;
+}
 
 .widgets.newsletter {
   text-align: center;
@@ -2135,6 +2168,28 @@ h2.blogtitle a,
   margin-bottom: 50px;
   cursor: pointer;
 }
+
+
+/* BLOG ROLL ONLY */
+
+
+.template-blog h2.blogtitle {
+	width: 70%;
+}
+
+.template-blog .entry p {
+	width: 90%;
+}
+
+
+
+
+
+
+
+
+
+
 
 /* CRS OVERVIEW */
 .template-crs #breadcrumbs {
