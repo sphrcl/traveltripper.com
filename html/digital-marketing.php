@@ -3,7 +3,7 @@
 	$description = '';
 	$pagetitle = 'Digital Marketing';
 	// $image = 'images/digital-marketing-banner.jpg';
-	$image = 'images/digital-marketing-traveltripper.jpg';
+	$image = 'images/travel-tripper-digital-marketing-banner.jpg';
 	$template_class = "template-digital-marketing";
 
 include('header.php'); 

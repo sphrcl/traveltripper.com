@@ -2,7 +2,7 @@
 	
 	$description = '';
 	$pagetitle = 'RevUp ';
-	$image = 'images/banner1.jpg';
+	$image = 'images/travel-tripper-revup-banner.jpg';
 	$template_class = "template-revup";
 
 include('header.php'); 
@@ -15,7 +15,7 @@ include('header.php');
 			
 			<div class="col_one_half left">
 				<div class="spacing">
-					<img src="images/banner-revup.png" />
+					<!-- <img src="images/banner-revup.png" /> -->
 				</div>
 			</div>
 			
