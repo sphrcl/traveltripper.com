@@ -1,6 +1,6 @@
 <?php 
 	
-	$template_class = 'careers';
+	$template_class = 'template-careers';
 	$description = '';
 	$pagetitle = 'Careers';
 	$image = '';
@@ -23,15 +23,18 @@ include('header.php');
 
 	<div id="breadcrumbs">
 		<div class="container">
+		<div class="subcontainer">
 			<a href="index.php">Home</a> > <a href="#">Careers</a>
+		</div>
 		</div>
 	</div>
 	
-	<div id="aboutmain" class="wrapper">
-	
-		<div class="container">
-
-			<div class="pagesection">
+	<div id="careermain" class="wrapper">
+		
+		<div id="working" class="pagesection">
+		
+			<div class="container">
+			<div class="subcontainer">
 		
 				<div class="col_one_fourth">
 					<h3>Working at Travel Tripper</h3>
@@ -40,95 +43,92 @@ include('header.php');
 				<div class="col_one_half">
 					<div class="spacing">
 						
-						<p>Travel Tripper is a young and dynamic, profitable, fast-growing company based in Manhattan. Our team is comprised of professionals that bring their expertise in the hotel industry itself, marketing, technology, and more. We work together collaboratively and cross-functionally to brainstorm, refine, and then shape new ideas into great products for our customers.</p>
+						<p class="one">Travel Tripper is a young and dynamic, profitable, fast-growing company based in Manhattan. Our team is comprised of professionals that bring their expertise in the hotel industry itself, marketing, technology, and more. We work together collaboratively and cross-functionally to brainstorm, refine, and then shape new ideas into great products for our customers.</p>
 
-						<p>For any additional questions, email <a href="mailto:careers@traveltripper.com">careers@traveltripper.com</a></p>
-
+						<p class="two">For any additional questions, email <a href="mailto:careers@traveltripper.com">careers@traveltripper.com</a></p>
+						
 					</div>
 				</div>
-		
+				
+				<div class="clear"></div>
+				
 			</div>
-	
-			<div class="pagesection positiions">
+			</div>
+			
+		</div>
 		
+		<div id="positions" class="pagesection">
+			
+			<div class="container">
+			<div class="subcontainer">
+			
 				<div class="col_one_fourth left">
 					<h3>Open Positions</h3>
 				</div>
 				
-				<div class="left">
-
+				<div class="col_one_half">
+				
 					<div class="col_one_half">
 						<div class="spacing">
-							<h3>Revenue Analyst <br>
-							New York, NY</h3>
+							<h3 class="one">Revenue Analyst <br>New York, NY</h3>
 							<p>Responsibilities Include: Generate online reservations for Travel Tripper’s customers in order to meet and exceed revenue targets and establish a market presence.</p>
-
-							<a href="#"><strong>See Details</strong></a>
+							<a href="#">See Details</a>
 						</div>
 					</div>
 					
 					<div class="col_one_half">
 						<div class="spacing">
-							<h3>Revenue Analyst <br>
-							New York, NY</h3>
+							<h3>Business Development Director <br>US: Major Metro Areas</h3>
 							<p>Responsibilities Include: Generate online reservations for Travel Tripper’s customers in order to meet and exceed revenue targets and establish a market presence.</p>
-
-							<a href="#"><strong>See Details</strong></a>
+							<a href="#">See Details</a>
 						</div>
 					</div>
-
+					
 					<div class="col_one_half">
 						<div class="spacing">
-							<h3>Revenue Analyst <br>
-							New York, NY</h3>
+							<h3>Finance &amp; Admin. Associate <br>New York, NY</h3>
 							<p>Responsibilities Include: Generate online reservations for Travel Tripper’s customers in order to meet and exceed revenue targets and establish a market presence.</p>
-
-							<a href="#"><strong>See Details</strong></a>
+							<a href="#">See Details</a>
 						</div>
 					</div>
-
+					
 					<div class="col_one_half">
 						<div class="spacing">
-							<h3>Revenue Analyst <br>
-							New York, NY</h3>
+							<h3>Revenue Analyst <br>New York, NY</h3>
 							<p>Responsibilities Include: Generate online reservations for Travel Tripper’s customers in order to meet and exceed revenue targets and establish a market presence.</p>
-
-							<a href="#"><strong>See Details</strong></a>
+							<a href="#">See Details</a>
 						</div>
 					</div>
-
+					
 					<div class="col_one_half">
 						<div class="spacing">
-							<h3>Revenue Analyst <br>
-							New York, NY</h3>
+							<h3>Revenue Analyst <br>New York, NY</h3>
 							<p>Responsibilities Include: Generate online reservations for Travel Tripper’s customers in order to meet and exceed revenue targets and establish a market presence.</p>
-
-							<a href="#"><strong>See Details</strong></a>
+							<a href="#">See Details</a>
 						</div>
 					</div>
-
+					
 					<div class="col_one_half">
 						<div class="spacing">
-							<h3>Revenue Analyst <br>
-							New York, NY</h3>
+							<h3>Revenue Analyst <br>New York, NY</h3>
 							<p>Responsibilities Include: Generate online reservations for Travel Tripper’s customers in order to meet and exceed revenue targets and establish a market presence.</p>
-
-							<a href="#"><strong>See Details</strong></a>
+							<a href="#">See Details</a>
 						</div>
 					</div>
-
+					
 				</div>
-		
+				
+				<div class="clear"></div>
+			
+			</div>
 			</div>
 		
 		</div>
-		
-		
-		
 	</div>
 	
 	<div id="calltoaction2">
 		<div class="container">
+		<div class="subcontainer">
 		
 			<div class="col_one_fourth">
 				<h3>Newsletter</h3>
@@ -149,7 +149,10 @@ include('header.php');
 			<div class="col_one_fourth" style="margin-top: 10px;">
 				<a class="button3" href="#">SIGN UP</a>
 			</div>
+			
+			<div class="clear"></div>
 
+		</div>
 		</div>
 	</div>
 

@@ -2455,7 +2455,58 @@ ul.checklist li {
 
 /* PAGE - Careers #################################################################################### */
 
-.pagesection.positiions .spacing h3 {
+.template-careers #breadcrumbs {
+	background-color: #fff;
+}
+
+#careermain .pagesection {
+	padding: 0;
+}
+
+#careermain .pagesection .spacing p {
+	padding: 0;
+}
+
+#careermain .pagesection h3 {
+	padding: 0 20px 0 0;
+	font-size: 36px;
+	line-height: 56px;
+	margin: -4px 0 0;
+}
+
+#careermain #working {
+	background-color: #fff;
+}
+
+#careermain #working .container {
+	padding: 0 0 50px;
+}
+
+#careermain #working .spacing {
+	padding: 0;
+}
+
+#careermain #working.pagesection p {
+	line-height: 32px;
+	padding: 0 0 30px;
+}
+
+#careermain #working.pagesection p.two {
+	max-width: 420px;
+}
+
+
+
+
+#careermain #positions {
+	background-color: #f6f6f6;
+}
+
+#careermain #positions .container {
+	padding: 50px 0 50px;
+}
+
+#careermain #positions.pagesection .spacing h3 {
     font-size: 20px;
     line-height: 1.6;
     margin-bottom: 20px;
@@ -2463,15 +2514,20 @@ ul.checklist li {
     font-weight: 600;
 }
 
-.pagesection.positiions .spacing a strong {
+#careermain #positions.pagesection .spacing a {
     text-transform: uppercase;
+	font-weight: 500;
 }
 
-.pagesection.positiions .col_one_half {
+#careermain #positions.pagesection .col_one_half .col_one_half {
     margin-bottom: 60px;
 }
 
-.wrapper .container .pagesection.positiions .spacing p {
+#careermain #positions.pagesection .col_one_half .col_one_half .spacing {
+	padding: 0 50px 0 0;
+}
+
+#careermain #positions.pagesection .spacing p {
     font-size: 18px;
     padding-bottom: 20px !important;
 }
