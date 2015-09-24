@@ -1915,13 +1915,18 @@ img.featured-image {
 
 h1.blogtitle,
 h2.blogtitle,
-.entry h2 {
+.entry h2,
+.entry blockquote {
   color: #34a4d9;
   font-size: 30px;
   line-height: 48px;
   font-weight: 500;
   letter-spacing: -0.01em;
   margin-bottom: 20px;
+}
+
+.entry blockquote {
+	width: 75%;
 }
 
 h1.blogtitle a,
@@ -1984,16 +1989,12 @@ h2.blogtitle a,
   margin-left: 20px;
 }
 
-.singlepost .blogcontent {
-  float: left;
-  width: 58%;
-}
-
 .socialshare {
-  float: left;
-  width: 8%;
-  margin-top: 20px;
+	position: absolute;
   text-align: center;
+  left: 0;
+  top: 0;
+  width: 80px;
 }
 
 .socialshare p {
@@ -2017,6 +2018,10 @@ h2.blogtitle a,
   line-height: 50px;
   font-size: 25px;
   text-align: center;
+}
+
+.socialshare ul li a i {
+	color: #fff;
 }
 
 /* BLOG SIDEBAR */
@@ -2182,9 +2187,23 @@ h2.blogtitle a,
 }
 
 
+/* BLOG SINGLE POST ONLY */
 
+.template-blog-single #mainblog .subcontainer {
+	padding: 0 0 0 90px;
+}
 
+.template-blog-single #mainblog .subcontainer:before {
+	margin: 0 -28px 0 0;
+}
 
+.template-blog-single h1.blogtitle {
+	width: 80%;
+}
+
+.template-blog-single h2 {
+	width: 75%;
+}
 
 
 

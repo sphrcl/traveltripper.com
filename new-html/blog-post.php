@@ -3,6 +3,7 @@
 	$description = '';
 	$pagetitle = 'Blog Single';
 	$image = '';
+	$template_class = "template-blog-single";
 
 include('header.php'); 
 
@@ -11,6 +12,7 @@ include('header.php');
 	<div id="mainblog" class="singlepost">
 	
 		<div class="container">
+		<div class="subcontainer">
 		
 			<div class="socialshare">
 				<p>211 people <br/>shared this</p>
@@ -22,7 +24,8 @@ include('header.php');
 			</div>
 	
 			<div class="blogcontent">
-			
+			<div class="spacing">
+				
 				<div class="entry">
 				
 					<img class="featured-image" src="images/blog1.jpg" alt="blog1" />
@@ -49,12 +52,13 @@ include('header.php');
 						
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lectus nisl, fermentum sed lacus vel, porttitor imperdiet lectus. <strong>Pellentesque</strong> sit amet dictum erat, quis congue tortor. Sed viverra tellus sapien, id imperdiet arcu imperdiet quis. Phasellus at metus non augue pharetra rutrum. Donec non neque pellentesque, egestas magna vitae, sodales tortor. In eu purus ultricies felis vestibulum congue ac at ex. Suspendisse at pellentesque lectus. Vivamus sagittis <a href="#">eget elit in semper</a>. Etiam molestie interdum commodo. Nam ultricies nunc a dictum malesuada. Phasellus vel neque nibh. </p>
 					
-					<h2>“Capture more direct reservations with TripConnect Instant Booking”</h2>
+					<blockquote>“Capture more direct reservations with TripConnect Instant Booking”</blockquote>
 					
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lectus nisl, fermentum sed lacus vel, porttitor imperdiet lectus. Pellentesque sit amet dictum erat, quis congue tortor. Sed viverra tellus sapien, id imperdiet arcu imperdiet quis. Phasellus at metus non augue pharetra rutrum. Donec non neque pellentesque, egestas magna vitae, sodales tortor. In eu purus ultricies felis vestibulum congue ac at ex. Suspendisse at pellentesque lectus. Vivamus sagittis <a href="#">eget elit in semper</a>. Etiam molestie interdum commodo. Nam ultricies nunc a dictum malesuada. Phasellus vel neque nibh. </p>
 
 				</div>
 				
+			</div>
 			</div>
 			
 			<div class="sidebar">
@@ -133,7 +137,10 @@ include('header.php');
 				</div>
 		
 			</div>
+			
+			<div class="clear"></div>
 		
+		</div>
 		</div>
 		
 		
@@ -142,6 +149,7 @@ include('header.php');
 	
 	<div id="calltoaction2">
 		<div class="container">
+		<div class="subcontainer">
 		
 			<div class="col_one_fourth">
 				<h3>Newsletter</h3>
@@ -162,7 +170,9 @@ include('header.php');
 			<div class="col_one_fourth" style="margin-top: 10px;">
 				<a class="button3" href="#">SIGN UP</a>
 			</div>
-
+			
+			<div class="clear"></div>
+			
 		</div>
 	</div>
 
