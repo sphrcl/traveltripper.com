@@ -2828,7 +2828,7 @@ ul.checklist li {
 /* PAGE - Web & Mobile #################################################################################### */
 
 .template-webmobile #breadcrumbs {
-	position: absolute;
+	background-color: #f6f6f6;
 }
 
 .template-webmobile #pagebanner h3 {
@@ -2837,99 +2837,270 @@ ul.checklist li {
 	padding: 0 0 20px;
 }
 
-.webmobilelayer .container {
-	padding: 100px 30px;
-}
-
-.webmobilelayer h3 {
-	font-size: 30px;
-	line-height: 40px;
+.webtext h1 {
+	font-size: 36px;
+	line-height: 48px;
 	letter-spacing: 0.015em;
-	padding: 0 0 30px;
 }
 
-.webmobilelayer p {
-	font-size: 17px;
+.webtext h2 {
+	font-size: 24px;
+	line-height: 36px;
+	letter-spacing: 0.015em;
+	font-weight: 300;
+}
+
+.webtext p {
+	font-size: 18px;
 	font-weight: 100;
 	line-height: 34px;
 }
 
+.webtext p.smaller {
+	font-size: 14px;
+	font-weight: 100;
+	line-height: 24px;
+}
+
+.webhightitle {
+	font-size: 24px;
+	line-height: 28px;
+	letter-spacing: 0.015em;
+	font-weight: 300;
+	margin: 0 0 50px;
+}
+
+.webhighimg {
+	float: left;
+	width: 40%;
+}
+
+.webhightext {
+	float: right;
+	width: 60%;	
+}
+
+.webhighimg .spacing {
+	padding: 0 20px 0 10px;
+}
+
+.webhighimg img {
+	max-width: 100%;
+	display: block;
+	border-radius: 50%;
+	box-shadow: 0 0 50px #ccc;
+}
+
+.webhightext li {
+	padding: 0;
+	margin: 0;
+	position: relative;
+	padding: 0 0 0 12px;
+}
+
+.webhightext li:before {
+	display: block;
+	content: '';
+	background-color: #b1d34a;
+	border-radius: 50%;
+	width: 5px;
+	height: 5px;
+	position: absolute;
+	left: 0;
+	top: 9px;
+}
+
+.webhightext h3 {
+	font-size: 14px;
+	line-height: 26px;
+	letter-spacing: 0.015em;
+	font-weight: 500;
+}
+
+.webhightext li span {
+	font-size: 12px;
+	line-height: 14px;
+	letter-spacing: 0.015em;
+	color: #4d4d4d;
+	font-weight: 100;
+}
+
+.webmid .webmidtable {
+	display: table;
+	height: 100%;
+}
+
+.webmid .webmidcell {
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+}
+
+.webmid h3 {
+	display: inline-block;
+	font-size: 14px;
+	font-weight: 500;
+	margin: 0 0 10px;
+	text-transform: uppercase;
+	letter-spacing: 0.015em;
+	position: relative;
+}
+
+.webmid h3:before {
+	background: transparent url("images/check.png") no-repeat scroll left center;
+	display: block;
+	content: "";
+	width: 18px;
+	height: 15px;
+	position: absolute;
+	top: 50%;
+	left: 0px;
+	margin: -8px 0px 0px -25px;
+}
+
+.webmid p {
+	font-size: 12px;
+	line-height: 22px;
+	font-weight: 100;
+	padding: 0;
+}
+
+
 #webmobilelayer1 {
-	background: url('images/webmoblayer1.jpg') no-repeat scroll 90% center #f6f6f6;
-	background-size: 500px auto;
+	background-color: #f6f6f6;
 }
 
 #webmobilelayer1 .container {
-	padding: 100px 0 100px 30px;
+	padding: 0 0 50px;
 }
 
-#webmobilelayer1 .webtable {
-	display: table;
-	height: 250px;
+#webmobilelayer1 .webbox.left {
+	width: 50%;
 }
 
-#webmobilelayer1 .webtable div {
-	display: table-cell;
-	vertical-align: middle;
+#webmobilelayer1 .webbox-one .spacing {
+	padding: 0 30px 0 0;
 }
 
-#webmobilelayer1 h3 {
-	line-height: 50px;
-	padding: 0 0 15px;
+#webmobilelayer1 .webbox-one .webtext.one {
+	max-width: 400px;
 }
 
-#webmobilelayer1 p {
-	font-size: 17px;
-	line-height: 1;
-	font-weight: 100;
+#webmobilelayer1 .webbox-one .webtext.two {
+	max-width: 560px;
+}
+
+#webmobilelayer1 .webbox-one .webtext.one h1 {
+	margin: 0 0 10px;
+}
+
+#webmobilelayer1 .webbox-one .webtext.two h2 {
+	margin: 0 0 5px;
 }
 
 
 
 #webmobilelayer2 {
-	background: url('images/webmoblayer2.jpg') no-repeat scroll right bottom transparent;
+	background-color: #fff;
 }
 
-#webmobilelayer2 .webbox {
-	width: 60%;
+#webmobilelayer2 .container {
+	padding: 50px 0 150px;
 }
 
-#webmobilelayer2 .webbox .one .spacing {
-	padding: 0 30px 0 0;
-	max-width: 350px;
-}
-
-#webmobilelayer2 .webbox .two .spacing {
-	max-width: 365px;
-}
-
-.iconbarge {
-	margin: 0 0 50px;
+#webmobilelayer2 .subcontainer {
+	padding: 0 50px;
 	position: relative;
 }
 
-.iconbarge.last { margin: 0;}
+#webmobilelayer2 .webbox-one .spacing {
+	padding: 0;
+}
 
-.iconbarge img {
+#webmobilelayer2 .webbox-one .webtext.one {
+	max-width: 380px;
+}
+
+#webmobilelayer2 .webbox-one .webtext.two p {
+	max-width: 280px;
+}
+
+#webmobilelayer2 .webbox-one .webtext.one h1 {
+	margin: 0 0 30px;
+}
+
+#webmobilelayer2 .webbox-one .webtext.two h2 {
+	margin: 0 0 5px;
+}
+
+#webmobilelayer2 .webbox-two {
+	width: 620px;
 	position: absolute;
-	left: 0;
-	top: 0;
+	top: 40px;
+	left: 50%;
+	margin: 0 0 0 -380px;
 }
 
-.iconbarge p.one {
-	font-size: 15px;
-	text-transform: uppercase;
-	font-weight: 10px;
-	font-weight: 700;
-	line-height: 26px;
-	padding: 3px 0 7px 85px;
+#webmobilelayer2 .webbox-two .webmid.one {
+	text-align: center;
+	margin: 0 0 30px;
 }
 
-.iconbarge p.two {
-	font-size: 13px;
-	line-height: 22px;
-	padding: 7px 0 0 85px;
+#webmobilelayer2 .webbox-two .webmid.one img {
+	max-width: 100%;
+	display: inline-block;
+	border-radius: 50%;
+	box-shadow: 0 0 50px #ccc;
 }
+
+#webmobilelayer2 .webbox-two .webmid.two .spacing {
+	height: 180px;
+	padding: 0 10px;
+}
+
+#webmobilelayer2 .webbox-two .col_one_third.two h3 {
+	max-width: 120px;
+}
+
+#webmobilelayer2 .webbox-two .col_one_third.three h3 {
+	max-width: 95px;
+}
+
+
+
+
+#webmobilelayer2 .webbox-three {
+	width: 400px;
+	position: absolute;
+	right: 50px;
+	bottom: -40px;
+}
+
+#webmobilelayer2 .webbox-three h2 {
+	text-align: center;
+}
+
+#webmobilelayer2 .webbox-three .webhigh h3 {
+	margin: 10px 0 0;
+}
+
+#webmobilelayer2 .webbox-three .webhigh.one {
+	margin: 0 0 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 #webmobilelayer3 {

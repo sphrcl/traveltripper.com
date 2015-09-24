@@ -24,80 +24,155 @@ include('header.php');
 
 	<div id="breadcrumbs">
 		<div class="container">
+		<div class="subcontainer">
 			<a href="index.php">Home</a> <i class="fa fa-angle-right"></i> <a href="web-mobile.php">Travel Tripper Web &amp; Mobile</a>
 		</div>
+		</div>
 	</div>
 	
-	<div id="webmobilelayer1" class="webmobilelayer">
+	<div id="webmobilelayer1">
 	
 		<div class="container">
+		<div class="subcontainer">
 			
-			<div class="webtable">
-				<div>
-					<h3>Introducing our cloud <br>hotel web and mobile platform</h3>
-					<p>higher conversion rate, increased direct revenue</p>
+			<div class="webbox-one">
+				<div class="webtext one">
+					<h1>Setting a new standard for hotel websites</h1>
+					<p>Travel Tripper Web is the first platform that fully integrates our smart CRS and booking engine into your hotel website, creating a modern and seamless user experience that increases direct bookings. </p>
+				</div>
+				
+				<div class="webtext two">
+					<h2>Optimized across all devices</h2>
+					<p>Our platform uses built-in responsive design so you can easily build stunning hotel websites that look and function beautifully across desktop, tablet, and mobile devices.</p>
 				</div>
 			</div>
-		
+			
+			<div class="webbox-two">
+			</div>
+			
+			<div class="clear"></div>
+			
+		</div>
 		</div>
 		
 	</div>
 	
-	<div id="webmobilelayer2" class="webmobilelayer">
+	<div id="webmobilelayer2">
 	
 		<div class="container">
+		<div class="subcontainer">
 		
-			<div class="webbox">
-				<div class="col_one_half one">
+			<div class="webbox-one">
+				<div class="spacing">
+					<div class="webtext one">
+						<h1>More than just a website—discover hotel e-commerce at its most innovative</h1>
+					</div>
+					
+					<div class="webtext two">
+						<h2>Dynamic rate integration</h2>
+						<p class="one">Attract guests during the travel research phase by displaying real-time rates and availability as they casually browse the website. Rates automatically update throughout the site when travelers input their dates.</p>
+					</div>
+				</div>
+			</div>
+			
+			
+			<div class="webbox-two">
+				
+				<div class="webmid one">
 					<div class="spacing">
-						<h3>Dynamic Booking integration</h3>
-						<p>Powerful intelligence reporting. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi rhoncus, neque at efficitur condimentum.</p>
+						<img src="images/webmid1.png" />
 					</div>
 				</div>
 				
-				<div class="col_one_half two">
-					<div class="spacing">
-						<div class="iconbarge">
-							<img src="images/icon-gds.png" />
-							<p class="one">Automatically promote specials</p>
-							<p class="two">The industry's most innovative Lorem ipsum dolor sit amet, consectetur.</p>
-						</div>
-						
-						<div class="iconbarge">
-							<img src="images/icon-gds.png" />
-							<p class="one">Responsive Design across <br>any screen or device</p>
-							<p class="two">The industry's most innovative Lorem ipsum dolor sit amet, consectetur.</p>
-						</div>
-						
-						<div class="iconbarge">
-							<img src="images/icon-gds.png" />
-							<p class="one">Best rate guarantee</p>
-							<p class="two">The industry's most innovative Lorem ipsum dolor sit amet, consectetur.</p>
-						</div>
-						
-						<div class="iconbarge">
-							<img src="images/icon-gds.png" />
-							<p class="one">Tripadvisor reviews</p>
-							<p class="two">The industry's most innovative Lorem ipsum dolor sit amet, consectetur.</p>
-						</div>
-						
-						<div class="iconbarge last">
-							<img src="images/icon-gds.png" />
-							<p class="one">Interactive maps</p>
-							<p class="two">The industry's most innovative Lorem ipsum dolor sit amet, consectetur.</p>
+				<div class="webmid two">
+					<div class="col_one_third one">
+						<div class="spacing">
+							<div class="webmidtable">
+								<div class="webmidcell">
+									<h3>Dynamic rates</h3>
+									<p>Dynamic rates available on rooms pages, special offers, and more</p>
+								</div>
+							</div>
 						</div>
 					</div>
+					<div class="col_one_third two">
+						<div class="spacing">
+							<div class="webmidtable">
+								<div class="webmidcell">
+									<h3>Decrease abandonment</h3>
+									<p>No need to start reservations flow until traveler is fully ready to book—decreases abandoned bookings  </p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col_one_third three">
+						<div class="spacing">
+							<div class="webmidtable">
+								<div class="webmidcell">
+									<h3>Guest date selection</h3>
+									<p>Guests’ date selection saved so they do not have to input again</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					
+					<div class="clear"></div>
 				</div>
-				
-				<div class="clear"></div>
+			
+			</div>
+			
+			
+			<div class="webbox-three">
+				<div class="spacing">
+					<h2 class="webhightitle">Higher conversions with Automated Best Rate Guarantee and Rate Calendar</h2>
+					
+					<div class="webhigh one">
+						
+						<div class="webhighimg">
+							<div class="spacing"><img src="images/webhigh1.png" /></div>
+						</div>
+						
+						<div class="webhightext">
+							<h3>Automated Best Rate Guarantee</h3>
+							
+							<ul>
+								<li><span>Never be out of parity again with OTAs</span></li>
+								<li><span>Automatic price matching whenever rates are lower elsewhere</span></li>
+							</ul>
+						</div>
+						
+						<div class="clear"></div>
+						
+					</div>
+					
+					<div class="webhigh two">
+						
+						<div class="webhighimg">
+							<div class="spacing"><img src="images/webhigh2.png" /></div>
+						</div>
+						
+						<div class="webhightext">
+							<h3>Automated Best Rate Guarantee</h3>
+							
+							<ul>
+								<li><span>Never be out of parity again with OTAs</span></li>
+								<li><span>Automatic price matching whenever rates are lower elsewhere</span></li>
+							</ul>
+						</div>
+						
+						<div class="clear"></div>
+						
+					</div>
+				</div>
 			</div>
 
 		</div>
+		</div>
 		
 	</div>
 	
 	
-	<div id="webmobilelayer3" class="webmobilelayer">
+	<div id="webmobilelayer3">
 	
 		<div class="container">
 		
