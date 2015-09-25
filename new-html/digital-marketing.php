@@ -16,7 +16,7 @@ include('header.php');
 	
 			<h1>Digital Marketing</h1>
 			<p>Powered by the world’s most innovative booking engine adipiscing elit. Maecenas ut cursus ligula. ROI pharetra consequat dolor non. semper. Nam in ligula dictum, ultrices ante vitae, vitae, sollicitudin.</p>
-			<a class="button1" href="#">ASK FOR QUOTE &nbsp; <i class="fa fa-angle-right"></i></a>
+			<a class="button1" href="#">REQUEST A DEMO &nbsp; <i class="fa fa-angle-right"></i></a>
 		
 		</div>
 		
