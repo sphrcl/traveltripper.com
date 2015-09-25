@@ -2127,7 +2127,7 @@ h2.blogtitle a,
 
 .meta {
   color: #363636;
-  font-size: 11px;
+  font-size: 12px;
   font-weight: 100;
   margin-bottom: 20px;
 }
@@ -2336,6 +2336,7 @@ h2.blogtitle a,
   line-height: 42px;
   font-weight: 300;
   letter-spacing: 0.01em;
+  padding: 20px 10px;
   /*margin-bottom: 20px;*/
   border: 0;
 }
@@ -2349,7 +2350,7 @@ h2.blogtitle a,
   font-size: 17px;
   line-height: 20px;
   border: 1px solid #1594d1;
-  margin-bottom: 20px;
+  margin-bottom: 25px;
 }
 
 .widgets.newsletter input[type="submit"] {
@@ -2360,7 +2361,7 @@ h2.blogtitle a,
   border: 0;
   font-size: 15px;
   font-weight: 300;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
   cursor: pointer;
 }
 

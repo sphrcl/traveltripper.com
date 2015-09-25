@@ -17,9 +17,9 @@ include('header.php');
 			<div class="socialshare">
 				<p>211 people <br/>shared this</p>
 				<ul>
-					<li><a href="http://www.twitter.com/" target="_blank"><i class="fa fa-twitter"></i></a></li>
-					<li><a href="http://www.facebook.com/" target="_blank"><i class="fa fa-facebook-square"></i></a></li>
-					<li><a href="http://www.linkedin.com/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+					<li><a href="https://www.linkedin.com/company/travel-tripper" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+					<li><a href="https://www.facebook.com/traveltripper" target="_blank"><i class="fa fa-facebook-square"></i></a></li>
+					<li><a href="https://twitter.com/Travel_Tripper" target="_blank"><i class="fa fa-twitter"></i></a></li>
 				</ul>
 			</div>
 	
@@ -76,16 +76,16 @@ include('header.php');
 				<div class="widgets social">
 				
 					<ul>
-						<li><a href="http://www.linkedin.com/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
-						<li><a href="http://www.facebook.com/" target="_blank"><i class="fa fa-facebook-square"></i></a></li>
-						<li><a href="http://www.twitter.com/" target="_blank"><i class="fa fa-twitter"></i></a></li>
+						<li><a href="https://www.linkedin.com/company/travel-tripper" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+						<li><a href="https://www.facebook.com/traveltripper" target="_blank"><i class="fa fa-facebook-square"></i></a></li>
+						<li><a href="https://twitter.com/Travel_Tripper" target="_blank"><i class="fa fa-twitter"></i></a></li>
 					</ul>
 				
 				</div>
 				
 				<div class="widgets newsletter">
 				
-					<h3 class="widgettitle">Join Our Newsletter</h3>
+					<h3 class="widgettitle">Subscribe to our blog</h3>
 				
 					<form name="" action="#" method="get">
 						<input type="text" name="email" value="" placeholder="E-MAIL ADDRESS"><br>
