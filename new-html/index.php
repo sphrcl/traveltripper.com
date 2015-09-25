@@ -3,6 +3,7 @@
 	$description = '';
 	$pagetitle = '';
 	$image = '';
+	$template_class = 'homepage';
 
 include('header.php');
 
