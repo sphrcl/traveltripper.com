@@ -1265,6 +1265,7 @@ li.icon-revenue-management { background: url(images/icon-revenue-management.png)
   color: #fff;
   padding: 12px 25px;
   display: inline-block;
+  cursor: pointer;
   
   font-family: 'MuseoSans', Arial, Helvetica;
   font-size: 18px;

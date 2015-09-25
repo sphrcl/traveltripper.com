@@ -203,5 +203,7 @@ include('header.php');
 	</div>
 	
 	<?php include('cta-demo2.php'); ?>
+	
+	<?php include('bottom-nav.php'); ?>
 
 <?php include('footer.php'); ?>

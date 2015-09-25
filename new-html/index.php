@@ -261,5 +261,7 @@ include('header.php');
 
 
 	<?php include('cta-home.php'); ?>
+	
+	<?php include('bottom-nav.php'); ?>
 
 <?php include('footer.php'); ?>
