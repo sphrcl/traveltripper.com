@@ -6,29 +6,37 @@
 		
 		<div class="bottombox one">
 			<div class="spacing">
-				<div style="background-image: url('images/bottomnav1.png');"></div>
-				<p>Booking Engine</p>
+				<a href="booking-engine.php">
+					<div style="background-image: url('images/bottomnav1.png');"></div>
+					<p>Booking Engine</p>
+				</a>
 			</div>
 		</div>
 		
 		<div class="bottombox two">
 			<div class="spacing">
-				<div style="background-image: url('images/bottomnav2.png');"></div>
-				<p>Revenue Management</p>
+				<a href="revup.php">
+					<div style="background-image: url('images/bottomnav2.png');"></div>
+					<p>Revenue Management</p>
+				</a>
 			</div>
 		</div>
 		
 		<div class="bottombox three">
 			<div class="spacing">
-				<div style="background-image: url('images/bottomnav3.png');"></div>
-				<p>Digital Marketing</p>
+				<a href="digital-marketing.php">
+					<div style="background-image: url('images/bottomnav3.png');"></div>
+					<p>Digital Marketing</p>
+				</a>
 			</div>
 		</div>
 		
 		<div class="bottombox four">
 			<div class="spacing">
-				<div style="background-image: url('images/bottomnav4.png');"></div>
-				<p>Web Design &amp; Development</p>
+				<a href="web-mobile.php">
+					<div style="background-image: url('images/bottomnav4.png');"></div>
+					<p>Web Design &amp; Development</p>
+				</a>
 			</div>
 		</div>
 		
