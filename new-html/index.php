@@ -172,7 +172,7 @@ include('header.php');
 			<div class="booking-engine">
 
 				<div class="left">
-					<div class="bkimg"><img src="images/mac-mobile.png" alt="mac mobile" /></div>
+					<div class="bkimg"><img src="images/homepage-booking-engine.png" /></div>
 				</div>
 
 				<div class="right">
@@ -191,7 +191,7 @@ include('header.php');
 			<div class="web-engine">
 
 				<div class="left">
-					<div class="bkimg"><img src="images/feat-forms.png" alt="mac mobile" /></div>
+					<div class="bkimg"><img src="images/homepage-web-and-engine.png" /></div>
 				</div>
 
 				<div class="right">
