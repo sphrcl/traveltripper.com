@@ -285,7 +285,6 @@ strong {
 	background-color: #f3f3f3;
 	height: 60px;
 	position: fixed;
-	top: 10px; /* DINO: This is intended. Do not remove */
 	width: 100%;
 	z-index: 9999;
 	border: 1px solid #d2d2d2;
@@ -1089,10 +1088,6 @@ li.icon-revenue-management { background: url(images/icon-revenue-management.png)
 
 .booking-engine {
 	padding: 0 0 100px;
-}
-
-.web-engine .bkimg {
-	opacity: 0.5;
 }
 
 

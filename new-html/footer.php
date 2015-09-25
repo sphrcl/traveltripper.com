@@ -34,8 +34,7 @@
 					<div class="footeradd">
 						<i class="fa fa-map-marker"></i>
 						<p>370 Lexington Avenue,<br/>
-						Suite 1601, New York, NY 10017<br/><br/>
-						
+						Suite 1601, New York, NY 10017<br/>
 						+ 1.212.683.6161</p>
 					</div>
 				</div>
@@ -43,9 +42,9 @@
 				<div class="col_one_fourth four">
 					<div class="footersocial">
 						<ul>
-							<li><a href="http://www.linkedin.com/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
-							<li><a href="http://www.facebook.com/" target="_blank"><i class="fa fa-facebook-square"></i></a></li>
-							<li><a href="http://www.twitter.com/" target="_blank"><i class="fa fa-twitter"></i></a></li>
+							<li><a href="https://www.linkedin.com/company/travel-tripper" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+							<li><a href="https://www.facebook.com/traveltripper" target="_blank"><i class="fa fa-facebook-square"></i></a></li>
+							<li><a href="https://twitter.com/Travel_Tripper" target="_blank"><i class="fa fa-twitter"></i></a></li>
 						</ul>
 						
 						<p><a href="#">Say Hello &rarr;</a></p>
