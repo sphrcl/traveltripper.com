@@ -1348,7 +1348,59 @@ li.icon-revenue-management { background: url(images/icon-revenue-management.png)
 #calltoaction.cta-newsletter .col_one_half.two .spacing { padding: 0 0 0 40px;}
 
 
+/* BOTTOM NAV */
 
+#bottomnav {
+	background-color: #fff;
+	text-align: center;
+}
+
+#bottomnav .container {
+	padding: 30px 0;
+}
+
+#bottomnav .subcontainer {
+	padding: 0;
+}
+
+#bottomnav .bottombox {
+	float: left;
+	width: 25%;
+	position: relative;
+}
+
+#bottomnav .bottombox::before {
+	display: block;
+	content: '';
+	width: 3px;
+	right: -2px;
+	height: 100%;
+	top: 0;
+	background-color: #B9B9B9;
+	position: absolute;
+}
+	#bottomnav .bottombox.four::before { display: none;}
+
+#bottomnav .bottombox .spacing {
+	padding: 20px 0;
+}
+
+#bottomnav .bottombox .spacing div {
+	height: 72px;
+	margin: 0 0 35px;
+	
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-color: transparent;
+	background-position: center center;
+}
+
+#bottomnav p {
+	font-size: 24px;
+	font-weight: 100;
+	line-height: 1;
+	padding: 0 15px;
+}
 
 
 
