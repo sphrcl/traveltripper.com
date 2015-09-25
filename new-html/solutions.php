@@ -29,7 +29,7 @@ include('header.php');
 	<div id="breadcrumbs">
 		<div class="container">
 		<div class="subcontainer">
-			<a href="index.php">Home</a> > <a href="#">Solutions</a>
+			<a href="index.php">Travel Tripper</a> > <a href="#">Solutions</a>
 		</div>
 		</div>
 	</div>
