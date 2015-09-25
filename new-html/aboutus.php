@@ -63,32 +63,74 @@ include('header.php');
 					<h3>Leaderships</h3>
 				</div>
 				
-				<div class="col_one_fourth two">
-					<div class="spacing">
-						<img src="images/about-gautam.png" alt="gautam" />
-						<h4>Gautam Lulla</h4>
-						<p>CEO</p>
-					</div>
-				</div>
+				<div class="col_three_fourth two">
 				
-				<div class="col_one_fourth three">
-					<div class="spacing">
-						<img src="images/about-steffan.png" alt="steffan" />
-						<h4>Steffan Berelowitx Lulla</h4>
-						<p>VP Digital Platforms</p>
+					<div class="col_one_third">
+						<div class="spacing">
+							<img src="images/about-gautam.png" alt="gautam" />
+							<h4>Gautam Lulla</h4>
+							<p>President</p>
+						</div>
 					</div>
-				</div>
-				
-				<div class="col_one_fourth four">
-					<div class="spacing">
-						<img src="images/about-pj.png" alt="pj" />
-						<h4>PJ MacIntyre</h4>
-						<p>Senior Director of Sales <br>and Business Development</p>
+					
+					<div class="col_one_third">
+						<div class="spacing">
+							<img src="images/about-steffan.png" alt="steffan" />
+							<h4>Steffan Berelowitz</h4>
+							<p>VP Digital Platforms</p>
+						</div>
 					</div>
+					
+					<div class="col_one_third">
+						<div class="spacing">
+							<img src="images/about-rich.png" alt="pj" />
+							<h4>Rich Diegnan</h4>
+							<p>General Counsel and CFO</p>
+						</div>
+					</div>
+					
+					<div class="clear clear3"></div>
+					
+					<div class="col_one_third">
+						<div class="spacing">
+							<img src="images/about-joan.png" alt="gautam" />
+							<h4>Joan Evelyn Lee</h4>
+							<p>Director of Revenue Optimization</p>
+						</div>
+					</div>
+					
+					<div class="col_one_third">
+						<div class="spacing">
+							<img src="images/about-pj.png" alt="steffan" />
+							<h4>PJ McIntyre</h4>
+							<p>Senior Director of Sales</p>
+						</div>
+					</div>
+					
+					<div class="col_one_third">
+						<div class="spacing">
+							<img src="images/about-kevin.png" alt="pj" />
+							<h4>Berry Lu</h4>
+							<p>Client Services Manager</p>
+						</div>
+					</div>
+					
+					<div class="clear clear3"></div>
+					
+					<div class="col_one_third">
+						<div class="spacing">
+							<img src="images/about-kevin.png" alt="pj" />
+							<h4>Kevin Born</h4>
+							<p>Lead Engineer</p>
+						</div>
+					</div>
+					
+					<div class="clear clear3"></div>
+					
 				</div>
 				
 				<div class="clear"></div>
-			
+				
 			</div>
 			</div>
 		

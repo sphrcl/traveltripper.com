@@ -1701,6 +1701,10 @@ li.icon-revenue-management { background: url(images/icon-revenue-management.png)
 	line-height: 28px;
 }
 
+#aboutmain .leadership .col_one_third {
+	margin: 0 0 50px;
+}
+
 
 
 #aboutmain .different .spacing {
