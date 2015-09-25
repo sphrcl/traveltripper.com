@@ -3,6 +3,7 @@
 	$description = '';
 	$pagetitle = 'Hotel Digital Solutions';
 	$image = 'images/solutions-travel-tripper.jpg';
+	$template_class = 'template-solutions';
 
 include('header.php'); 
 
@@ -11,21 +12,25 @@ include('header.php');
 	<div id="pagebanner" class="contentright" style="background-image: url(<?php echo $image; ?>);">
 	
 		<div class="container">
+		<div class="subcontainer">
 	
 			<h1><?php echo $pagetitle; ?></h1>
 			<p>
 				Discover how complete e-commerce suite and digital
-				and marketing services works to increase<br> reservations
+				and marketing services works to increase reservations
 				and maximize revenue for your hotel
 			</p>	
 
+		</div>
 		</div>
 		
 	</div>
 	
 	<div id="breadcrumbs">
 		<div class="container">
+		<div class="subcontainer">
 			<a href="index.php">Home</a> > <a href="#">Solutions</a>
+		</div>
 		</div>
 	</div>
 	
@@ -34,6 +39,7 @@ include('header.php');
 	
 		<div class="solutionstabs1">
 		<div class="container">
+		<div class="subcontainer">
 			
 			<h3>The “suite” solution from search to stay</h3>
 			
@@ -147,9 +153,11 @@ include('header.php');
 	
 		</div>
 		</div>
+		</div>
 		
 		<div class="solutionstabs2">
 		<div class="container">
+		<div class="subcontainer">
 			
 			<h3>Why choose Travel Tripper?</h3>
 			
@@ -190,11 +198,13 @@ include('header.php');
 
 		</div>
 		</div>
+		</div>
 
 	</div>
 	
 	<div id="calltoaction2">
 		<div class="container with-text">
+		<div class="subcontainer">
 		
 			<div class="col_one_fourth">
 				<h3>It’s time to be more direct.</h3>
@@ -219,7 +229,10 @@ include('header.php');
 			<div class="col_one_fourth">
 				<a class="button3 with-text-butt" href="#">REQUEST A DEMO</a>
 			</div>
+			
+			<div class="clear"></div>
 
+		</div>
 		</div>
 	</div>
 

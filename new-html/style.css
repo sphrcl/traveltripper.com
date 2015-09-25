@@ -1640,9 +1640,17 @@ div#calltoaction2 input {
 	font-weight: 100;
 }
 
+#aboutmain .working .col_one_fourth.four a {
+	font-weight: 300;
+}
+
 
 
 /* SOLUTIONS */
+.template-solutions #pagebanner p {
+	max-width: 400px;
+}
+
 #solutionsmain {
   clear: both;
 }
@@ -1696,11 +1704,21 @@ div#calltoaction2 input {
   padding: 0;
 }
 
-
 #solutionsmain .solutionstabs1 .container {
   max-width: 1175px;
   text-align: center;
   padding: 0 30px 50px;
+}
+
+#solutionsmain .solutionstabs2 .container {
+  max-width: 1175px;
+  text-align: center;
+  padding: 50px 30px;
+}
+
+#solutionsmain .solutionstabs1 .subcontainer,
+#solutionsmain .solutionstabs2 .subcontainer {
+	padding: 0;
 }
 
 #solutionsmain .solutionstabs1 .pagesection {
@@ -1719,11 +1737,7 @@ div#calltoaction2 input {
 	background-color: #f6f6f6;
 }
 
-#solutionsmain .solutionstabs2 .container {
-  max-width: 1175px;
-  text-align: center;
-  padding: 50px 30px;
-}
+
 
 
 
@@ -2251,6 +2265,11 @@ h2.blogtitle a,
 
 
 /* CRS OVERVIEW */
+
+.template-crs #pagebanner p {
+	max-width: 280px;
+}
+
 .template-crs #breadcrumbs {
 	background-color: #f6f6f6;
 }
@@ -2470,6 +2489,7 @@ ul.checklist li {
 #bottombanner.crs .subcontainer {
 	width: 50%;
 	float: right;
+	padding: 0 0 0 50px;
 }
 
 #bottombanner.crs .spacing {
@@ -3347,7 +3367,7 @@ ul.checklist li {
 /* PAGE - Digital Marketing #################################################################################### */
 
 .template-digital-marketing #pagebanner p {
-  width: 60%;
+  max-width: 380px;
 }
 
 .template-digital-marketing #breadcrumbs {
