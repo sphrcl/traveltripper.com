@@ -16,7 +16,7 @@ include('header.php');
 	
 			<h1>Travel Tripper Web</h1>
 			<p>Beautiful hotel websites driving higher guest engagement and increased conversions across all devices</p>
-			<a class="button1" href="#">Demo Engine &nbsp; <i class="fa fa-angle-right"></i></a>
+			<a class="button1" href="#">REQUEST A QUOTE &nbsp; <i class="fa fa-angle-right"></i></a>
 		
 		</div>
 		</div>
@@ -26,7 +26,7 @@ include('header.php');
 	<div id="breadcrumbs">
 		<div class="container">
 		<div class="subcontainer">
-			<a href="index.php">Home</a> <i class="fa fa-angle-right"></i> <a href="web-mobile.php">Travel Tripper Web &amp; Mobile</a>
+			<a href="index.php">Travel Tripper</a> <i class="fa fa-angle-right"></i> <a href="web-mobile.php">Travel Tripper Web &amp; Mobile</a>
 		</div>
 		</div>
 	</div>
