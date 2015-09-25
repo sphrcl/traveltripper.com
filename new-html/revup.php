@@ -23,7 +23,7 @@ include('header.php');
 					<h3>Hotel Revenue<br/>
 					Management Platform</h3>
 					<p>Trending analysis and forecasting tools that help  revenue managers make the best pricing decisions for their hotels.</p>
-					<a class="button1" href="#">ASK FOR QUOTE &nbsp; ></a>
+					<a class="button1" href="#">REQUEST A DEMO &nbsp; ></a>
 				</div>
 			</div>
 			
@@ -36,7 +36,7 @@ include('header.php');
 	<div id="breadcrumbs">
 		<div class="container">
 		<div class="subcontainer">
-			<a href="index.php">Home</a> > <a href="solutions.php">Solutions</a> > <a href="revup.php">RevUp</a>
+			<a href="index.php">Travel Tripper</a> > <a href="solutions.php">Solutions</a> > <a href="revup.php">RevUp</a>
 		</div>
 		</div>
 	</div>
@@ -82,9 +82,8 @@ include('header.php');
 		
 			<div class="col_one_half left">
 				<div class="spacing">
-					<div class="pageuptitle-b">
+					<div class="pageuptitle-a">
 						<h3>Powerful reports</h3>
-						<h4>Automated Best Rate Guarantee</h4>
 					</div>
 					<p>RevUp captures daily revenue performance, eliminates the time associated with gathering historical data, and provides instant analytical reports. It gives users powerful tools, such as pickup and pace-by-day reports that analyze revenue projects across key hotel metrics. </p>
 				</div>
@@ -133,9 +132,8 @@ include('header.php');
 		
 			<div class="col_one_third left">
 				<div class="spacing">
-					<div class="pageuptitle-b">
+					<div class="pageuptitle-s">
 						<h3>Forecast data</h3>
-						<h4>Customer service</h4>
 					</div>
 					<p>Anticipate market demand with access to daily flight data and trends, and adjust pricing strategies ahead of the competition. </p>
 				</div>

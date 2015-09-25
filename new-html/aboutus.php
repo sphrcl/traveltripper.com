@@ -24,7 +24,7 @@ include('header.php');
 	<div id="breadcrumbs">
 		<div class="container">
 		<div class="subcontainer">
-			<a href="index.php">Home</a> > <a href="#">About Us</a>
+			<a href="index.php">Travel Tripper</a> > <a href="#">About Us</a>
 		</div>
 		</div>
 	</div>
@@ -38,12 +38,12 @@ include('header.php');
 			<div class="subcontainer">
 			
 				<div class="col_one_fourth">
-					<h3>Strategic partner in hotel distribution</h3>
+					<h3>Your strategic partner in hotel distribution</h3>
 				</div>
 				
 				<div class="col_one_half">
 					<div class="spacing">
-						<p class="aboutus">Travel Tripper is a full-service hotel web technology provider and strategic partner in helping hotels worldwide to optimize conversions, expand reach, and generate demand. We power properties with innovative technological solutions, including RezTrip, our industry leading central reservation system and hotel booking engine.</p>
+						<p class="aboutus">Travel Tripper is a full-service hotel web technology provider and strategic partner in helping hotels worldwide to optimize conversions, expand reach, and generate demand. We power properties with innovative technological solutions, including RezTrip, our industry leading central reservation system and hotel booking engine, and Travel Tripper Web, our fully integrated website and mobile platform.</p>
 					</div>
 				</div>
 				
@@ -60,7 +60,7 @@ include('header.php');
 			<div class="subcontainer">
 			
 				<div class="col_one_fourth one">
-					<h3>Leaderships</h3>
+					<h3>Team</h3>
 				</div>
 				
 				<div class="col_three_fourth two">
