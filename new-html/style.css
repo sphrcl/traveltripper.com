@@ -1237,11 +1237,9 @@ li.icon-revenue-management { background: url(images/icon-revenue-management.png)
 
 /* CALLTOACTION2 */
 div#calltoaction2 {
-  overflow: hidden;
   background-color: #33a1cc;
   color: #fff;
   text-align: center;
-  clear: both;
   border-top: 1px solid #3292A7;
 }
 

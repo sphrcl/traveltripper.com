@@ -260,14 +260,6 @@ include('header.php');
 	</div>
 
 
-
-	<div id="calltoaction">
-		<div class="container">
-
-			<h3>Book more. <br>Be direct.</h3>
-			<a class="button3" href="#">REQUEST A DEMO</a>
-
-		</div>
-	</div>
+	<?php include('cta-home.php'); ?>
 
 <?php include('footer.php'); ?>
