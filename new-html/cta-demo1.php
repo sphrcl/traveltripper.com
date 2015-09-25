@@ -1,26 +1,38 @@
 	
-<div id="calltoaction2">
+<div id="calltoaction" class="cta-demo1">
 	<div class="container">
 	<div class="subcontainer">
 	
-		<div class="col_one_fourth">
+		<div class="ctabox one">
 			<h3>Book more. <br>Be direct.</h3>
 		</div>
 		
-		<form name="" action="#" method="get">
+		<div class="ctabox two">
 		
-			<div class="col_one_fourth stacked">
-				<input type="text" name="name" value="" placeholder="NAME">
-			</div>
+			<form name="" action="#" method="get">
 			
-			<div class="col_one_fourth stacked">
-				<input type="text" name="email" value="" placeholder="E-MAIL ADDRESS">
-			</div>
+				<div class="col_one_third one">
+					<div class="spacing">
+						<input type="text" name="name" value="" placeholder="NAME" />
+					</div>
+				</div>
+				
+				<div class="col_one_third two">
+					<div class="spacing">
+						<input type="text" name="email" value="" placeholder="E-MAIL ADDRESS" />
+					</div>
+				</div>
+				
+				<div class="col_one_third three">
+					<div class="spacing">
+						<input type="submit" value="REQUEST A DEMO" />
+					</div>
+				</div>
+				
+				<div class="clear"></div>
+				
+			</form>
 		
-		</form>
-		
-		<div class="col_one_fourth stacked">
-			<a class="button3" href="#">REQUEST A DEMO</a>
 		</div>
 		
 		<div class="clear"></div>

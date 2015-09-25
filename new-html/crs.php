@@ -216,38 +216,6 @@ include('header.php');
 		
 	</div>
 	
-	<div id="calltoaction2">
-		<div class="container with-text">
-		<div class="subcontainer">
-		
-			<div class="col_one_fourth">
-				<h3>It’s time to be more direct.</h3>
-			</div>
-
-			<div class="col_one_fourth two">
-				<p class="cta-text">Find out how Travel Tripper can help your hotel increase direct bookings and maximize revenue.</p>
-			</div>
-
-			<form name="" action="#" method="get">
-
-				<div class="col_one_fourth">
-					<input type="text" name="name" value="" placeholder="NAME">
-				</div>
-				
-				<div class="col_one_fourth">
-					<input type="text" name="email" value="" placeholder="E-MAIL ADDRESS">
-				</div>
-			
-			</form>
-			
-			<div class="col_one_fourth">
-				<a class="button3 with-text-butt" href="#">REQUEST A DEMO</a>
-			</div>
-			
-			<div class="clear"></div>
-			
-		</div>
-		</div>
-	</div>
+	<?php include('cta-demo2.php'); ?>
 
 <?php include('footer.php'); ?>
