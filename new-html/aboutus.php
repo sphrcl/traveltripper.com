@@ -199,7 +199,7 @@ include('header.php');
 							<li>Business Development Director<br/>
 							US: Major Metro Areas</li>
 						</ul>
-						<a href="#">SEE ALL OPEN POSITIONS</a>
+						<a href="careers.php">SEE ALL OPEN POSITIONS</a>
 					</div>
 				</div>
 				
