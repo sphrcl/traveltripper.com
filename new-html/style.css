@@ -578,7 +578,7 @@ li.icon-revenue-management { background: url(images/icon-revenue-management.png)
 /* HOMEPAGE BANNER */
 #banner {
   background-size: cover;
-  height: 100%;
+  height: 620px;
   width: 100%;
   position: relative;
 }
@@ -602,6 +602,7 @@ li.icon-revenue-management { background: url(images/icon-revenue-management.png)
     font-size: 22px;
     font-weight: 100;
     line-height: 40px;
+	max-width: 500px;
 }
 
 .banner-desc {
@@ -763,7 +764,7 @@ li.icon-revenue-management { background: url(images/icon-revenue-management.png)
 	line-height: 30px;
 	margin-bottom: 20px;
 	padding: 0;
-	width: 325px;
+	max-width: 500px;
 }
 
 .topgraph .button1 {
@@ -3782,64 +3783,3 @@ span.dm-up {
     display: none;
 }
 
-
-
-#newservices {
-    background: #f6f6f6;
-    position: relative;
-}
-
-
-#newservices .container {
-    max-width: 1300px;
-    padding: 110px 0;
-}
-
-
-.serv h2 {
-    color: #4d4d4d;
-    font-size: 40px;
-    font-weight: lighter;
-    margin-bottom: 35px;
-}
-
-.serv {
-    width: 30%;
-    float: left;
-}
-
-.serv .sect {
-    padding: 8px 0 0 60px;
-    position: relative;
-}
-
-
-.sect:before {
-    position: absolute;
-    left: 0;
-    top: 0;
-    height: 44px;
-    width: 44px;
-    background: url(images/icon44-www.png) center no-repeat;
-    content: '';
-}
-
-.ser:before {
-    background: url(images/icon-search.png) center no-repeat;
-}
-
-.serv h3 {
-    text-transform: uppercase;
-    margin: 0 0 15px 0;
-}
-
-
-.data {
-    width: 60%;
-    float: right;
-}
-
-.data img {
-    max-width: 100%;
-    width: 100%;
-}

@@ -18,63 +18,12 @@ include('header.php');
 
 			<div class="slipper">
 				<h2>Digital Marketing</h2>
-				<p>Increase awareness and draw qualified traffic to your hotel website with custom campaigns managed by our revenue optimization experts. </p>
-				<a class="button1" href="solutions.php">Ask for a quote</a>
+				<p>Discover Travel Tripper’s powerful hotel platforms designed to increase direct reservations and maximize revenue
+				<!--Increase awareness and draw qualified traffic to your hotel website with custom campaigns managed by our revenue optimization experts.--></p>
+				<a class="button1" href="solutions.php">Learn more</a>
 			</div>
 
 		</div>
-
-	</div>
-
-
-
-	<div id="newservices">
-
-		<div class="container">
-
-			<div class="serv">
-
-
-
-				<h2>Target audiences<br>with precision</h2>
-
-
-				<div class="sect ppc">
-
-					<h3>PPC Search Marketing</h3>
-
-					<p>Travel Tripper’s pay-per-click strategic management can help your hotel increase interested traffic through geo-targeted, cost-effective campaigns. Our expertise includes market analysis, keyword targeting, bidding, ad and landing page development, and budgeting. </p>
-
-				</div>
-
-				<div class="sect ser">
-
-					<h3>PPC Search Marketing</h3>
-
-					<p>Our hotel remarketing solutions include email, site, and search retargeting services. Our digital marketing team will guide and manage hotel retargeting campaigns, including ad placement, landing page development, and budgeting. </p>
-
-				</div>
-
-				<div class="sect ser">
-
-					<h3>Metasearch Placement</h3>
-
-					<p>Drive traffic from the major travel metasearch sites, such as TripAdvisor, Google, Kayak, Trivago, WeGo and more. Travel Tripper can help you find ways to target searches and place links so you can get the best value for your ad spend.  </p>
-
-				</div>
-
-			</div>
-
-
-			<div class="data">
-				<img src="images/digital-marketing.png" alt="Digital Marketing" />
-			</div>
-			
-			<div class="clear"></div>
-
-		</div>
-
-
 
 	</div>
 
@@ -84,7 +33,7 @@ include('header.php');
 		<div class="subcontainer">
 		
 			<div class="servicesbox one">
-				<h3>Your strategic partner from search to stay</h3>
+				<h3>Dominate digitally from search to stay</h3>
 			</div>
 
 			<div class="servicesbox two">
@@ -141,18 +90,8 @@ include('header.php');
 			<div class="graphics">
 				<div class="topgraph">
 					<h2>CRS</h2>
-					<p>Manage room rates and availability across all channels from one powerful platform. With Travel</p>
+					<p>Manage room rates and availability across all channels from one powerful platform. With Travel Tripper’s central reservations system, you’ll get comprehensive hotel distribution with seamless connectivity to all major PMS/RMS services, as well as robust tools for pricing and revenue management.</p>
 					<a class="button1" href="crs.php">LEARN MORE</a>
-				</div>
-
-				<div class="module">
-					<h2>84%</h2>
-					<div class="modulecontent">
-						<p>Find out how Travel Tripper increased Mayfair Hotel &amp; Spa&lsquo;s website revenue by 84%.</p>
-						<a href="#">LEARN MORE</a>
-					</div>
-
-					<div class="clear"></div>
 				</div>
 
 				<div class="graphss"></div>
@@ -179,7 +118,7 @@ include('header.php');
 					<div class="bkcnt">
 						<div class="bkcnt-block">
 							<h2>Booking Engine</h2>
-							<p>We’ve built the industry’s most innovative booking engine to optimize conversions through your most profitable channel—your website. From its sleek design to unique features such as Automated Best Rate Guarantee and built­in email retargeting, find out why hotels love Travel Tripper.</p>
+							<p>Discover why hotels love RezTrip, our sleek and innovative booking engine that optimizes conversions through your most profitable channel—your website. With its user-friendly design and unique features such as Automated Best Rate Guarantee, Travel Tripper’s booking engine is truly designed to “be direct.”</p>
 							<a class="button1" href="booking-engine.php">LEARN MORE</a>
 						</div>
 					</div>
@@ -243,7 +182,7 @@ include('header.php');
 	</div>
 
 
-	<?php include('cta-home.php'); ?>
+	<?php include('cta-demo2.php'); ?>
 	
 	<?php include('bottom-nav.php'); ?>
 

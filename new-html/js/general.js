@@ -10,8 +10,8 @@ function thirty_pc() {
 
 
 $(document).ready(function() {
-    thirty_pc();
-    $(window).bind('resize', thirty_pc);
+    // thirty_pc();
+    // $(window).bind('resize', thirty_pc);
 });
 
 
