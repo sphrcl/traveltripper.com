@@ -2,13 +2,25 @@
 	
 	$description = '';
 	$pagetitle = 'Resources';
-	$image = '';
+	$image = 'images/About-TravelTripper-Office.jpg';
 	$template_class = "template-resources";
 
 include('header.php'); 
 
 ?>
-
+	
+	
+	<div id="pagebanner" class="about" style="background-image: url(<?php echo $image; ?>);">
+	
+		<div class="container">
+	
+			<h2><?php echo $pagetitle; ?></h2>
+		
+		</div>
+		
+	</div>
+	
+	<!--
 	<div id="pagetitle" class="resources">
 	
 		<div class="container">
@@ -20,6 +32,7 @@ include('header.php');
 		</div>
 		
 	</div>
+	-->
 	
 	<!--
 	<div id="breadcrumbs">
@@ -28,6 +41,8 @@ include('header.php');
 		</div>
 	</div>
 	-->
+	
+	<!--
 	
 	<div id="resourcesmain">
 	
@@ -57,6 +72,8 @@ include('header.php');
 		</div>
 
 	</div>
+	
+	-->
 	
 	<div id="resourceslist">
 	
