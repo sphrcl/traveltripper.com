@@ -15,8 +15,8 @@ include('header.php');
 		<div class="container">
 	
 			<h1>Digital Marketing</h1>
-			<p>Powered by the world’s most innovative booking engine adipiscing elit. Maecenas ut cursus ligula. ROI pharetra consequat dolor non. semper. Nam in ligula dictum, ultrices ante vitae, vitae, sollicitudin.</p>
-			<a class="button1" href="#">REQUEST A DEMO &nbsp; <i class="fa fa-angle-right"></i></a>
+			<p>Increase awareness and draw qualified traffic to your hotel website with custom campaigns managed by our revenue optimization experts. </p>
+			<a class="button1" href="#">REQUEST CONSULTATION &nbsp; <i class="fa fa-angle-right"></i></a>
 		
 		</div>
 		
