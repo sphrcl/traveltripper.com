@@ -132,7 +132,7 @@ include('header.php');
 		
 			<div class="col_one_third left">
 				<div class="spacing">
-					<div class="pageuptitle-s">
+					<div class="pageuptitle-a">
 						<h3>Forecast data</h3>
 					</div>
 					<p>Anticipate market demand with access to daily flight data and trends, and adjust pricing strategies ahead of the competition. </p>
