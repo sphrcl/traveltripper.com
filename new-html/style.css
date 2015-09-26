@@ -1257,7 +1257,8 @@ li.icon-revenue-management { background: url(images/icon-revenue-management.png)
 	-moz-box-sizing: border-box;
 }
 
-#calltoaction input[type="submit"] {
+#calltoaction input[type="submit"],
+#calltoaction a {
   background-color: #ec9103;
   color: #fff;
   padding: 12px 25px;
@@ -1272,6 +1273,17 @@ li.icon-revenue-management { background: url(images/icon-revenue-management.png)
   
   border: 0 none;
   border-radius: 45px;
+  
+  opacity: 1;
+  transition: all 0.4s ease 0s;
+  -webkit-transition: all 0.4s ease 0s;
+  -moz-transition: all 0.4s ease 0s;
+  -o-transition: all 0.4s ease 0s;
+}
+
+#calltoaction input[type="submit"]:hover,
+#calltoaction a:hover {
+	opacity: 0.8;
 }
 
 #calltoaction p {
@@ -1289,12 +1301,14 @@ li.icon-revenue-management { background: url(images/icon-revenue-management.png)
 
 #calltoaction.cta-demo1 .subcontainer,
 #calltoaction.cta-demo2 .subcontainer,
+#calltoaction.cta-demo3 .subcontainer,
 #calltoaction.cta-newsletter .subcontainer {
 	padding: 0 50px;
 }
 
 #calltoaction.cta-demo1 h3,
 #calltoaction.cta-demo2 h3,
+#calltoaction.cta-demo3 h3,
 #calltoaction.cta-newsletter h3 {
   text-align: left;
   padding: 0;
@@ -1331,6 +1345,13 @@ li.icon-revenue-management { background: url(images/icon-revenue-management.png)
 #calltoaction.cta-demo2 .col_one_half.one input:first-child {
 	margin: 0 0 30px;
 }
+
+
+/* CALLTOACTION - CTA DEMO 3 */
+
+#calltoaction.cta-demo3 .ctabox { float: left; width: 25%; text-align: left;}
+#calltoaction.cta-demo3 .ctabox .spacing { padding: 0 40px 0 10px;}
+
 
 
 /* CALLTOACTION - NEWSLETTER */
@@ -2434,6 +2455,7 @@ h2.blogtitle a,
   line-height: 48px;
   letter-spacing: 0.015em;
   padding-bottom: 20px;
+  font-weight: 300;
 }
 
 #crs-overview h4 {
@@ -2512,10 +2534,6 @@ li.icon44-pci:before {
 	padding: 50px 0;
 }
 
-#crspricetool .spacing {
-  padding-right: 40px;
-}
-
 #crspricetool img {
   max-width: 100%;
 }
@@ -2525,6 +2543,7 @@ li.icon44-pci:before {
   line-height: 40px;
   color: #454545;
   padding-bottom: 20px;
+  font-weight: 300;
 }
 
 #crspricetool p {
@@ -2540,7 +2559,7 @@ li.icon44-pci:before {
 }
 
 #crspricetool ul li {
-  width: 45%;
+  width: 47%;
 }
 
 #crspricetool ul li h4 {
@@ -2559,8 +2578,8 @@ li.icon44-pci:before {
 }
 
 #crspricetool ul li p {
-  font-size: 12px;
-  line-height: 22px;
+  font-size: 14px;
+  line-height: 24px;
 }
 
 #crspricetool .col_two_third {
@@ -2588,6 +2607,7 @@ li.icon44-pci:before {
   line-height: 48px;
   color: #454545;
   padding-bottom: 20px;
+  font-weight: 300;
 }
 
 #crspmsrms p {
@@ -2629,12 +2649,12 @@ ul.checklist li {
 #bottombanner.crs .subcontainer {
 	width: 50%;
 	float: right;
-	padding: 0 0 0 50px;
+	padding: 0;
 }
 
 #bottombanner.crs .spacing {
 	max-width: 550px;
-	padding: 0 30px 0 0;
+	padding: 0 30px 0 50px;
 }
 
 #bottombanner.crs h3 {

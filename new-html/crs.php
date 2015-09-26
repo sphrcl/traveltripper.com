@@ -1,7 +1,7 @@
 <?php 
 	
 	$description = '';
-	$pagetitle = 'Travel Tripper CRS';
+	$pagetitle = 'Travel Tripper CRS & Distribution ';
 	$image = 'images/crs-travel-tripper.jpg';
 	$template_class = "template-crs";
 
@@ -47,7 +47,7 @@ include('header.php');
 			<div class="col_one_third">
 				<ul class="icon44">
 					<li class="icon44-computer">
-						<h5>Innovative booking engine</h5>
+						<h5>INNOVATIVE BOOKING ENGINE</h5>
 						<p>Push inventory to all major OTAs, GDS/IDS, Consortia, and Corporate/RFP channels</p>
 					</li>
 					<li class="icon44-arrows">
@@ -59,7 +59,7 @@ include('header.php');
 						<p>Directly connect to major metasearch sites, including TripAdvisor, Kayak, Trivago, and more</p>
 					</li>
 					<li class="icon44-pci">
-						<h5>PCI compliant </h5>
+						<h5>PCI COMPLIANT</h5>
 						<p>Travel Tripper is fully certified and meets all international PCI data security standards</p>
 					</li>
 				</ul>
@@ -80,7 +80,7 @@ include('header.php');
 						<p>Simplify the management of hotel and room descriptions, images, and policies for all distribution channels</p>
 					</li>
 					<li class="icon44-interface">
-						<h5>PMS/RMS Interfaces</h5>
+						<h5>PMS/RMS INTERFACES</h5>
 						<p>Connect seamlessly to the leading PMS and RMS companies to send availability and reservations</p>
 					</li>
 				</ul>
@@ -137,7 +137,7 @@ include('header.php');
 			
 			<div class="col_two_third">
 				
-				<img src="images/crs-map.jpg" alt="crs map" />
+				<img src="images/travel-tripper-crs-page-layer2.jpg" alt="crs map" />
 				
 			</div>
 			
@@ -197,7 +197,7 @@ include('header.php');
 		
 	</div>
 	
-	<div id="bottombanner" class="crs" style="background-image: url(images/crs-travel-tripper-office.jpg);">
+	<div id="bottombanner" class="crs" style="background-image: url(images/travel-tripper-crs-bottom-banner.jpg);">
 	
 		<div class="container">
 		<div class="subcontainer">
@@ -216,7 +216,7 @@ include('header.php');
 		
 	</div>
 	
-	<?php include('cta-demo2.php'); ?>
+	<?php include('cta-demo3.php'); ?>
 	
 	<?php include('bottom-nav.php'); ?>
 
