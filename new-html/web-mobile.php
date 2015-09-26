@@ -2,7 +2,7 @@
 	
 	$description = '';
 	$pagetitle = 'Web & mobile ';
-	$image = 'images/web-mobile-travel-tripper.jpg';
+	$image = 'images/travel-tripper-web-mobile-banner.jpg';
 	$template_class = "template-webmobile";
 
 include('header.php'); 
@@ -16,7 +16,7 @@ include('header.php');
 	
 			<h1>Travel Tripper Web</h1>
 			<p>Beautiful hotel websites driving higher guest engagement and increased conversions across all devices</p>
-			<a class="button1" href="#">REQUEST A QUOTE &nbsp; <i class="fa fa-angle-right"></i></a>
+			<a class="button1" href="#">REQUEST A DEMO &nbsp; <i class="fa fa-angle-right"></i></a>
 		
 		</div>
 		</div>
