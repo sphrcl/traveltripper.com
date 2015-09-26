@@ -2,7 +2,7 @@
 	
 	$description = '';
 	$pagetitle = 'Hotel Digital Solutions';
-	$image = 'images/solutions-travel-tripper.jpg';
+	$image = 'images/travel-tripper-solutions-banner.jpg';
 	$template_class = 'template-solutions';
 
 include('header.php'); 
@@ -19,7 +19,9 @@ include('header.php');
 				Discover how complete e-commerce suite and digital
 				and marketing services works to increase reservations
 				and maximize revenue for your hotel
-			</p>	
+			</p>
+			
+			<a class="button1" href="#">ASK FOR QUOTE &nbsp; <i class="fa fa-angle-right"></i></a>
 
 		</div>
 		</div>
@@ -54,7 +56,7 @@ include('header.php');
 							Our platform provides comprehensive hotel distribution to all major channels, seamless connectivity 
 							to the major PMS/RMS services, and robust tools for pricing and revenue management. 
 						</p>
-						<a class="button1" href="#">LEARN MORE</a>
+						<a class="button1" href="crs.php">LEARN MORE</a>
 					</div>
 				</div>
 				
@@ -67,7 +69,7 @@ include('header.php');
 							With its sleek, user-friendly booking flow and unique features such as Automated Best Rate Guarantee, 
 							this booking engine is designed to optimize conversions through your most profitable channel—your website.
 						</p>
-						<a class="button1" href="#">LEARN MORE</a>
+						<a class="button1" href="booking-engine.php">LEARN MORE</a>
 					</div>
 				</div>
 				
@@ -81,7 +83,7 @@ include('header.php');
 							perfect for web and mobile, and tap into intelligent features such as dynamic rate integration
 							 and interactive maps and calendars.
 						</p>
-						<a class="button1" href="#">LEARN MORE</a>
+						<a class="button1" href="web-mobile.php">LEARN MORE</a>
 					</div>
 				</div>
 		
@@ -100,7 +102,7 @@ include('header.php');
 							From managing search marketing to developing custom special offers, our dedicated marketing 
 							team ensures that your hotel gets maximum visibility for minimum cost.
 						</p>
-						<a class="button1" href="#">LEARN MORE</a>
+						<a class="button1" href="digital-marketing.php">LEARN MORE</a>
 					</div>
 				</div>
 				
@@ -114,7 +116,7 @@ include('header.php');
 							Track past performance and future projections, anticipate market demand with flight data, 
 							monitor comp set and market data, and generate detailed reporting all from one dashboard.
 						</p>
-						<a class="button1" href="#">LEARN MORE</a>
+						<a class="button1" href="revup.php">LEARN MORE</a>
 					</div>
 				</div>
 				

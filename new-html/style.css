@@ -1839,14 +1839,16 @@ li.icon-revenue-management { background: url(images/icon-revenue-management.png)
 
 #solutionsmain .solutionstabs1 .container {
   max-width: 1175px;
-  text-align: center;
   padding: 0 30px 50px;
 }
 
 #solutionsmain .solutionstabs2 .container {
   max-width: 1175px;
-  text-align: center;
   padding: 50px 30px;
+}
+
+#solutionsmain .pagesection.two .col_one_third.three {
+	text-align: center;
 }
 
 #solutionsmain .solutionstabs1 .subcontainer,
