@@ -1,31 +1,21 @@
 <?php 
 	
 	$description = '';
-	$pagetitle = 'Booking Engine';
-	$image = 'images/banner1.jpg';
+	$pagetitle = 'RezTrip Booking Engine ';
+	$image = 'images/travel-tripper-booking-engine-banner.jpg';
 	$template_class = "template-booking-engine";
 
 include('header.php'); 
 
 ?>
 	
-	<div id="pagebanner" style="background-image: url(<?php echo $image; ?>);">
+	<div id="pagebanner" class="contentright" style="background-image: url(<?php echo $image; ?>);">
 	
 		<div class="container">
-			
-			<div class="col_one_half left">
-				<div class="spacing"></div>
-			</div>
-			
-			<div class="col_one_half right">
-			
-				<h1>Booking Engine</h1>
-				<p>Powered by the world’s most innovative booking engine adipiscing elit. Maecenas ut cursus ligula. ROI pharetra consequat dolor non. semper. Nam in ligula dictum, ultrices ante vitae, vitae, sollicitudin. </p>
-				<a class="button1" href="#">ASK FOR QUOTE &nbsp; <i class="fa fa-angle-right"></i></a>
-			
-			</div>
-			
-			<div class="clear"></div>
+	
+			<h1><?php echo $pagetitle; ?></h1>
+			<p>A sleek, innovative booking engine designed to optimize conversions and increase direct bookings</p>
+			<a class="button1" href="#">REQUEST DEMO &nbsp; <i class="fa fa-angle-right"></i></a>
 		
 		</div>
 		
@@ -42,12 +32,11 @@ include('header.php');
 	<div id="page-layer-1" class="page-layer">
 	
 		<div class="container">
-		
-			<!-- <div class="col_one_half left">
-				<div class="spacing">
-					<img src="images/booking-engine-designed-to-convert.png" alt="Designed to convert" />
-				</div>
-			</div>-->
+		<div class="subcontainer">
+			
+			<div class="col_one_half left">
+				<div class="spacing" style="background-image: url('images/travel-tripper-booking-engine-page-layer1.jpg');"></div>
+			</div>
 			
 			<div class="col_one_half right">
 				<div class="spacing">
@@ -72,6 +61,7 @@ include('header.php');
 			<div class="clear"></div>
 			
 		</div>
+		</div>
 		
 	</div>
 	
@@ -80,7 +70,7 @@ include('header.php');
 		<div class="container">
 		<div class="subcontainer">
 		
-			<div class="col_one_half">
+			<div class="col_one_half left">
 				<div class="spacing">
 				
 					<div class="pageuptitle-a">
@@ -101,6 +91,10 @@ include('header.php');
 				</div>
 			</div>
 			
+			<div class="col_one_half right">
+				<div class="spacing" style="background-image: url('images/travel-tripper-booking-engine-page-layer2.jpg');"></div>
+			</div>
+			
 			<div class="clear"></div>
 
 		</div>
@@ -114,7 +108,9 @@ include('header.php');
 		<div class="subcontainer">
 		
 			<div class="col_one_half">
-				<img src="images/booking-engine-iphone.png" alt="mobile" />
+				<div class="spacing">
+					<img src="images/travel-tripper-booking-engine-page-layer3.jpg" alt="mobile" />
+				</div>
 			</div>
 			
 			<div class="col_one_fourth">

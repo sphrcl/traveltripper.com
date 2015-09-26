@@ -1715,7 +1715,7 @@ li.icon-revenue-management { background: url(images/icon-revenue-management.png)
 }
 
 #aboutmain .leadership p {
-	font-size: 18px;
+	font-size: 17px;
 	line-height: 28px;
 }
 
@@ -1741,8 +1741,8 @@ li.icon-revenue-management { background: url(images/icon-revenue-management.png)
 }
 
 #aboutmain .different .col_one_fourth.three p {
-	font-size: 18px;
-	line-height: 34px;
+	font-size: 17px;
+	line-height: 28px;
 	font-weight: 100;
 }
 
@@ -1753,14 +1753,14 @@ li.icon-revenue-management { background: url(images/icon-revenue-management.png)
 }
 
 #aboutmain .working p {
-	font-size: 18px;
-	line-height: 34px;
+	font-size: 17px;
+	line-height: 28px;
 	font-weight: 100;
 }
 
 #aboutmain .working a {
-	font-size: 18px;
-	line-height: 34px;
+	font-size: 17px;
+	line-height: 28px;
 	color: #4d4d4d;
 	font-weight: 100;
 }
@@ -1789,8 +1789,8 @@ li.icon-revenue-management { background: url(images/icon-revenue-management.png)
 
 #aboutmain .working .col_one_fourth.four ul li {
 	list-style: outside none disc;
-	font-size: 18px;
-	line-height: 34px;
+	font-size: 17px;
+	line-height: 28px;
 	font-weight: 100;
 }
 
@@ -2463,7 +2463,7 @@ h2.blogtitle a,
 }
 
 #crs-overview p {
-  font-size: 18px;
+  font-size: 17px;
   line-height: 28px;
   font-weight: 100;
   letter-spacing: 0.015em;
@@ -2548,7 +2548,7 @@ li.icon44-pci:before {
 
 #crspricetool p {
   color: #363636;
-  font-size: 18px;
+  font-size: 17px;
   line-height: 28px;
   font-weight: 100;
 }
@@ -2612,7 +2612,7 @@ li.icon44-pci:before {
 
 #crspmsrms p {
   color: #363636;
-  font-size: 18px;
+  font-size: 17px;
   line-height: 28px;
   font-weight: 100;
 }
@@ -2739,20 +2739,13 @@ ul.checklist li {
 }
 
 #careermain #positions.pagesection .spacing p {
-    font-size: 18px;
+    font-size: 17px;
     padding-bottom: 20px !important;
 }
 
 
 
 /* PAGE - Booking Engine #################################################################################### */
-
-.template-booking-engine #pagebanner .container {
-  padding: 150px 0 0;
-  max-width: 1600px;
-  margin: 0 auto;
-  width: auto;
-}
 
 .template-booking-engine #pagebanner p {
   width: 300px;
@@ -2762,22 +2755,12 @@ ul.checklist li {
   background-color: #f6f6f6;
 }
 
-.template-booking-engine #pagebanner .left {
-	position: absolute;
-	bottom: 0;
-	left: 0;
-}
-
-.template-booking-engine #pagebanner .left .spacing {
-	background: url('images/banner-booking-engine.png') no-repeat scroll center bottom transparent;
-	height: 461px;
-}
-
-.template-booking-engine #pagebanner .right {
-	float: right;
-}
-
 .page-layer {
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-color: transparent;
   overflow: hidden;
 }
 
@@ -2802,31 +2785,37 @@ ul.checklist li {
 }
 
 .page-layer p {
-	font-size: 18px;
-	line-height: 34px;
+	font-size: 17px;
+	line-height: 28px;
 }
 
 
 
 #page-layer-1 {
-	background: url('images/booking-engine-designed-to-convert.png') no-repeat scroll left bottom #f6f6f6;
+	background-color: #f6f6f6;
+}
+
+#page-layer-1 .subcontainer {
+	padding: 0;
 }
 
 #page-layer-1 .spacing {
 	padding: 0;
 }
 
-#page-layer-1 .container {
-	padding: 70px 0px 150px;
-}
-
-#page-layer-1 .col_one_half.left {
-	position: absolute;
-	bottom: 0;
-	left: 0;
+#page-layer-1 .col_one_half.left .spacing {
+	padding: 0;
+	margin: 0 50px 0 0;
+	
+	height: 579px;
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-position: right bottom;
+	background-color: #f6f6f6;
 }
 
 #page-layer-1 .col_one_half.right {
+	padding: 40px 0 0;
 	float: right;
 }
 
@@ -2837,15 +2826,29 @@ ul.checklist li {
 
 
 
-#page-layer-2 .container {
-	background: url('images/booking-engine-best-rate-guaranteed.png') no-repeat scroll right bottom transparent;
-	background-size: auto 100%;
-	padding: 50px 0;
+#page-layer-2 .subcontainer {
 }
 
-#page-layer-2 .col_one_half {
+#page-layer-2 .col_one_half.left {
   padding: 100px 0 0;
   width: 400px;
+}
+
+#page-layer-2 .col_one_half.right {
+	padding: 50px 0 0;
+	float: right;
+	width: 55%;
+}
+
+#page-layer-2 .col_one_half.right .spacing {
+	padding: 0;
+	
+	height: 700px;
+	background-size: 925px auto;
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-position: left bottom;
+	background-color: transparent;
 }
 
 #page-layer-2 ul {
@@ -2889,8 +2892,12 @@ ul.checklist li {
 	padding: 100px 0;
 }
 
-#page-layer-3 .col_one_half {
-  text-align: center;
+#page-layer-3 .col_one_half .spacing {
+	margin: 0 50px 0 0;
+}
+
+#page-layer-3 .col_one_half img {
+	max-width: 100%;
 }
 
 #page-layer-3 h4 {
@@ -2987,8 +2994,8 @@ ul.checklist li {
 }
 
 .revup-layer p {
-	font-size: 18px;
-	line-height: 34px;
+	font-size: 17px;
+	line-height: 28px;
 }
 
 .revup-layer img {
@@ -3132,9 +3139,9 @@ ul.checklist li {
 }
 
 .webtext p {
-	font-size: 18px;
+	font-size: 17px;
 	font-weight: 100;
-	line-height: 34px;
+	line-height: 28px;
 }
 
 .webtext p.smaller {
@@ -3618,7 +3625,7 @@ ul.icon44 li.icon44-search:before {
 }
 
 #dm-layer-2 p {
-	font-size: 18px;
+	font-size: 17px;
 	line-height: 28px;
 }
 
