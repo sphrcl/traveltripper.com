@@ -66,7 +66,19 @@ $(document).ready(function(){
 
 
 	// MODULE
-
+	
+	// movingset
+	// position stickbox back to the top of the assigned section.
+	// used for responsive and prevent it from going out of its assigned section.
+	var movingset = function() {
+		modulescrollset = 0;
+		if ($('.modmove').hasClass('modmove')) { getmemove = $('.modmove').css('top'); }
+		if ($('.module2').hasClass('module2')) { getmemove = $('.module2').css('top'); }
+		if ($('.module3').hasClass('module3')) { getmemove = $('.module3').css('top'); }
+		if ($('.module4').hasClass('module4')) { getmemove = $('.module4').css('top'); }
+	}
+	movingset();
+	
 	var moving = function() {
 		if ($('.modmove').hasClass('modmove')) {
 		var getheight = $('#bigmain').height();
@@ -82,6 +94,8 @@ $(document).ready(function(){
 		carrythiss = thiss,
 		carrymodtop = modtop - modcsstop,
 		carrymodheight = modheight;
+		
+		if (modulescrollset == 1) { thiss.css('top', getmemove);}
 		}
 	}
 
@@ -99,6 +113,8 @@ $(document).ready(function(){
 		carrythiss = thiss,
 		carrymodtop = modtop - modcsstop,
 		carrymodheight = modheight;
+		
+		if (modulescrollset == 1) { thiss.css('top', getmemove);}
 		}
 	}
 
@@ -116,7 +132,8 @@ $(document).ready(function(){
 		carrythiss = thiss,
 		carrymodtop = modtop - modcsstop,
 		carrymodheight = modheight;
-
+		
+		if (modulescrollset == 1) { thiss.css('top', getmemove);}
 		}
 	}
 
@@ -134,7 +151,8 @@ $(document).ready(function(){
 		carrythiss = thiss,
 		carrymodtop = modtop - modcsstop,
 		carrymodheight = modheight;
-
+		
+		if (modulescrollset == 1) { thiss.css('top', getmemove);}
 		}
 	}
 
@@ -143,7 +161,9 @@ $(document).ready(function(){
 
 	$(window).scroll(function() {
 		if(($('.modmovecontent').hasClass('modmovecontent')) || ($('.module2').hasClass('module2')) || ($('.module3').hasClass('module3')) || ($('.module4').hasClass('module4'))) {
-
+		
+		modulescrollset = 1;
+		
 		// get user's screen height and get user screen position
 		windowheight = $(window).height();
 		bodytop = $(window).scrollTop();
