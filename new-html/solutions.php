@@ -47,7 +47,7 @@ include('header.php');
 			
 			<div class="pagesection one">
 		
-				<div class="col_one_third one">
+				<div class="col_one_third">
 					<div class="spacing">
 						<img src="images/icon-blue-crs.png" alt="crs" />
 						<h4>CRS &amp; Distribution</h4>
@@ -60,7 +60,7 @@ include('header.php');
 					</div>
 				</div>
 				
-				<div class="col_one_third two">
+				<div class="col_one_third">
 					<div class="spacing">
 						<img src="images/icon-blue-booking-engine.png" alt="booking engine" />
 						<h4>Booking Engine</h4>
@@ -73,7 +73,9 @@ include('header.php');
 					</div>
 				</div>
 				
-				<div class="col_one_third three">
+				<div class="clear clear2"></div>
+				
+				<div class="col_one_third">
 					<div class="spacing">
 						<img src="images/icon-blue-web-mobile.png" alt="web mobile" />
 						<h4>Web &amp; Mobile</h4>
@@ -86,14 +88,10 @@ include('header.php');
 						<a class="button1" href="web-mobile.php">LEARN MORE</a>
 					</div>
 				</div>
-		
-			</div>
 			
-			<div class="line1"></div>
-			
-			<div class="pagesection two">
+				<div class="clear clear3"></div>
 		
-				<div class="col_one_third one">
+				<div class="col_one_third">
 					<div class="spacing">
 						<img src="images/icon-blue-digital-marketing.png" alt="digital marketing" />
 						<h4>Digital Marketing</h4>
@@ -106,7 +104,9 @@ include('header.php');
 					</div>
 				</div>
 				
-				<div class="col_one_third two">
+				<div class="clear clear2"></div>
+				
+				<div class="col_one_third">
 					<div class="spacing">
 						<img src="images/icon-blue-revenue-management.png" alt="revenue management" />
 						<h4>Revenue Management</h4>
@@ -120,7 +120,7 @@ include('header.php');
 					</div>
 				</div>
 				
-				<div class="col_one_third three">
+				<div class="col_one_third solutionslide">
 					<div class="spacing">
 						
 						<h4>Selected Clients <br>&amp; Testimonials</h4>

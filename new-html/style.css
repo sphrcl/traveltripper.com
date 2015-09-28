@@ -1823,6 +1823,7 @@ li.icon-revenue-management { background: url(images/icon-revenue-management.png)
   font-size: 34px;
   font-weight: 300;
   margin: 0 0 50px;
+  text-align: center;
 }
 
 #solutionsmain .pagesection {
@@ -1878,7 +1879,11 @@ li.icon-revenue-management { background: url(images/icon-revenue-management.png)
   padding: 50px 30px;
 }
 
-#solutionsmain .pagesection.two .col_one_third.three {
+#solutionsmain .solutionstabs1 .col_one_third {
+	margin: 0 0 50px;
+}
+
+#solutionsmain .col_one_third.solutionslide {
 	text-align: center;
 }
 
@@ -1891,8 +1896,14 @@ li.icon-revenue-management { background: url(images/icon-revenue-management.png)
 	padding: 0;
 }
 
-#solutionsmain .solutionstabs1 .line1 {
-	margin: 50px 0;
+#solutionsmain .solutionstabs1 .clear {
+	height: 1px;
+	background-color: #c9c9c9;
+	margin: 0 0 50px;
+}
+
+#solutionsmain .solutionstabs1 .clear2 {
+	display: none;
 }
 
 #solutionsmain .solutionstabs1 a.button1 {

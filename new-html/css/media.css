@@ -103,6 +103,20 @@ and (max-width : 1199px) {
 
 
 
+/* ================================================  1024 - 0000  ================================================ */
+
+@media only screen 
+and (max-width : 1024px) {
+	
+	/* SOLUTIONS */
+	
+	#solutionsmain .solutionstabs1 .clear3 { display: none;}
+	#solutionsmain .solutionstabs1 .clear2 { display: block;}
+	
+	#solutionsmain .solutionstabs1 .col_one_third { width: 50%;}
+	
+}
+
 
 
 
