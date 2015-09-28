@@ -148,6 +148,7 @@ include('header.php');
 
 			<div class="modmove">
 				<h2 class="percent">84%</h2>
+				<img src="images/crs-graph.jpg" />
 				<div class="modmovecontent">
 					<p>Find out how Travel Tripper increased Mayfair Hotel &amp; Spa&lsquo;s website revenue by 84%.</p>
 					<a href="#">LEARN MORE</a>

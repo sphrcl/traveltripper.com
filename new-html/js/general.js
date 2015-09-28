@@ -65,12 +65,13 @@ $(document).ready(function(){
 	});
 
 
-	// HOMEPAGE .modmove
+	// MODULE
 
 	var moving = function() {
 		if ($('.modmove').hasClass('modmove')) {
 		var getheight = $('#bigmain').height();
-		wholeheight = getheight;
+		var getheight2 = $('#digital-marketing').height();
+		wholeheight = getheight + getheight2;
 
 		var thiss = $('.modmove'),
 		modtop = thiss.offset().top,
@@ -148,41 +149,48 @@ $(document).ready(function(){
 		bodytop = $(window).scrollTop();
 
 		// offset.
-		// used to add some spacing at the bottom of the stickybox
-		// paddingadded: used to counteract the padding found in the .container.
+		// manual adjustment control. used for the stickybox.
+		// margin: adds spacing at the bottom of the stickybox.
+		// paddingcontainer: used to counteract the section container's padding-bottom.
+		// paddingmod: if there is any padding added to the stickybox, use this. Just add both padding-top and padding-bottom of that said stickybox.
 
 		if ($('.modmovecontent').hasClass('modmovecontent')) {
-			margin = 30;
-			paddingadded = 0;
+			margin = 40;
+			paddingcontainer = 50;
+			paddingmod = 40;
 		} else if ($('.module2').hasClass('module2')) {
-			margin = 80;
-			paddingadded = 80;
+			margin = 40;
+			paddingcontainer = 40;
+			paddingmod = 50;
 		} else if ($('.module3').hasClass('module3')) {
-			margin = 70;
-			paddingadded = 50;
-		} else if ($('.module4').hasClass('module4')) {
-			margin = 70;
-			paddingadded = 50;
-		} else {
 			margin = 30;
-			paddingadded = 0;
+			paddingcontainer = 30;
+			paddingmod = 50;
+		} else if ($('.module4').hasClass('module4')) {
+			margin = 40;
+			paddingcontainer = 50;
+			paddingmod = 50;
+		} else {
+			margin = 0;
+			paddingcontainer = 0;
+			paddingmod = 0;
 		}
 
 		// get the stickybox's position, its top and bottom. Then add offset.
 		// used to identify if the stickybox is visible on the user's screen.
-		mh = carrymodtop + carrymodheight + margin;
+		mh = carrymodtop + carrymodheight + margin + paddingmod;
 
 		// mm: get stickybox's height then add offset
-		// wm: the maximum css top position. Used to stop stickybox from going any further from its section.
+		// wm: the maximum css top position. Used to stop stickybox from going any further from its assigned section.
 		// used together with calcbwmw.
-		mm = carrymodheight + margin + paddingadded;
+		mm = carrymodheight + paddingmod + paddingcontainer;
 		wm = wholeheight - mm;
 
 		// bw: get user current position then add the user screen height
 		bw = bodytop + windowheight;
 
 		// mw: get the visibility calculations.
-		// calculates the 'if' logic to keep stickybox at the bottom
+		// used to calculate the 'if' logic to keep stickybox at the bottom
 
 		// carrymodtop: get stickybox's current top position
 		// + wholeheight: get the section total height where stickybox is found
@@ -190,10 +198,10 @@ $(document).ready(function(){
 		// - mm: get stickybox's height then add offset
 		mw = carrymodtop + wholeheight + windowheight - mm;
 
-		// calcbwmw: used to apply a variable css top on the stickybox to keep it at the bottom.
+		// calcbwmw: used to apply a variable css top. Keeps the stickybox at the bottom of the user screen.
 		calcbwmw = bw - mh;
 
-		// bw >= mh : check if user screen is still scrolling down to meet with stickybox, return true.
+		// bw >= mh : check if user screen is still scrolling down meeting the stickybox, return true.
 		// mw >= bw : the user is seeing the stickybox. Check if the user is still seeing it, return true.
 		if ((bw >= mh) && (mw >= bw)) {
 			if(calcbwmw > wm) {
