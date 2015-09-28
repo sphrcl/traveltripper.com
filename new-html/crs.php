@@ -44,46 +44,52 @@ include('header.php');
 				</div>
 			</div>
 			
-			<div class="col_one_third">
-				<ul class="icon44">
-					<li class="icon44-computer">
-						<h5>INNOVATIVE BOOKING ENGINE</h5>
-						<p>Push inventory to all major OTAs, GDS/IDS, Consortia, and Corporate/RFP channels</p>
-					</li>
-					<li class="icon44-arrows">
-						<h5>CHANNEL MANAGEMENT</h5>
-						<p>The industry’s most innovative maecenas ut cursus ligula ROI pharetra.</p>
-					</li>
-					<li class="icon44-metasearch">
-						<h5>METASEARCH CONNECTIVITY</h5>
-						<p>Directly connect to major metasearch sites, including TripAdvisor, Kayak, Trivago, and more</p>
-					</li>
-					<li class="icon44-pci">
-						<h5>PCI COMPLIANT</h5>
-						<p>Travel Tripper is fully certified and meets all international PCI data security standards</p>
-					</li>
-				</ul>
-			</div>
+			<div class="col_two_third">
 			
-			<div class="col_one_third">
-				<ul class="icon44">
-					<li class="icon44-user">
-						<h5>CALL CENTER</h5>
-						<p>Ensure 24/7 multilingual reservations service with high conversions and low call abandonment rates</p>
-					</li>
-					<li class="icon44-property">
-						<h5>MULTI-PROPERTY MANAGEMENT</h5>
-						<p>Manage multiple hotels within your hotel group from one CRS dashboard</p>
-					</li>
-					<li class="icon44-computer">
-						<h5>CONTENT MANAGEMENT</h5>
-						<p>Simplify the management of hotel and room descriptions, images, and policies for all distribution channels</p>
-					</li>
-					<li class="icon44-interface">
-						<h5>PMS/RMS INTERFACES</h5>
-						<p>Connect seamlessly to the leading PMS and RMS companies to send availability and reservations</p>
-					</li>
-				</ul>
+				<div class="col_one_half">
+					<ul class="icon44">
+						<li class="icon44-computer">
+							<h5>INNOVATIVE BOOKING ENGINE</h5>
+							<p>Push inventory to all major OTAs, GDS/IDS, Consortia, and Corporate/RFP channels</p>
+						</li>
+						<li class="icon44-arrows">
+							<h5>CHANNEL MANAGEMENT</h5>
+							<p>The industry’s most innovative maecenas ut cursus ligula ROI pharetra.</p>
+						</li>
+						<li class="icon44-metasearch">
+							<h5>METASEARCH CONNECTIVITY</h5>
+							<p>Directly connect to major metasearch sites, including TripAdvisor, Kayak, Trivago, and more</p>
+						</li>
+						<li class="icon44-pci">
+							<h5>PCI COMPLIANT</h5>
+							<p>Travel Tripper is fully certified and meets all international PCI data security standards</p>
+						</li>
+					</ul>
+				</div>
+				
+				<div class="col_one_half">
+					<ul class="icon44">
+						<li class="icon44-user">
+							<h5>CALL CENTER</h5>
+							<p>Ensure 24/7 multilingual reservations service with high conversions and low call abandonment rates</p>
+						</li>
+						<li class="icon44-property">
+							<h5>MULTI-PROPERTY MANAGEMENT</h5>
+							<p>Manage multiple hotels within your hotel group from one CRS dashboard</p>
+						</li>
+						<li class="icon44-computer">
+							<h5>CONTENT MANAGEMENT</h5>
+							<p>Simplify the management of hotel and room descriptions, images, and policies for all distribution channels</p>
+						</li>
+						<li class="icon44-interface">
+							<h5>PMS/RMS INTERFACES</h5>
+							<p>Connect seamlessly to the leading PMS and RMS companies to send availability and reservations</p>
+						</li>
+					</ul>
+				</div>
+				
+				<div class="clear"></div>
+			
 			</div>
 			
 			<div class="clear"></div>
