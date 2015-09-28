@@ -3424,11 +3424,13 @@ ul.checklist li {
 
 
 #webmobilelayer3 {
-	background: url('images/webmoblayer3a.jpg') no-repeat scroll right 95px #f6f6f6;
+	background: none no-repeat scroll 0 0 #f6f6f6;
 }
 
 #webmobilelayer3 .container {
-	padding: 100px 0 50px;
+	padding: 50px 0 0;
+	position: relative;
+	min-height: 500px;
 }
 
 #webmobilelayer3 .webbox .one .spacing {
@@ -3436,7 +3438,8 @@ ul.checklist li {
 	max-width: 350px;
 }
 
-#webmobilelayer3 .webbox {
+#webmobilelayer3 .webbox.one {
+	float: left;
 	width: 50%;
 }
 
@@ -3455,16 +3458,41 @@ ul.checklist li {
 }
 
 #webmobilelayer3 .webbox-one .webtext p {
-	max-width: 320px;
+	max-width: 420px;
 }
+
+#webmobilelayer3 .webbox-two .spacing {
+	padding: 0 10px 0 0;
+}
+
+#webmobilelayer3 .webbox.two {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	
+	height: 500px;
+	width: 50%;
+	max-width: 684px;
+	
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-position: left 0;
+	background-color: transparent;
+}
+
 
 .centerbarge {
 	margin: 0 0 30px 20%;
-	width: 220px;
+	max-width: 220px;
 	text-align: center;
 }
 
 .centerbarge.three { margin: 0 0 0 20%;}
+
+.centerbarge.left,
+.centerbarge.right {
+	float: none;
+}
 
 .centerbarge p.one {
 	position: relative;

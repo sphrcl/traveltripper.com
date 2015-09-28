@@ -44,6 +44,34 @@ and (max-width : 1449px) {
 
 
 
+/* ================================================  1399 - 0000  ================================================ */
+
+@media only screen 
+and (max-width : 1399px) {
+
+	/* WEB & MOBILE */
+	
+	#webmobilelayer2 .webbox-two {
+		top: 150px;
+	}
+	
+	#webmobilelayer2 .webbox-two {
+		left: 52%;
+	}
+	
+	#webmobilelayer2 .webbox-two .webmid.one img {
+		max-width: 250px;
+		margin: 0 auto;
+	}
+	
+	#webmobilelayer2 .webbox-three {
+		bottom: auto;
+		top: 0;
+	}
+}
+
+
+
 /* ================================================  1365 - 0000  ================================================ */
 
 @media only screen 
@@ -65,6 +93,29 @@ and (max-width : 1365px) {
 	ul.checklist {
 		margin: 0 50px;
 	}
+	
+	
+	/* Web & Mobile */
+	
+	#webmobilelayer3 .webbox-one {
+		float: none;
+		width: 100%;
+		margin: 0 0 10px;
+	}
+	
+	#webmobilelayer3 .webbox-two {
+		float: none;
+		width: 100%;
+		max-width: 420px;
+	}
+	
+	.centerbarge.left { float: left;}
+	.centerbarge.right { float: right;}
+	
+	.centerbarge { width: 46%; margin: 0 0 30px;}
+	.centerbarge.three { margin: 0 0 30px;}
+	
+	
 	
 }
 
@@ -149,6 +200,21 @@ and (max-width : 1199px) {
 	
 	.bkcnt-block { padding: 0 50px 0 15px;}
 	
+	
+	/* WEB & MOBILE */
+	
+	#webmobilelayer2 .container {
+		padding: 50px 0;
+	}
+	
+	#webmobilelayer2 .webbox-one { max-width: 600px; width: auto; margin: 0 0 30px;}
+	#webmobilelayer2 .webbox-one .webtext.one { max-width: 100%;}
+	#webmobilelayer2 .webbox-one .webtext.two p { max-width: 100%;}
+	
+	#webmobilelayer2 .webbox-two,
+	#webmobilelayer2 .webbox-three { position: static; margin: 0;}
+	#webmobilelayer2 .webbox-two { float: left; width: 50%;}
+	#webmobilelayer2 .webbox-three { float: right; width: 48%;}
 	
 
 }

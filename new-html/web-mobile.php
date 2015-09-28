@@ -169,6 +169,8 @@ include('header.php');
 					</div>
 				</div>
 			</div>
+			
+			<div class="clear"></div>
 
 		</div>
 		</div>
@@ -181,7 +183,7 @@ include('header.php');
 		<div class="container">
 		<div class="subcontainer">
 			
-			<div class="webbox">
+			<div class="webbox one">
 				<div class="webbox-one">
 					<div class="webtext one">
 						<h1>Ideal for 1 or 100 sites</h1>
@@ -191,26 +193,35 @@ include('header.php');
 				
 				<div class="webbox-two">
 					<div class="spacing">
-						<div class="centerbarge one">
+						<div class="centerbarge one left">
 							<p class="one">Multiple Hotel Websites</p>
 							<p class="two">Manage multiple hotel websites from one dashboard with multiple users—perfect for hotel groups</p>
 						</div>
 						
-						<div class="centerbarge two">
+						<div class="centerbarge two right">
 							<p class="one">Responsive inline editing</p>
 							<p class="two">Responsive in-line editing and asset management so that WYSIWYG—what you see is what you get</p>
 						</div>
 						
-						<div class="centerbarge three">
+						<div class="clear clear2"></div>
+						
+						<div class="centerbarge three left">
 							<p class="one">Consistent platform updates</p>
 							<p class="two">Consistent platform updates with innovative features—add new features without having to manually update code or plugins</p>
 						</div>
+						
+						<div class="clear"></div>
 					</div>
 				</div>
 				
 				<div class="clear"></div>
 			</div>
-				
+			
+			
+			<div class="webbox two" style="background-image: url('images/webmoblayer3a.jpg');"></div>
+			
+			<div class="clear"></div>
+			
 		</div>
 		</div>
 		
