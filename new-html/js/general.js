@@ -72,10 +72,10 @@ $(document).ready(function(){
 	// used for responsive and prevent it from going out of its assigned section.
 	var movingset = function() {
 		modulescrollset = 0;
-		if ($('.modmove').hasClass('modmove')) { getmemove = $('.modmove').css('top'); }
-		if ($('.module2').hasClass('module2')) { getmemove = $('.module2').css('top'); }
-		if ($('.module3').hasClass('module3')) { getmemove = $('.module3').css('top'); }
-		if ($('.module4').hasClass('module4')) { getmemove = $('.module4').css('top'); }
+		if ($('.modmove').hasClass('modmove')) { getmemove = $('.modmove').css('top'); forbwmw = getmemove.replace('px', ''); }
+		else if ($('.module2').hasClass('module2')) { getmemove = $('.module2').css('top'); forbwmw = getmemove.replace('px', ''); }
+		else if ($('.module3').hasClass('module3')) { getmemove = $('.module3').css('top'); forbwmw = getmemove.replace('px', ''); }
+		else if ($('.module4').hasClass('module4')) { getmemove = $('.module4').css('top'); forbwmw = getmemove.replace('px', ''); }
 	}
 	movingset();
 	
@@ -220,11 +220,13 @@ $(document).ready(function(){
 
 		// calcbwmw: used to apply a variable css top. Keeps the stickybox at the bottom of the user screen.
 		calcbwmw = bw - mh;
-
+		
 		// bw >= mh : check if user screen is still scrolling down meeting the stickybox, return true.
 		// mw >= bw : the user is seeing the stickybox. Check if the user is still seeing it, return true.
 		if ((bw >= mh) && (mw >= bw)) {
-			if(calcbwmw > wm) {
+			if ((calcbwmw < forbwmw)) {
+				carrythiss.css('top', forbwmw);
+			} else if ((calcbwmw > wm) && (calcbwmw > forbwmw)) {
 				carrythiss.css('top', wm);
 			} else {
 				carrythiss.css('top', calcbwmw);
