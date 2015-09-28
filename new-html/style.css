@@ -3028,14 +3028,22 @@ ul.checklist li {
   display: block;
 }
 
-#revup-layer-1 {
-  background: url('images/revup-track-monitor.jpg') no-repeat scroll 0 50px transparent;
+#revup-layer-1 .subcontainer,
+#revup-layer-2 .subcontainer,
+#revup-layer-3 .subcontainer,
+#revup-layer-4 .subcontainer {
+	padding: 0;
+}
+
+#revup-layer-1 .col_one_half.left {
+  background: none no-repeat scroll right top transparent;
+  height: 423px;
+  max-width: 709px;
 }
 
 #revup-layer-1 .container {
   min-height: 423px;
   padding: 50px 0;
-  max-width: 1600px;
 }
 
 #revup-layer-1 .left .spacing {
@@ -3048,7 +3056,7 @@ ul.checklist li {
 }
 
 #revup-layer-1 .right .spacing {
-	padding: 0;
+	padding: 0 0 0 40px;
 	max-width: 350px;
 }
 
@@ -3058,44 +3066,41 @@ ul.checklist li {
 }
 
 
-
 #revup-layer-2 {
-  background: url('images/revup-layer-2.png') no-repeat scroll right bottom #f6f6f6;
-  background-size: 750px auto;
+	background: none no-repeat scroll 0 0 #f6f6f6;
 }
 
 #revup-layer-2 .container {
-	padding: 150px 0;
-	max-width: 1600px;
+	padding: 0;
 }
 
 #revup-layer-2 .left .spacing {
-	padding: 0 0 0 100px;
+	padding: 150px 0 0 100px;
 	max-width: 400px;
 }
 
-#revup-layer-2 .right {
-    position: absolute;
-    bottom: 0;
-    right: 0;
-	display: none;
+#revup-layer-2 .col_one_half.right {
+  background: none no-repeat scroll left bottom #f6f6f6;
+  background-size: 750px auto;
+  height: 535px;
+  max-width: 750px;
 }
-
 
 
 
 #revup-layer-3 {
-  background: url('images/revup-layer-3.jpg') no-repeat scroll 0 center transparent;
-  background-size: 650px auto;
+	background: none no-repeat scroll 0 0 #fff;
 }
 
 #revup-layer-3 .container {
 	padding: 150px 0;
 }
 
-#revup-layer-3 .left .spacing {
-	display: none;
-	padding: 0 40px 0 0;
+#revup-layer-3 .col_one_half.left {
+  background: none no-repeat scroll right 0 transparent;
+  background-size: 650px auto;
+  height: 410px;
+  max-width: 650px;
 }
 
 #revup-layer-3 .right {
@@ -3104,18 +3109,17 @@ ul.checklist li {
 
 #revup-layer-3 .right .spacing {
 	max-width: 350px;
+	padding: 0 0 0 40px;
 }
-
 
 
 
 #revup-layer-4 {
-  background: url('images/revup-layer-42.jpg') no-repeat scroll right bottom #f6f6f6;
-  background-size: 750px auto;
+  background: none no-repeat scroll 0 0 #f6f6f6;
 }
 
 #revup-layer-4 .container {
-	padding: 150px 0;
+	padding: 100px 0 0;
 }
 
 #revup-layer-4 .left .spacing {
@@ -3123,16 +3127,20 @@ ul.checklist li {
 	max-width: 400px;
 }
 
-#revup-layer-4 .right {
-	position: absolute;
-	bottom: 0;
-	right: 0;
-	display: none;
+#revup-layer-4 .right .spacing {
+	margin: 0 0 0 40px;
 }
 
-#revup-layer-4 .right .spacing {
-	padding: 0 0 0 40px;
+#revup-layer-4 .col_two_third.right {
+  background: none no-repeat scroll left bottom transparent;
+  background-size: 750px auto;
+  height: 365px;
+  max-width: 750px;
+  width: 60%;
+  float: right;
 }
+
+
 
 
 /* PAGE - Web & Mobile #################################################################################### */

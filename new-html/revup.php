@@ -44,12 +44,9 @@ include('header.php');
 	<div id="revup-layer-1" class="revup-layer">
 	
 		<div class="container">
+		<div class="subcontainer">
 			
-			<div class="col_one_half left">
-				<div class="spacing">
-					<img src="images/revup-track-monitor.jpg" />
-				</div>
-			</div>
+			<div class="col_one_half left" style="background-image: url('images/revup-track-monitor.jpg');"></div>
 			
 			<div class="col_one_half right">
 				<div class="spacing">
@@ -73,12 +70,14 @@ include('header.php');
 				</div> -->
 			
 		</div>
+		</div>
 		
 	</div>
 	
 	<div id="revup-layer-2" class="revup-layer">
 	
 		<div class="container">
+		<div class="subcontainer">
 		
 			<div class="col_one_half left">
 				<div class="spacing">
@@ -89,14 +88,11 @@ include('header.php');
 				</div>
 			</div>
 			
-			<div class="col_one_half right">
-				<div class="spacing">
-					<img src="images/revup-layer-2.png" />
-				</div>
-			</div>
+			<div class="col_one_half right" style="background-image: url('images/revup-layer-2.png');"></div>
 			
 			<div class="clear"></div>
 			
+		</div>
 		</div>
 		
 	</div>
@@ -104,12 +100,9 @@ include('header.php');
 	<div id="revup-layer-3" class="revup-layer">
 	
 		<div class="container">
+		<div class="subcontainer">
 		
-			<div class="col_one_half left">
-				<div class="spacing">
-					<img src="images/revup-layer-3.jpg" />
-				</div>
-			</div>
+			<div class="col_one_half left" style="background-image: url('images/revup-layer-3.jpg');"></div>
 		
 			<div class="col_one_half right">
 				<div class="spacing">
@@ -123,12 +116,14 @@ include('header.php');
 			<div class="clear"></div> 
 
 		</div>
+		</div>
 		
 	</div>
 	
 	<div id="revup-layer-4" class="revup-layer">
 	
 		<div class="container">
+		<div class="subcontainer">
 		
 			<div class="col_one_third left">
 				<div class="spacing">
@@ -139,14 +134,11 @@ include('header.php');
 				</div>
 			</div>
 			
-			<div class="col_two_third right">
-				<div class="spacing">
-					<img src="images/revup-layer-42.jpg" />
-				</div>
-			</div>
+			<div class="col_two_third right" style="background-image: url('images/revup-layer-42.jpg');"></div>
 			
 			<div class="clear"></div> 
 
+		</div>
 		</div>
 		
 	</div>
