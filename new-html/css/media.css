@@ -56,6 +56,32 @@ and (max-width : 1365px) {
 /* ================================================  1279 - 0000  ================================================ */
 
 @media only screen 
+and (max-width : 1279px) {
+
+	/* CTA DEMO - ctademo2 */
+	
+	#calltoaction.cta-demo2 .ctabox.one { width: 33.5%; margin: 0 0 30px;}
+	#calltoaction.cta-demo2 .ctabox.two { width: 50%; margin: 0 0 30px;}
+	#calltoaction.cta-demo2 .ctabox.three { width: 100%;}
+	
+	#calltoaction.cta-demo2 .ctabox.three .col_one_half.one { width: 67%;}
+	#calltoaction.cta-demo2 .ctabox.three .col_one_half.two { width: 33%;}
+	
+	#calltoaction.cta-demo2 .ctabox.three .col_one_half.one .spacing { padding: 0 4% 0 0;}
+	#calltoaction.cta-demo2 .ctabox.three .col_one_half.two .spacing { padding: 0;}
+	
+	#calltoaction.cta-demo2 .ctabox.three .inione { width: 48%; float: left;}
+	#calltoaction.cta-demo2 .ctabox.three .initwo { width: 48%; float: right;}
+	
+	#calltoaction.cta-demo2 .ctabox.three .col_one_half.two input { width: 100%;}
+}
+
+
+
+
+/* ================================================  1199 - 0000  ================================================ */
+
+@media only screen 
 and (max-width : 1199px) {
 	
 	/* HOMEPAGE */
@@ -70,6 +96,8 @@ and (max-width : 1199px) {
 	#bigmain .right { width: 50%;}
 	
 	.bkcnt-block { padding: 0 50px 0 15px;}
+	
+	
 
 }
 

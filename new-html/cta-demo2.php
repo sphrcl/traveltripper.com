@@ -20,8 +20,10 @@
 			<form name="" action="#" method="get">
 				<div class="col_one_half one">
 					<div class="spacing">
-						<input type="text" name="name" value="" placeholder="NAME">
-						<input type="text" name="email" value="" placeholder="E-MAIL ADDRESS">
+						<input class="inione" type="text" name="name" value="" placeholder="NAME">
+						<input class="initwo" type="text" name="email" value="" placeholder="E-MAIL ADDRESS">
+						
+						<div class="clear"></div>
 					</div>
 				</div>
 				

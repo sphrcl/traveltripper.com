@@ -1335,7 +1335,7 @@ li.icon-revenue-management { background: url(images/icon-revenue-management.png)
 
 #calltoaction.cta-demo2 .ctabox .spacing { padding: 0 40px 0 10px;}
 
-#calltoaction.cta-demo2 .col_one_half.one input:first-child {
+#calltoaction.cta-demo2 .col_one_half.one input.inione {
 	margin: 0 0 30px;
 }
 
