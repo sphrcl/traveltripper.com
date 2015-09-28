@@ -651,7 +651,7 @@ li.icon-revenue-management { background: url(images/icon-revenue-management.png)
 
 .servicesbox h3 {
   color: #fff;
-  padding-right: 50px;
+  padding-right: 20px;
   text-align: left;
   font-size: 34px;
   font-weight: 100;
@@ -742,13 +742,17 @@ li.icon-revenue-management { background: url(images/icon-revenue-management.png)
 	padding: 50px 0 0;
 }
 
+#main .subcontainer {
+	position: relative;
+}
+
 #main .left,
 #main .right {
 	width: 50%;
+	position: relative;
 }
 
 #main .left {
-	position: relative;
 	height: 535px;
 }
 
@@ -763,7 +767,7 @@ li.icon-revenue-management { background: url(images/icon-revenue-management.png)
 	font-weight: 100;
 	line-height: 30px;
 	margin-bottom: 20px;
-	padding: 0;
+	padding: 0 20px 0 0;
 	max-width: 500px;
 }
 
@@ -1011,18 +1015,6 @@ li.icon-revenue-management { background: url(images/icon-revenue-management.png)
 }
 	.graphics.active .graphss { width: 100%;}
 
-.module {
-	opacity: 0;
-	transition: all 0.8s ease 3.5s;
-	-webkit-transition: all 0.8s ease 3.5s;
-	-moz-transition: all 0.8s ease 3.5s;
-	-o-transition: all 0.8s ease 3.5s;
-	-ms-transition: all 0.8s ease 3.5s;
-        z-index: 2;
-}
-	.graphics.active .module { opacity: 1;}
-
-
 
 
 /* HOMEPAGE BOOKING ENGINE */
@@ -1097,7 +1089,6 @@ li.icon-revenue-management { background: url(images/icon-revenue-management.png)
 
 .modmove {
 	background: none no-repeat scroll 0 bottom #fff;
-	background-size: 120px auto;
 	position: absolute;
 	width: 300px;
 	padding: 20px;
@@ -1142,14 +1133,6 @@ li.icon-revenue-management { background: url(images/icon-revenue-management.png)
 }
 
 
-/* HOMEPAGE BOOKING ENGINE ANIMATIONS */
-
-
-
-
-
-
-
 
 /* HOMEPAGE DIGITAL MARKETING */
 
@@ -1191,6 +1174,8 @@ li.icon-revenue-management { background: url(images/icon-revenue-management.png)
 	float: left;
 	margin: 0 40px 0 0;
 	width: 350px;
+	z-index: 1;
+	position: relative;
 }
 
 .dmlogos {
@@ -1394,6 +1379,8 @@ li.icon-revenue-management { background: url(images/icon-revenue-management.png)
 	float: left;
 	width: 25%;
 	position: relative;
+	height: 130px;
+	padding: 20px 0;
 }
 
 #bottomnav .bottombox::before {
@@ -1409,11 +1396,22 @@ li.icon-revenue-management { background: url(images/icon-revenue-management.png)
 	#bottomnav .bottombox.four::before { display: none;}
 
 #bottomnav .bottombox .spacing {
-	padding: 20px 0;
+	height: 100%;
+}
+
+#bottomnav .bottombox .spacing a {
+	position: relative;
+	display: block;
+	height: 100%;
+	width: 100%;
 }
 
 #bottomnav .bottombox .spacing div {
 	height: 72px;
+	width: 100%;
+	
+	position: absolute;
+	top: 0;
 	
 	background-repeat: no-repeat;
 	background-attachment: scroll;
@@ -1425,7 +1423,11 @@ li.icon-revenue-management { background: url(images/icon-revenue-management.png)
 	font-size: 24px;
 	font-weight: 100;
 	line-height: 1;
-	padding: 35px 15px 0;
+	position: absolute;
+	padding: 0;
+	bottom: 0;
+	width: 90%;
+	left: 5%;
 }
 
 #bottomnav .bottombox .spacing div,

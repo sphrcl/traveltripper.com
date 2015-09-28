@@ -63,6 +63,18 @@ $(document).ready(function(){
 			}
 		}
 	});
+	
+	$('.modmob').one('inview', function(event, isInView, visiblePartX, visiblePartY) {
+		if (isInView) {
+			if (visiblePartY == 'top') {
+				$(this).addClass('active');
+			} else if (visiblePartY == 'bottom') {
+				$(this).addClass('active');
+			} else {
+				$(this).addClass('active');
+			}
+		}
+	});
 
 
 	// MODULE

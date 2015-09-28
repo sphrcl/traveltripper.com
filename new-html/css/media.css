@@ -1,9 +1,10 @@
+
 /* ================================================  1599 - 0000  ================================================ */
 
 @media only screen 
 and (max-width : 1599px) {
 
-	/* Rev Up */
+	/* REV UP */
 	
 	#revup-layer-1 .left .spacing,
 	#revup-layer-2 .right,
@@ -16,3 +17,87 @@ and (max-width : 1599px) {
 	#revup-layer-2, #revup-layer-4 { background: none repeat scroll 0 0 #f6f6f6;}
 	
 }
+
+
+
+/* ================================================  1449 - 0000  ================================================ */
+
+@media only screen 
+and (max-width : 1449px) {
+
+	/* HOMEPAGE */
+	
+	#main .left { width: 40%;}
+	#main .right { width: 60%;}
+	
+	#bigmain .left { width: 40%;}
+	#bigmain .right { width: 60%;}
+
+}
+
+
+
+/* ================================================  1365 - 0000  ================================================ */
+
+@media only screen 
+and (max-width : 1365px) {
+	
+	/* HOMEPAGE */
+	
+	#services.active .servicesbox::before {
+		width: 100px;
+	}
+	
+	
+}
+
+
+
+/* ================================================  1279 - 0000  ================================================ */
+
+@media only screen 
+and (max-width : 1199px) {
+	
+	/* HOMEPAGE */
+	
+	.modmob { display: block;}
+	.modmove { display: none;}
+	
+	#main .left { width: 50%;}
+	#main .right { width: 50%;}
+	
+	#bigmain .left { width: 50%;}
+	#bigmain .right { width: 50%;}
+	
+	.bkcnt-block { padding: 0 50px 0 15px;}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
