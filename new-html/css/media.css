@@ -4,6 +4,13 @@
 @media only screen 
 and (max-width : 1599px) {
 
+	/* BOOKING ENGINE */
+	
+	.module3 { display: none;}
+	
+	#page-layer-1 .col_one_half.right .spacing { padding: 0 40px 0 0; max-width: 500px;}
+	
+	
 	/* REV UP */
 	
 	#revup-layer-1 .left .spacing,
@@ -159,6 +166,11 @@ and (max-width : 1024px) {
 	#solutionsmain .solutionstabs1 .clear2 { display: block;}
 	
 	#solutionsmain .solutionstabs1 .col_one_third { width: 50%;}
+	
+	
+	/* BOOKING ENGINE */
+	
+	#page-layer-2 .col_one_half.right { width: 50%;}
 	
 }
 

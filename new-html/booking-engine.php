@@ -107,13 +107,13 @@ include('header.php');
 		<div class="container">
 		<div class="subcontainer">
 		
-			<div class="col_one_half">
+			<div class="col_one_half one">
 				<div class="spacing">
 					<img src="images/travel-tripper-booking-engine-page-layer3.jpg" alt="mobile" />
 				</div>
 			</div>
 			
-			<div class="col_one_fourth">
+			<div class="col_one_half two">
 				<div class="spacing">
 					<ul>
 						<li>

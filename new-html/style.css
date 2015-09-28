@@ -2848,12 +2848,10 @@ ul.checklist li {
 
 
 
-#page-layer-2 .subcontainer {
-}
-
 #page-layer-2 .col_one_half.left {
-  padding: 100px 0 0;
-  width: 400px;
+	padding: 100px 0px 0px;
+	max-width: 400px;
+	width: 50%;
 }
 
 #page-layer-2 .col_one_half.right {
@@ -2914,12 +2912,17 @@ ul.checklist li {
 	padding: 100px 0;
 }
 
-#page-layer-3 .col_one_half .spacing {
+#page-layer-3 .col_one_half.one .spacing {
 	margin: 0 50px 0 0;
 }
 
-#page-layer-3 .col_one_half img {
+#page-layer-3 .col_one_half.one img {
 	max-width: 100%;
+}
+
+#page-layer-3 .col_one_half.two .spacing {
+	padding: 0 40px 0 0;
+	max-width: 400px;
 }
 
 #page-layer-3 h4 {
