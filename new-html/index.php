@@ -17,7 +17,7 @@ include('header.php');
 		<div class="container">
 
 			<div class="slipper">
-				<h2>Digital Marketing</h2>
+				<h2>Be Direct.</h2>
 				<p>Discover Travel Tripper’s powerful hotel platforms designed to increase direct reservations and maximize revenue
 				<!--Increase awareness and draw qualified traffic to your hotel website with custom campaigns managed by our revenue optimization experts.--></p>
 				<a class="button1" href="solutions.php">Learn more</a>
