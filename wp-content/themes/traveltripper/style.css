@@ -1587,8 +1587,9 @@ div#mainblog {
 }
 
 div#mainblog .container {
-  margin: 90px 60px 30px;
+  margin: 90px auto 30px;
   overflow: hidden;
+  max-width: 1200px;
 }
 
 .blogcontent {
