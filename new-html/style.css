@@ -2930,6 +2930,7 @@ ul.checklist li {
 #careermain #working.pagesection p {
 	line-height: 32px;
 	padding: 0 0 30px;
+	font-size: 20px;
 }
 
 #careermain #working.pagesection p.two {
@@ -2952,7 +2953,7 @@ ul.checklist li {
     line-height: 1.6;
     margin-bottom: 20px;
     padding: 0;
-    font-weight: 600;
+    font-weight: 400;
 }
 
 #careermain #positions.pagesection .spacing a {
