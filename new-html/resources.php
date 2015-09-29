@@ -9,7 +9,7 @@ include('header.php');
 
 ?>
 	
-	
+	<!--
 	<div id="pagebanner" class="about" style="background-image: url(<?php echo $image; ?>);">
 	
 		<div class="container">
@@ -19,7 +19,7 @@ include('header.php');
 		</div>
 		
 	</div>
-	
+	-->
 	<div id="resourceslist">
 	
 		<div class="container">
