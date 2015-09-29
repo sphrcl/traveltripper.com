@@ -1716,6 +1716,7 @@ li.icon-revenue-management { background: url(images/icon-revenue-management.png)
 
 #aboutmain .leadership img {
 	margin: 0 0 30px;
+	max-width: 95%;
 }
 
 #aboutmain .leadership h4 {
@@ -2358,7 +2359,7 @@ h2.blogtitle a,
 }
 
 .widgets.social li:last-child a {
-  border-right: 1px solid #d3d3d3;
+  border-right: 0 none;
 }
 
 .widgets.social a {

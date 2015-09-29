@@ -62,6 +62,7 @@ include('header.php');
 			</div>
 			
 			<div class="sidebar">
+			<div class="spacing">
 			
 				<div class="widgets search">
 				
@@ -136,6 +137,7 @@ include('header.php');
 
 				</div>
 		
+			</div>
 			</div>
 			
 			<div class="clear"></div>

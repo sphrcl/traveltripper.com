@@ -9,7 +9,7 @@ include('header.php');
 
 ?>
 	
-	<div id="mainblog">
+	<div id="mainblog" class="mainblog">
 	
 		<div class="container">
 		<div class="subcontainer">
@@ -89,6 +89,7 @@ include('header.php');
 			</div>
 			
 			<div class="sidebar">
+			<div class="spacing">
 			
 				<div class="widgets search">
 				
@@ -163,6 +164,7 @@ include('header.php');
 
 				</div>
 		
+			</div>
 			</div>
 			
 			<div class="clear"></div>
