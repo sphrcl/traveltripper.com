@@ -448,7 +448,7 @@ li.icon-revenue-management { background: url(images/icon-revenue-management.png)
 
 .active-page {
 	color: #ec9103 !important;
-	font-weight: 900 !important;
+	/* font-weight: 900 !important; */
 }
 
 
@@ -641,7 +641,7 @@ li.mobcase {
 
 #footer p {
 	font-weight: 300;
-	color: #282828;
+	color: #444545;
 }
 
 #footer .container {
@@ -658,13 +658,13 @@ li.mobcase {
 
 #footer .footernav ul li a {
   color: #282828;
-  font-weight: 400;
+  font-weight: 300;
   font-size: 17px;
 }
 
 	#footer .footernav ul li a:hover {
 	  color: #ec9103;
-	  font-weight: 900;
+	  /* font-weight: 900; */
 	}
 
 
@@ -703,7 +703,7 @@ li.mobcase {
   padding: 0 0 0 20px;
   font-size: 16px;
   line-height: 28px;
-  font-weight: 400;
+  font-weight: 300;
 }
 
 #footer .footersocial {
@@ -1617,7 +1617,7 @@ li.mobcase {
 }
 
 #bottomnav p {
-	font-size: 24px;
+	font-size: 17px;
 	font-weight: 100;
 	line-height: 1;
 	position: absolute;
@@ -2888,6 +2888,7 @@ ul.checklist li {
 
 #bottombanner.crs h3 {
 	padding: 0 0 20px;
+	font-weight: 300;
 }
 
 
@@ -3556,6 +3557,7 @@ ul.checklist li {
 	max-width: 560px;
 }
 
+
 #webmobilelayer1 .webbox-one .webtext.one h1 {
 	margin: 0 0 10px;
 }
@@ -3564,6 +3566,10 @@ ul.checklist li {
 	margin: 0 0 5px;
 }
 
+#webmobilelayer1 .webtext.two p {
+    font-size: 14px;
+    line-height: 28px;
+}
 
 
 #webmobilelayer2 {
@@ -3775,6 +3781,7 @@ ul.checklist li {
 
 #webmobilelayer4 h1 {
 	margin: 0 0 30px;
+	font-weight: 300;
 }
 
 #webmobilelayer4 .col_sec.one {
