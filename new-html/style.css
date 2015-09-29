@@ -3121,17 +3121,33 @@ ul.checklist li {
 }
 
 #page-layer-3 .col_one_half.two .spacing {
-	padding: 0 40px 0 0;
+	padding: 105px 40px 0 0;
 	max-width: 400px;
+    text-align: center;	
+}
+
+#page-layer-3 ul li p {
+	font-size: 14px;
+    line-height: 24px;
+    color: #363636;
+    font-weight: 100;
+    padding: 0px 35px 40px 35px;
 }
 
 #page-layer-3 h4 {
-	font-size: 24px;
-	font-weight: 300;
+	font-size: 16px;
+	font-weight: 500;
 	margin: 0 0 10px;
 }
 
-
+#page-layer-3 ul li h4:before {
+  content: '';
+  background: url(images/check.png) no-repeat;
+  width: 18px;
+  height: 15px;
+  display: inline-block;
+  margin-right: 5px;
+}
 
 #page-layer-4 .container {
   padding: 50px 0;
