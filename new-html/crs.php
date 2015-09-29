@@ -1,7 +1,7 @@
 <?php 
 	
 	$description = '';
-	$pagetitle = 'Travel Tripper CRS & Distribution ';
+	$pagetitle = 'Travel Tripper CRS & Distribution';
 	$image = 'images/crs-travel-tripper.jpg';
 	$template_class = "template-crs";
 
@@ -25,7 +25,7 @@ include('header.php');
 	<div id="breadcrumbs">
 		<div class="container">
 		<div class="subcontainer">
-			<a href="index.php">Travel Tripper</a> <i class="fa fa-angle-right"></i> <a href="#"><?php echo $pagetitle; ?></a>
+			<a href="index.php">Travel Tripper</a> <i class="fa fa-angle-right"></i> <a href="#">CRS &amp; Distribution</a>
 		</div>
 		</div>
 	</div>
