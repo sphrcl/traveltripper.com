@@ -109,7 +109,7 @@ include('header.php');
 					
 					<div class="col_one_third">
 						<div class="spacing">
-							<img src="images/about-kevin.png" alt="pj" />
+							<img src="images/about-berry.png" alt="pj" />
 							<h4>Berry Lu</h4>
 							<p>Client Services Manager</p>
 						</div>
