@@ -96,7 +96,7 @@ $(document).ready(function(){
 		if ($('.modmove').hasClass('modmove')) {
 		var getheight = $('#bigmain').height();
 		var getheight2 = $('#digital-marketing').height();
-		wholeheight = getheight + getheight2;
+		wholeheight = getheight;
 
 		var thiss = $('.modmove'),
 		modtop = thiss.offset().top,

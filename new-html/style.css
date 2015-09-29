@@ -287,7 +287,7 @@ strong {
 	top: 0;
 	position: fixed;
 	width: 100%;
-	z-index: 999;
+	z-index: 9999;
 	border: 1px solid #d2d2d2;
 }
 
@@ -925,7 +925,7 @@ li.mobcase {
 	margin-left: -262px;
 	top: 221px;
 }
-	.engine .cir1 div { background: url('images/icon-channel-management.png') no-repeat scroll 0 0 transparent;}
+	.engine .cir1 div { background: url('images/icon-call-center.png') no-repeat scroll 0 0 transparent;}
 
 .engine .cir2 {
 	margin-left: -213px;
@@ -949,7 +949,7 @@ li.mobcase {
 	margin-left: 116px;
 	top: 221px;
 }
-	.engine .cir5 div { background: url('images/icon-call-center.png') no-repeat scroll 0 0 transparent;}
+	.engine .cir5 div { background: url('images/icon-channel-management.png') no-repeat scroll 0 0 transparent;}
 
 .engine .cir6 {
 	background: url('images/icon-travel-tripper.png') no-repeat scroll 0 0 transparent;

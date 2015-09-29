@@ -24,8 +24,8 @@
 							<li><a href="company.php">Company</a></li>
 							<li><a href="product-and-services.php">Product &amp; Services</a></li>
 							<li><a href="careers.php">Careers</a></li>
-							<li><a href="terms-of-service.php">Terms of Service</a></li>
-							<li><a href="privacy-policy.php">Privacy Policy</a></li>
+							<!-- <li><a href="terms-of-service.php">Terms of Service</a></li>
+							<li><a href="privacy-policy.php">Privacy Policy</a></li> -->
 						</ul>
 					</div>
 				</div>
