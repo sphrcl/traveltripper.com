@@ -2686,10 +2686,15 @@ h2.blogtitle a,
 }
 
 #crs-overview p {
-  font-size: 17px;
+  font-size: 14px;
   line-height: 28px;
   font-weight: 100;
   letter-spacing: 0.015em;
+}
+
+#crs-overview .col_one_third p {
+    font-size: 17px;
+    line-height: 28px;
 }
 
 ul.icon44 {
@@ -3868,13 +3873,14 @@ ul.checklist li {
 }
 
 #dm-layer-1 .icon44 h4 {
-	font-size: 13px;
-    line-height: 24px;
+  font-size: 14px;
+  text-transform: uppercase;
 }
 
 #dm-layer-1 .icon44 p {
-  font-size: 12px;
-  line-height: 22px;
+font-size: 14px;
+    line-height: 24px;
+
 }
 
 ul.icon44 li.icon44-www:before {
@@ -3964,6 +3970,7 @@ span.dm-up {
 #bottombanner.dm h3 {
 	width: 400px;
 	margin: 0 0 15px;
+	font-weight: 300;
 }
 
 #bottombanner.dm p {
