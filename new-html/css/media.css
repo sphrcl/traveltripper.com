@@ -373,7 +373,14 @@ and (max-width : 1023px) {
 
 @media only screen 
 and (max-width : 959px) {
-
+	
+	/* NAVIGATION */
+	
+	.navigation { display: none;}
+	#header .rightnav { float: left;}
+	.openme { display: block;}
+	
+	
 	/* RESOURCES */
 	
 	#resourceslist .resourcebox { width: 50%;}

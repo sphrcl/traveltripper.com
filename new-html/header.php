@@ -100,6 +100,8 @@
 						<li class="demo-engine"><a href="#">Demo Engine</a></li>
 					</ul>
 				</div>
+				
+				<div class="openme"><i class="fa fa-bars"></i></div>
 
 			</div>
 
@@ -108,8 +110,9 @@
 		<div id="mobhead">
 			
 			<div class="container">
+			<div class="subcontainer">
 				
-				<div class="closeme"><i class="fa fa-bars"></i></div>
+				<div class="closeme"><i class="fa fa-times"></i></div>
 				
 				<ul class="mainsubs">
 					<li><a href="index.php">Home</a></li>
@@ -128,6 +131,8 @@
 					<li><a href="aboutus.php">About Us</a></li>
 					<li class="mobcase"><a class="mc-left" href="#">Login</a><a class="mc-right" href="#">Demo Engine</a></li>
 				</ul>
+				
+			</div>
 			</div>
 		
 		</div>
