@@ -98,10 +98,36 @@
 					<ul>
 						<li class="demo-login"><a href="login.php">Login</a></li>
 						<li class="demo-engine"><a href="#">Demo Engine</a></li>
-
 					</ul>
 				</div>
 
 			</div>
 
+		</div>
+		
+		<div id="mobhead">
+			
+			<div class="container">
+				
+				<div class="closeme"><i class="fa fa-bars"></i></div>
+				
+				<ul class="mainsubs">
+					<li><a href="index.php">Home</a></li>
+					<li>
+						<a href="solutions.php">Solutions</a>
+						<ul class="subbies">
+							<li class="sub-crs"><a href="crs.php">CRS &amp; Distribution</a></li>
+							<li class="sub-booking"><a href="booking-engine.php">Booking Engine</a></li>
+							<li class="sub-web"><a href="web-mobile.php">Web &amp; Mobile</a></li>
+							<li class="sub-digital"><a href="digital-marketing.php">Digital Marketing</a></li>
+							<li class="sub-revup"><a href="revup.php">Revenue Management</a></li>
+						</ul>
+					</li>
+					<li><a href="resources.php">Resources</a></li>
+					<li><a href="blog.php">Blog</a></li>
+					<li><a href="aboutus.php">About Us</a></li>
+					<li class="mobcase"><a class="mc-left" href="#">Login</a><a class="mc-right" href="#">Demo Engine</a></li>
+				</ul>
+			</div>
+		
 		</div>

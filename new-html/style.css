@@ -287,7 +287,7 @@ strong {
 	top: 0;
 	position: fixed;
 	width: 100%;
-	z-index: 9999;
+	z-index: 999;
 	border: 1px solid #d2d2d2;
 }
 
@@ -450,6 +450,104 @@ li.icon-revenue-management { background: url(images/icon-revenue-management.png)
 	color: #ec9103 !important;
 	font-weight: 900 !important;
 }
+
+
+/* HEADER MOBILE */
+
+.closeme {
+	position: absolute;
+	top: 14px;
+	right: 20px;
+}
+
+.closeme i {
+	color: #616161;
+	font-size: 30px;
+	display: block;
+	cursor: pointer;
+}
+
+#mobhead {
+	background-color: #fff;
+	position: fixed;
+	max-height: 100%;
+	width: 320px;
+	right: -320px;
+	top: 0;
+	z-index: 1000;
+	overflow: auto;
+}
+
+#mobhead ul {
+	padding: 0;
+}
+
+#mobhead ul.subbies {
+	padding: 10px 0 0 15px;
+}
+
+ul.subbies li {
+	padding: 10px 0;
+}
+
+li.sub-crs { background: url(images/icon-crs-distribution.png) no-repeat right center transparent;}
+li.sub-booking { background: url(images/icon-booking-engine.png) no-repeat right center transparent;}
+li.sub-web { background: url(images/icon-web-mobile.png) no-repeat right center transparent;}
+li.sub-digital { background: url(images/icon-digital-marketing.png) no-repeat right center transparent;}
+li.sub-revup { background: url(images/icon-revenue-management.png) no-repeat right center transparent;}
+
+#mobhead a {
+	display: inline-block;
+	color: #616161;
+	
+	font-size: 16px;
+	letter-spacing: 0.05em;
+	font-weight: 300;
+	line-height: 1;
+	
+	text-transform: uppercase;
+}
+#mobhead a:hover { color: #EC9103;}
+
+.mainsubs > li {
+	border-bottom: 1px solid #555;
+	padding: 21px 20px 21px 30px;
+}
+
+@-moz-document url-prefix() {
+	.mainsubs > li {
+		padding: 20px 20px 20px 30px;
+	}
+}
+
+li.mobcase {
+	padding: 10px 20px 10px 30px;
+	border: 0 none;
+	overflow: hidden;
+}
+
+
+#mobhead .mobcase .mc-left { 
+	float: left;
+	padding: 10px 0;
+}
+
+#mobhead .mobcase .mc-right {
+	float: right;
+	
+	border-radius: 25px;
+	color: #fff;
+	background-color: #93C01F;
+	padding: 10px 20px;
+	
+	opacity: 1;
+	transition: all 0.4s ease 0s;
+	-webkit-transition: all 0.4s ease 0s;
+	-moz-transition: all 0.4s ease 0s;
+	-o-transition: all 0.4s ease 0s;
+}
+#mobhead .mobcase .mc-right:hover { opacity: 0.8;}
+
 
 
 /* FOOTER */
