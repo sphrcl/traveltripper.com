@@ -489,6 +489,23 @@ and (max-width : 800px) {
 	#footer .footersocial { padding: 0 }
 	#footer .footersocial ul { padding-bottom: 20px; padding-top: 20px;}
 	#footer .footeradd p { padding: 0;}
+	
+	
+	/* CRS */
+	
+	#breadcrumbs { padding: 0 15px; }
+	#crs-overview .subcontainer { padding: 0 20px; }
+	#crs-overview .col_one_third { max-width: 100%; }
+	#crs-overview .spacing { padding-right: 0; }
+	#crs-overview h3 { font-size: 36px; line-height: 48px; }
+	.col_one_half { width: 100%; float: none; text-align: center; }
+	
+	#crspricetool .container { width: 95%; }
+	#crspricetool .col_one_third { width: 100%; float: none; }
+	#crspricetool ul li { width: 100%; float: none; }
+	#crspmsrms .col_one_third { width: 100%; float: none; }
+	#crspmsrms .container { margin: 90%; margin: auto; }
+	
 
 
 }
