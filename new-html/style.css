@@ -2026,6 +2026,7 @@ li.icon-revenue-management { background: url(images/icon-revenue-management.png)
 
 #resourceslist .subcontainer {
 	padding: 0 15px;
+	overflow: hidden;
 }
 
 #resourceslist .resourcebox {
@@ -2042,7 +2043,7 @@ li.icon-revenue-management { background: url(images/icon-revenue-management.png)
 }
 
 #resourceslist .resourcebox .resourceimg {
-	background-size: 100% auto;
+	background-size: cover;
 	background-repeat: no-repeat;
 	background-attachment: scroll;
 	background-position:  center center;
@@ -2074,6 +2075,8 @@ li.icon-revenue-management { background: url(images/icon-revenue-management.png)
 #resourceslist .resourcebox h3 a {
   color: #34a4d9;
 }
+
+
 
 /* BLOG ROLL - BLOG POST*/
 

@@ -183,6 +183,13 @@ and (max-width : 1279px) {
 	}
 	
 	
+	/* RESOURCES */
+	
+	#resourceslist .resourcebox {
+		width: 33.33%;
+	}
+	
+	
 	/* CTA DEMO - ctademo2 */
 	
 	#calltoaction.cta-demo2 .ctabox.one { width: 33.5%; margin: 0 0 30px;}
@@ -264,6 +271,19 @@ and (max-width : 1024px) {
 
 
 
+/* ================================================  959 - 000  ================================================ */
+
+@media only screen 
+and (max-width : 959px) {
+
+	/* RESOURCES */
+	
+	#resourceslist .resourcebox {
+		width: 50%;
+	}
+
+
+}
 
 
 

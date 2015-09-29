@@ -21,8 +21,9 @@ $(document).ready(function(){
 		animation: "slide",
 		directionNav: false
 	});
-
-
+	
+	
+	
 	// HOMEPAGE #services
 
 	$('#services').one('inview', function(event, isInView, visiblePartX, visiblePartY) {
@@ -247,7 +248,32 @@ $(document).ready(function(){
 		}
 		}
 	});
-
+	
+	
+	// RESOURCES
+	
+	var blogheight = function() {
+		
+		// variables
+		var blogarray = [];
+		var resourcebox = $('.resourcebox h3');
+		
+		// clear height
+		resourcebox.css('height', '');
+		
+		// get each height
+		resourcebox.each(function(index) { blogarray[index] = $(this).height();});
+		
+		// apply the highest height
+		var newblogheight = Math.max.apply(Math, blogarray);
+		resourcebox.css('height', newblogheight);
+	}
+	
+	$(window).load(function() { blogheight();});
+	$(window).resize(function () { blogheight();});
+	
+	
+	
 });
 
 
