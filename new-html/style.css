@@ -1944,13 +1944,13 @@ li.mobcase {
 #aboutmain .different .col_one_fourth.two p {
 	font-size: 20px;
 	line-height: 30px;
-	font-weight: 700;
+	font-weight: 300;
 	padding: 0 0 15px;
 }
 
 #aboutmain .different .col_one_fourth.three p {
 	font-size: 17px;
-	line-height: 28px;
+	line-height: 30px;
 	font-weight: 100;
 }
 
@@ -1962,7 +1962,7 @@ li.mobcase {
 
 #aboutmain .working p {
 	font-size: 17px;
-	line-height: 28px;
+	line-height: 30px;
 	font-weight: 100;
 }
 
@@ -2693,7 +2693,7 @@ h2.blogtitle a,
 }
 
 ul.icon44 {
-  padding: 0 40px 0 0;
+  padding: 0 10px 0 0;
 }
 
 ul.icon44 h5 {
@@ -3868,7 +3868,8 @@ ul.checklist li {
 }
 
 #dm-layer-1 .icon44 h4 {
-  font-size: 14px;
+	font-size: 13px;
+    line-height: 24px;
 }
 
 #dm-layer-1 .icon44 p {
