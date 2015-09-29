@@ -454,6 +454,16 @@ and (max-width : 800px) {
 	#aboutmain .working .col_one_fourth.two,
 	#aboutmain .working .col_one_fourth.three { width: 50%; margin: 0 0 30px;}
 	#aboutmain .working .col_one_fourth.four { width: 100%;}
+	
+	
+	
+	
+	
+	/* SOLUTIONS */
+	
+	#pagebanner.contentright .container, #bottombanner.contentright .container { float: none; width: 89%;  margin: auto; }
+	
+	
 
 
 }
