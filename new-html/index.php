@@ -137,13 +137,28 @@ include('header.php');
 					<div class="bkcnt">
 						<div class="bkcnt-block">
 							<h2>Web &amp; Mobile</h2>
-							<p>A powerful booking platform becomes even stronger with a beautiful website. Travel Tripper Web, our new cloud web and booking platform, allows you or your design agency to create stunning responsive websites that are perfectly optimized across desktop and mobile devices. Dynamic rate integration with Travel Tripper CRS and booking engine makes managing e-commerce a breeze. </p>
+							<p>A powerful booking platform becomes even stronger with a beautiful website. Travel Tripper Web, our new cloud web and booking platform, allows you or your design agency to create stunning responsive websites that are perfectly optimized across desktop and mobile devices. Dynamic rate integration with Travel Tripper CRS and booking engine makes managing e-commerce a breeze.</p>
 							<a class="button1" href="#">LEARN MORE</a>
 						</div>
 					</div>
 				</div>
 
 				<div class="clear"></div>
+			</div>
+			
+			<div class="mobile-engine">
+				<ul class="slides">
+					<li class="one">
+						<h2>Booking Engine</h2>
+						<img src="images/homepage-booking-engine.png" />
+						<p>A powerful booking platform becomes even stronger with a beautiful website. Travel Tripper Web, our new cloud web and booking platform, allows you or your design agency to create stunning responsive websites that are perfectly optimized across desktop and mobile devices. Dynamic rate integration with Travel Tripper CRS and booking engine makes managing e-commerce a breeze.</p>
+					</li>
+					<li class="two">
+						<h2>Web &amp; Mobile</h2>
+						<img src="images/homepage-web-and-engine.png" />
+						<p>A powerful booking platform becomes even stronger with a beautiful website. Travel Tripper Web, our new cloud web and booking platform, allows you or your design agency to create stunning responsive websites that are perfectly optimized across desktop and mobile devices. Dynamic rate integration with Travel Tripper CRS and booking engine makes managing e-commerce a breeze.</p>
+					</li>
+				</ul>
 			</div>
 
 			<div class="modmove">

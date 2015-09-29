@@ -322,7 +322,46 @@ and (max-width : 1024px) {
 
 @media only screen 
 and (max-width : 1023px) {
-
+	
+	/* HOMEPAGE */
+	
+	#main .subcontainer { padding: 0 50px;}
+	
+	#main .left,
+	#main .right {
+		float: none;
+		width: auto;
+	}
+	
+	#main .left {
+		margin: 0 0 50px;
+	}
+	
+	#main .right {
+		border-bottom: 1px solid #000;
+	}
+	
+	.topgraph {
+		padding: 0;
+		text-align: center;
+	}
+	
+	.topgraph h2 { display: none;}
+	
+	.topgraph p {
+		max-width: none;
+		padding: 0 20px;
+		text-align: left;
+	}
+	
+	.graphics { height: auto; padding: 0 0 50px;}
+	.graphss { display: none;}
+	
+	.booking-engine { display: none;}
+	.web-engine { display: none;}
+	
+	
+	
 	/* BLOG */
 	
 	#mainblog.mainblog .container,

@@ -1259,7 +1259,27 @@ li.mobcase {
 
 
 
+.mobile-engine {
+	display: none;
+	text-align: center;
+}
 
+.mobile-engine h2 {
+	font-size: 32px;
+	font-weight: 500;
+	margin: 0 0 30px;
+}
+
+.mobile-engine img {
+	max-width: 100%;
+	margin: 0 0 30px;
+}
+
+.mobile-engine p {
+	font-size: 17px;
+	line-height: 30px;
+	text-align: left;
+}
 
 
 
@@ -4056,4 +4076,9 @@ span.dm-up {
 .vjs-caption-settings {
     display: none;
 }
+
+
+
+/* PLUGIN - FLEXSLIDER -----------------------------------------------------------*/
+
 

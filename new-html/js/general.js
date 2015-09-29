@@ -87,7 +87,14 @@ $(document).ready(function(){
 			}
 		}
 	});
-
+	
+	
+	// HOMEPAGE BOOKING ENGINE
+	
+	$('.mobile-engine').flexslider({
+		animation: "slide",
+	});
+	
 
 	// MODULE
 	
