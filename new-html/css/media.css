@@ -180,7 +180,7 @@ and (max-width : 1279px) {
 	#crs-overview .col_one_third {
 		margin: 0px 0px 20px;
 		width: auto;
-		max-width: 50%;
+		max-width: 65%;
 	}
 	
 	#crs-overview .col_two_third { width: 100%;}
@@ -325,6 +325,8 @@ and (max-width : 1023px) {
 	
 	/* PAGE BANNERS */
 	
+	#pagebanner, #bottombanner { height: 520px;}
+	
 	#pagebanner h1, #pagebanner h2,
 	#bottombanner h1, #bottombanner h2 {
 		line-height: 40px;
@@ -439,6 +441,31 @@ and (max-width : 1023px) {
 	}
 	
 	
+	/* CRS */
+	
+	.template-crs #pagebanner p { max-width: 400px;}
+	#bottombanner.crs .container { padding: 245px 0px 0px;}
+	#bottombanner.crs { background-position: right bottom;}
+	
+	#crs-overview .col_one_third { max-width: 100%; }
+	#crs-overview .spacing { padding-right: 0; }
+	#crs-overview h3 { font-size: 36px; line-height: 48px; }
+	
+	#crspricetool .subcontainer { padding: 0 50px;}
+	#crspricetool .col_one_third { width: 100%; float: none; }
+	
+	#crspricetool .col_two_third { width: 100%; float: none; }
+	#crspricetool .col_two_third img { max-width: 80%;}
+	
+	#crspmsrms .subcontainer { padding: 0 50px;}
+	#crspmsrms .col_one_third { width: 100%; float: none; margin: 0;}
+	ul.checklist { margin: 20px 0;}
+	ul.checklist li { width: 25%;}
+	
+	#bottombanner.crs .subcontainer { width: 65%;}
+	#bottombanner.crs .spacing { padding: 0 30px 0 0;}
+	
+	
 	
 	/* BLOG */
 	
@@ -510,6 +537,10 @@ and (max-width : 959px) {
 	}
 	
 	
+	/* CRS */
+	
+	ul.checklist li { width: 33.33%;}
+	
 	
 	
 	/* RESOURCES */
@@ -552,7 +583,13 @@ and (max-width : 859px) {
 	.bkimg img {
 		max-width: 100%;
 	}
-
+	
+	
+	/* CRS */
+	
+	#bottombanner.crs .container {
+		padding: 125px 0 0;
+	}
 
 
 }
@@ -564,12 +601,20 @@ and (max-width : 859px) {
 @media only screen 
 and (max-width : 800px) {
 	
-	/* BREADCRUMBS */
+	/* MAIN */
 	
-	/* #breadcrumbs { padding: 0 15px; } */
+	.subcontainer { padding: 0 30px;}
+	
+	#services .subcontainer { padding: 0 30px;}
+	#bigmain .subcontainer { padding: 0 30px;}
 	
 	
+	#calltoaction.cta-demo1 .subcontainer,
+	#calltoaction.cta-demo2 .subcontainer,
+	#calltoaction.cta-demo3 .subcontainer,
+	#calltoaction.cta-newsletter .subcontainer { padding: 0 30px;}
 	
+	#footer .subcontainer { padding: 0 30px;}
 	
 	/* ABOUT US */
 	
@@ -621,24 +666,10 @@ and (max-width : 800px) {
 	}
 	
 	
-	/* CRS */
-	
-	#crs-overview .subcontainer { padding: 0 20px; }
-	#crs-overview .col_one_third { max-width: 100%; }
-	#crs-overview .spacing { padding-right: 0; }
-	#crs-overview h3 { font-size: 36px; line-height: 48px; }
-	
-	#crspricetool .container { width: 95%; }
-	#crspricetool .col_one_third { width: 100%; float: none; }
-	#crspricetool ul li { width: 100%; float: none; }
-	
-	#crspmsrms .col_one_third { width: 100%; float: none; }
-	#crspmsrms .container { margin: 90%; margin: auto; }
-	
-	
 	/* FOOTER */
 	
 	#footer .subcontainer { padding: 0}
+	
 	#footer .col_one_fourth.one .footernav { padding: 0; max-width: inherit; }
 	#footer .col_one_fourth.two .footernav { padding: 0; }
 	#footer .col_one_fourth.one .footernav p { padding: 0; margin: -40px 0 30px; text-align: center; }
@@ -663,10 +694,7 @@ and (max-width : 800px) {
 		#calltoaction.cta-demo1 .subcontainer, #calltoaction.cta-demo2 .subcontainer, #calltoaction.cta-demo3 .subcontainer, #calltoaction.cta-newsletter .subcontainer { padding: 0; }
 		#calltoaction p { font-size: 16px; line-height: 24px; margin: 15px 0;}
 		
-		.subcontainer { padding: 0; }
-		
 		#bottomnav { display: none; }
-		
 		
 		.col_one_half { width: 100%; float: none; text-align: center; }
 		.col_one_third { width: 100%; float: none; }
