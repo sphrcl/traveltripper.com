@@ -4111,12 +4111,18 @@ span.dm-up {
     display: none;
 }
 
+/* homepage */
+
+#big-video-wrap.bigvideohome {
+	position: absolute;
+	z-index: -1;
+}
+
+
 
 
 /* PLUGIN - FLEXSLIDER -----------------------------------------------------------*/
 
 
-#big-video-vid_html5_api {
-	height: 620px !important;
-}
+
 

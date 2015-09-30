@@ -8,9 +8,6 @@
 include('header.php');
 
 ?>
-<script type="text/javascript">
-	bigvideoplay();
-</script>
 
 	<div id="banner">
 
@@ -196,7 +193,10 @@ include('header.php');
 		<div class="dmimg"><img src="images/digitalmarketing.png" /></div>
 
 	</div>
-
+	
+	<script type="text/javascript">
+		bigvideoplayhome();
+	</script>
 
 	<?php include('cta-demo2.php'); ?>
 	

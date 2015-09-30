@@ -33,13 +33,16 @@
 			controls:false,
 			doLoop:false,
 			container:$('body'),
+			classes: '',
 			shrinkable:false
 		};
-
+		
+		var settings = $.extend({}, defaults, options);
+		
 		var BigVideo = {},
 			player,
 			vidEl = '#big-video-vid',
-			wrap = $('<div id="big-video-wrap"></div>'),
+			wrap = $('<div id="big-video-wrap" class="' + settings.classes + '"></div>'),
 			video = $(''),
 			mediaAspect = 16/9,
 			vidDur = 0,
@@ -52,9 +55,7 @@
 			playlist = [],
 			currMediaIndex,
 			currMediaType;
-
-		var settings = $.extend({}, defaults, options);
-
+			
 		function updateSize() {
 			var containerW = settings.container.outerWidth() < $(window).width() ? settings.container.outerWidth() : $(window).width(),
 				containerH = settings.container.outerHeight() < $(window).height() ? settings.container.outerHeight() : $(window).height(),

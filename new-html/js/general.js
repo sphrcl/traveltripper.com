@@ -311,6 +311,25 @@ var bigvideoplay = function() {
 }
 
 
+var bigvideoplayhome = function() {
+
+	var BV;
+
+	// initialize BigVideo
+	BV = new $.BigVideo({
+		useFlashForFirefox:false,
+		container: $('#banner'),
+		classes: 'bigvideohome',
+	});
+	BV.init();
+	BV.show([
+		{ type: "video/mp4",  src: "videos/tt.mp4" },
+        { type: "video/webm", src: "videos/tt.webm" },
+        { type: "video/ogg",  src: "videos/tt.ogv" }
+	],{ambient:true});
+}
+
+
 // YOUTUBE API FUNCTION
 
 var youtubeplay = function(videoembed) {
