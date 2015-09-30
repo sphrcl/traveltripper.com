@@ -1,0 +1,9 @@
+User-agent: Screaming Frog SEO Spider 
+
+Disallow: /?attachment_id=575
+Disallow: /?p=352
+Disallow: /?p=377
+Disallow: /archives/
+Disallow: /newsite/
+Disallow: /index.html
+Disallow: /wp-content/plugins/akismet/_inc/form.js?ver=3.0.0
