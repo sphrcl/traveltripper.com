@@ -1262,6 +1262,9 @@ li.mobcase {
 .mobile-engine {
 	display: none;
 	text-align: center;
+	position: relative;
+	padding: 0 0 30px;
+	border-bottom: 1px solid #303030;
 }
 
 .mobile-engine h2 {
@@ -1271,7 +1274,7 @@ li.mobcase {
 }
 
 .mobile-engine img {
-	max-width: 100%;
+	max-width: 90%;
 	margin: 0 0 30px;
 }
 
@@ -1279,6 +1282,7 @@ li.mobcase {
 	font-size: 17px;
 	line-height: 30px;
 	text-align: left;
+	padding: 0 20px;
 }
 
 
@@ -1369,7 +1373,7 @@ li.mobcase {
 .dmtext {
 	float: left;
 	margin: 0 40px 0 0;
-	width: 350px;
+	width: 400px;
 	z-index: 1;
 	position: relative;
 }
@@ -1389,16 +1393,21 @@ li.mobcase {
 }
 
 .dmimg {
+	overflow: hidden;
 	position: absolute;
 	right: 0;
-	top: -22px;
+	top: -49px;
 	width: 744px;
+	height: 500px;
 }
 
 .dmimg img {
 	display: block;
+	width: 100%;
 	max-width: 100%;
 }
+
+
 
 /* CALLTOACTION */
 ::-webkit-input-placeholder { opacity: 1;}
@@ -4122,6 +4131,36 @@ span.dm-up {
 
 
 /* PLUGIN - FLEXSLIDER -----------------------------------------------------------*/
+
+.flex-direction-nav a {
+	background-size: 100% auto !important;
+	display: block;
+	height: 60px;
+	width: 60px;
+	opacity: 0.75;
+	
+	transition: all 0.4s ease 0s;
+	-webkit-transition: all 0.4s ease 0s;
+	-moz-transition: all 0.4s ease 0s;
+	-o-transition: all 0.4s ease 0s;
+}
+.flex-direction-nav a:hover { opacity: 1;}
+
+.flex-direction-nav .flex-prev {
+	background: url('images/trav-flex-left.png') no-repeat scroll 0 0 transparent;
+	
+}
+
+.flex-direction-nav .flex-next {
+	background: url('images/trav-flex-right.png') no-repeat scroll 0 0 transparent;
+}
+
+.flex-direction-nav a::before {
+	display: none;
+}
+
+
+
 
 
 

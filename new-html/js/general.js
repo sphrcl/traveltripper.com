@@ -93,6 +93,7 @@ $(document).ready(function(){
 	
 	$('.mobile-engine').flexslider({
 		animation: "slide",
+		controlNav: false,
 	});
 	
 
