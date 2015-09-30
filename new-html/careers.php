@@ -71,19 +71,19 @@ include('header.php');
 					<div class="col_one_half">
 						<div class="spacing">
 							<h3 class="one">Revenue Analyst <br>New York, NY</h3>
-							<p>Responsibilities Include: Generate online reservations for Travel Tripper’s customers in order to meet and exceed revenue targets and establish a market presence.</p>
-							<a href="#">See Details</a>
+							<p>The Revenue Analyst position is primarily responsible for generating online reservations for Travel Tripper’s customers in order to meet...</p>
+							<a href="revenue-analyst.php">See Details</a>
 						</div>
 					</div>
 					
 					<div class="col_one_half">
 						<div class="spacing">
-							<h3>Business Development Director <br>US: Major Metro Areas</h3>
-							<p>Responsibilities Include: Generate online reservations for Travel Tripper’s customers in order to meet and exceed revenue targets and establish a market presence.</p>
-							<a href="#">See Details</a>
+							<h3>Finance & Admin. Associate <br> New York, NY</h3>
+							<p>As Finance and Admin. Associate, your responsibilities span multiple areas including finance, HR, administration, operations and sales...</p>
+							<a href="finance-admin-associate.php">See Details</a>
 						</div>
 					</div>
-					
+					<!--
 					<div class="col_one_half">
 						<div class="spacing">
 							<h3>Finance &amp; Admin. Associate <br>New York, NY</h3>
@@ -115,7 +115,7 @@ include('header.php');
 							<a href="#">See Details</a>
 						</div>
 					</div>
-					
+					-->
 				</div>
 				
 				<div class="clear"></div>
