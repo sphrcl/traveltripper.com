@@ -149,7 +149,7 @@ and (max-width : 1280px) {
 	/* DIGITAL MARKETING */
 	
 	#dm-layer-1 .subcontainer { padding: 0 50px;}
-	#dm-layer-1 .col_one_fourth { width: 40%;}
+	#dm-layer-1 .col_one_fourth { width: 35%;}
 	#dm-layer-1 .col_three_fourth { width: 60%;}
 	
 	#dm-layer-2 {
@@ -208,6 +208,10 @@ and (max-width : 1279px) {
 	#page-layer-3 .col_one_half.two .spacing {
 		padding: 0 40px 0 0;
 	}
+	
+	/* DIGITAL MARKETING */
+	
+	.module4 { display: none;}
 	
 	
 	/* RESOURCES */
@@ -501,6 +505,20 @@ and (max-width : 1023px) {
 	.template-webmobile #pagebanner .subcontainer { padding: 0 0 0 40px;}
 	
 	
+	/* DIGITAL MARKETING */
+	
+	#dm-layer-1 .col_one_fourth { width: auto;}
+	#dm-layer-1 .col_one_fourth .spacing .pageuptitle-a { max-width: none;}
+	
+	ul.icon44 { overflow: hidden; padding: 0;}
+	ul.icon44 li { float: left; width: calc(33.33% - 10px); padding: 0 10px 0 0;}
+	
+	#dm-layer-1 .col_three_fourth { width: 100%;}
+	#dm-layer-1 .col_three_fourth img { width: 50%;}
+	
+	
+	
+	
 	/* BLOG */
 	
 	#mainblog.mainblog .container,
@@ -637,6 +655,12 @@ and (max-width : 959px) {
 	#webmobilelayer4 .col_sec.two img { max-width: 80%;}
 	
 	
+	/* DIGITAL MARKETING */
+	
+	#dm-layer-2 .col_one_half { display: none;}
+	ul.icon44 li { float: none; width: 100%; max-width: auto;}
+	
+	
 	/* RESOURCES */
 	
 	#resourceslist .resourcebox { width: 50%;}
@@ -708,6 +732,8 @@ and (max-width : 800px) {
 	#webmobilelayer2 .subcontainer { padding: 0 30px;}
 	#webmobilelayer1 .subcontainer { padding: 0 30px;}
 	#webmobilelayer3 .subcontainer { padding: 0 0 0 30px;}
+	
+	#dm-layer-1 .subcontainer { padding: 0 30px;}
 	
 	#calltoaction.cta-demo1 .subcontainer,
 	#calltoaction.cta-demo2 .subcontainer,
