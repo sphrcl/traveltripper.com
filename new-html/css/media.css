@@ -116,6 +116,13 @@ and (max-width : 1365px) {
 	.centerbarge.three { margin: 0 0 30px;}
 	
 	
+	/* BOOKING ENGINE */
+	
+	#page-layer-3 .col_one_half.two .spacing {
+		padding: 60px 40px 0 0;
+	}
+	
+	
 	/* BLOG */
 	
 	.widgets .widgettitle {
@@ -193,6 +200,13 @@ and (max-width : 1279px) {
 	
 	ul.checklist {
 		margin: 0 25px;
+	}
+	
+	
+	/* BOOKING ENGINE */
+	
+	#page-layer-3 .col_one_half.two .spacing {
+		padding: 0 40px 0 0;
 	}
 	
 	
@@ -301,6 +315,7 @@ and (max-width : 1199px) {
 
 @media only screen 
 and (max-width : 1024px) {
+	
 	
 	/* SOLUTIONS */
 	
@@ -466,6 +481,20 @@ and (max-width : 1023px) {
 	#bottombanner.crs .spacing { padding: 0 30px 0 0;}
 	
 	
+	/* BOOKING ENGINE */
+	
+	.template-booking-engine #pagebanner .container {
+		width: 50%;
+		margin: 0;
+	}
+	
+	#page-layer-4 .subcontainer { padding: 0 50px;}
+	#page-layer-4 .col_one_fourth { width: 50%; margin: 0 0 30px;}
+	#page-layer-4 .col_one_fourth.pl1 .spacing { padding: 0 30px 0 0;}
+	#page-layer-4 .col_one_fourth.pl2 .spacing { padding: 0 0 0 30px;}
+	
+	#page-layer-4 .clear2 { display: block;}
+	
 	
 	/* BLOG */
 	
@@ -542,6 +571,21 @@ and (max-width : 959px) {
 	ul.checklist li { width: 33.33%;}
 	
 	
+	/* BOOKING ENGINE */
+	
+	#page-layer-3 .subcontainer { padding: 0;}
+	#page-layer-3 .col_one_half.one .spacing { margin: 0;}
+	#page-layer-3 .col_one_half.two .spacing { margin: 0 auto; padding: 0;}
+	
+	#page-layer-3 .col_one_half.one,
+	#page-layer-3 .col_one_half.two {
+		float: none;
+		width: auto;
+		max-width: 500px;
+	}
+	#page-layer-3 .col_one_half.one { margin: 0 auto 30px;}
+	#page-layer-3 .col_one_half.two { margin: 0 auto;}
+	
 	
 	/* RESOURCES */
 	
@@ -608,6 +652,9 @@ and (max-width : 800px) {
 	#services .subcontainer { padding: 0 30px;}
 	#bigmain .subcontainer { padding: 0 30px;}
 	
+	#page-layer-2 .subcontainer { padding: 0 0 0 30px;}
+	#page-layer-4 .subcontainer { padding: 0 30px;}
+	
 	
 	#calltoaction.cta-demo1 .subcontainer,
 	#calltoaction.cta-demo2 .subcontainer,
@@ -664,6 +711,7 @@ and (max-width : 800px) {
 		max-width: 500px;
 		margin: 0 auto 10px;
 	}
+	
 	
 	
 	/* FOOTER */

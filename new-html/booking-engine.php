@@ -148,35 +148,40 @@ include('header.php');
 				<h3>Other key features</h3>
 			</div>
 		
-			<div class="col_one_fourth">
+			<div class="col_one_fourth pl1">
 				<div class="spacing">
 					<h4>Mobile optimized </h4>
 					<p>RezTrip is perfectly optimized across web and mobile devices and can track statistics across type of device. Enable mobile-specific pricing using our CRS to target mobile users with special offers and deals.</p>
 				</div>
 			</div>
 			
-			<div class="col_one_fourth">
+			<div class="col_one_fourth pl2">
 				<div class="spacing">
 					<h4>Multi-property Search</h4>
 					<p>Offer a portal booking engine for all of your hotel group’s properties. RezTrip allows for reservations search across any number of hotels, grouped by any criteria required (location, star rating, amenities, etc.)</p>
 				</div>
 			</div>
 			
-			<div class="col_one_fourth">
+			<div class="clear clear2"></div>
+			
+			<div class="col_one_fourth pl1">
 				<div class="spacing">
 					<h4>Seamless Currency Conversion</h4>
 					<p>Travelers can easily convert displayed rates into their home currency with RezTrip’s built-in currency conversion. Hotels have the option to choose which currencies to display on the booking engine. </p>
 				</div>
 			</div>
 			
-			<div class="col_one_fourth">
+			<div class="col_one_fourth pl2">
 				<div class="spacing">
 					<h4>Multilingual translations</h4>
 					<p>Travel Tripper’s booking engine can display in multiple languages, including Spanish, French, German, Portuguese, and more. Hotels can select which language options they want to include.</p>
 				</div>
 			</div>
 			
-			<div class="clear"></div>
+			<div class="clear clear2"></div>
+			
+			
+			<div class="clear clearend"></div>
 			
 		</div>
 		</div>
