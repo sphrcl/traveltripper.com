@@ -671,7 +671,7 @@ and (max-width : 959px) {
 	#webmobilelayer1 .webbox-one .webtext.two { max-width: none;}
 	
 	#webmobilelayer1 .webbox-two { float: none; width: auto; text-align: center;}
-	#webmobilelayer1 .webbox-two img { max-width: 500px; margin: 0 0 0 -60px;}
+	#webmobilelayer1 .webbox-two img { max-width: 100%; width: 500px; margin: 0 0 0 -60px;}
 	
 	
 	#webmobilelayer2 .webbox-one { float: none; max-width: none; width: auto; margin: 0;}
@@ -704,9 +704,11 @@ and (max-width : 959px) {
 	.centerbarge.right { float: left;}
 	.centerbarge p.two { padding: 0 20px;}
 	
+	#webmobilelayer4 .container { padding: 50px 0 0;}
 	#webmobilelayer4 .col_sec.one { height: 300px; width: auto; float: none;}
 	#webmobilelayer4 .col_sec.two { width: auto; float: none;}
 	#webmobilelayer4 .col_sec.two img { max-width: 80%;}
+	
 	
 	
 	/* DIGITAL MARKETING */
@@ -815,9 +817,10 @@ and (max-width : 800px) {
 	#crspricetool .subcontainer { padding: 0 30px;}
 	#crspmsrms .subcontainer { padding: 0 30px;}
 	
-	#webmobilelayer2 .subcontainer { padding: 0 30px;}
 	#webmobilelayer1 .subcontainer { padding: 0 30px;}
+	#webmobilelayer2 .subcontainer { padding: 0 30px;}
 	#webmobilelayer3 .subcontainer { padding: 0 0 0 30px;}
+	#webmobilelayer4 .subcontainer { padding: 0 30px;}
 	
 	#dm-layer-1 .subcontainer { padding: 0 30px;}
 	
@@ -884,6 +887,8 @@ and (max-width : 800px) {
 	/* WEB & MOBILE */
 	
 	#webmobilelayer3 .webbox.one { padding: 0 30px 0 0;}
+	#webmobilelayer2 .webbox-two .col_one_third { width: 33.33%; float: left;}
+	
 	
 	
 	/* BLOG */
@@ -1117,6 +1122,14 @@ and (max-width : 767px) {
 	#page-layer-4 .col_one_fourth.pl2 .spacing { padding: 0;}
 	
 	
+	/* WEB & MOBILE */
+	
+	#webmobilelayer4 .col_sec.one { height: auto; padding: 0 0 30px;}
+	.webfeattable, .webfeatcell { display: block;}
+	
+	
+	
+	
 	/* MISC */
 	
 	.col_one_half { width: auto; float: none; text-align: center;}
@@ -1181,6 +1194,21 @@ and (max-width : 599px) {
 	}
 	
 	
+	/* WEB & MOBILE */
+	
+	#webmobilelayer1 .webbox-two img { margin: 0;}
+	
+	#webmobilelayer2 .webbox-one { margin: 0 0 30px;}
+	#webmobilelayer2 .webbox-two { display: none;}
+	
+	.centerbarge { display: none;}
+	
+	#webmobilelayer3 .container {
+		padding: 50px 0 20px;
+		min-height: 0;
+	}
+	
+	
 	
 
 }
@@ -1242,7 +1270,14 @@ and (max-width : 567px) {
 	#crspricetool .col_two_third img { max-width: 100%;}
 	#crspricetool ul li { width: auto;}
 	ul.icon44 p { width: auto;}
-
+	
+	
+	/* WEB & MOBILE */
+	
+	#webmobilelayer3 .webbox.two { display: none;}
+	
+	#webmobilelayer4 .col_sec.two img { max-width: 100%;}
+	
 }
 
 
@@ -1274,9 +1309,10 @@ and (max-width : 479px) {
 	#page-layer-2 .subcontainer { padding: 0 20px;}
 	#page-layer-4 .subcontainer { padding: 0 20px;}
 	
-	#webmobilelayer2 .subcontainer { padding: 0 20px;}
 	#webmobilelayer1 .subcontainer { padding: 0 20px;}
+	#webmobilelayer2 .subcontainer { padding: 0 20px;}
 	#webmobilelayer3 .subcontainer { padding: 0 0 0 20px;}
+	#webmobilelayer4 .subcontainer { padding: 0 20px;}
 	
 	#dm-layer-1 .subcontainer { padding: 0 20px;}
 	
@@ -1307,6 +1343,18 @@ and (max-width : 479px) {
 	
 	/* CRS */
 	
+	
+	
+	/* WEB & MOBILE */
+	
+	
+	#webmobilelayer2 .webbox-three h2 { text-align: left;}
+	.webhightitle { margin: 0 0 20px;}
+	
+	.webhighimg img { display: none;}
+	.webhightext { float: none; width: auto;}
+	.webhightext ul { padding: 0;}
+	#webmobilelayer2 .webbox-three .webhigh.one { margin: 0 0 15px;}
 	
 
 }
