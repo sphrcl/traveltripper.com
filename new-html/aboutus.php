@@ -81,6 +81,8 @@ include('header.php');
 						</div>
 					</div>
 					
+					<div class="clear clear2"></div>
+					
 					<div class="col_one_third">
 						<div class="spacing">
 							<img src="images/about-rich.png" alt="pj" />
@@ -99,6 +101,8 @@ include('header.php');
 						</div>
 					</div>
 					
+					<div class="clear clear2"></div>
+					
 					<div class="col_one_third">
 						<div class="spacing">
 							<img src="images/about-pj.png" alt="steffan" />
@@ -115,6 +119,7 @@ include('header.php');
 						</div>
 					</div>
 					
+					<div class="clear clear2"></div>
 					<div class="clear clear3"></div>
 					
 					<div class="col_one_third">
@@ -126,6 +131,8 @@ include('header.php');
 					</div>
 					
 					<div class="clear clear3"></div>
+					
+					<div class="clear clearend"></div>
 					
 				</div>
 				

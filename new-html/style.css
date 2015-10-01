@@ -1948,6 +1948,10 @@ li.mobcase {
 	margin: 0 0 50px;
 }
 
+#aboutmain .leadership .clear2 {
+	display: none;
+}
+
 
 
 #aboutmain .different .spacing {
@@ -2477,6 +2481,32 @@ h2.blogtitle a,
 .socialshare ul li a i {
 	color: #fff;
 }
+
+.socialshare.mob {
+	display: none;
+	position: static;
+	width: auto;
+	text-align: left;
+}
+
+.socialshare p br {
+	display: none;
+}
+
+.socialshare.mob ul {
+	padding: 0;
+	margin: 0 0 20px;
+}
+
+.socialshare.mob li {
+	display: inline;
+	padding-right: 10px;
+	list-style-type: none;
+}
+
+.socialshare.mob li:last-child { padding-right: 0;}
+
+.socialshare.mob p { padding: 0 0 10px;}
 
 /* BLOG SIDEBAR */
 .sidebar {

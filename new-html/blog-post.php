@@ -14,7 +14,7 @@ include('header.php');
 		<div class="container">
 		<div class="subcontainer">
 		
-			<div class="socialshare">
+			<div class="socialshare desk">
 				<p>211 people <br/>shared this</p>
 				<ul>
 					<li><a href="https://www.linkedin.com/company/travel-tripper" target="_blank"><i class="fa fa-linkedin"></i></a></li>
@@ -38,6 +38,15 @@ include('header.php');
 					</div>
 					
 					<h1 class="blogtitle">Capture more direct reservations with TripConnect Instant Booking</h1>
+					
+					<div class="socialshare mob">
+						<p>211 people <br/>shared this</p>
+						<ul>
+							<li><a href="https://www.linkedin.com/company/travel-tripper" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+							<li><a href="https://www.facebook.com/traveltripper" target="_blank"><i class="fa fa-facebook-square"></i></a></li>
+							<li><a href="https://twitter.com/Travel_Tripper" target="_blank"><i class="fa fa-twitter"></i></a></li>
+						</ul>
+					</div>
 					
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lectus nisl, fermentum sed lacus vel, porttitor imperdiet lectus. Pellentesque sit amet dictum erat, quis congue tortor. Sed viverra tellus sapien, id imperdiet arcu imperdiet quis. Phasellus at metus non augue pharetra rutrum. Donec non neque pellentesque, egestas magna vitae, sodales tortor. In eu purus ultricies felis vestibulum congue ac at ex. Suspendisse at pellentesque lectus. Vivamus sagittis <a href="#">eget elit in semper</a>. Etiam molestie <strong>interdum commodo</strong>. Nam ultricies nunc a dictum malesuada. Phasellus vel neque nibh. Pellentesque vel neque quis risus iaculis porttitor. Nulla facilisi. Morbi varius elementum massa, sed tempor erat pellentesque at. Nunc eu aliquet ligula.</p>
 					

@@ -816,6 +816,11 @@ and (max-width : 800px) {
 	#revup-layer-3 .subcontainer { padding: 0 30px;}
 	#revup-layer-4 .subcontainer { padding: 0 30px;}
 	
+	#aboutmain .strategic .subcontainer,
+	#aboutmain .leadership .subcontainer,
+	#aboutmain .different .subcontainer,
+	#aboutmain .working .subcontainer { padding: 0 30px;}
+	
 	
 	#calltoaction.cta-demo1 .subcontainer,
 	#calltoaction.cta-demo2 .subcontainer,
@@ -1164,8 +1169,32 @@ and (max-width : 767px) {
 	#dm-layer-2 .col_one_fourth { width: auto; max-width: none;}
 	
 	
-	/* REVUP */
+	/* BLOG */
 	
+	.socialshare.desk { display: none;}
+	.socialshare.mob { display: block;}
+	
+	#mainblog.singlepost .blogcontent .spacing { padding: 0;}
+	
+	
+	/* ABOUT US */
+	
+	#aboutmain .pagesection h3 { padding: 0;}
+	
+	#aboutmain .leadership .clear3 { display: none;}
+	#aboutmain .leadership .clear2 { display: block;}
+	
+	#aboutmain .leadership .col_one_third { float: left; width: 50%;}
+	
+	#aboutmain .different .col_one_fourth.two,
+	#aboutmain .different .col_one_fourth.three { float: none; width: auto;}
+	
+	#aboutmain .different .col_one_fourth.two .spacing { padding: 0; margin: 0 0 20px;}
+	#aboutmain .different .col_one_fourth.two p br { display: none;}
+	
+	#aboutmain .working .spacing { padding: 0;}
+	#aboutmain .working .col_one_fourth.two,
+	#aboutmain .working .col_one_fourth.three { width: auto; margin: 0 0 15px;}
 	
 	
 	/* MISC */
@@ -1366,6 +1395,15 @@ and (max-width : 479px) {
 	
 	#dm-layer-1 .subcontainer { padding: 0 20px;}
 	
+	#revup-layer-2 .subcontainer { padding: 0 20px;}
+	#revup-layer-3 .subcontainer { padding: 0 20px;}
+	#revup-layer-4 .subcontainer { padding: 0 20px;}
+	
+	#aboutmain .strategic .subcontainer,
+	#aboutmain .leadership .subcontainer,
+	#aboutmain .different .subcontainer,
+	#aboutmain .working .subcontainer { padding: 0 20px;}
+	
 	#calltoaction.cta-demo1 .subcontainer,
 	#calltoaction.cta-demo2 .subcontainer,
 	#calltoaction.cta-demo3 .subcontainer,
@@ -1391,7 +1429,20 @@ and (max-width : 479px) {
 	.mobile-engine .flex-direction-nav .flex-next { right: 0;}
 	
 	
-	/* CRS */
+	/* BLOG */
+	
+	#mainblog.mainblog .container,
+	#mainblog.singlepost .container { padding: 0 20px;}
+	
+	
+	/* ABOUT US */
+	
+	#aboutmain .leadership .col_one_third {
+		float: none;
+		max-width: 240px;
+		width: auto;
+		margin: 0 auto 30px;
+	}
 	
 	
 	
