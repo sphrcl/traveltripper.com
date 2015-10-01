@@ -1,4 +1,29 @@
 
+/* ================================================  1600 - 0000  ================================================ */
+
+@media only screen 
+and (max-width : 1600px) {
+
+	/* BIG VIDEO */
+	
+	#big-video-vid {
+		height: 660px !important;
+		top: 20px !important;
+		left: 50% !important;
+		margin: 0px 0px 0px -830px;
+		width: 1660px !important;
+	}
+
+	#big-video-vid_html5_api {
+		height: 100% !important;
+	}
+	
+}
+
+
+
+
+
 /* ================================================  1599 - 0000  ================================================ */
 
 @media only screen 
@@ -321,15 +346,16 @@ and (max-width : 1199px) {
 	#webmobilelayer2 .webbox-three { float: right; width: 48%;}
 	
 	
-	/* BIGVIDEO */
+	/* BIG VIDEO */
 	
 	#big-video-vid {
-		top: 0px !important;
-		height: 110% !important;
+		margin: 0px 0px 0px -800px;
+		width: 1600px !important;
 	}
 	
 	#big-video-vid_html5_api {
 		height: 100% !important;
+		width: 100% !important;
 	}
 	
 }
@@ -365,6 +391,7 @@ and (max-width : 1023px) {
 	
 	/* PAGE BANNERS */
 	
+	#banner { height: 520px;}
 	#pagebanner, #bottombanner { height: 520px;}
 	
 	#pagebanner h1, #pagebanner h2,
@@ -717,7 +744,16 @@ and (max-width : 959px) {
 	
 	.template-blog .entry p { width: auto;}
 
-
+	
+	/* BIG VIDEO */
+	
+	#big-video-vid {
+		top: 0 !important;
+		margin: 0px 0px 0px -645px;
+		height: 630px !important;
+		width: 1390px !important;
+	}
+	
 }
 
 
@@ -1037,9 +1073,6 @@ and (max-width : 767px) {
 	
 	#crspricetool ul li { float: none; width: 70%; text-align: left; margin: 0 0 15px;}
 	#crspricetool ul li h4 { text-indent: 0;}
-	
-	
-	
 	
 	
 	
