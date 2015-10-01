@@ -894,28 +894,35 @@ and (max-width : 800px) {
 	
 	/* FOOTER */
 	
-	#footer .subcontainer { padding: 0}
+	#footer .subcontainer { padding: 0;}
 	
-	#footer .col_one_fourth.one .footernav { padding: 0; max-width: inherit; }
-	#footer .col_one_fourth.two .footernav { padding: 0; }
+	#footer .col_one_fourth.one .footernav img { max-width: 90%;}
+	
+	#footer .col_one_fourth.one .footernav { padding: 0; max-width: none;}
+	#footer .col_one_fourth.two .footernav { padding: 0;}
 	#footer .col_one_fourth.one .footernav p { padding: 0; margin: -40px 0 30px; text-align: center; }
-	#footer .footersocial { padding: 0 }
-	#footer .footersocial ul { padding-bottom: 20px; padding-top: 20px;}
+	
+	#footer ul { padding: 0 0 15px;}
+	
+	#footer .footeradd i { display: none;}
 	#footer .footeradd p { padding: 0;}
+	
+	#footer .footersocial { padding: 0;}
+	#footer .footersocial ul { padding: 20px 0;}
 	
 	
 	/* CTA DEMO - ctademo3 */
 	
 	#calltoaction p { font-size: 16px; line-height: 24px; margin: 15px 0;}
-	#calltoaction.cta-demo3 h3 { width: 100%;}
+	#calltoaction.cta-demo3 h3 { width: auto;}
 	
 	#calltoaction.cta-demo3 .ctabox .spacing { padding: 0;}
 	
 	
-	#calltoaction.cta-demo3 .ctabox.two { width: 100%;}
-	#calltoaction.cta-demo3 .ctabox.three { width: 55%;}
+	#calltoaction.cta-demo3 .ctabox.two { width: auto;}
+	#calltoaction.cta-demo3 .ctabox.three { width: auto;}
 	
-	#calltoaction.cta-demo3 .ctabox { width: 100%; float: none; }
+	#calltoaction.cta-demo3 .ctabox { width: auto; float: none; }
 	
 	
 	
