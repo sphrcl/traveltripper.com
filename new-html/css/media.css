@@ -505,6 +505,8 @@ and (max-width : 1023px) {
 	
 	#crspmsrms .subcontainer { padding: 0 50px;}
 	#crspmsrms .col_one_third { width: 100%; float: none; margin: 0;}
+	#crspmsrms .spacing { padding: 0;}
+	
 	ul.checklist { margin: 20px 0;}
 	ul.checklist li { width: 25%;}
 	
@@ -615,7 +617,8 @@ and (max-width : 959px) {
 	
 	/* CRS */
 	
-	ul.checklist li { width: 33.33%;}
+	ul.icon44 li { padding: 0;}
+	ul.checklist li { width: auto; padding: 0 10px 0 0;}
 	
 	
 	/* BOOKING ENGINE */
@@ -771,6 +774,10 @@ and (max-width : 800px) {
 	
 	#page-layer-2 .subcontainer { padding: 0 0 0 30px;}
 	#page-layer-4 .subcontainer { padding: 0 30px;}
+	
+	#crs-overview .subcontainer { padding: 0 30px;}
+	#crspricetool .subcontainer { padding: 0 30px;}
+	#crspmsrms .subcontainer { padding: 0 30px;}
 	
 	#webmobilelayer2 .subcontainer { padding: 0 30px;}
 	#webmobilelayer1 .subcontainer { padding: 0 30px;}
@@ -1010,6 +1017,27 @@ and (max-width : 767px) {
 	}
 	
 	
+	/* CRS */
+	
+	ul.icon44 li {
+		position: relative;
+		text-align: left;
+	}
+	
+	ul.icon44 li:before {
+		position: absolute;
+		margin: 0;
+	}
+	
+	ul.icon44 h5 { padding: 0 0 10px 60px;}
+	ul.icon44 p { width: 70%; padding: 0 0 10px 60px;}
+	
+	#crspricetool ul li { float: none; width: 70%; text-align: left; margin: 0 0 15px;}
+	#crspricetool ul li h4 { text-indent: 0;}
+	
+	
+	
+	
 	
 	
 	
@@ -1118,6 +1146,12 @@ and (max-width : 567px) {
 	
 	#solutionsmain .pagesection .spacing { padding: 0;}
 	
+	
+	/* CRS */
+	
+	#crspricetool .col_two_third img { max-width: 100%;}
+	#crspricetool ul li { width: auto;}
+	ul.icon44 p { width: auto;}
 
 }
 
@@ -1179,6 +1213,11 @@ and (max-width : 479px) {
 	
 	.mobile-engine .flex-direction-nav .flex-prev { left: 0;}
 	.mobile-engine .flex-direction-nav .flex-next { right: 0;}
+	
+	
+	/* CRS */
+	
+	
 
 }
 

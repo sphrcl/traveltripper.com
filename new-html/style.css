@@ -488,9 +488,12 @@ li.icon-revenue-management { background: url(images/icon-revenue-management.png)
 	top: 0;
 	left: 0;
 	z-index: -1;
-	overflow: auto;
+	overflow: hidden;
 }
-	#mobhead.active { z-index: 10000;}
+	#mobhead.active {
+		overflow: auto;
+		z-index: 10000;
+	}
 
 #mobhead ul {
 	padding: 0;
