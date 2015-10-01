@@ -824,6 +824,11 @@ and (max-width : 800px) {
 	
 	#dm-layer-1 .subcontainer { padding: 0 30px;}
 	
+	#revup-layer-2 .subcontainer { padding: 0 30px;}
+	#revup-layer-3 .subcontainer { padding: 0 30px;}
+	#revup-layer-4 .subcontainer { padding: 0 30px;}
+	
+	
 	#calltoaction.cta-demo1 .subcontainer,
 	#calltoaction.cta-demo2 .subcontainer,
 	#calltoaction.cta-demo3 .subcontainer,
@@ -933,6 +938,32 @@ and (max-width : 800px) {
 	
 	#calltoaction.cta-demo3 .ctabox { width: auto; float: none; }
 	
+	
+	/* REVUP */
+	
+	.template-revup #pagebanner .col_one_half {
+		text-align: left;
+	}
+	
+	#revup-layer-1 .container { min-height: 0; padding: 20px 0 50px;}
+	#revup-layer-1 .col_one_half.left { display: none;}
+	#revup-layer-1 .col_one_half.right { width: auto;}
+	#revup-layer-1 .right .spacing { max-width: none;}
+	
+	#revup-layer-2 .container { padding: 50px 0;}
+	#revup-layer-2 .left .spacing { padding: 0; max-width: none;}
+	#revup-layer-2 .col_one_half.right { display: none;}
+	
+	#revup-layer-3 .container { padding: 50px 0 20px;}
+	#revup-layer-3 .col_one_half.left { display: none;}
+	#revup-layer-3 .right .spacing { padding: 0; max-width: none;}
+	#revup-layer-3 .col_one_half.right { width: auto;}
+	
+	#revup-layer-4 { text-align: center;}
+	#revup-layer-4 .container { padding: 50px 0;}
+	#revup-layer-4 .col_one_third.left { width: auto;}
+	#revup-layer-4 .col_one_third.left .spacing { padding: 0; max-width: none;}
+	#revup-layer-4 .col_two_third.right { display: none;}
 	
 	
 	/* MISC */
@@ -1145,7 +1176,7 @@ and (max-width : 767px) {
 	#dm-layer-2 .col_one_fourth { width: auto; max-width: none;}
 	
 	
-	
+	/* REVUP */
 	
 	
 	
