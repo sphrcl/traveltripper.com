@@ -150,7 +150,7 @@ include('header.php');
 		
 			<div class="col_one_fourth pl1">
 				<div class="spacing">
-					<h4>Mobile optimized </h4>
+					<h4>Mobile optimized</h4>
 					<p>RezTrip is perfectly optimized across web and mobile devices and can track statistics across type of device. Enable mobile-specific pricing using our CRS to target mobile users with special offers and deals.</p>
 				</div>
 			</div>

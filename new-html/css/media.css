@@ -988,7 +988,7 @@ and (max-width : 768px) {
 
 @media only screen 
 and (max-width : 767px) {
-
+	
 	/* HOMEPAGE */
 	
 	.servicesbox img {
@@ -1082,15 +1082,47 @@ and (max-width : 767px) {
 	#crspricetool ul li h4 { text-indent: 0;}
 	
 	
+	/* BOOKING ENGINE */
 	
+	#page-layer-1 .col_one_half.left .spacing {
+		background-size: 630px auto;
+		background-position: right top;
+		height: 240px;
+		margin: 0 20% 0 0;
+	}
+	
+	#page-layer-1 .col_one_half.right { float: none;}
+	#page-layer-1 .col_one_half.right .spacing { padding: 0; margin: 0 auto;}
+	
+	#page-layer-2 .container { padding: 50px 0;}
+	#page-layer-2 .subcontainer { padding: 0 30px;}
+	
+	#page-layer-2 .col_one_half.left { width: auto; max-width: none; padding: 0;}
+	#page-layer-2 .col_one_half.left .spacing {padding: 0 20px;}
+	#page-layer-2 ul { max-width: 300px; margin: 0 auto;}
+	
+	#page-layer-2 .col_one_half.right { display: none;}
+	
+	#page-layer-3 .container { padding: 50px 0;}
+	#page-layer-3 .col_one_half.one img { max-width: 85%;}
+	
+	#page-layer-4 { text-align: center;}
+	#page-layer-4 .col_one_fourth {
+		float: none;
+		width: auto;
+		max-width: 500px;
+		margin: 0 auto;
+	}
+	#page-layer-4 .col_one_fourth.pl1 .spacing,
+	#page-layer-4 .col_one_fourth.pl2 .spacing { padding: 0;}
 	
 	
 	/* MISC */
 	
-	.col_one_half { width: 100%; float: none; text-align: center; }
-	.col_one_third { width: 100%; float: none; }
-	.col_one_fourth, .pagesection > .col_one_fourth.left { width: 100%; float: none; }	
-	.col_one_fourth, .pagesection > .col_one_fourth.left { width: 100%; float: none; text-align: center; }
+	.col_one_half { width: auto; float: none; text-align: center;}
+	.col_one_third { width: auto; float: none;}
+	.col_one_fourth, .pagesection > .col_one_fourth.left { width: auto; float: none;}
+	.col_one_fourth, .pagesection > .col_one_fourth.left { width: auto; float: none; text-align: center;}
 	
 	li.flex-active-slide { width: 250px; }
 
@@ -1239,7 +1271,7 @@ and (max-width : 479px) {
 	#bigmain .subcontainer { padding: 0 20px;}
 	#digital-marketing .subcontainer { padding: 0 20px;}
 	
-	#page-layer-2 .subcontainer { padding: 0 0 0 30px;}
+	#page-layer-2 .subcontainer { padding: 0 20px;}
 	#page-layer-4 .subcontainer { padding: 0 20px;}
 	
 	#webmobilelayer2 .subcontainer { padding: 0 20px;}
