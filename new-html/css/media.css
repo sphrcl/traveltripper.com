@@ -368,6 +368,8 @@ and (max-width : 1023px) {
 	
 	#services .subcontainer { padding: 0 50px;}
 	
+	#main .subcontainer > h2 { display: block;}
+	
 	.servicesbox.one {
 		float: none;
 		width: 100%;
@@ -576,6 +578,10 @@ and (max-width : 959px) {
 	#header .rightnav { float: left;}
 	.openme { display: block;}
 	
+	#header .rightnav ul { padding: 0 0 0 5px;}
+	
+	
+	
 	
 	/* HOMEPAGE */
 	
@@ -736,12 +742,14 @@ and (max-width : 859px) {
 @media only screen 
 and (max-width : 800px) {
 	
-	/* MAIN */
+	/* SUBCONTAINER RULES */
 	
 	.subcontainer { padding: 0 30px;}
 	
 	#services .subcontainer { padding: 0 30px;}
+	#main .subcontainer { padding: 0 30px;}
 	#bigmain .subcontainer { padding: 0 30px;}
+	#digital-marketing .subcontainer { padding: 0 30px;}
 	
 	#page-layer-2 .subcontainer { padding: 0 0 0 30px;}
 	#page-layer-4 .subcontainer { padding: 0 30px;}
@@ -910,6 +918,82 @@ and (max-width : 768px) {
 @media only screen 
 and (max-width : 767px) {
 
+	/* HOMEPAGE */
+	
+	.servicesbox img {
+		position: absolute;
+		left: 0;
+		top: 0;
+		height: 30px;
+	}
+	
+	.servicesbox.three img {
+		height: 25px;
+	}
+	
+	.servicesbox p { display: inline-block; max-width: none;}
+	
+	.servicesbox h4,
+	.servicesbox p { padding: 0 0 0 60px;}
+	
+	.servicesbox h4 { margin-bottom: 10px;}
+	
+	.servicesbox.three p,
+	.servicesbox.four p { max-width: none;}
+	
+	.servicesbox.two, .servicesbox.three, .servicesbox.four {
+		max-width: 400px;
+		width: auto;
+		float: none;
+		text-align: left;
+		margin: 0 auto 30px;
+		min-height: 110px;
+	}
+	
+	.servicesbox::before {
+		background: url("../images/arrow-down.png") no-repeat scroll 0 bottom transparent;
+		content: '';
+		display: block;
+		
+		height: 0;
+		width: 28px;
+		
+		position: absolute;
+		margin: 0;
+		top: 40px;
+		left: 3px;
+	}
+	
+	#services.active .servicesbox::before {
+		height: 70px;
+		width: 28px;
+	}
+	
+	.engine { margin: 0 0 0 -265px;}
+	
+	.graphics { height: auto; padding: 0 0 40px;}
+	.topgraph {
+		text-align: center;
+		transition: all 0.8s ease 1.5s;
+		-webkit-transition: all 0.8s ease 1.5s;
+		-moz-transition: all 0.8s ease 1.5s;
+		-o-transition: all 0.8s ease 1.5s;
+		-ms-transition: all 0.8s ease 1.5s;
+	}
+	
+	.topgraph p {
+		max-width: none;
+		padding: 0;
+		text-align: center;
+	}
+	
+	.graphss {
+		display: none;
+	}
+	
+	
+	
+	
 	
 	
 	/* MISC */
@@ -982,8 +1066,34 @@ and (max-width : 568px) {
 
 @media only screen 
 and (max-width : 567px) {
-
-
+	
+	/* NAVIGATION */
+	
+	#header .rightnav { display: none;}
+	.mainsubs > li:nth-last-child(2) { border-bottom: 1px solid #555;}
+	li.mobcase { display: block;}
+	
+	
+	
+	/* HOMEPAGE */
+	
+	#main .left { display: none;}
+	
+	.topgraph {
+		transition: all 0.8s ease 0s;
+		-webkit-transition: all 0.8s ease 0s;
+		-moz-transition: all 0.8s ease 0s;
+		-o-transition: all 0.8s ease 0s;
+		-ms-transition: all 0.8s ease 0s;
+	}
+	
+	.mobile-engine .flex-direction-nav a {
+		top: 30%;
+	}
+	
+	.mobile-engine img {
+		max-width: 50%;
+	}
 
 }
 
@@ -1005,7 +1115,46 @@ and (max-width : 480px) {
 @media only screen 
 and (max-width : 479px) {
 
-
+	/* SUBCONTAINER RULES */
+	
+	.subcontainer { padding: 0 20px;}
+	
+	#services .subcontainer { padding: 0 20px;}
+	#bigmain .subcontainer { padding: 0 20px;}
+	#digital-marketing .subcontainer { padding: 0 20px;}
+	
+	#page-layer-2 .subcontainer { padding: 0 0 0 30px;}
+	#page-layer-4 .subcontainer { padding: 0 20px;}
+	
+	#webmobilelayer2 .subcontainer { padding: 0 20px;}
+	#webmobilelayer1 .subcontainer { padding: 0 20px;}
+	#webmobilelayer3 .subcontainer { padding: 0 0 0 20px;}
+	
+	#dm-layer-1 .subcontainer { padding: 0 20px;}
+	
+	#calltoaction.cta-demo1 .subcontainer,
+	#calltoaction.cta-demo2 .subcontainer,
+	#calltoaction.cta-demo3 .subcontainer,
+	#calltoaction.cta-newsletter .subcontainer { padding: 0 20px;}
+	
+	
+	/* HOMEPAGE */
+	
+	.flex-direction-nav a {
+		width: 40px;
+		height: 40px;
+	}
+	
+	.mobile-engine .flex-direction-nav a {
+		top: 20%;
+	}
+	
+	.mobile-engine p {
+		padding: 0;
+	}
+	
+	.mobile-engine .flex-direction-nav .flex-prev { left: 0;}
+	.mobile-engine .flex-direction-nav .flex-next { right: 0;}
 
 }
 

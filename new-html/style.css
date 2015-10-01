@@ -932,10 +932,15 @@ li.mobcase {
 	height: 535px;
 }
 
-.topgraph h2 {
+#main h2 {
 	font-size: 34px;
 	font-weight: 500;
 	margin-bottom: 20px;
+}
+
+#main .subcontainer > h2 {
+	display: none;
+	text-align: center;
 }
 
 .topgraph p {
