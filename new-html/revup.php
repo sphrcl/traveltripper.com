@@ -9,26 +9,14 @@ include('header.php');
 
 ?>
 	
-	<div id="pagebanner" style="background-image: url(<?php echo $image; ?>);">
+	<div id="pagebanner" class="contentright" style="background-image: url(<?php echo $image; ?>);">
 	
 		<div class="container">
-			
-			<div class="col_one_half left">
-				<div class="spacing"></div>
-			</div>
-			
-			<div class="col_one_half right">
-				<div class="spacing">
-					<h1>RevUp</h1>
-					<h3>Hotel Revenue<br/>
-					Management Platform</h3>
-					<p>Trending analysis and forecasting tools that help  revenue managers make the best pricing decisions for their hotels.</p>
-					<a class="button1" href="#">REQUEST A DEMO &nbsp; <i class="fa fa-angle-right"></i></a>
-				</div>
-			</div>
-			
-			<div class="clear"></div>
-			
+			<h1>RevUp</h1>
+			<h3>Hotel Revenue<br/>
+			Management Platform</h3>
+			<p>Trending analysis and forecasting tools that help  revenue managers make the best pricing decisions for their hotels.</p>
+			<a class="button1" href="#">REQUEST A DEMO &nbsp; <i class="fa fa-angle-right"></i></a>
 		</div>
 		
 	</div>
@@ -58,16 +46,6 @@ include('header.php');
 			</div>
 			
 			<div class="clear"></div>
-			
-			<!-- <div class="module2">
-					<div class="spacing2">
-						<h2>34%</h2>
-						<div class="modulecontent2">
-							<p>We increased Parkside Hotel conversion rates by 34%</p>
-							<a href="#">LEARN MORE</a>
-						</div>
-					</div>
-				</div> -->
 			
 		</div>
 		</div>

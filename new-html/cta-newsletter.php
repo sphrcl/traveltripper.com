@@ -15,6 +15,8 @@
 			</div>
 		</div>
 		
+		<div class="clear clear2"></div>
+		
 		<div class="ctabox three">
 		
 			<form name="" action="#" method="get">

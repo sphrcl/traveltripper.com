@@ -1562,7 +1562,7 @@ li.mobcase {
 
 /* CALLTOACTION - NEWSLETTER */
 
-
+#calltoaction.cta-newsletter .clear2 { display: none;}
 #calltoaction.cta-newsletter input[type="text"] { width: 100%;}
 
 #calltoaction.cta-newsletter .ctabox { float: left; width: 25%;}
@@ -3245,13 +3245,6 @@ ul.checklist li {
 
 /* PAGE - Rev Up #################################################################################### */
 
-
-.template-revup #pagebanner .container {
-  padding: 150px 0 0;
-  width: auto;
-  margin: 0 auto;
-}
-
 .template-revup #pagebanner h3 {
   font-size: 22px;
   line-height: 34px;
@@ -3262,26 +3255,6 @@ ul.checklist li {
 .template-revup #pagebanner p {
   width: 60%;
   max-width: 330px;
-}
-
-.template-revup #pagebanner .left {
-	position: absolute;
-	bottom: 0;
-	left: 0;
-	max-width: 795px;
-}
-
-.template-revup #pagebanner .left .spacing {
-	background: url('images/banner-revup.png') no-repeat scroll right bottom transparent;
-	height: 490px;
-}
-
-.template-revup #pagebanner .right {
-	float: right;
-}
-
-.template-revup #pagebanner .right .spacing {
-	padding: 0 0 0 40px;
 }
 
 .revup-layer {
