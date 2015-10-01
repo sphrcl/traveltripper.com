@@ -36,18 +36,6 @@ and (max-width : 1599px) {
 	#page-layer-1 .col_one_half.right .spacing { padding: 0 40px 0 0; max-width: 500px;}
 	
 	
-	/* REV UP */
-	/*
-	#revup-layer-1 .left .spacing,
-	#revup-layer-2 .right,
-	#revup-layer-3 .left .spacing,
-	#revup-layer-4 .right {
-		display: block;
-	}
-	
-	#revup-layer-1, #revup-layer-3 { background: none repeat scroll 0 0 transparent;}
-	#revup-layer-2, #revup-layer-4 { background: none repeat scroll 0 0 #f6f6f6;}*/
-	
 }
 
 
@@ -1325,8 +1313,20 @@ and (max-width : 567px) {
 	/* WEB & MOBILE */
 	
 	#webmobilelayer3 .webbox.two { display: none;}
-	
 	#webmobilelayer4 .col_sec.two img { max-width: 100%;}
+	
+	
+	/* RESOURCES */
+	
+	#resourceslist .subcontainer { padding: 0 20px;}
+	#resourceslist .resourcebox { float: none; width: auto;}
+	#resourceslist .resourcebox .spacing { margin: 0 0 30px;}
+	
+	#resourceslist .resourcebox .resourceimg { height: 220px;}
+	#resourceslist .resourcebox h3 {
+		height: auto !important;
+		min-height: 80px;
+	}
 	
 }
 
