@@ -268,6 +268,12 @@ and (max-width : 1279px) {
 	}
 	
 	
+	/* CAREERS */
+	
+	#working .col_one_half { width: 65%;}
+	#positions .subcontainer > .col_one_half { width: 65%;}
+	
+	
 	/* CTA DEMO - ctademo2 */
 	
 	#calltoaction.cta-demo2 .ctabox.one { width: 33.5%; margin: 0 0 30px;}
@@ -595,12 +601,25 @@ and (max-width : 1023px) {
 		padding: 0;
 	}
 	
+	.pagecontent { float: none; width: auto;}
+	.pagecontent .spacing { padding: 0;}
+	
 	#mainblog.singlepost .blogcontent .spacing {
 		padding: 0 0 0 90px
 	}
 	
 	#mainblog.singlepost .entry {
 		margin-bottom: 0;
+	}
+	
+	
+	/* PAGE TEMPLATE */
+	
+	#mainpage .subcontainer { margin: 0; padding: 0 50px;}
+	
+	#mainpage .subcontainer::before,
+	#mainpage .subcontainer::after {
+		display: none;
 	}
 	
 }
@@ -727,6 +746,20 @@ and (max-width : 959px) {
 	#resourceslist .resourcebox { width: 50%;}
 	
 	
+	/* CAREERS */
+	
+	#working .subcontainer { padding: 0 50px;}
+	#working .col_one_fourth { float: none; width: auto;}
+	#working .col_one_half { float: none; width: auto;}
+	#careermain #working.pagesection p.two { max-width: none;}
+	
+	#careermain .pagesection h3 { padding: 0; margin: 0 0 10px;}
+	#positions .subcontainer { padding: 0 50px;}
+	#positions .col_one_fourth { float: none; width: auto;}
+	#positions .subcontainer > .col_one_half { float: none; width: auto;}
+	
+	
+	
 	/* BLOG */
 	
 	.template-blog h2.blogtitle,
@@ -821,6 +854,10 @@ and (max-width : 800px) {
 	#aboutmain .different .subcontainer,
 	#aboutmain .working .subcontainer { padding: 0 30px;}
 	
+	#positions .subcontainer { padding: 0 30px;}
+	#working .subcontainer { padding: 0 30px;}
+	
+	#mainpage .subcontainer { padding: 0 30px;}
 	
 	#calltoaction.cta-demo1 .subcontainer,
 	#calltoaction.cta-demo2 .subcontainer,
@@ -1169,14 +1206,6 @@ and (max-width : 767px) {
 	#dm-layer-2 .col_one_fourth { width: auto; max-width: none;}
 	
 	
-	/* BLOG */
-	
-	.socialshare.desk { display: none;}
-	.socialshare.mob { display: block;}
-	
-	#mainblog.singlepost .blogcontent .spacing { padding: 0;}
-	
-	
 	/* ABOUT US */
 	
 	#aboutmain .pagesection h3 { padding: 0;}
@@ -1195,6 +1224,19 @@ and (max-width : 767px) {
 	#aboutmain .working .spacing { padding: 0;}
 	#aboutmain .working .col_one_fourth.two,
 	#aboutmain .working .col_one_fourth.three { width: auto; margin: 0 0 15px;}
+	
+	
+	/* CAREERS */
+	
+	#careermain #positions.pagesection .col_one_half .col_one_half .spacing { padding: 0;}
+	
+	
+	/* BLOG */
+	
+	.socialshare.desk { display: none;}
+	.socialshare.mob { display: block;}
+	
+	#mainblog.singlepost .blogcontent .spacing { padding: 0;}
 	
 	
 	/* MISC */
@@ -1404,6 +1446,11 @@ and (max-width : 479px) {
 	#aboutmain .different .subcontainer,
 	#aboutmain .working .subcontainer { padding: 0 20px;}
 	
+	#positions .subcontainer { padding: 0 20px;}
+	#working .subcontainer { padding: 0 20px;}
+	
+	#mainpage .subcontainer { padding: 0 20px;}
+	
 	#calltoaction.cta-demo1 .subcontainer,
 	#calltoaction.cta-demo2 .subcontainer,
 	#calltoaction.cta-demo3 .subcontainer,
@@ -1429,12 +1476,6 @@ and (max-width : 479px) {
 	.mobile-engine .flex-direction-nav .flex-next { right: 0;}
 	
 	
-	/* BLOG */
-	
-	#mainblog.mainblog .container,
-	#mainblog.singlepost .container { padding: 0 20px;}
-	
-	
 	/* ABOUT US */
 	
 	#aboutmain .leadership .col_one_third {
@@ -1445,9 +1486,7 @@ and (max-width : 479px) {
 	}
 	
 	
-	
 	/* WEB & MOBILE */
-	
 	
 	#webmobilelayer2 .webbox-three h2 { text-align: left;}
 	.webhightitle { margin: 0 0 20px;}
@@ -1456,6 +1495,12 @@ and (max-width : 479px) {
 	.webhightext { float: none; width: auto;}
 	.webhightext ul { padding: 0;}
 	#webmobilelayer2 .webbox-three .webhigh.one { margin: 0 0 15px;}
+	
+	
+	/* BLOG */
+	
+	#mainblog.mainblog .container,
+	#mainblog.singlepost .container { padding: 0 20px;}
 	
 
 }
