@@ -871,8 +871,11 @@ and (max-width : 800px) {
 	/* CTA DEMO - ctademo3 */
 	
 	#calltoaction p { font-size: 16px; line-height: 24px; margin: 15px 0;}
+	#calltoaction.cta-demo3 h3 { width: 100%;}
 	
-	#calltoaction.cta-demo3 h3 { width: 100%; text-align: left; padding: 0;}	
+	#calltoaction.cta-demo3 .ctabox .spacing { padding: 0;}
+	
+	
 	#calltoaction.cta-demo3 .ctabox.two { width: 100%;}
 	#calltoaction.cta-demo3 .ctabox.three { width: 55%;}
 	
