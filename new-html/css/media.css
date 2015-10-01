@@ -829,8 +829,6 @@ and (max-width : 800px) {
 	#calltoaction.cta-demo3 .subcontainer,
 	#calltoaction.cta-newsletter .subcontainer { padding: 0 30px;}
 	
-	
-	
 	#footer .subcontainer { padding: 0 30px;}
 	
 	
@@ -888,6 +886,12 @@ and (max-width : 800px) {
 	
 	#webmobilelayer3 .webbox.one { padding: 0 30px 0 0;}
 	#webmobilelayer2 .webbox-two .col_one_third { width: 33.33%; float: left;}
+	
+	
+	/* DIGITAL MARKETING */
+	
+	#dm-layer-1 .col_one_fourth { text-align: left;}
+	#dm-layer-2 .col_one_fourth { text-align: left;}
 	
 	
 	
@@ -1126,6 +1130,21 @@ and (max-width : 767px) {
 	
 	#webmobilelayer4 .col_sec.one { height: auto; padding: 0 0 30px;}
 	.webfeattable, .webfeatcell { display: block;}
+	
+	
+	/* DIGITAL MARKETING */
+	
+	#dm-layer-1 .icon44 h4 { padding: 0 0 10px 60px;}
+	#dm-layer-1 .icon44 p { width: auto;}
+	
+	#dm-layer-1 .col_three_fourth img { width: 75%;}
+	
+	
+	#dm-layer-2 { background: none no-repeat scroll 0 0 transparent;}
+	#dm-layer-2 .container { height: auto; padding: 50px 0;}
+	#dm-layer-2 .col_one_fourth { width: auto; max-width: none;}
+	
+	
 	
 	
 	
