@@ -1094,7 +1094,22 @@ and (max-width : 600px) {
 @media only screen 
 and (max-width : 599px) {
 
-
+	/* PAGE BANNERS */
+	
+	#pagebanner,
+	#bottombanner {
+		height: 420px;
+	}
+	
+	#pagebanner.contentright .container,
+	#bottombanner.contentright .container {
+		float: left;
+		padding: 130px 0 0 30px;
+		width: 80%;
+	}
+	
+	
+	
 
 }
 
