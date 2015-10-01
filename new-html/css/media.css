@@ -1137,7 +1137,7 @@ and (max-width : 767px) {
 	#dm-layer-1 .icon44 h4 { padding: 0 0 10px 60px;}
 	#dm-layer-1 .icon44 p { width: auto;}
 	
-	#dm-layer-1 .col_three_fourth img { width: 75%;}
+	#dm-layer-1 .col_three_fourth img { width: 100%;}
 	
 	
 	#dm-layer-2 { background: none no-repeat scroll 0 0 transparent;}
