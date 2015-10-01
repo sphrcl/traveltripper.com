@@ -412,6 +412,12 @@ and (max-width : 1023px) {
 		margin-bottom: 20px; 
 	}
 	
+	#pagebanner h3, #pagebanner h4,
+	#bottombanner h3, #bottombanner h4 {
+		font-size: 30px;
+		line-height: 34px;
+	}
+	
 	#pagebanner.contentright .container,
 	#bottombanner.contentright .container {
 		width: 50%;
@@ -1209,7 +1215,7 @@ and (max-width : 767px) {
 	}
 	
 	#page-layer-1 .col_one_half.right { float: none;}
-	#page-layer-1 .col_one_half.right .spacing { padding: 0; margin: 0 auto;}
+	#page-layer-1 .col_one_half.right .spacing { padding: 0 20px; margin: 0 auto;}
 	
 	#page-layer-2 .container { padding: 50px 0;}
 	#page-layer-2 .subcontainer { padding: 0 30px;}
@@ -1345,7 +1351,40 @@ and (max-width : 600px) {
 
 @media only screen 
 and (max-width : 599px) {
-
+	
+	/* FONT RULES */
+	
+	#solutionsmain h3 {
+		font-size: 32px;
+		line-height: 34px;
+	}
+	
+	#crs-overview h3,
+	#crspricetool h3,
+	#crspmsrms h3 {
+		font-size: 32px;
+		line-height: 34px;
+	}
+	
+	.pageuptitle-a h3,
+	.pageuptitle-b h3 {
+		font-size: 32px;
+		line-height: 34px;
+	}
+	
+	#webmobilelayer4 h1,
+	.webtext h1 {
+		font-size: 32px;
+		line-height: 34px;
+	}
+	
+	h1.blogtitle, h2.blogtitle,
+	.entry h2, .entry blockquote {
+		font-size: 28px;
+		line-height: 36px;
+	}
+	
+	
 	/* PAGE BANNERS */
 	
 	#pagebanner,
@@ -1417,7 +1456,7 @@ and (max-width : 567px) {
 	
 	/* PAGE BANNERS */
 	
-	#bottombanner.crs .container { padding: 85px 0 0;}
+	#bottombanner.crs .container { padding: 60px 0 0;}
 	#bottombanner.crs .subcontainer { width: 90%;}
 	
 	

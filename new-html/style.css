@@ -2816,7 +2816,7 @@ li.icon44-pci:before {
 
 #crspricetool h3 {
   font-size: 36px;
-  line-height: 40px;
+  line-height: 48px;
   color: #454545;
   padding-bottom: 20px;
   font-weight: 300;
@@ -3805,6 +3805,8 @@ ul.checklist li {
 #webmobilelayer4 h1 {
 	margin: 0 0 30px;
 	font-weight: 300;
+	font-size: 36px;
+	line-height: 48px;
 }
 
 #webmobilelayer4 .col_sec.one {
