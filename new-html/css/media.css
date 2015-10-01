@@ -1112,6 +1112,12 @@ and (max-width : 567px) {
 	.mobile-engine img {
 		max-width: 50%;
 	}
+	
+	
+	/* SOLUTIONS */
+	
+	#solutionsmain .pagesection .spacing { padding: 0;}
+	
 
 }
 
