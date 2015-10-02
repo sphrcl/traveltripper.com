@@ -1352,6 +1352,17 @@ and (max-width : 600px) {
 @media only screen 
 and (max-width : 599px) {
 	
+	/* HOMEPAGE */
+
+	#big-video-wrap.bigvideohome {
+		background-image: url(http://traveltripper.com.php54-4.ord1-1.websitetestlink.com/new-html/images/homepage-hero-background-mobile.jpg);
+		background-size: cover;
+	}
+
+	#big-video-vid_html5_api {
+		display: none;
+	}
+
 	/* FONT RULES */
 	
 	#solutionsmain h3 {
