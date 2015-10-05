@@ -97,7 +97,7 @@
 				<div class="rightnav">
 					<ul>
 						<!-- <li class="demo-login"><a href="login.php">Login</a></li> -->
-						<li class="demo-engine"><a href="#">Demo Engine</a></li>
+						<li class="demo-engine"><a href="https://demo.reztrip.com/">Demo Engine</a></li>
 					</ul>
 				</div>
 				
