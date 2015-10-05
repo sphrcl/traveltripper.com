@@ -228,6 +228,11 @@ strong {
   background-color: #c9c9c9;
 }
 
+input {
+	-webkit-appearance: none;
+}
+
+
 /* Base Styles -----------------------------------------------------------*/
 
 #wrapper {
