@@ -6,9 +6,10 @@ Template Name: Blog
 
 <?php get_header(); ?>
 
-	<div id="mainblog">
+	<div id="mainblog" class="mainblog">
 	
 		<div class="container">
+		<div class="subcontainer">
 	
 			<div class="blogcontent">
 			
@@ -78,6 +79,7 @@ Template Name: Blog
 			</div>
 			
 			<div class="sidebar">
+			<div class="spacing">
 
 				<div class="widgets search">
 				
@@ -90,9 +92,9 @@ Template Name: Blog
 				<div class="widgets social">
 				
 					<ul>
-						<li><a href="http://www.linkedin.com/"><i class="fa fa-linkedin"></i></a></li>
-						<li><a href="http://www.facebook.com/"><i class="fa fa-facebook-square"></i></a></li>
-						<li><a href="http://www.twitter.com/"><i class="fa fa-twitter"></i></a></li>
+						<li><a href="https://www.linkedin.com/company/travel-tripper" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+						<li><a href="https://www.facebook.com/traveltripper" target="_blank"><i class="fa fa-facebook-square"></i></a></li>
+						<li><a href="https://twitter.com/Travel_Tripper" target="_blank"><i class="fa fa-twitter"></i></a></li>
 					</ul>
 				
 				</div>
@@ -111,7 +113,11 @@ Template Name: Blog
 				<?php get_sidebar(); ?>
 				
 			</div>
+			</div>
+			
+			<div class="clear"></div>
 		
+		</div>
 		</div>
 		
 		

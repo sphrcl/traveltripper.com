@@ -15,8 +15,9 @@ $image = $imgsrc[0];
 	<div id="mainblog" class="singlepost">
 	
 		<div class="container">
+		<div class="subcontainer">
 		
-			<div class="socialshare">
+			<div class="socialshare desk">
 				<p>211 people <br/>shared this</p>
 				<ul>
 					<li><a href="http://www.twitter.com/"><i class="fa fa-twitter"></i></a></li>
@@ -26,6 +27,7 @@ $image = $imgsrc[0];
 			</div>
 	
 			<div class="blogcontent">
+			<div class="spacing">
 			
 				<div class="entry">
 					
@@ -55,13 +57,24 @@ $image = $imgsrc[0];
 					
 					<h1 class="blogtitle"><?php the_title(); ?></h1>
 					
+					<div class="socialshare mob">
+						<p>211 people <br/>shared this</p>
+						<ul>
+							<li><a href="http://www.twitter.com/"><i class="fa fa-twitter"></i></a></li>
+							<li><a href="http://www.facebook.com/"><i class="fa fa-facebook-square"></i></a></li>
+							<li><a href="http://www.linkedin.com/"><i class="fa fa-linkedin"></i></a></li>
+						</ul>
+					</div>
+					
 					<?php the_content(); ?>
 
 				</div>
 				
 			</div>
+			</div>
 			
 			<div class="sidebar">
+			<div class="spacing">
 			
 				<div class="widgets search">
 				
@@ -74,9 +87,9 @@ $image = $imgsrc[0];
 				<div class="widgets social">
 				
 					<ul>
-						<li><a href="http://www.linkedin.com/"><i class="fa fa-linkedin"></i></a></li>
-						<li><a href="http://www.facebook.com/"><i class="fa fa-facebook-square"></i></a></li>
-						<li><a href="http://www.twitter.com/"><i class="fa fa-twitter"></i></a></li>
+						<li><a href="https://www.linkedin.com/company/travel-tripper" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+						<li><a href="https://www.facebook.com/traveltripper" target="_blank"><i class="fa fa-facebook-square"></i></a></li>
+						<li><a href="https://twitter.com/Travel_Tripper" target="_blank"><i class="fa fa-twitter"></i></a></li>
 					</ul>
 				
 				</div>
@@ -95,7 +108,11 @@ $image = $imgsrc[0];
 				<?php get_sidebar(); ?>
 		
 			</div>
+			</div>
+			
+			<div class="clear"></div>
 		
+		</div>
 		</div>
 		
 		

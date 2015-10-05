@@ -1578,20 +1578,53 @@ div#resourceslist .resourcebox h3 a {
 }
 
 /* BLOG ROLL - BLOG POST*/
-div#mainblog {
-  clear: both;
-  overflow: hidden;
+#mainblog .container {
+	margin: 90px auto 0;
+	max-width: 1300px;
+	padding: 0 20px;
 }
 
-div#mainblog .container {
-  margin: 90px auto 30px;
-  overflow: hidden;
-  max-width: 1200px;
+#mainblog .subcontainer {
+	padding: 0;
+	position: relative;
+}
+
+#mainblog .subcontainer:before,
+#mainblog .subcontainer:after {
+	background-color: #ccc;
+	position: absolute;
+	display: block;
+	content: '';
+	width: 1px;
+	height: 100%;
+	top: 0;
+}
+
+#mainblog .subcontainer:before {
+	right: 30%;
+	margin: 0 -1px 0 0;
+}
+
+#mainblog .subcontainer:after {
+	right: 0;
+}
+
+#mainblog.singlepost .subcontainer {
+    padding: 0 0 0 90px;
+}
+
+#mainblog.singlepost  .subcontainer:before {
+	margin: 0 -28px 0 0;
 }
 
 .blogcontent {
   float: left;
-  width: 66%;
+  width: 70%;
+  margin: 0 0 15px;
+}
+
+.blogcontent .spacing {
+	padding: 0 30px 0 0;
 }
 
 .entry {
@@ -1645,13 +1678,18 @@ img.featured-image {
 h1.blogtitle, 
 h2.blogtitle, 
 .entry h1, 
-.entry h2 {
+.entry h2,
+.entry blockquote {
   color: #34a4d9;
   font-size: 30px;
   line-height: 48px;
   font-weight: 500;
   letter-spacing: -0.01em;
   margin-bottom: 20px;
+}
+
+.entry blockquote {
+	width: 75%;
 }
 
 h1.blogtitle a, 
@@ -1725,16 +1763,12 @@ h2.blogtitle a,
   margin-left: 20px;
 }
 
-.singlepost .blogcontent {
-  float: left;
-  width: 58%;
-}
-
 .socialshare {
-  float: left;
-  width: 8%;
-  margin-top: 20px;
+	position: absolute;
   text-align: center;
+  left: 0;
+  top: 0;
+  width: 80px;
 }
 
 .socialshare p {
@@ -1759,6 +1793,36 @@ h2.blogtitle a,
   font-size: 25px;
   text-align: center;
 }
+
+.socialshare ul li a i {
+	color: #fff;
+}
+
+.socialshare.mob {
+	display: none;
+	position: static;
+	width: auto;
+	text-align: left;
+}
+
+.socialshare p br {
+	display: none;
+}
+
+.socialshare.mob ul {
+	padding: 0;
+	margin: 0 0 20px;
+}
+
+.socialshare.mob li {
+	display: inline;
+	padding-right: 10px;
+	list-style-type: none;
+}
+
+.socialshare.mob li:last-child { padding-right: 0;}
+
+.socialshare.mob p { padding: 0 0 10px;}
 
 /* BLOG SIDEBAR */
 .sidebar {
