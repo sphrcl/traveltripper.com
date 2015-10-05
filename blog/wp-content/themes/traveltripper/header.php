@@ -42,8 +42,6 @@
 	<!-- Your jquery library is included in the /library/simple_functions.php file line 294 //ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js  -->
 	
 	
-	
-
 	<?php
 		/****************** DO NOT REMOVE **********************
 		/* We add some JavaScript to pages with the comment form
@@ -53,7 +51,19 @@
 			wp_enqueue_script( 'comment-reply' );
 		wp_head();
 	?>
-	</head> 
+	
+	<?php if(is_singular()) { ?>
+		<script>(function(d, s, id) {
+			var js, fjs = d.getElementsByTagName(s)[0];
+			if (d.getElementById(id)) return;
+			js = d.createElement(s); js.id = id;
+			js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1";
+			fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));
+		</script>
+	<?php } ?>
+	
+	</head>
 	
 <body <?php body_class( $class ); ?>>
 

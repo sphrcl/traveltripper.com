@@ -16,13 +16,19 @@ $image = $imgsrc[0];
 	
 		<div class="container">
 		<div class="subcontainer">
-		
+			
+			<?php
+				$encode_title = urlencode(get_the_title());
+				$encode_url = urlencode(get_permalink());
+				$encode_summary = urlencode(get_the_excerpt());
+			?>
+			
 			<div class="socialshare desk">
 				<p>211 people <br/>shared this</p>
 				<ul>
-					<li><a href="http://www.twitter.com/"><i class="fa fa-twitter"></i></a></li>
-					<li><a href="http://www.facebook.com/"><i class="fa fa-facebook-square"></i></a></li>
-					<li><a href="http://www.linkedin.com/"><i class="fa fa-linkedin"></i></a></li>
+					<li><a target="_blank" href="https://twitter.com/intent/tweet?url=<?php echo $encode_url; ?>&text=<?php echo $encode_title; ?>"><i class="fa fa-twitter"></i></a></li>
+					<li><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?&u=<?php echo $encode_url; ?>&display=popup"><i class="fa fa-facebook-square"></i></a></li>
+					<li><a target="_blank" href="https://www.linkedin.com/shareArticle?mini=true&url=<?php echo $encode_url; ?>&title=<?php echo $encode_title; ?>&summary=<?php echo $encode_summary ?>&source=traveltripperblog"><i class="fa fa-linkedin"></i></a></li>
 				</ul>
 			</div>
 	
@@ -60,9 +66,9 @@ $image = $imgsrc[0];
 					<div class="socialshare mob">
 						<p>211 people <br/>shared this</p>
 						<ul>
-							<li><a href="http://www.twitter.com/"><i class="fa fa-twitter"></i></a></li>
-							<li><a href="http://www.facebook.com/"><i class="fa fa-facebook-square"></i></a></li>
-							<li><a href="http://www.linkedin.com/"><i class="fa fa-linkedin"></i></a></li>
+							<li><a target="_blank" href="https://twitter.com/intent/tweet?url=<?php echo $encode_url; ?>&text=<?php echo $encode_title; ?>"><i class="fa fa-twitter"></i></a></li>
+							<li><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?&u=<?php echo $encode_url; ?>&display=popup"><i class="fa fa-facebook-square"></i></a></li>
+							<li><a target="_blank" href="https://www.linkedin.com/shareArticle?mini=true&url=<?php echo $encode_url; ?>&title=<?php echo $encode_title; ?>&summary=<?php echo $encode_summary ?>&source=traveltripperblog"><i class="fa fa-linkedin"></i></a></li>
 						</ul>
 					</div>
 					
