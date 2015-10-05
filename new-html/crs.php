@@ -15,7 +15,7 @@ include('header.php');
 	
 			<h1><?php echo $pagetitle; ?></h1>
 			<p>Comprehensive distribution and  seamless connectivity in one powerful platform</p>
-			<a class="button1" href="#">REQUEST A DEMO &nbsp; <i class="fa fa-angle-right"></i></a>
+			<a class="button1" href="http://try.traveltripper.com/request-demo/">REQUEST A DEMO &nbsp; <i class="fa fa-angle-right"></i></a>
 		
 		</div>
 		

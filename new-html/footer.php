@@ -47,7 +47,7 @@
 							<li><a href="https://twitter.com/Travel_Tripper" target="_blank"><i class="fa fa-twitter"></i></a></li>
 						</ul>
 						
-						<p><a href="#">Say Hello &rarr;</a></p>
+						<p><a href="mailto:hello@traveltripper.com">Say Hello &rarr;</a></p>
 						
 					</div>
 				</div>

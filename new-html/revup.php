@@ -16,7 +16,7 @@ include('header.php');
 			<h3>Hotel Revenue<br/>
 			Management Platform</h3>
 			<p>Trending analysis and forecasting tools that help  revenue managers make the best pricing decisions for their hotels.</p>
-			<a class="button1" href="#">REQUEST A DEMO &nbsp; <i class="fa fa-angle-right"></i></a>
+			<a class="button1" href="http://try.traveltripper.com/request-demo/">REQUEST A DEMO &nbsp; <i class="fa fa-angle-right"></i></a>
 		</div>
 		
 	</div>

@@ -15,7 +15,7 @@ include('header.php');
 	
 			<h1><?php echo $pagetitle; ?></h1>
 			<p>A sleek, innovative booking engine designed to optimize conversions and increase direct bookings</p>
-			<a class="button1" href="#">REQUEST DEMO &nbsp; <i class="fa fa-angle-right"></i></a>
+			<a class="button1" href="http://try.traveltripper.com/request-demo/">REQUEST DEMO &nbsp; <i class="fa fa-angle-right"></i></a>
 		
 		</div>
 		

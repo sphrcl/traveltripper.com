@@ -16,7 +16,7 @@ include('header.php');
 	
 			<h1>Digital Marketing</h1>
 			<p>Increase awareness and draw qualified traffic to your hotel website with custom campaigns managed by our revenue optimization experts. </p>
-			<a class="button1" href="#">REQUEST CONSULTATION &nbsp; <i class="fa fa-angle-right"></i></a>
+			<a class="button1" href="http://try.traveltripper.com/request-demo/">REQUEST CONSULTATION &nbsp; <i class="fa fa-angle-right"></i></a>
 		
 		</div>
 		
