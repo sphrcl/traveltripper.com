@@ -11,7 +11,7 @@
 		
 		<div class="ctabox two">
 			<div class="spacing">
-				<p>Release notes, new feature sets, lorem ipsum dolor sit amet. Maecenas ut </p>
+				<p>Find out how Travel Tripper can help your hotel increase direct bookings and maximize revenue.</p>
 			</div>
 		</div>
 		

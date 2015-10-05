@@ -201,7 +201,5 @@ include('header.php');
 	</script>
 
 	<?php include('cta-demo3.php'); ?>
-	
-	<?php include('bottom-nav.php'); ?>
 
 <?php include('footer.php'); ?>

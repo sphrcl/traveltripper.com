@@ -89,7 +89,7 @@
 							</ul>
 						</li>
 						<li><a title="Resources" href="resources.php" class="<?php if($basename == 'resources') { ?>active-page<?php } ?>">Resources</a></li>
-						<li><a title="Blog" href="blog.php" class="<?php if($basename == 'blog') { ?>active-page<?php } ?>">Blog</a></li>
+						<li><a title="Blog" href="/blog" class="<?php if($basename == 'blog') { ?>active-page<?php } ?>">Blog</a></li>
 						<li><a title="About Us" href="aboutus.php" class="<?php if($basename == 'aboutus') { ?>active-page<?php } ?>">About Us</a></li>
 					</ul>
 				</div>
@@ -127,7 +127,7 @@
 						</ul>
 					</li>
 					<li><a href="resources.php">Resources</a></li>
-					<li><a href="blog.php">Blog</a></li>
+					<li><a href="/blog">Blog</a></li>
 					<li><a href="aboutus.php">About Us</a></li>
 					<li class="mobcase"><a class="mc-left" href="#">Login</a><a class="mc-right" href="#">Demo Engine</a></li>
 				</ul>

@@ -176,7 +176,5 @@ include('header.php');
 	</div>
 	
 	<?php include('cta-newsletter.php'); ?>
-	
-	<?php include('bottom-nav.php'); ?>
 
 <?php include('footer.php'); ?>

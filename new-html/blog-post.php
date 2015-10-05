@@ -15,7 +15,7 @@ include('header.php');
 		<div class="subcontainer">
 		
 			<div class="socialshare desk">
-				<p>211 people <br/>shared this</p>
+				<!--<p>211 people <br/>shared this</p>-->
 				<ul>
 					<li><a href="https://www.linkedin.com/company/travel-tripper" target="_blank"><i class="fa fa-linkedin"></i></a></li>
 					<li><a href="https://www.facebook.com/traveltripper" target="_blank"><i class="fa fa-facebook-square"></i></a></li>
@@ -40,7 +40,7 @@ include('header.php');
 					<h1 class="blogtitle">Capture more direct reservations with TripConnect Instant Booking</h1>
 					
 					<div class="socialshare mob">
-						<p>211 people <br/>shared this</p>
+						<!--<p>211 people <br/>shared this</p>-->
 						<ul>
 							<li><a href="https://www.linkedin.com/company/travel-tripper" target="_blank"><i class="fa fa-linkedin"></i></a></li>
 							<li><a href="https://www.facebook.com/traveltripper" target="_blank"><i class="fa fa-facebook-square"></i></a></li>
@@ -159,7 +159,5 @@ include('header.php');
 	</div>
 	
 	<?php include('cta-newsletter.php'); ?>
-	
-	<?php include('bottom-nav.php'); ?>
 	
 <?php include('footer.php'); ?>
