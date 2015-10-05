@@ -1,184 +1,146 @@
+<?php 
+/* 
+Template Name: Blog
+*/
+?>
+
 <?php get_header(); ?>
 
-<div id="banner">
+	<div id="mainblog">
 	
 		<div class="container">
 	
-			<h2>Be Direct.</h2>
-			<p>Innovative hotel digital solutions that increase<br />direct reservations and maximize revenue.</p>
-			<p class="banner-desc">Discover Travel Tripper’s powerful hotel platforms designed to increase direct reservations and maximize revenue</p>
-			<a class="button1" href="?p=5">LEARN MORE</a>
-		
-		</div>
-		
-	</div>
-	
-	<div id="services">
-	
-		<div class="container">
-		
-			<div class="servicesbox">
-				<h3>Dominate digitally from search to stay</h3>
-			</div>
+			<div class="blogcontent">
 			
-			<div class="servicesbox">
-				<img src="<?php bloginfo('template_url'); ?>/images/icon-generate-demand.png" alt="generate demand" />
-				<h4>Generate Demand</h4>
-				<p>with a unified digital marketing and distribution strategy that expands your hotel’s global reach.</p>
-				<a class="button2" href="#">LEARN MORE</a>
-			</div>
-		
-			<div class="servicesbox">
-				<img src="<?php bloginfo('template_url'); ?>/images/icon-optimize-conversion.png" alt="optimize conversion" />
-				<h4>Optimize Conversions</h4>
-				<p>with the industry’s most innovative web platform and booking engine.</p>
-				<a class="button2" href="#">LEARN MORE</a>
-			</div>
-		
-			<div class="servicesbox">
-				<img src="<?php bloginfo('template_url'); ?>/images/icon-maximize-revenue.png" alt="maximize revenue" />
-				<h4>Maximize Revenue</h4>
-				<p>with powerful pricing tools and analytics to make the most from your inventory.</p>
-				<a class="button2" href="#">LEARN MORE</a>
-			</div>
-		
-		</div>
-	
-	</div>
-	
-	<div id="main">
-	
-		<div class="container">
+				<?php
+				$paged = ( get_query_var( 'paged' ) ) ? absint( get_query_var( 'paged' ) ) : 1;
+				$post_query = new wp_query(array(
+							'post_type' => 'post',
+							//'posts_per_page' => 10,
+							'paged' => $paged,
+							));
+				if($post_query->have_posts()) : while($post_query->have_posts()) : $post_query->the_post(); 
+				$imgsrc = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), "Full"); 
+				$image = $imgsrc[0];
+				?>
 			
-			<div class="left">
-			<div class="engine">
-				<i class="cir cir1"><div></div><span>Channel MGT &amp; OTA Distribution</span></i>
-				<i class="cir cir2"><div></div><span>GDS</span></i>
-				<i class="cir cir3"><div></div><span>Web Booking Engine</span></i>
-				<i class="cir cir4"><div></div><span>Mobile Booking Engine</span></i>
-				<i class="cir cir5"><div></div><span>Call Center</span></i>
-				<i class="cir cir6"></i>
-				
-				<i class="blueline blueline1"><div></div></i>
-				<i class="blueline blueline2"><div></div></i>
-				<i class="blueline blueline3"><div></div></i>
-				<i class="blueline blueline4"><div></div></i>
-				<i class="blueline blueline5"><div></div></i>
-				<i class="bluelinea bluelinea1"></i>
-				
-				<i class="hots"><div></div><span>Hotel PMS</span></i>
-			</div>
-			</div>
-			
-			<div class="right">
-			<div class="graphics">
-				<div class="topgraph">
-					<h2>CRS</h2>
-					<p>Manage room rates and availability across all channels from one powerful platform. With Travel Tripper’s central reservations system, you’ll get comprehensive hotel distribution with seamless connectivity to all major PMS/RMS services, as well as robust tools for pricing and revenue management. </p>
-					<a class="button1" href="?p=17">LEARN MORE</a>
-				</div>
-				
-				<div class="module">
-					<h2>84%</h2>
-					<div class="modulecontent">
-						<p>Find out how Travel Tripper increased Mayfair Hotel &amp; Spa&lsquo;s website revenue by 84%.</p>
-						<a href="#">LEARN MORE</a>
-					</div>
+				<div class="entry">
+					<a href="<?php the_permalink(); ?>">
+					<?php if ($imgsrc) { ?>
+						<img class="featured-image" src="<?php echo $image; ?>" alt="<?php the_title(); ?>" />
+					<?php } ?>
+					</a>
 					
-					<div class="clear"></div>
-				</div>
-				
-				<div class="graphss"></div>
-			</div>
-			</div>
-			
-			<div class="clear"></div>
-		
-		</div>
-	</div>
-	
-	<div id="bigmain">
-		<div class="container">
-			<div class="booking-engine">
-				
-				<div class="bkimg"><img src="<?php bloginfo('template_url'); ?>/images/mac-mobile.png" alt="mac mobile" /></div>
-				
-				<div class="bkcnt">
-					<div class="bkcnt-block">
-						<h2>Booking Engine <i class="bk-macico"></i><i class="bk-phoneico"></i></h2>
-						<p>Discover why hotels love RezTrip, our sleek and innovative booking engine that optimizes conversions through your most profitable channel—your website. With its user-friendly design and unique features such as Automated Best Rate Guarantee, Travel Tripper’s booking engine is truly designed to “be direct.” </p>
-						<a class="button1" href="?p=19">LEARN MORE</a>
+					<h2 class="blogtitle"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
+					<?php the_excerpt(); ?>
+					<div class="meta">
+						<span class="author">by <a href="<?php echo get_author_posts_url( get_the_author_meta( 'ID' ) ); ?>"><?php the_author_meta('display_name'); ?></a></span>
+						<span class="blogdate"><?php the_time('F j, Y') ?></span>
+						<span class="comments"><a href="#">Comments</a></span>
+						<span class="category">
+						<?php 
+						$categories = get_the_category();
+						$separator = ', ';
+						$output = '';
+						if ( ! empty( $categories ) ) {
+							foreach( $categories as $category ) {
+								$output .= '<a href="' . esc_url( get_category_link( $category->term_id ) ) . '" alt="' . esc_attr( sprintf( __( 'View all posts in %s', 'textdomain' ), $category->name ) ) . '">' . esc_html( $category->name ) . '</a>' . $separator;
+							}
+							echo trim( $output, $separator );
+						}
+						?>
+						</span>
+						
 					</div>
 				</div>
 				
-				<div class="clear"></div>
-			</div>
-			
-			<div class="web-engine">
+				<?php endwhile; endif; wp_reset_query(); ?>
 				
-				<div class="bkimg"><img src="<?php bloginfo('template_url'); ?>/images/mac-mobile.png" alt="mac mobile" /></div>
-				
-				<div class="bkcnt">
-					<div class="bkcnt-block">
-						<h2>Web &amp; Mobile <i class="bk-macico"></i><i class="bk-phoneico"></i></h2>
-						<p>A powerful booking platform becomes even stronger with a beautiful website. Travel Tripper Web, our new cloud web and booking platform, allows you or your design agency to create stunning responsive websites that are perfectly optimized across desktop and mobile devices. Dynamic rate integration with Travel Tripper CRS and booking engine makes managing e-commerce a breeze. </p>
-						<a class="button1" href="?p=21">LEARN MORE</a>
-					</div>
-				</div>
-				
-				<div class="clear"></div>
-			</div>
-			
-			<div class="modmove">
-				<h2 class="percent">84%</h2>
-				<div class="modmovecontent">
-					<p>Find out how Travel Tripper increased Mayfair Hotel &amp; Spa&lsquo;s website revenue by 84%.</p>
-					<a href="#">LEARN MORE</a>
-				</div>
-			</div>
-			
-		</div>
-	
-	</div>
+				<!-- start pagination -->
+				<div class="pagenav">
+					<?php
+					global $wp_query;
 
-	<div id="digital-marketing">
-	
-		<div class="dmborder"></div>
-	
-		<div class="container">
+					$big = 999999999; // need an unlikely integer
+
+					echo paginate_links( array(
+						'base' => str_replace( $big, '%#%', esc_url( get_pagenum_link( $big ) ) ),
+						'format' => '?paged=%#%',
+						'current' => max( 1, get_query_var('paged') ),
+						'total' => $post_query->max_num_pages,
+						'prev_text' => __('< NEWER'),
+						'next_text' => __('OLDER >')
+					) );
+					?>
+				</div>
+				<!-- end pagination -->
+			
+			</div>
+			
+			<div class="sidebar">
+
+				<div class="widgets search">
+				
+					<form name="" action="<?php bloginfo('url'); ?>" method="get">
+						<input type="text" name="s" id="search" placeholder="<?php _e('SEARCH','misfitlang'); ?>" value="<?php the_search_query(); ?>" />
+					</form>
+				
+				</div>
+				
+				<div class="widgets social">
+				
+					<ul>
+						<li><a href="http://www.linkedin.com/"><i class="fa fa-linkedin"></i></a></li>
+						<li><a href="http://www.facebook.com/"><i class="fa fa-facebook-square"></i></a></li>
+						<li><a href="http://www.twitter.com/"><i class="fa fa-twitter"></i></a></li>
+					</ul>
+				
+				</div>
+				
+				<div class="widgets newsletter">
+				
+					<h3 class="widgettitle">Join Our Newsletter</h3>
+				
+					<form name="" action="#" method="get">
+						<input type="text" name="email" value="" placeholder="E-MAIL ADDRESS">
+						<input type="submit" name="submit" value="SIGN UP">
+					</form>
+				
+				</div>
+				
+				<?php get_sidebar(); ?>
+				
+			</div>
 		
-			<div class="dmtext">
-				<h3>Digital Marketing</h3>
-				<p>Increase awareness and drive more traffic to your hotel website with our personalized digital marketing services. From search marketing to metasearch placement, Travel Tripper’s dedicated team of marketing and distribution experts ensures that your hotel gets maximum visibility for minimum cost.</p>
-				<a class="button1" href="?p=23">LEARN MORE</a>
-			</div>
-			
-			<div class="dmlogos">
-				<ul>
-					<li><img src="<?php bloginfo('template_url'); ?>/images/logo-orbitz.png" alt="orbitz" /></li>
-					<li><img src="<?php bloginfo('template_url'); ?>/images/logo-google.png" alt="google" /></li>
-					<li><img src="<?php bloginfo('template_url'); ?>/images/logo-expedia.png" alt="expedia" /></li>
-					<li><img src="<?php bloginfo('template_url'); ?>/images/logo-kayak.png" alt="kayak" /></li>
-				</ul>
-			</div>
-			
-			<div class="clear"></div>
-			
 		</div>
 		
-		<div class="dmimg"><img src="<?php bloginfo('template_url'); ?>/images/digitalmarketing.png" /></div>
+		
 		
 	</div>
 	
-	
-	
-	<div id="calltoaction">
+	<div id="calltoaction2">
 		<div class="container">
 		
-			<h3>It’s time to be more direct.</h3>
-			<p class="cta-text">Find out how Travel Tripper can help your hotel increase direct bookings and maximize revenue.</p>
-			<a class="button3" href="#">REQUEST A DEMO</a>
+			<div class="col_one_fourth">
+				<h3>Book more. Be direct.</h3>
+			</div>
 			
+			<form name="" action="#" method="get">
+
+				<div class="col_one_fourth">
+					<input type="text" name="name" value="" placeholder="NAME">
+				</div>
+				
+				<div class="col_one_fourth">
+					<input type="text" name="email" value="" placeholder="E-MAIL ADDRESS">
+				</div>
+			
+			</form>
+			
+			<div class="col_one_fourth">
+				<a class="button3" href="#">REQUEST A DEMO</a>
+			</div>
+
 		</div>
 	</div>
 

@@ -1598,6 +1598,14 @@ div#mainblog .container {
   margin-bottom: 60px;
 }
 
+.entry > div {
+  max-width: 100%;
+}
+
+.entry div img {
+  height: auto !important;
+}
+
 .entry ul {
   padding-left: 40px;
 }
