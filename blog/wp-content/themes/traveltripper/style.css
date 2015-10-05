@@ -1280,9 +1280,6 @@ div#pagetitle h1 {
   line-height: 33px;
 }
 
-#pagebanner p {
-    width: 70%;
-}
 
 /* BREADCRUMBS */
 div#breadcrumbs {
@@ -2579,4 +2576,6 @@ span.dm-up {
 }
 
 
-
+#pagebanner p {
+    width: 70%;
+}
