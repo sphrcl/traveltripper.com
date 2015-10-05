@@ -128,23 +128,25 @@ include('header.php');
 						<div class="flexslider testiflex">
 							<ul class="slides">
 								<li>
-									<img src="images/logo-row.png" alt="row" />
-									<p>“Lorem ipsum dolor sit amet,consectetur adipiscing elit. Vestibu blandit risus sit amet posuere” ornare“Praesent non velit eros.”</p>
-									<p class="author">- Veronika Volovik</p>
-									<p class="authorinfo">Web Marketing Director, Beacon Hotel</p>
+									<!-- <img src="images/logo-row.png" alt="row" /> -->
+									<p style="padding-top: 25px;">“Your RezTrip booking engine was a critical component in recapturing a significant portion of those bookings lost to OTAs on our last project. Awesome tool set! Keep up the good work!”</p>
+									<p class="author">- Scott Yankton</p>
+									<p class="authorinfo">Strategic Consultant</p>
 								</li>
+								<li>
+									<!-- <img src="images/logo-row.png" alt="row" /> -->
+									<p>“Within a few days of launching with RezTrip Direct, our conversion rates nearly tripled, which was the most important metric we were looking to improve. We look forward to continuing our productive relationship with Travel Tripper.”</p>
+									<p class="author">- Brian Christensen</p>
+									<p class="authorinfo">Corporate VP, Revenue Management & Distribution, American Casino & Entertainment Properties</p>
+								</li>
+								<!--
 								<li>
 									<img src="images/logo-row.png" alt="row" />
 									<p>“Lorem ipsum dolor sit amet,consectetur adipiscing elit. Vestibu blandit risus sit amet posuere” ornare“Praesent non velit eros.”</p>
 									<p class="author">- Veronika Volovik</p>
 									<p class="authorinfo">Web Marketing Director, Beacon Hotel</p>
 								</li>
-								<li>
-									<img src="images/logo-row.png" alt="row" />
-									<p>“Lorem ipsum dolor sit amet,consectetur adipiscing elit. Vestibu blandit risus sit amet posuere” ornare“Praesent non velit eros.”</p>
-									<p class="author">- Veronika Volovik</p>
-									<p class="authorinfo">Web Marketing Director, Beacon Hotel</p>
-								</li>
+								-->
 							</ul>
 						</div>
 					
