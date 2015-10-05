@@ -12,6 +12,7 @@ Template Name: Blog
 		<div class="subcontainer">
 	
 			<div class="blogcontent">
+			<div class="spacing">
 			
 				<?php
 				$paged = ( get_query_var( 'paged' ) ) ? absint( get_query_var( 'paged' ) ) : 1;
@@ -76,6 +77,7 @@ Template Name: Blog
 				</div>
 				<!-- end pagination -->
 			
+			</div>
 			</div>
 			
 			<div class="sidebar">

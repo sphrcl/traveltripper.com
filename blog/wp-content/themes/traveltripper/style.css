@@ -1876,6 +1876,18 @@ h2.blogtitle a,
 .entry h1 a, 
 .entry h2 a {
   color: #34a4d9;
+  
+  transition: all 0.4s ease 0s;
+  -webkit-transition: all 0.4s ease 0s;
+  -moz-transition: all 0.4s ease 0s;
+  -o-transition: all 0.4s ease 0s;
+}
+
+h1.blogtitle a:hover, 
+h2.blogtitle a:hover, 
+.entry h1 a:hover, 
+.entry h2 a:hover {
+  opacity: 0.75;
 }
 
 .entry h3 {
