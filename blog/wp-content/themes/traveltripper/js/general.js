@@ -5,6 +5,20 @@ $(document).ready(function(){
 		directionNav: false
 	});
 	
+	
+	// MOBILE NAV
+	
+	$('.openme').click(function() { $('#mobhead').addClass('active'); });
+	$('.closeme').click(function() { $('#mobhead').removeClass('active'); });
+	
+	$(window).resize(function() {
+		var widthcheck = $(window).width();
+		if (widthcheck >= 1200) {
+			$('#mobhead').removeClass('active');
+		}
+	});
+	
+	
 	// HOMEPAGE #services
 	
 	$('#services').one('inview', function(event, isInView, visiblePartX, visiblePartY) {

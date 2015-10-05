@@ -300,6 +300,16 @@ and (max-width : 1279px) {
 @media only screen 
 and (max-width : 1199px) {
 	
+	/* NAVIGATION */
+	
+	.navigation { display: none;}
+	#header .rightnav { float: left;}
+	.openme { display: block;}
+	
+	#header .rightnav ul { padding: 0 0 0 5px;}
+	
+	
+	
 	/* HOMEPAGE */
 	
 	.modmob { display: block;}
@@ -686,17 +696,6 @@ and (max-width : 1023px) {
 
 @media only screen 
 and (max-width : 959px) {
-	
-	/* NAVIGATION */
-	
-	.navigation { display: none;}
-	#header .rightnav { float: left;}
-	.openme { display: block;}
-	
-	#header .rightnav ul { padding: 0 0 0 5px;}
-	
-	
-	
 	
 	/* HOMEPAGE */
 	
