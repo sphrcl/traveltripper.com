@@ -6,11 +6,13 @@ Category Template
 
 <?php get_header(); ?>   
 
-<div id="mainblog">
+	<div id="mainblog" class="mainblog categorypage">
 	
 		<div class="container">
+		<div class="subcontainer">
 	
 			<div class="blogcontent">
+			<div class="spacing">
 			
 				<h2 class="title"><?php single_cat_title(); ?></h2>
 			
@@ -72,8 +74,10 @@ Category Template
 				<!-- end pagination -->
 			
 			</div>
+			</div>
 			
 			<div class="sidebar">
+			<div class="spacing">
 			
 				<div class="widgets search">
 				
@@ -107,38 +111,15 @@ Category Template
 				<?php get_sidebar(); ?>
 		
 			</div>
+			</div>
+			
+			<div class="clear"></div>
 		
 		</div>
-		
-		
+		</div>
 		
 	</div>
 	
-	<div id="calltoaction2">
-		<div class="container">
-		
-			<div class="col_one_fourth">
-				<h3>Book more. Be direct.</h3>
-			</div>
-			
-			<form name="" action="#" method="get">
-
-				<div class="col_one_fourth">
-					<input type="text" name="name" value="" placeholder="NAME">
-				</div>
-				
-				<div class="col_one_fourth">
-					<input type="text" name="email" value="" placeholder="E-MAIL ADDRESS">
-				</div>
-			
-			</form>
-			
-			<div class="col_one_fourth">
-				<a class="button3" href="#">REQUEST A DEMO</a>
-			</div>
-
-		</div>
-	</div>
-
-		
+	<?php include(TEMPLATEPATH . '/cta-demo3.php'); ?>
+	
 <?php get_footer(); ?>

@@ -14,24 +14,30 @@ $imgsrc = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), "Full
 	<div id="pagetitle">
 	
 		<div class="container">
+		<div class="subcontainer">
 	
 			<h1><?php the_title(); ?></h1>
 		
+		</div>
 		</div>
 		
 	</div>
 
 	<div id="breadcrumbs">
 		<div class="container">
+		<div class="subcontainer">
 			<?php custom_breadcrumbs(); ?>
+		</div>
 		</div>
 	</div>
 	
 	<div id="mainpage">
 	
 		<div class="container">
+		<div class="subcontainer">
 	
 			<div class="pagecontent">
+			<div class="spacing">
 			
 				<div class="entry">
 					
@@ -40,8 +46,10 @@ $imgsrc = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), "Full
 				</div>
 				
 			</div>
+			</div>
 			
 			<div class="sidebar">
+			<div class="spacing">
 			
 				<div class="widgets search">
 				
@@ -115,39 +123,17 @@ $imgsrc = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), "Full
 				</div>
 		
 			</div>
+			</div>
+			
+			<div class="clear"></div>
 		
 		</div>
-		
-		
-		
-	</div>
-	
-	<div id="calltoaction2">
-		<div class="container">
-		
-			<div class="col_one_fourth">
-				<h3>Newsletter</h3>
-			</div>
-			
-			<div class="col_one_fourth">
-				<p>Release notes, new feature sets, lorem ipsum dolor sit amet.</p>
-			</div>
-			
-			<form name="" action="#" method="get">
-
-				<div class="col_one_fourth">
-					<input type="text" name="email" value="" placeholder="E-MAIL ADDRESS">
-				</div>
-			
-			</form>
-			
-			<div class="col_one_fourth">
-				<a class="button3" href="#">SIGN UP</a>
-			</div>
-
 		</div>
+		
 	</div>
 	
 <?php endwhile; endif; wp_reset_query(); ?>
+
+	<?php include(TEMPLATEPATH . '/cta-newsletter.php'); ?>
 
 <?php get_footer(); ?>

@@ -519,6 +519,8 @@ li.icon-revenue-management { background: url(images/icon-revenue-management.png)
 	position: relative;
 	float: right;
 	right: -320px;
+	height: 100%;
+	overflow: auto;
 }
 #mobhead.active .subcontainer { right: 0;}
 

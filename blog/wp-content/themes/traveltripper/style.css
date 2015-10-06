@@ -228,6 +228,19 @@ strong {
   background-color: #c9c9c9;
 }
 
+.clear {
+	clear: both;
+}
+
+.container {
+	max-width: 1600px;
+	margin: 0 auto;
+}
+
+.subcontainer {
+	padding: 0 0 0 50px;
+}
+
 input {
 	-webkit-appearance: none;
 }
@@ -298,18 +311,6 @@ input {
 
 	#header .navigation ul li a:hover {
 	  color: #ec9103;
-	  font-weight: 900;
-	}
-	
-	#header .navigation ul li a:after {
-		display:block;
-		content:attr(title);
-		font-weight: 900;
-		height:1px;
-		color:transparent;
-		overflow:hidden;
-		visibility:hidden;
-		margin-bottom:-1px;
 	}
 	
 #header .navigation ul li ul.sub-menu {
@@ -452,6 +453,8 @@ li.icon-revenue-management { background: url(images/icon-revenue-management.png)
 	position: relative;
 	float: right;
 	right: -320px;
+	height: 100%;
+	overflow: auto;
 }
 #mobhead.active .subcontainer { right: 0;}
 
@@ -1313,6 +1316,11 @@ li.mobcase {
 }
 
 /* CALLTOACTION */
+::-webkit-input-placeholder { opacity: 1;}
+::-moz-placeholder { opacity: 1;}
+::-moz-placeholder { opacity: 1;}
+:-ms-input-placeholder { opacity: 1;}
+
 #calltoaction {
   background-color: #33a1cc;
   color: #fff;
@@ -1326,72 +1334,190 @@ li.mobcase {
 }
 
 #calltoaction h3 {
+  color: #fff;
   font-size: 33px;
   font-weight: 300;
   padding-bottom: 20px;
   letter-spacing: 0.015em;
 }
 
-/* CALLTOACTION2 */
-
-.cta-text {
-    color: #fff;
-    font-size: 20px;
-}
-
-div#calltoaction2 {
-  overflow: hidden;
-  background-color: #33a1cc;
-  color: #fff;
-  text-align: center;
-  clear: both;
-}
-
-div#calltoaction2 .container {
-  margin: 50px;
-  overflow: hidden;
-}
-
-div#calltoaction2 h3 {
-  font-size: 33px;
-  font-weight: 300;
-  letter-spacing: 0.015em;
-  text-align: left;
-}
-
-div#calltoaction2 p {
-  font-size: 18px;
-  letter-spacing: 0.015em;
-  text-align: left;
-  color: #fff;
-}
-
-div#calltoaction2 input {
+#calltoaction input[type="text"] {
   background-color: #fff;
-  color: #828282;
-  padding: 8px 25px;
-  border-radius: 20px;
+  color: #828383;
+  padding: 12px 25px;
   display: inline-block;
-  font-weight: 300;
-  font-size: 17px;
+  
+  font-family: 'MuseoSans', Arial, Helvetica;
+  font-size: 18px;
   line-height: 20px;
+  font-weight: 300;
+  letter-spacing: 1px;
+  
   border: 0 none;
+  border-radius: 45px;
+
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
 }
+
+#calltoaction input[type="submit"],
+#calltoaction a {
+  background-color: #ec9103;
+  color: #fff;
+  padding: 12px 25px;
+  display: inline-block;
+  cursor: pointer;
+  
+  font-family: 'MuseoSans', Arial, Helvetica;
+  font-size: 18px;
+  line-height: 20px;
+  font-weight: 300;
+  letter-spacing: 1px;
+  
+  border: 0 none;
+  border-radius: 45px;
+  
+  opacity: 1;
+  transition: all 0.4s ease 0s;
+  -webkit-transition: all 0.4s ease 0s;
+  -moz-transition: all 0.4s ease 0s;
+  -o-transition: all 0.4s ease 0s;
+}
+
+#calltoaction input[type="submit"]:hover,
+#calltoaction a:hover {
+	opacity: 0.8;
+}
+
+#calltoaction p {
+  font-size: 18px;
+  line-height: 34px;
+  font-weight: 300;
+  letter-spacing: 0.015em;
+  text-align: left;
+  color: #fff;
+  padding: 0;
+}
+
+
+/* CALLTOACTION - MAIN CLASSES */
+
+#calltoaction.cta-demo1 .subcontainer,
+#calltoaction.cta-demo2 .subcontainer,
+#calltoaction.cta-demo3 .subcontainer,
+#calltoaction.cta-newsletter .subcontainer {
+	padding: 0 50px;
+}
+
+#calltoaction.cta-demo1 h3,
+#calltoaction.cta-demo2 h3,
+#calltoaction.cta-demo3 h3,
+#calltoaction.cta-newsletter h3 {
+  text-align: left;
+  padding: 0;
+}
+
+#calltoaction.cta-demo1 form,
+#calltoaction.cta-demo2 form,
+#calltoaction.cta-newsletter form { text-align: left;}
+
+
+/* CALLTOACTION - CTA DEMO 1 */
+
+
+#calltoaction.cta-demo1 input { margin: 12px 0 0;}
+#calltoaction.cta-demo1 input[type="text"] { width: 90%;}
+
+#calltoaction.cta-demo1 .ctabox { float: left; width: 25%;}
+#calltoaction.cta-demo1 .ctabox.two { width: 75%;}
+
+#calltoaction.cta-demo1 .col_one_third .spacing { padding: 0 0 0 10px; text-align: center;}
+#calltoaction.cta-demo1 .col_one_third.three { padding: 0;}
+
+
+/* CALLTOACTION - CTA DEMO 2 */
+
+
+#calltoaction.cta-demo2 input[type="text"] { width: 100%;}
+
+#calltoaction.cta-demo2 .ctabox { float: left; width: 25%;}
+#calltoaction.cta-demo2 .ctabox.three { width: 50%;}
+
+#calltoaction.cta-demo2 .ctabox .spacing { padding: 0 40px 0 10px;}
+
+#calltoaction.cta-demo2 .col_one_half.one input.inione {
+	margin: 0 0 30px;
+}
+
+
+/* CALLTOACTION - CTA DEMO 3 */
+
+#calltoaction.cta-demo3 .ctabox { float: left; width: 25%; text-align: left;}
+#calltoaction.cta-demo3 .ctabox .spacing { padding: 0 40px 0 10px;}
+
+
+
+/* CALLTOACTION - NEWSLETTER */
+
+#calltoaction.cta-newsletter .clear2 { display: none;}
+#calltoaction.cta-newsletter input[type="text"] { width: 100%;}
+
+#calltoaction.cta-newsletter .ctabox { float: left; width: 25%;}
+#calltoaction.cta-newsletter .ctabox.three { width: 50%;}
+
+#calltoaction.cta-newsletter .ctabox .spacing { padding: 0 40px 0 10px;}
+
+#calltoaction.cta-newsletter .col_one_half.two .spacing { padding: 0 0 0 40px;}
+
+
 
 /* PAGE TEMPLATE */
-div#mainpage {
+/* PAGE TEMPLATE */
+.page-template #breadcrumbs .container,
+.page-template #pagetitle .container,
+.page-template #mainpage .container {
+	max-width: 1350px;
+	margin: 0 auto;
+}
+
+#mainpage {
   clear: both;
   overflow: hidden;
 }
 
-div#mainpage .container {
-  margin: 0 60px 30px;
-  overflow: hidden;
+#mainpage .subcontainer {
+	margin: 0 30px 0 50px;
+	padding: 0;
+	position: relative;
+}
+
+#mainpage .subcontainer:before,
+#mainpage .subcontainer:after {
+	display: block;
+	content: '';
+	height: 100%;
+	background-color: #ccc;
+	width: 1px;
+	position: absolute;
+	top: 0;
+}
+
+#mainpage .subcontainer:before {
+	right: 30%;
+	margin: 0 -1px 0 0;
+}
+#mainpage .subcontainer:after {
+	right: 0;
 }
 
 .pagecontent {
   float: left;
-  width: 66%;
+  width: 70%;
+}
+
+.pagecontent .spacing {
+	padding: 0 30px 0 0;
 }
 
 /* PAGE TITLE */
@@ -1468,31 +1594,25 @@ div#pagetitle h1 {
 
 
 /* BREADCRUMBS */
-div#breadcrumbs {
+#breadcrumbs {
   clear: both;
   color: #0094c3;
   font-size: 11px;
 }
 
-div#breadcrumbs a {
+#breadcrumbs a {
   color: #0094c3;
 }
 
-div#breadcrumbs .container {
-	margin: 0 auto;
-	max-width: 1540px;
-	padding: 30px;
+#breadcrumbs .container {
+	padding: 30px 0;
 }
 
-.template_page #breadcrumbs .container {
-  padding: 30px 60px;
-}
-
-div#breadcrumbs ul {
+#breadcrumbs ul {
   padding: 0;
 }
 
-div#breadcrumbs ul li {
+#breadcrumbs ul li {
   display: inline-block;
   margin-right: 5px;
 }
@@ -1837,6 +1957,7 @@ div#resourceslist .resourcebox h3 a {
 
 .entry img {
   max-width: 100%;
+  height: auto;
 }
 
 .entry p {

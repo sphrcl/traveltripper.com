@@ -24,7 +24,7 @@ $image = $imgsrc[0];
 			?>
 			
 			<div class="socialshare desk">
-				<p>211 people <br/>shared this</p>
+				<!-- <p>211 people <br/>shared this</p> -->
 				<ul>
 					<li><a target="_blank" href="https://twitter.com/intent/tweet?url=<?php echo $encode_url; ?>&text=<?php echo $encode_title; ?>"><i class="fa fa-twitter"></i></a></li>
 					<li><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?&u=<?php echo $encode_url; ?>&display=popup"><i class="fa fa-facebook-square"></i></a></li>
@@ -64,7 +64,7 @@ $image = $imgsrc[0];
 					<h1 class="blogtitle"><?php the_title(); ?></h1>
 					
 					<div class="socialshare mob">
-						<p>211 people <br/>shared this</p>
+						<!-- <p>211 people <br/>shared this</p> -->
 						<ul>
 							<li><a target="_blank" href="https://twitter.com/intent/tweet?url=<?php echo $encode_url; ?>&text=<?php echo $encode_title; ?>"><i class="fa fa-twitter"></i></a></li>
 							<li><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?&u=<?php echo $encode_url; ?>&display=popup"><i class="fa fa-facebook-square"></i></a></li>
@@ -125,32 +125,8 @@ $image = $imgsrc[0];
 		
 	</div>
 	
-	<div id="calltoaction2">
-		<div class="container">
-		
-			<div class="col_one_fourth">
-				<h3>Newsletter</h3>
-			</div>
-			
-			<div class="col_one_fourth">
-				<p>Release notes, new feature sets, lorem ipsum dolor sit amet.</p>
-			</div>
-			
-			<form name="" action="#" method="get">
-
-				<div class="col_one_fourth">
-					<input type="text" name="email" value="" placeholder="E-MAIL ADDRESS">
-				</div>
-			
-			</form>
-			
-			<div class="col_one_fourth">
-				<a class="button3" href="#">SIGN UP</a>
-			</div>
-
-		</div>
-	</div>
-	
 <?php endwhile; endif; wp_reset_query(); ?>
+
+	<?php include(TEMPLATEPATH . '/cta-newsletter.php'); ?>
 
 <?php get_footer(); ?>
