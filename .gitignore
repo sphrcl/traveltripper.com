@@ -20,3 +20,4 @@ blog/wp-content/cache/
 blog/wp-content/upgrade/
 blog/wp-content/uploads/
 blog/wp-content/wp-cache-config.php
+blog/local-config.php
