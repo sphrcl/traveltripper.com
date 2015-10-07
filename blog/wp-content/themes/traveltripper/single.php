@@ -76,6 +76,8 @@ $image = $imgsrc[0];
 
 				</div>
 				
+				<?php comments_template(); ?>
+				
 			</div>
 			</div>
 			

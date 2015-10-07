@@ -2348,6 +2348,22 @@ li.mobcase {
   margin-bottom: 60px;
 }
 
+#mainblog.singlepost .entry {
+	margin-bottom: 20px;
+}
+
+#disqus_thread {
+	margin-bottom: 60px;
+}
+
+.entry > div {
+  max-width: 100%;
+}
+
+.entry div img {
+  height: auto !important;
+}
+
 .entry ul {
   padding-left: 40px;
 }
@@ -2360,6 +2376,7 @@ li.mobcase {
 
 .entry img {
   max-width: 100%;
+  height: auto;
 }
 
 .entry p {
