@@ -78,39 +78,15 @@ Template Name: Blog
 			</div>
 			
 			<div class="sidebar">
+			<div class="spacing">
 
-				<div class="widgets search">
-				
-					<form name="" action="<?php bloginfo('url'); ?>" method="get">
-						<input type="text" name="s" id="search" placeholder="<?php _e('SEARCH','misfitlang'); ?>" value="<?php the_search_query(); ?>" />
-					</form>
-				
-				</div>
-				
-				<div class="widgets social">
-				
-					<ul>
-						<li><a href="http://www.linkedin.com/"><i class="fa fa-linkedin"></i></a></li>
-						<li><a href="http://www.facebook.com/"><i class="fa fa-facebook-square"></i></a></li>
-						<li><a href="http://www.twitter.com/"><i class="fa fa-twitter"></i></a></li>
-					</ul>
-				
-				</div>
-				
-				<div class="widgets newsletter">
-				
-					<h3 class="widgettitle">Join Our Newsletter</h3>
-				
-					<form name="" action="#" method="get">
-						<input type="text" name="email" value="" placeholder="E-MAIL ADDRESS">
-						<input type="submit" name="submit" value="SIGN UP">
-					</form>
-				
-				</div>
-				
+				<?php include('sidebar-blog.php'); ?>
 				<?php get_sidebar(); ?>
 				
 			</div>
+			</div>
+			
+			<div class="clear"></div>
 		
 		</div>
 		

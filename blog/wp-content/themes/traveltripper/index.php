@@ -83,35 +83,7 @@ Template Name: Blog
 			<div class="sidebar">
 			<div class="spacing">
 
-				<div class="widgets search">
-				
-					<form name="" action="<?php bloginfo('url'); ?>" method="get">
-						<input type="text" name="s" id="search" placeholder="<?php _e('SEARCH','misfitlang'); ?>" value="<?php the_search_query(); ?>" />
-					</form>
-				
-				</div>
-				
-				<div class="widgets social">
-				
-					<ul>
-						<li><a href="https://www.linkedin.com/company/travel-tripper" target="_blank"><i class="fa fa-linkedin"></i></a></li>
-						<li><a href="https://www.facebook.com/traveltripper" target="_blank"><i class="fa fa-facebook-square"></i></a></li>
-						<li><a href="https://twitter.com/Travel_Tripper" target="_blank"><i class="fa fa-twitter"></i></a></li>
-					</ul>
-				
-				</div>
-				
-				<div class="widgets newsletter">
-				
-					<h3 class="widgettitle">Subscribe to our blog</h3>
-				
-					<form name="" action="#" method="get">
-						<input type="text" name="email" value="" placeholder="E-MAIL ADDRESS"><br>
-						<input type="submit" name="submit" value="SIGN UP">
-					</form>
-				
-				</div>
-				
+				<?php include('sidebar-blog.php'); ?>
 				<?php get_sidebar(); ?>
 				
 			</div>
