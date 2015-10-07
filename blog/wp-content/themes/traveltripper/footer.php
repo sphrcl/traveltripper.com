@@ -14,7 +14,7 @@
 			
 				<div class="col_one_fourth one">
 					<div class="footernav">
-						<a href="index.php"><img src="images/traveltripperlogo.png" alt="travel tripper" /></a>
+						<a href="index.php"><img src="<?php bloginfo('template_url'); ?>/images/traveltripperlogo.png" alt="travel tripper" /></a>
 						<br/><br/><br/><br/>
 						<p>&copy; 2015 Travel Tripper Inc.</p>
 					</div>
@@ -65,6 +65,11 @@
 	<script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/jquery.flexslider-min.js"></script>
 	<script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/jquery.inview.min.js"></script>
 	<script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/general.js"></script>
+	
+	<!-- mailchimp -->
+	
+	<script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
+	<script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
 
 </body>
 </html>
