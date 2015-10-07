@@ -37,7 +37,6 @@ include('header.php');
 			<div class="pagecontent">
 				
 				<div class="spacing">
-				
 				<div class="entry">
 
 					<h2>Job Opening: Revenue Analyst</h2>
@@ -86,52 +85,17 @@ include('header.php');
 					</ul>
 					
 				</div>
-				
 				</div>
 				
 			</div>
 			
 			<div class="sidebar">
-			
-				<div class="widgets search">
+			<div class="spacing">
 				
-					<form name="" action="#" method="get">
-
-						<input type="text" name="s" value="" placeholder="SEARCH">
+				<?php include('sidebar-top.php'); ?>
+				<?php include('sidebar-api.php'); ?>
 				
-					</form>
-				
-				</div>
-				
-				<div class="widgets social">
-				
-					<ul>
-						<li><a href="https://www.linkedin.com/company/travel-tripper" target="_blank"><i class="fa fa-linkedin"></i></a></li>
-						<li><a href="https://www.facebook.com/traveltripper" target="_blank"><i class="fa fa-facebook-square"></i></a></li>
-						<li><a href="https://twitter.com/Travel_Tripper" target="_blank"><i class="fa fa-twitter"></i></a></li>
-					</ul>
-				
-				</div>
-				
-				<div class="widgets newsletter">
-				
-					<h3 class="widgettitle">Subscribe to our blog</h3>
-				
-					<form name="" action="#" method="get">
-						<input type="text" name="email" value="" placeholder="E-MAIL ADDRESS"><br>
-						<input type="submit" name="submit" value="SIGN UP">
-					</form>
-				
-				</div>
-				
-				
-				<?php
-					// http://blog.ijasoneverett.com/2013/02/rest-api-a-simple-php-tutorial/
-					
-					$api_list = file_get_contents('http://localhost/traveltripper.com/blog/api-connect/?actionpass=traveltripper'); 
-					echo $api_list;
-				?>
-		
+			</div>
 			</div>
 			
 			<div class="clear"></div>

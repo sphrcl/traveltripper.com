@@ -40,7 +40,7 @@ include('header.php');
 				
 				<div class="entry">
 					
-					<h2>Job Opening: Finance & Admin. Associate</h2>
+					<h2>Job Opening: Finance &amp; Admin. Associate</h2>
 					
 					<p>As Finance and Admin. Associate, your responsibilities span multiple areas including finance, HR, administration, operations and sales. This role will provide you with a great opportunity to learn quickly and build your business skills. You’ll be responsible for maintaining customer records, sending out bills, receiving and collecting customer payments, managing our office, hiring and managing company vendors, providing executive support, and serving as our human resource administrator for all our employees.</p>
 					
@@ -88,46 +88,12 @@ include('header.php');
 			</div>
 			
 			<div class="sidebar">
-			
-				<div class="widgets search">
+			<div class="spacing">
 				
-					<form name="" action="#" method="get">
-
-						<input type="text" name="s" value="" placeholder="SEARCH">
+				<?php include('sidebar-top.php'); ?>
+				<?php include('sidebar-api.php'); ?>
 				
-					</form>
-				
-				</div>
-				
-				<div class="widgets social">
-				
-					<ul>
-						<li><a href="https://www.linkedin.com/company/travel-tripper" target="_blank"><i class="fa fa-linkedin"></i></a></li>
-						<li><a href="https://www.facebook.com/traveltripper" target="_blank"><i class="fa fa-facebook-square"></i></a></li>
-						<li><a href="https://twitter.com/Travel_Tripper" target="_blank"><i class="fa fa-twitter"></i></a></li>
-					</ul>
-				
-				</div>
-				
-				<div class="widgets newsletter">
-				
-					<h3 class="widgettitle">Subscribe to our blog</h3>
-				
-					<form name="" action="#" method="get">
-						<input type="text" name="email" value="" placeholder="E-MAIL ADDRESS"><br>
-						<input type="submit" name="submit" value="SIGN UP">
-					</form>
-				
-				</div>
-				
-				
-				<?php
-					// http://blog.ijasoneverett.com/2013/02/rest-api-a-simple-php-tutorial/
-					
-					$api_list = file_get_contents('http://localhost/traveltripper.com/blog/api-connect/?actionpass=traveltripper'); 
-					echo $api_list;
-				?>
-		
+			</div>
 			</div>
 			
 			<div class="clear"></div>

@@ -72,80 +72,10 @@ include('header.php');
 			
 			<div class="sidebar">
 			<div class="spacing">
-			
-				<div class="widgets search">
 				
-					<form name="" action="#" method="get">
-
-						<input type="text" name="s" value="" placeholder="SEARCH">
+				<?php include('sidebar-top.php'); ?>
+				<?php include('sidebar-api.php'); ?>
 				
-					</form>
-				
-				</div>
-				
-				<div class="widgets social">
-				
-					<ul>
-						<li><a href="https://www.linkedin.com/company/travel-tripper" target="_blank"><i class="fa fa-linkedin"></i></a></li>
-						<li><a href="https://www.facebook.com/traveltripper" target="_blank"><i class="fa fa-facebook-square"></i></a></li>
-						<li><a href="https://twitter.com/Travel_Tripper" target="_blank"><i class="fa fa-twitter"></i></a></li>
-					</ul>
-				
-				</div>
-				
-				<div class="widgets newsletter">
-				
-					<h3 class="widgettitle">Subscribe to our blog</h3>
-				
-					<form name="" action="#" method="get">
-						<input type="text" name="email" value="" placeholder="E-MAIL ADDRESS"><br>
-						<input type="submit" name="submit" value="SIGN UP">
-					</form>
-				
-				</div>
-				
-				<div class="widgets featured-posts">
-				
-					<h3 class="widgettitle">FEATURED POSTS</h3>
-				
-					<ul>
-						<li><a href="#">What hotels can learn from Airbnb’s design and user experience</a></li>
-						<li><a href="#">Capture more direct reservations with TripConnect™ Instant Booking</a></li>
-						<li><a href="#">Find the best hotel booking engine: design makes a difference</a></li>
-					</ul>
-
-				</div>
-				
-				<div class="widgets recent-posts">
-				
-					<h3 class="widgettitle">RECENT POSTS</h3>
-				
-					<ul>
-						<li><a href="#">What hotels can learn from Airbnb’s design and user experience</a></li>
-						<li><a href="#">Capture more direct reservations with TripConnect™ Instant Booking</a></li>
-						<li><a href="#">Find the best hotel booking engine: design makes a difference</a></li>
-					</ul>
-
-				</div>
-				
-				<div class="widgets textwidget">
-				
-					<h3><a href="#">News</a></h3>
-
-				</div>
-				
-				<div class="widgets textwidget">
-				
-					<h3><a href="#">Trends</a></h3>
-
-				</div>
-				
-				<div class="widgets textwidget">
-				
-					<h3><a href="#">Whats on our minds</a></h3>
-
-				</div>
-		
 			</div>
 			</div>
 			
@@ -153,8 +83,6 @@ include('header.php');
 		
 		</div>
 		</div>
-		
-		
 		
 	</div>
 	
