@@ -51,7 +51,7 @@ $imgsrc = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), "Full
 			<div class="sidebar">
 			<div class="spacing">
 
-				<?php include('sidebar-blog.php'); ?>
+				<?php include('sidebar-main.php'); ?>
 				<?php get_sidebar(); ?>
 				
 			</div>

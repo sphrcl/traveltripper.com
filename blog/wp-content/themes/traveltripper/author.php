@@ -76,7 +76,7 @@ The template for displaying Author Archive pages.
 			<div class="sidebar">
 			<div class="spacing">
 
-				<?php include('sidebar-blog.php'); ?>
+				<?php include('sidebar-main.php'); ?>
 				<?php get_sidebar(); ?>
 				
 			</div>

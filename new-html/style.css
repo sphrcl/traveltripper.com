@@ -1580,6 +1580,15 @@ li.mobcase {
 
 #calltoaction.cta-newsletter .col_one_half.two .spacing { padding: 0 0 0 40px;}
 
+#mc_embed_signup input[type="submit"] {
+	opacity: 1;
+	transition: all 0.4s ease 0s;
+	-webkit-transition: all 0.4s ease 0s;
+	-moz-transition: all 0.4s ease 0s;
+	-o-transition: all 0.4s ease 0s;
+}
+	#mc_embed_signup input[type="submit"]:hover { opacity: 0.75;}
+
 
 /* BOTTOM NAV */
 
