@@ -1451,7 +1451,7 @@ li.mobcase {
   letter-spacing: 0.015em;
 }
 
-#calltoaction input[type="text"] {
+#calltoaction input[type="email"] {
   background-color: #fff;
   color: #828383;
   padding: 12px 25px;
@@ -1571,7 +1571,7 @@ li.mobcase {
 /* CALLTOACTION - NEWSLETTER */
 
 #calltoaction.cta-newsletter .clear2 { display: none;}
-#calltoaction.cta-newsletter input[type="text"] { width: 100%;}
+#calltoaction.cta-newsletter input[type="email"] { width: 100%;}
 
 #calltoaction.cta-newsletter .ctabox { float: left; width: 25%;}
 #calltoaction.cta-newsletter .ctabox.three { width: 50%;}
@@ -2639,11 +2639,10 @@ h2.blogtitle a,
   font-weight: 300;
   letter-spacing: 0.01em;
   padding: 20px 10px;
-  /*margin-bottom: 20px;*/
   border: 0;
 }
 
-.widgets.newsletter input[type="text"] {
+.widgets.newsletter input[type="email"] {
   background-color: #fff;
   color: #828282;
   padding: 8px 25px;
@@ -2652,7 +2651,7 @@ h2.blogtitle a,
   font-size: 17px;
   line-height: 20px;
   border: 1px solid #1594d1;
-  margin-bottom: 25px;
+  margin-bottom: 20px;
 }
 
 .widgets.newsletter input[type="submit"] {

@@ -10,15 +10,10 @@
 		
 			<form action="//traveltripper.us1.list-manage.com/subscribe/post?u=c4be58401190609c7fb988378&amp;id=8d85c74feb" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
 				<div id="mc_embed_signup_scroll">
-					<h2>Subscribe to our Blog</h2>
-					
-					<div class="indicates-required">
-						<span class="asterisk">*</span> indicates required
-					</div>
+					<h3 class="widgettitle">Subscribe to our Blog</h3>
 					
 					<div class="mc-field-group">
-						<label for="mce-EMAIL">Email Address  <span class="asterisk">*</span></label>
-						<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+						<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" placeholder="E-MAIL ADDRESS" >
 					</div>
 					
 					<div id="mce-responses" class="clear">
@@ -30,7 +25,7 @@
 					
 					<div style="position: absolute; left: -5000px;"><input type="text" name="b_c4be58401190609c7fb988378_8d85c74feb" tabindex="-1" value=""></div>
 					<div class="clear">
-						<input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button">
+						<input type="submit" value="SIGN UP" name="subscribe" id="mc-embedded-subscribe" class="button">
 					</div>
 					
 				</div>
