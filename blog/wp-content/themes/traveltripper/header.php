@@ -22,11 +22,11 @@
 	
 	<link rel="icon" href="<?php bloginfo ('template_url'); ?>/cebo_options/<?php bloginfo ('template_url'); ?>/images/admin_sidebar_icon.png" type="image/x-ico"/>
 	
-	<? } else { ?>
+	<?php } else { ?>
 	
 	<link rel="icon" href="<?php echo get_option('misfit_custom_favicon'); ?>" type="image/x-ico"/>
 	
-	<? } ?>
+	<?php } ?>
 	
 	
 	<link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="<?php if ( get_option('misfit_feedburner_url') <> "" ) { echo get_option('misfit_feedburner_url'); } else { echo get_bloginfo_rss('rss2_url'); } ?>" />
@@ -77,9 +77,9 @@
 					<a href="<?php bloginfo('url'); ?>">
 					<?php if (get_option('misfit_logo') == '') { ?>
 						<img src="<?php bloginfo('template_url'); ?>/images/logo.png" alt="<?php bloginfo('name'); ?>" />
-					<? } else { ?>
+					<?php } else { ?>
 						<img src="<?php echo get_option('misfit_logo'); ?>" alt="<?php bloginfo('name'); ?>" />
-					<? } ?>
+					<?php } ?>
 					</a>
 				</div>
 
