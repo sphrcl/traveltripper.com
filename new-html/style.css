@@ -2549,24 +2549,24 @@ h2.blogtitle a,
   padding: 20px 20px 20px 40px;
 }
 
-.widgets.textwidget h3 {
+.widgets .textwidget h3 {
   padding: 20px 20px 20px 40px;
   font-size: 18px;
   color: #454546;
 }
 
-.widgets.textwidget h3 a {
+.widgets .textwidget h3 a {
   /*color: #454546;*/
   color: #A3A3A3;
 }
 
-.widgets.textwidget p {
+.widgets .textwidget p {
   padding: 20px;
   font-size: 14px;
   color: #454546;
 }
 
-.widgets.textwidget p a {
+.widgets .textwidget p a {
   color: #454546;
 }
 
