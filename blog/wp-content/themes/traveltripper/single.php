@@ -18,9 +18,9 @@ $image = $imgsrc[0];
 		<div class="subcontainer">
 			
 			<?php
-				$encode_title = urlencode(get_the_title());
-				$encode_url = urlencode(get_permalink());
-				$encode_summary = urlencode(get_the_excerpt());
+				$encode_title = urlencode(html_entity_decode(get_the_title($encodeid), ENT_COMPAT, 'UTF-8'));
+				$encode_url = urlencode(html_entity_decode(get_permalink($encodeid), ENT_COMPAT, 'UTF-8'));
+				$encode_summary = urlencode(html_entity_decode(get_the_excerpt($encodeid), ENT_COMPAT, 'UTF-8'));
 			?>
 			
 			<div class="socialshare desk">
