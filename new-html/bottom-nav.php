@@ -8,7 +8,7 @@
 			<div class="spacing">
 				<a href="booking-engine.php">
 					<div style="background-image: url('images/bottomnav1.png');"></div>
-					<p>Booking Engine</p>
+					<p>CRS & Distribution</p>
 				</a>
 			</div>
 		</div>
@@ -16,8 +16,8 @@
 		<div class="bottombox two">
 			<div class="spacing">
 				<a href="revup.php">
-					<div style="background-image: url('images/bottomnav2.png');"></div>
-					<p>Revenue Management</p>
+					<div style="background-image: url('images/bottomnav4.png');"></div>
+					<p>Web & Mobile</p>
 				</a>
 			</div>
 		</div>
@@ -34,8 +34,9 @@
 		<div class="bottombox four">
 			<div class="spacing">
 				<a href="web-mobile.php">
-					<div style="background-image: url('images/bottomnav4.png');"></div>
-					<p>Web Design &amp; Development</p>
+					<div style="background-image: url('images/bottomnav2.png');"></div>
+					
+					<p>Revenue Management</p>
 				</a>
 			</div>
 		</div>

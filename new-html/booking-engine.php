@@ -15,7 +15,7 @@ include('header.php');
 	
 			<h1><?php echo $pagetitle; ?></h1>
 			<p>A sleek, innovative booking engine designed to optimize conversions and increase direct bookings</p>
-			<a class="button1" href="http://try.traveltripper.com/request-demo/">REQUEST DEMO &nbsp; <i class="fa fa-angle-right"></i></a>
+			<a class="button1" href="http://try.traveltripper.com/request-demo/">REQUEST A DEMO &nbsp; <i class="fa fa-angle-right"></i></a>
 		
 		</div>
 		
@@ -42,7 +42,6 @@ include('header.php');
 				<div class="spacing">
 					<div class="pageuptitle-b">
 						<h3>Designed to be direct</h3>
-						<h4>Best-in-class booking engine</h4>
 					</div>
 					<p>We’ve created the industry’s most innovative booking engine—intuitive, elegant, and packed with features designed to convert lookers into bookers. Hotels that switch to RezTrip routinely see significant increases in their direct bookings, revenue, and conversion rates. </p>
 				</div>

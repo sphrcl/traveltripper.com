@@ -69,7 +69,7 @@ include('header.php');
 			<div class="webbox-one">
 				<div class="spacing">
 					<div class="webtext one">
-						<h1>More than just a website—discover hotel e-commerce at its most innovative</h1>
+						<h1>Discover hotel <br />e-commerce at its most innovative</h1>
 					</div>
 					
 					<div class="webtext two">
