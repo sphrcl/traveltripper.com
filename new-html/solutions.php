@@ -21,7 +21,7 @@ include('header.php');
 				and maximize revenue for your hotel
 			</p>
 			
-			<a class="button1" href="#">ASK FOR QUOTE &nbsp; <i class="fa fa-angle-right"></i></a>
+			<a class="button1" href="#">REQUEST A DEMO &nbsp; <i class="fa fa-angle-right"></i></a>
 
 		</div>
 		</div>
@@ -123,7 +123,7 @@ include('header.php');
 				<div class="col_one_third solutionslide">
 					<div class="spacing">
 						
-						<h4>Selected Clients <br>&amp; Testimonials</h4>
+						<h4>Client<br>Testimonials</h4>
 					
 						<div class="flexslider testiflex">
 							<ul class="slides">
