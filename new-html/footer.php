@@ -22,7 +22,7 @@
 							<li><a href="terms.php">Terms of Service</a></li>
 							<li><a href="privacy-policy.php">Privacy Policy</a></li> -->
 							<li><a href="aboutus.php">Company</a></li>
-							<li><a href="product-and-services.php">Product &amp; Services</a></li>
+							<li><a href="product-and-services.php">Products &amp; Solutions</a></li>
 							<li><a href="careers.php">Careers</a></li>
 							<!-- <li><a href="terms-of-service.php">Terms of Service</a></li>
 							<li><a href="privacy-policy.php">Privacy Policy</a></li> -->
