@@ -82,7 +82,7 @@ include('header.php');
 			
 			<div class="module4">
 				<div class="spacing4">
-					<h2>100%</h2>
+					<h2>200%</h2>
 					<div class="modulecontent4">
 						<p>Find out how Mayfair Hotel &amp; Spa in Miami more than doubled the ROI of their search marketing after switching to Travel Tripper.</p>
 						<a href="#">LEARN MORE</a>
