@@ -11,12 +11,16 @@ include('header.php');
 
 ?>
 
-	<div id="pagebanner" class="about" style="background-image: url(<?php echo $image; ?>);">
+	<div id="pagebanner" class="contentright" style="background-image: url(<?php echo $image; ?>);">
 	
 		<div class="container">
-	
-			<h2><?php echo $pagetitle; ?></h2>
+		<div class="subcontainer">
 		
+			<h2><?php echo $pagetitle; ?></h2>
+			
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sed varius dui, at imperdiet est.</p>
+		
+		</div>
 		</div>
 		
 	</div>
