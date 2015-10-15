@@ -1,7 +1,7 @@
 <?php 
 	
 	$description = '';
-	$pagetitle = 'Travel Tripper CRS & Distribution';
+	$pagetitle = 'Travel Tripper CRS & Hotel Distribution';
 	$image = 'images/crs-travel-tripper.jpg';
 	$template_class = "template-crs";
 
@@ -13,7 +13,7 @@ include('header.php');
 	
 		<div class="container">
 	
-			<h1><?php echo $pagetitle; ?></h1>
+			<h1>Travel Tripper CRS & <br />Hotel Distribution</h1>
 			<p>Comprehensive distribution and  seamless connectivity in one powerful platform</p>
 			<a class="button1" href="http://try.traveltripper.com/request-demo/">REQUEST A DEMO &nbsp; <i class="fa fa-angle-right"></i></a>
 		
@@ -50,11 +50,11 @@ include('header.php');
 					<ul class="icon44">
 						<li class="icon44-computer">
 							<h5>INNOVATIVE BOOKING ENGINE</h5>
-							<p>Push inventory to all major OTAs, GDS/IDS, Consortia, and Corporate/RFP channels</p>
+							<p>The industry’s most advanced booking engine, packed with incredible features that drive high conversion rates and increase direct bookings</p>
 						</li>
 						<li class="icon44-arrows">
 							<h5>CHANNEL MANAGEMENT</h5>
-							<p>The industry’s most innovative maecenas ut cursus ligula ROI pharetra.</p>
+							<p>Push inventory to all major OTAs, GDS/IDS, Consortia, and Corporate/RFP channels</p>
 						</li>
 						<li class="icon44-metasearch">
 							<h5>METASEARCH CONNECTIVITY</h5>
