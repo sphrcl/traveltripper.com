@@ -94,30 +94,6 @@ Template Name: Blog
 		
 	</div>
 	
-	<div id="calltoaction2">
-		<div class="container">
-		
-			<div class="col_one_fourth">
-				<h3>Book more. Be direct.</h3>
-			</div>
-			
-			<form name="" action="#" method="get">
-
-				<div class="col_one_fourth">
-					<input type="text" name="name" value="" placeholder="NAME">
-				</div>
-				
-				<div class="col_one_fourth">
-					<input type="text" name="email" value="" placeholder="E-MAIL ADDRESS">
-				</div>
-			
-			</form>
-			
-			<div class="col_one_fourth">
-				<a class="button3" href="#">REQUEST A DEMO</a>
-			</div>
-
-		</div>
-	</div>
+	<?php include('cta-newsletter.php'); ?>
 
 <?php get_footer(); ?>

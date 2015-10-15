@@ -98,6 +98,6 @@ Template Name: Blog
 		
 	</div>
 	
-	<?php include(TEMPLATEPATH . '/cta-demo3.php'); ?>
+	<?php include(TEMPLATEPATH . '/cta-newsletter.php'); ?>
 
 <?php get_footer(); ?>

@@ -47,7 +47,7 @@
 						<div class="spacing">
 						
 							<div style="position: absolute; left: -5000px;"><input type="text" name="b_c4be58401190609c7fb988378_8d85c74feb" tabindex="-1" value=""></div>
-							<div class="clear"><input type="submit" value="SIGN UP" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+							<div class="clear"><input type="submit" value="REQUEST A DEMO" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
 						
 						</div>
 						</div>
