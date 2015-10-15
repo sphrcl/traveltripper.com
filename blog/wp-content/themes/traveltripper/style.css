@@ -2383,7 +2383,7 @@ li.mobcase {
   color: #363636;
   font-size: 16px;
   font-weight: 100;
-  line-height: 32px;
+  line-height: 26px;
 }
 
 img.featured-image {
@@ -2857,6 +2857,7 @@ li.icon44-pci:before {
   font-size: 17px;
   line-height: 28px;
   font-weight: 100;
+  text-align: justify;
 }
 
 #crspricetool ul {
