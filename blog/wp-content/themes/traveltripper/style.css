@@ -2487,10 +2487,10 @@ h2.blogtitle a:hover,
 }
 
 .socialshare {
-	position: absolute;
+	position: fixed;
   text-align: center;
   left: 0;
-  top: 0;
+  top: 95px;
   width: 80px;
 }
 

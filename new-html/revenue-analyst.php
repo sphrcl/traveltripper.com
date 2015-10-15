@@ -34,7 +34,7 @@ include('header.php');
 		<div class="container">
 		<div class="subcontainer">
 	
-			<div class="pagecontent">
+			<div class="blogcontent">
 				
 				<div class="spacing">
 				<div class="entry">
