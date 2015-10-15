@@ -42,7 +42,7 @@ include('header.php');
 			<div class="subcontainer">
 			
 				<div class="col_one_fourth">
-					<h3>Your strategic partner in hotel distribution</h3>
+					<h3>Who we are</h3>
 				</div>
 				
 				<div class="col_one_half">
@@ -185,7 +185,7 @@ include('header.php');
 			<div class="subcontainer">
 			
 				<div class="col_one_fourth one">
-					<h3>Working for Travel Tripper</h3>
+					<h3>Careers at Travel Tripper</h3>
 				</div>
 				
 				<div class="col_one_fourth two">
@@ -209,6 +209,7 @@ include('header.php');
 							<li>Finance &amp; Admin. Associat New York, NY</li>
 							<li>Business Development Director<br/>
 							US: Major Metro Areas</li>
+							<li>Client Services Manager New York, NY</li>
 						</ul>
 						<a href="careers.php">SEE ALL OPEN POSITIONS</a>
 					</div>
