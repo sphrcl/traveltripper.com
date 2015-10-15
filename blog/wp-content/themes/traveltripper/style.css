@@ -2547,6 +2547,12 @@ h2.blogtitle a:hover,
 
 .socialshare.mob p { padding: 0 0 10px;}
 
+.blogcontent h3 {
+    font-size: 28px;
+    margin-bottom: 14px;
+}
+
+
 /* BLOG SIDEBAR */
 .sidebar {
   float: right;
