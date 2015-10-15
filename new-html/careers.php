@@ -86,6 +86,6 @@ include('header.php');
 		</div>
 	</div>
 	
-	<?php include('cta-newsletter.php'); ?>
+	<?php include('cta-demo3.php'); ?>
 
 <?php include('footer.php'); ?>

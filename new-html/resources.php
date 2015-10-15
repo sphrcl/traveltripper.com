@@ -28,7 +28,7 @@ include('header.php');
 			<div class="resourcebox one">
 				<div class="spacing">
 					<a class="resourceimg" target="_blank" href="http://www.traveltripper.com/optimize-your-hotel-website-conversions/spot-the-conversion-killers-eguide/" style="background-image: url('images/resources1.jpg');"></a>
-					<div class="category">ARTICLE</div>
+					<div class="category">GUIDE</div>
 					<h3><a target="_blank" href="http://www.traveltripper.com/optimize-your-hotel-website-conversions/spot-the-conversion-killers-eguide/">Spot The Conversion Killers</a></h3>
 				</div>
 			</div>

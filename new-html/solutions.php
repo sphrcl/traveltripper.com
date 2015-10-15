@@ -62,7 +62,7 @@ include('header.php');
 				
 				<div class="col_one_third">
 					<div class="spacing">
-						<img src="images/icon-blue-booking-engine.png" alt="booking engine" />
+						<img src="images/icon-blue-crs.png" alt="crs" />
 						<h4>Booking Engine</h4>
 						<p>
 							Find out why hotels love RezTrip, Travel Tripper’s innovative booking engine. 

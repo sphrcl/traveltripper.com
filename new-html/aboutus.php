@@ -18,7 +18,7 @@ include('header.php');
 		
 			<h2><?php echo $pagetitle; ?></h2>
 			
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sed varius dui, at imperdiet est.</p>
+			<p>Your strategic partner in hotel distribution and e-commerce.</p>
 		
 		</div>
 		</div>
@@ -205,10 +205,6 @@ include('header.php');
 					<div class="spacing">
 						<p>Open positions:</p>
 						<ul>
-							<li>Revenue Analyst New York, NY</li>
-							<li>Finance &amp; Admin. Associat New York, NY</li>
-							<li>Business Development Director<br/>
-							US: Major Metro Areas</li>
 							<li>Client Services Manager New York, NY</li>
 						</ul>
 						<a href="careers.php">SEE ALL OPEN POSITIONS</a>
