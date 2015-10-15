@@ -1716,9 +1716,19 @@ li.mobcase {
 	right: 0;
 }
 
+#mainpage.fullwidth .subcontainer::before,
+#mainpage.fullwidth .subcontainer::after {
+	display: none;
+}
+
 .pagecontent {
   float: left;
   width: 70%;
+}
+
+#mainpage.fullwidth .pagecontent {
+	float: none;
+	width: auto;
 }
 
 .pagecontent .spacing {

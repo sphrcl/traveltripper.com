@@ -76,46 +76,6 @@ include('header.php');
 						</div>
 					</div>
 					
-					<div class="col_one_half">
-						<div class="spacing">
-							<h3>Finance & Admin. Associate <br> New York, NY</h3>
-							<p>As Finance and Admin. Associate, your responsibilities span multiple areas including finance, HR, administration, operations and sales...</p>
-							<a href="finance-admin-associate.php">See Details</a>
-						</div>
-					</div>
-					<!--
-					<div class="col_one_half">
-						<div class="spacing">
-							<h3>Finance &amp; Admin. Associate <br>New York, NY</h3>
-							<p>Responsibilities Include: Generate online reservations for Travel Tripper’s customers in order to meet and exceed revenue targets and establish a market presence.</p>
-							<a href="#">See Details</a>
-						</div>
-					</div>
-					
-					<div class="col_one_half">
-						<div class="spacing">
-							<h3>Revenue Analyst <br>New York, NY</h3>
-							<p>Responsibilities Include: Generate online reservations for Travel Tripper’s customers in order to meet and exceed revenue targets and establish a market presence.</p>
-							<a href="#">See Details</a>
-						</div>
-					</div>
-					
-					<div class="col_one_half">
-						<div class="spacing">
-							<h3>Revenue Analyst <br>New York, NY</h3>
-							<p>Responsibilities Include: Generate online reservations for Travel Tripper’s customers in order to meet and exceed revenue targets and establish a market presence.</p>
-							<a href="#">See Details</a>
-						</div>
-					</div>
-					
-					<div class="col_one_half">
-						<div class="spacing">
-							<h3>Revenue Analyst <br>New York, NY</h3>
-							<p>Responsibilities Include: Generate online reservations for Travel Tripper’s customers in order to meet and exceed revenue targets and establish a market presence.</p>
-							<a href="#">See Details</a>
-						</div>
-					</div>
-					-->
 				</div>
 				
 				<div class="clear"></div>

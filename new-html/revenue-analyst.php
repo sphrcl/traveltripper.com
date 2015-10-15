@@ -29,7 +29,7 @@ include('header.php');
 		</div>
 	</div>
 	
-	<div id="mainpage">
+	<div id="mainpage" class="fullwidth">
 	
 		<div class="container">
 		<div class="subcontainer">
@@ -87,15 +87,6 @@ include('header.php');
 				</div>
 				</div>
 				
-			</div>
-			
-			<div class="sidebar">
-			<div class="spacing">
-				
-				<?php include('sidebar-top.php'); ?>
-				<?php include('sidebar-api.php'); ?>
-				
-			</div>
 			</div>
 			
 			<div class="clear"></div>
