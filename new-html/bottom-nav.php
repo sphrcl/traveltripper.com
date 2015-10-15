@@ -8,7 +8,7 @@
 			<div class="spacing">
 				<a href="booking-engine.php">
 					<div style="background-image: url('images/bottomnav1.png');"></div>
-					<p>CRS & Distribution</p>
+					<p>Booking Engine</p>
 				</a>
 			</div>
 		</div>
