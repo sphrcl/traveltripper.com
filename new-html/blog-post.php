@@ -27,7 +27,9 @@ include('header.php');
 			<div class="spacing">
 				
 				<div class="entry">
-				
+					
+					<h1 class="blogtitle">Capture more direct reservations with TripConnect Instant Booking</h1>
+					
 					<img class="featured-image" src="images/blog1.jpg" alt="blog1" />
 					
 					<div class="meta">
@@ -36,8 +38,6 @@ include('header.php');
 						<span class="comments"><a href="#">Comments</a></span>
 						<span class="category"><a href="#">Industry Trends</a>, <a href="#">Revenue Management</a></span>
 					</div>
-					
-					<h1 class="blogtitle">Capture more direct reservations with TripConnect Instant Booking</h1>
 					
 					<div class="socialshare mob">
 						<!--<p>211 people <br/>shared this</p>-->

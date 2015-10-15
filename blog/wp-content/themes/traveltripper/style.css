@@ -2404,6 +2404,14 @@ h2.blogtitle,
   margin-bottom: 20px;
 }
 
+#mainblog .blogtitle {
+	color: #000;
+}
+
+.entry h2 {
+	color: #363636;
+}
+
 .entry blockquote {
 	width: 75%;
 }

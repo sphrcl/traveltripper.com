@@ -37,6 +37,8 @@ $image = $imgsrc[0];
 			
 				<div class="entry">
 					
+					<h1 class="blogtitle"><?php the_title(); ?></h1>
+					
 					<?php if ($imgsrc) { ?>
 						<img class="featured-image" src="<?php echo $image; ?>" alt="<?php the_title(); ?>" />
 					<?php } ?>
@@ -60,8 +62,6 @@ $image = $imgsrc[0];
 						</span>
 						
 					</div>
-					
-					<h1 class="blogtitle"><?php the_title(); ?></h1>
 					
 					<div class="socialshare mob">
 						<!-- <p>211 people <br/>shared this</p> -->
