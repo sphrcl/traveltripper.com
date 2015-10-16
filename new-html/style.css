@@ -770,6 +770,7 @@ li.mobcase {
   height: 620px;
   width: 100%;
   position: relative;
+  background-image: url(images/travel-tripper-homepage.jpg);
 }
 
 #banner .container {
@@ -791,7 +792,7 @@ li.mobcase {
     font-size: 22px;
     font-weight: 100;
     line-height: 40px;
-	max-width: 500px;
+	max-width: 490px;
 }
 
 .banner-desc {
