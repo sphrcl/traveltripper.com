@@ -25,7 +25,7 @@ include('header.php');
 	<div id="breadcrumbs">
 		<div class="container">
 		<div class="subcontainer">
-			<a href="index.php">Travel Tripper</a> <i class="fa fa-angle-right"></i> <a href="#"><?php echo $pagetitle; ?></a>
+			<a href="index.php">Travel Tripper</a> <i class="fa fa-angle-right"></i> <a href="solutions.php">Solutions</a> <i class="fa fa-angle-right"></i> <a href="#"><?php echo $pagetitle; ?></a>
 		</div>
 		</div>
 	</div>
