@@ -2487,10 +2487,10 @@ h2.blogtitle a:hover,
 }
 
 .socialshare {
-	position: fixed;
+  position: absolute;
   text-align: center;
   left: 0;
-  top: 95px;
+  top: 0;
   width: 80px;
 }
 
@@ -2519,6 +2519,10 @@ h2.blogtitle a:hover,
 
 .socialshare ul li a i {
 	color: #fff;
+}
+
+.socialshare.desk ul {
+	padding: 0;
 }
 
 .socialshare.mob {

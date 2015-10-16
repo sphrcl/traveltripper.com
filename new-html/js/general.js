@@ -293,6 +293,43 @@ $(document).ready(function(){
 	
 	
 	
+	// BLOG SHARE
+	
+	var blogsharefunc = function() {
+		$(window).scroll(function() {
+			shareconpos = $('#mainblog.singlepost .blogcontent .entry').offset().top;
+			shareconheight = $('#mainblog.singlepost .blogcontent .entry').height();
+			shareposheight = shareconpos + shareconheight;
+			
+			shareulheight = $('.socialshare.desk').height();
+			
+			sharemargin = 30;
+			shareheader = 60;
+			totalsharemargin = shareheader + sharemargin;
+			
+			sharewindowpos = $(window).scrollTop();
+			sharewindowheight = $(window).height();
+			sharewindowuser = sharewindowpos + sharewindowheight;
+			
+			sharestart = shareconpos - totalsharemargin;
+			shareend = shareposheight - shareulheight - totalsharemargin;
+			
+			sharetop = sharewindowpos - shareconpos + totalsharemargin;
+			
+			if ((sharewindowpos >= sharestart) && (sharewindowpos <= shareend)) {
+				$('.socialshare.desk').css('top', sharetop);
+			}
+		});
+	}
+	
+	if ($('.socialshare.desk').hasClass('desk')) {
+		blogsharefunc();
+	}
+	
+	
+	
+	
+	
 });
 
 
