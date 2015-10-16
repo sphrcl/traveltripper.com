@@ -1566,7 +1566,7 @@ li.mobcase {
 
 #calltoaction.cta-demo3 .ctabox { float: left; width: 25%; text-align: left;}
 #calltoaction.cta-demo3 .ctabox .spacing { padding: 0 40px 0 10px;}
-
+#calltoaction.cta-demo3 .ctabox.two { width: 50%; }
 
 
 /* CALLTOACTION - NEWSLETTER */
