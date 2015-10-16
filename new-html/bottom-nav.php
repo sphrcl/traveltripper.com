@@ -15,9 +15,9 @@
 		
 		<div class="bottombox two">
 			<div class="spacing">
-				<a href="revup.php">
+				<a href="web-mobile.php">
 					<div style="background-image: url('images/bottomnav4.png');"></div>
-					<p>Web & Mobile</p>
+					<p>Web &amp; Mobile</p>
 				</a>
 			</div>
 		</div>
@@ -33,9 +33,8 @@
 		
 		<div class="bottombox four">
 			<div class="spacing">
-				<a href="web-mobile.php">
+				<a href="revup.php">
 					<div style="background-image: url('images/bottomnav2.png');"></div>
-					
 					<p>Revenue Management</p>
 				</a>
 			</div>
