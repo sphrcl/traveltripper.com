@@ -75,7 +75,7 @@ include('header.php');
 			-->
 			
 			<div class="col_three_fourth">
-				<img src="images/digital-marketing-traveltripper-device.jpg" alt="dm layer1" />
+				<img src="images/travel-tripper-digital-marketing-p1.jpg" alt="dm layer1" />
 			</div>
 			
 			<div class="clear"></div>
@@ -85,7 +85,7 @@ include('header.php');
 					<h2>200%</h2>
 					<div class="modulecontent4">
 						<p>Find out how Mayfair Hotel &amp; Spa in Miami more than doubled the ROI of their search marketing after switching to Travel Tripper.</p>
-						<a href="#">LEARN MORE</a>
+						<a href="http://try.traveltripper.com/mayfair-case-study/">LEARN MORE</a>
 					</div>
 				</div>
 			</div>
