@@ -84,7 +84,7 @@ include('header.php');
 				
 				<div class="webmid one">
 					<div class="spacing">
-						<img src="images/webmid1.png" />
+						<img src="images/travel-tripper-web-page-layer2.png" />
 					</div>
 				</div>
 				

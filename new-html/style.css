@@ -3640,7 +3640,7 @@ ul.checklist li {
 }
 
 #webmobilelayer2 .container {
-	padding: 50px 0 150px;
+	padding: 50px 0 315px;
 }
 
 #webmobilelayer2 .subcontainer {
@@ -3682,9 +3682,9 @@ ul.checklist li {
 }
 
 #webmobilelayer2 .webbox-two .webmid.one img {
-	max-width: 100%;
+	max-width: 90%;
 	display: inline-block;
-	border-radius: 50%;
+	/* border-radius: 50%; */
 	box-shadow: 0 0 50px #ccc;
 }
 
