@@ -2,14 +2,14 @@
 	
 	$description = '';
 	$pagetitle = 'Resources';
-	$image = 'images/About-TravelTripper-Office.jpg';
+	$image = 'images/travel-tripper-resources.jpg';
 	$template_class = "template-resources";
 
 include('header.php'); 
 
 ?>
 	
-	<!--
+
 	<div id="pagebanner" class="about" style="background-image: url(<?php echo $image; ?>);">
 	
 		<div class="container">
@@ -19,7 +19,7 @@ include('header.php');
 		</div>
 		
 	</div>
-	-->
+
 	<div id="resourceslist">
 	
 		<div class="container">
