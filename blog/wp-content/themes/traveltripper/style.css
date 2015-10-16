@@ -4190,7 +4190,6 @@ span.dm-up {
 /* homepage */
 
 #big-video-wrap.bigvideohome {
-	position: absolute;
 	z-index: -1;
 }
 
