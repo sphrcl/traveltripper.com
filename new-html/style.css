@@ -1217,7 +1217,11 @@ li.mobcase {
 
 #bigmain .container {
 	position: relative;
-	padding: 50px 0;
+	padding: 20vh 0;
+}
+
+.blockengine {
+	position: relative;
 }
 
 #bigmain .left,
@@ -1225,8 +1229,15 @@ li.mobcase {
 	width: 50%;
 }
 
+#bigmain .left {
+	position: fixed;
+	height: 100vh;
+}
+
 .bkimg {
 	text-align: center;
+	position: absolute;
+	top: 0;
 }
 
 .bkimg img {
@@ -1270,6 +1281,10 @@ li.mobcase {
 .bkcnt-block .button1 {
     font-size: 14px;
     font-weight: 300;
+}
+
+.bkcnt.second {
+	margin-top: 30vh;
 }
 
 .booking-engine {

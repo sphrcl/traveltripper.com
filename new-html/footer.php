@@ -60,5 +60,11 @@
 
 	</div> <!-- #wrapper -->
 
+	<script type="text/javascript">
+		skrollr.init({
+			forceHeight: false,
+		});
+	</script>
+	
 </body>
 </html>
