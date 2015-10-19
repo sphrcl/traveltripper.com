@@ -18,7 +18,7 @@ include('header.php');
 		
 			<h2><?php echo $pagetitle; ?></h2>
 			
-			<p>Your strategic partner in hotel distribution and e-commerce.</p>
+			<p>Your strategic partner in hotel <br>distribution and e-commerce.</p>
 		
 		</div>
 		</div>
