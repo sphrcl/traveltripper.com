@@ -137,7 +137,7 @@ include('header.php');
 									<!-- <img src="images/logo-row.png" alt="row" /> -->
 									<p>“Within a few days of launching with RezTrip Direct, our conversion rates nearly tripled, which was the most important metric we were looking to improve. We look forward to continuing our productive relationship with Travel Tripper.”</p>
 									<p class="author">Brian Christensen</p>
-									<p class="authorinfo">Corporate VP, Revenue Management & Distribution, American Casino & Entertainment Properties</p>
+									<p class="authorinfo">Corporate VP, Revenue Management &amp; Distribution, American Casino &amp; Entertainment Properties</p>
 								</li>
 								<!--
 								<li>
