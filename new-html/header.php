@@ -43,6 +43,7 @@
 <script type="text/javascript" src="js/jquery.sticky.js"></script>
 <script type="text/javascript" src="js/jquery.flexslider-min.js"></script>
 <script type="text/javascript" src="js/jquery.inview.min.js"></script>
+<script type="text/javascript" src="js/skrollr.min.js"></script>
 
 <script type="text/javascript" src="js/video.js"></script>
 <script type="text/javascript" src="js/bigvideo.js"></script>
