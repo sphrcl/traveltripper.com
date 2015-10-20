@@ -313,8 +313,13 @@ strong {
   height: 60px;
 }
 
+#header .logo img {
+	max-width: 100%;
+}
+
 #header .logo a {
   display: block;
+  width: 155px;
   padding: 16px 20px 12px;
 }
 
@@ -731,6 +736,54 @@ li.mobcase {
   font-family: MuseoSans,Arial;
   font-size: 23px;
 }
+
+
+/* 404 PAGE */
+
+.errorpage,
+.errorpage .container,
+.errorpage .subcontainer {
+	height: 100%;
+}
+
+.errorpage .subcontainer {
+	padding: 0 50px;
+	position: relative;
+}
+
+.errorbox {
+	text-align: center;
+	position: absolute;
+	left: 0;
+	width: 100%;
+	top: 50%;
+	transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+	-moz-transform: translateY(-50%);
+	-o-transform: translateY(-50%);
+}
+
+.errorbox h1 {
+	font-size: 100px;
+	margin: 0 0 30px;
+}
+
+.errorbox p {
+	font-size: 24px;
+	line-height: 1;
+	padding: 0 0 10px;
+}
+
+.error404 #footer {
+	display: none;
+}
+
+
+
+
+
+
+
 
 
 #main, #bigmain {
@@ -2345,6 +2398,10 @@ li.mobcase {
 
 #mainblog.singlepost  .subcontainer:before {
 	margin: 0 -28px 0 0;
+}
+
+.searchtitle {
+	margin: 0 0 15px;
 }
 
 .blogcontent {

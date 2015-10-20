@@ -6,12 +6,14 @@ Search Result Template
 
 <?php get_header(); ?>   
 
-<div id="mainblog">
+<div id="mainblog" class="searchee">
 	
 		<div class="container">
 	
 			<div class="blogcontent">
-			
+				
+				<h1 class="searchtitle"><?php printf( __( 'Seach Results: "%s"', 'misfitlang' ), get_search_query() ); ?></h1>
+				
 				<h2 class="title"><?php single_cat_title(); ?></h2>
 			
 				<?php			
@@ -54,9 +56,9 @@ Search Result Template
 				
 				<?php else : ?>
 				
-				<div class="entry">
+				<div class="entry nothing">
 
-                    <p><?php _e('Nothing found','misfitlang'); ?></p>
+                    <h1><?php printf( __( 'Nothing found for "%s"', 'misfitlang' ), get_search_query() ); ?></h1>
                     <div class="clear"></div>
                     
 				</div>
