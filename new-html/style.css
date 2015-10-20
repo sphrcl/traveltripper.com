@@ -3238,7 +3238,7 @@ ul.checklist li {
 #page-layer-3 .col_one_half.two .spacing {
 	padding: 105px 40px 0 0;
 	max-width: 400px;
-    text-align: center;	
+    /*text-align: center;	*/
 }
 
 #page-layer-3 ul li p {
@@ -3246,7 +3246,7 @@ ul.checklist li {
     line-height: 24px;
     color: #363636;
     font-weight: 100;
-    padding: 0px 35px 40px 35px;
+    padding: 0px 35px 40px 25px;
 }
 
 #page-layer-3 h4 {
@@ -3261,7 +3261,7 @@ ul.checklist li {
   width: 18px;
   height: 15px;
   display: inline-block;
-  margin-right: 5px;
+  margin-right: 8px;
 }
 
 #page-layer-4 .container {

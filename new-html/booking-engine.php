@@ -113,12 +113,14 @@ include('header.php');
 			</div>
 			
 			<div class="col_one_half two">
+						
 				<div class="spacing">
+					<div class="pageuptitle-b">
+						<h3>Drive bookings the OTA way</h3>
+					</div>
+					<p>Take advantage of similar tools that OTAs use to capture reservations. </p>
+
 					<ul>
-						<li>
-							<h4>Drive bookings the OTA way</h4>
-							<p>Take advantage of similar tools that OTAs use to capture reservations. </p>
-						</li>
 						<li>
 							<h4>Create urgency</h4>
 							<p>Encourage fast booking with tools that create urgency for guests, including a countdown clock on special offers and widgets that show “rooms remaining” and number of recent bookings.</p>
