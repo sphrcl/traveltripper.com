@@ -2888,7 +2888,7 @@ li.icon44-pci:before {
 
 #crspricetool ul {
   padding: 20px 0 0 0;
-  text-align: center;
+  /*text-align: center;*/
 }
 
 #crspricetool ul li {
@@ -2898,7 +2898,8 @@ li.icon44-pci:before {
 #crspricetool ul li h4 {
   padding-bottom: 10px;
   font-size: 15px;
-  text-indent: -18px;
+  /*text-indent: -18px;*/
+
 }
 
 #crspricetool ul li h4:before {
@@ -2908,6 +2909,7 @@ li.icon44-pci:before {
   height: 15px;
   display: inline-block;
   margin-right: 5px;
+  margin-left: -23px;
 }
 
 #crspricetool ul li p {
