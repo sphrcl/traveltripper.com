@@ -122,11 +122,11 @@ include('header.php');
 
 					<ul>
 						<li>
-							<h4>Create urgency</h4>
+							<h3>Create urgency</h3>
 							<p>Encourage fast booking with tools that create urgency for guests, including a countdown clock on special offers and widgets that show “rooms remaining” and number of recent bookings.</p>
 						</li>
 						<li>
-							<h4>Instill confidence</h4>
+							<h3>Instill confidence</h3>
 							<p>Enhance your hotel’s appeal with an integrated TripAdvisor badge on your booking engine. Travelers can read reviews, see your star rating, and most importantly, gain the confidence to book directly with your hotel.</p>
 						</li>
 					</ul>
