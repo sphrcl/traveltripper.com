@@ -3801,7 +3801,7 @@ ul.checklist li {
 .centerbarge {
 	margin: 0 0 30px 20%;
 	max-width: 220px;
-	text-align: center;
+	/*text-align: center;*/
 }
 
 .centerbarge.three { margin: 0 0 0 20%;}
@@ -3821,9 +3821,9 @@ ul.checklist li {
 	margin: 0 auto;
 }
 
-.centerbarge.one p.one { max-width: 145px;}
+/*.centerbarge.one p.one { max-width: 145px;}
 .centerbarge.two p.one { max-width: 130px;}
-.centerbarge.three p.one { max-width: 185px;}
+.centerbarge.three p.one { max-width: 185px;}*/
 
 .centerbarge p.one img {
 	float: left;
@@ -3840,7 +3840,7 @@ ul.checklist li {
 	position: absolute;
 	top: 50%;
 	left: 0;
-	margin: -8px 0 0 -15px;
+	margin: -8px 0 0 -25px;
 }
 
 .centerbarge p.two {
