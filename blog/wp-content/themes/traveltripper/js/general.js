@@ -297,12 +297,19 @@ $(document).ready(function(){
 	
 	var blogsharefunc = function() {
 		$(window).scroll(function() {
-			shareconpos = $('#mainblog.singlepost .blogcontent .entry').offset().top;
-			shareconheight = $('#mainblog.singlepost .blogcontent .entry').height();
-			shareposheight = shareconpos + shareconheight;
+			shareconposa = $('#mainblog.singlepost .blogcontent .topentry').offset().top;
+			shareconheighta = $('#mainblog.singlepost .blogcontent .topentry').height();
+			shareposheighta = shareconposa + shareconheighta;
 			
+			shareconposb = $('#mainblog.singlepost .blogcontent .entry').offset().top;
+			shareconheightb = $('#mainblog.singlepost .blogcontent .entry').height();
+			shareposheightb = shareconposb + shareconheightb;
+			
+			shareconposcombine = shareconposb - shareconposa;
+			shareposheight = shareposheighta + shareposheightb - shareconposcombine;
 			shareulheight = $('.socialshare.desk').height();
 			
+			sharemarginend = 80;
 			sharemargin = 30;
 			shareheader = 60;
 			totalsharemargin = shareheader + sharemargin;
@@ -311,10 +318,10 @@ $(document).ready(function(){
 			sharewindowheight = $(window).height();
 			sharewindowuser = sharewindowpos + sharewindowheight;
 			
-			sharestart = shareconpos - totalsharemargin;
-			shareend = shareposheight - shareulheight - totalsharemargin;
+			sharestart = shareconposa - totalsharemargin;
+			shareend = shareposheight - shareulheight - totalsharemargin - sharemarginend;
 			
-			sharetop = sharewindowpos - shareconpos + totalsharemargin;
+			sharetop = sharewindowpos - shareconposa + totalsharemargin;
 			
 			if ((sharewindowpos >= sharestart) && (sharewindowpos <= shareend)) {
 				$('.socialshare.desk').css('top', sharetop);
