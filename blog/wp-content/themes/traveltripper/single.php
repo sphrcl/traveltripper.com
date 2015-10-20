@@ -34,9 +34,9 @@ $image = $imgsrc[0];
 	
 			<div class="blogcontent">
 			<div class="spacing">
-			
-				<div class="entry">
-					
+				
+				<div class="topentry">
+				
 					<h1 class="blogtitle"><?php the_title(); ?></h1>
 					
 					<?php if ($imgsrc) { ?>
@@ -71,7 +71,11 @@ $image = $imgsrc[0];
 							<li><a target="_blank" href="https://www.linkedin.com/shareArticle?mini=true&url=<?php echo $encode_url; ?>&title=<?php echo $encode_title; ?>&summary=<?php echo $encode_summary ?>&source=traveltripperblog"><i class="fa fa-linkedin"></i></a></li>
 						</ul>
 					</div>
-					
+				
+				</div>
+				
+				<div class="entry">
+				
 					<?php the_content(); ?>
 
 				</div>

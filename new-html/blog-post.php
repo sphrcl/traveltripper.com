@@ -26,7 +26,7 @@ include('header.php');
 			<div class="blogcontent">
 			<div class="spacing">
 				
-				<div class="entry">
+				<div class="topentry">
 					
 					<h1 class="blogtitle">Capture more direct reservations with TripConnect Instant Booking</h1>
 					
@@ -48,6 +48,10 @@ include('header.php');
 						</ul>
 					</div>
 					
+				</div>
+				
+				<div class="entry">
+				
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lectus nisl, fermentum sed lacus vel, porttitor imperdiet lectus. Pellentesque sit amet dictum erat, quis congue tortor. Sed viverra tellus sapien, id imperdiet arcu imperdiet quis. Phasellus at metus non augue pharetra rutrum. Donec non neque pellentesque, egestas magna vitae, sodales tortor. In eu purus ultricies felis vestibulum congue ac at ex. Suspendisse at pellentesque lectus. Vivamus sagittis <a href="#">eget elit in semper</a>. Etiam molestie <strong>interdum commodo</strong>. Nam ultricies nunc a dictum malesuada. Phasellus vel neque nibh. Pellentesque vel neque quis risus iaculis porttitor. Nulla facilisi. Morbi varius elementum massa, sed tempor erat pellentesque at. Nunc eu aliquet ligula.</p>
 					
 					<img src="images/blogpost1.jpg" alt="blogpost1" />
