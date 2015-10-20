@@ -1746,7 +1746,8 @@ li.mobcase {
   width: 70%;
 }
 
-#mainpage.fullwidth .pagecontent {
+#mainpage.fullwidth .pagecontent,
+#mainpage.fullwidth .blogcontent {
 	float: none;
 	width: auto;
 }
@@ -4147,6 +4148,7 @@ span.dm-up {
 	padding: 25px;
 }
 
+.module2,
 .module3 {
 	top: 0;
 }
