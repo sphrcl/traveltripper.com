@@ -61,9 +61,11 @@
 	</div> <!-- #wrapper -->
 
 	<script type="text/javascript">
-		skrollr.init({
+		var skrolling = skrollr.init({
 			forceHeight: false,
 		});
+		
+		skrolling.refresh($('.left'));
 	</script>
 	
 </body>

@@ -112,17 +112,26 @@ include('header.php');
 				<div class="blockengine">
 
 					<div class="left"
-						data-anchor-target="#bigmain"
+						data-anchor-target=".bigmaincontain"
 						
-						data--25p-bottom-top="bottom: -100vh"
-						data-10p-top-top="bottom: -33vh;"
-						
-						data-0-bottom-bottom="bottom: -33vh"
-						data-30p-center-bottom="bottom: -33vh;"
-						data--45p-top-bottom="bottom: 100vh;"
+						data-40-bottom-top="bottom: -100vh"
+						data-23p-top-top="bottom: -30vh;"
+						data-0-center-center="bottom: -30vh;"
+						data-15p-center-bottom="bottom: -30vh;"
+						data--55p-top-bottom="bottom: 100vh;"
 					>
-						<div class="bkimg"><img src="images/homepage-booking-engine.png" /></div>
-						<div class="bkimg"><img src="images/homepage-web-and-engine.png" /></div>
+						<div class="bkimg"
+							data-anchor-target=".bkcnt1"
+							data-0-top-top="opacity: 1;"
+							data-0-top-bottom="opacity: 0;"
+						><img src="images/homepage-booking-engine.png" /></div>
+						
+						
+						<div class="bkimg"
+							data-anchor-target=".bkcnt2"
+							data-0-bottom-bottom="opacity: 0;"
+							data-0-center-top="opacity: 1;"
+						><img src="images/homepage-web-and-engine.png" /></div>
 					</div>
 
 					<div class="right">
@@ -132,14 +141,14 @@ include('header.php');
 							data-0p-top-top="opacity: 1;"
 							data--10p-top-top="opacity: 0;"
 						>
-							<div class="bkcnt-block">
+							<div class="bkcnt-block bkcnt1">
 								<h2>Booking Engine</h2>
 								<p>Discover why hotels love RezTrip, our sleek and innovative booking engine that optimizes conversions through your most profitable channel—your website. With its user-friendly design and unique features such as Automated Best Rate Guarantee, Travel Tripper’s booking engine is truly designed to “be direct.”</p>
 								<a class="button1" href="booking-engine.php">LEARN MORE</a>
 							</div>
 						</div>
 						
-						<div class="bkcnt second"
+						<div class="bkcnt second bkcnt2"
 							data-0-bottom-bottom="opacity: 0;"
 							data--20p-bottom-bottom="opacity: 1;"
 							data-0p-top-top="opacity: 1;"
