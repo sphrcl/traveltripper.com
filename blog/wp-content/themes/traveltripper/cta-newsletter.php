@@ -5,7 +5,7 @@
 	
 		<div class="ctabox one">
 			<div class="spacing">
-				<h3>Newsletter</h3>
+				<h3>Subscribe to <br>Travel Tripper</h3>
 			</div>
 		</div>
 		
@@ -51,6 +51,8 @@
 						
 						</div>
 						</div>
+						
+						<div class="clear"></div>
 						
 					</div>
 				</form>

@@ -1595,8 +1595,10 @@ li.mobcase {
 #calltoaction.cta-newsletter .ctabox.three { width: 50%;}
 
 #calltoaction.cta-newsletter .ctabox .spacing { padding: 0 40px 0 10px;}
+#calltoaction.cta-newsletter .ctabox.three .col_one_half.one .spacing { padding: 0;}
+#calltoaction.cta-newsletter .ctabox.three .col_one_half.two .spacing { padding: 0 0 0 40px;}
 
-#calltoaction.cta-newsletter .col_one_half.two .spacing { padding: 0 0 0 40px;}
+#calltoaction.cta-newsletter input[type="submit"] { padding: 12px 45px;}
 
 #mc_embed_signup input[type="submit"] {
 	opacity: 1;

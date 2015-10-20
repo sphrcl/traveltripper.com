@@ -185,6 +185,13 @@ and (max-width : 1280px) {
 	
 	#calltoaction.cta-demo3 .ctabox.two { width: 50%;}
 	#calltoaction.cta-demo3 .ctabox.three { width: 25%;}
+	
+	
+	/* CTA DEMO - NEWSLETTER */
+	
+	#calltoaction.cta-newsletter .ctabox.three .col_one_half.two .spacing { padding: 0 0 0 20px;}
+	#calltoaction.cta-newsletter .ctabox.three .col_one_half.one { width: 60%;}
+	#calltoaction.cta-newsletter .ctabox.three .col_one_half.two { width: 40%;}
 
 }
 
@@ -290,6 +297,7 @@ and (max-width : 1279px) {
 	#calltoaction.cta-demo2 .ctabox.three .initwo { width: 48%; float: right;}
 	
 	#calltoaction.cta-demo2 .ctabox.three .col_one_half.two input { width: 100%;}
+	
 }
 
 
@@ -362,6 +370,9 @@ and (max-width : 1199px) {
 	
 	#calltoaction.cta-newsletter .ctabox .spacing { padding: 0;}
 	#calltoaction.cta-newsletter .ctabox.three { width: auto; float: none;}
+	
+	#calltoaction.cta-newsletter .ctabox.three .col_one_half.one,
+	#calltoaction.cta-newsletter .ctabox.three .col_one_half.two { width: 50%;}
 	
 }
 
@@ -1299,7 +1310,17 @@ and (max-width : 767px) {
 	}
 	
 	#calltoaction.cta-newsletter .col_one_half.two .spacing {
-		padding: 0; text-align: left;
+		padding: 0;
+		text-align: left;
+	}
+	
+	#calltoaction.cta-newsletter .ctabox.three .col_one_half.one,
+	#calltoaction.cta-newsletter .ctabox.three .col_one_half.two {
+		width: auto;
+	}
+	
+	#calltoaction.cta-newsletter .ctabox.three .col_one_half.two .spacing {
+		padding: 0;
 	}
 	
 	
