@@ -639,6 +639,12 @@ and (max-width : 1023px) {
 		margin: 0 0 20px;
 	}
 	
+	.widgets.search input {
+		background: url(images/search.png) no-repeat 98% center #fff;
+		width: auto;
+		max-width: none;
+	}
+	
 	.widgets.social li:last-child a {
 		border-right: 1px solid #D3D3D3;
 	}

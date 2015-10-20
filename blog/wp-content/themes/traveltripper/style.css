@@ -308,7 +308,7 @@ strong {
 }
 
 #header .logo {
-  border-right: 2px solid #c0c0c0;
+  border-right: 1px solid #c0c0c0;
   float: left;
   height: 60px;
 }
@@ -2402,10 +2402,11 @@ h1.blogtitle,
 h2.blogtitle, 
 .entry h1, 
 .entry h2,
+.entry h3,
 .entry blockquote {
   color: #34a4d9;
   font-size: 30px;
-  line-height: 48px;
+  line-height: 40px;
   font-weight: 500;
   letter-spacing: -0.01em;
   margin-bottom: 20px;
@@ -2586,6 +2587,7 @@ h2.blogtitle a:hover,
   border-bottom: 1px solid #d3d3d3;
   /*padding: 20px;*/
   padding: 20px 20px 20px 40px;
+  text-transform: uppercase;
 }
 
 .widgets .textwidget h3 {
@@ -2632,7 +2634,7 @@ h2.blogtitle a:hover,
   padding: 20px;
 }
 .widgets.search input {
-  background: #fff url(images/search.png) no-repeat 98% center;
+  background: #fff url(images/search.png) no-repeat 148px center;
   color: #828282;
   padding: 8px 25px;
   border-radius: 20px;
@@ -2640,6 +2642,12 @@ h2.blogtitle a:hover,
   font-size: 17px;
   line-height: 20px;
   border: 1px solid #1594d1;
+  width: 100%;
+  max-width: 180px;
+  
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
 }
 
 .sidebar .widgets.social {

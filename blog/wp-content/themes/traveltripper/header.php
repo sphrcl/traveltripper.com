@@ -76,7 +76,7 @@
 				<div class="logo">
 					<a href="<?php bloginfo('url'); ?>">
 					<?php if (get_option('misfit_logo') == '') { ?>
-						<img src="<?php bloginfo('template_url'); ?>/images/logo.png" alt="<?php bloginfo('name'); ?>" />
+						<img src="<?php bloginfo('template_url'); ?>/images/traveltripperlogo.png" alt="<?php bloginfo('name'); ?>" />
 					<?php } else { ?>
 						<img src="<?php echo get_option('misfit_logo'); ?>" alt="<?php bloginfo('name'); ?>" />
 					<?php } ?>
