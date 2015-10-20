@@ -3269,9 +3269,7 @@ ul.checklist li {
 	margin: 0 0 5px;
 }
 
-
 #page-layer-3 ul li h3:before {
-  
   content: '';
   background: url(images/check.png) no-repeat;
   width: 18px;
