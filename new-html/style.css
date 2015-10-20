@@ -3269,7 +3269,7 @@ ul.checklist li {
 }
 
 #page-layer-4 .col_one_fourth {
-  text-align: center;
+  /*text-align: center;*/
 }
 
 #page-layer-4 .spacing {
@@ -3291,7 +3291,8 @@ ul.checklist li {
   width: 18px;
   height: 15px;
   display: inline-block;
-  margin-right: 5px;
+  margin-right: 8px;
+  margin-left: -8px;
 }
 
 #page-layer-4 p {
