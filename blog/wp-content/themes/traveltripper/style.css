@@ -2384,7 +2384,7 @@ li.mobcase {
 }
 
 #mainblog .subcontainer:before {
-	right: 30%;
+	right: 29%;
 	margin: 0 -1px 0 0;
 }
 
@@ -2397,7 +2397,7 @@ li.mobcase {
 }
 
 #mainblog.singlepost  .subcontainer:before {
-	margin: 0 -28px 0 0;
+	margin: 0 -27px 0 0;
 }
 
 .searchtitle {
@@ -2637,7 +2637,7 @@ h2.blogtitle a:hover,
 /* BLOG SIDEBAR */
 .sidebar {
   float: right;
-  width: 30%;
+  width: 29%;
   border-top: 2px solid #298bb0;
 }
 

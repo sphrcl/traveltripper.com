@@ -2375,7 +2375,7 @@ li.mobcase {
 }
 
 #mainblog .subcontainer:before {
-	right: 30%;
+	right: 29%;
 	margin: 0 -1px 0 0;
 }
 
@@ -2580,7 +2580,7 @@ h2.blogtitle a,
 /* BLOG SIDEBAR */
 .sidebar {
   float: right;
-  width: 30%;
+  width: 29%;
   border-top: 2px solid #298bb0;
 }
 
@@ -2754,7 +2754,7 @@ h2.blogtitle a,
 }
 
 .template-blog-single #mainblog .subcontainer:before {
-	margin: 0 -28px 0 0;
+	margin: 0 -27px 0 0;
 }
 
 .template-blog-single h1.blogtitle {
