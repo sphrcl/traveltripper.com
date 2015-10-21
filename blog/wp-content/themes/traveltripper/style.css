@@ -4201,8 +4201,13 @@ span.dm-up {
 	padding: 25px;
 }
 
-.module3 {
+.module2 {
 	top: 0;
+}
+
+.module3 {
+	top: auto;
+	bottom: 40px;
 }
 
 .modulecontent2,

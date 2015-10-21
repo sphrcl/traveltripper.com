@@ -106,7 +106,7 @@ $(document).ready(function(){
 		modulescrollset = 0;
 		if ($('.modmove').hasClass('modmove')) { getmemove = $('.modmove').css('top'); forbwmw = getmemove.replace('px', ''); }
 		// else if ($('.module2').hasClass('module2')) { getmemove = $('.module2').css('top'); forbwmw = getmemove.replace('px', ''); }
-		else if ($('.module3').hasClass('module3')) { getmemove = $('.module3').css('top'); forbwmw = getmemove.replace('px', ''); }
+		// else if ($('.module3').hasClass('module3')) { getmemove = $('.module3').css('top'); forbwmw = getmemove.replace('px', ''); }
 		else if ($('.module4').hasClass('module4')) { getmemove = $('.module4').css('top'); forbwmw = getmemove.replace('px', ''); }
 	}
 	movingset();
@@ -191,20 +191,20 @@ $(document).ready(function(){
 	$(window).load(function() {
 		moving();
 		// moving2();
-		moving3();
+		// moving3();
 		moving4();
 	});
 	$(window).resize(function() {
 		moving();
 		// moving2();
-		moving3();
+		// moving3();
 		moving4();
 	});
 
 	$(window).scroll(function() {
 		if(($('.modmovecontent').hasClass('modmovecontent')) ||
 		// ($('.module2').hasClass('module2')) ||
-		($('.module3').hasClass('module3')) ||
+		// ($('.module3').hasClass('module3')) ||
 		($('.module4').hasClass('module4')))
 		
 		{

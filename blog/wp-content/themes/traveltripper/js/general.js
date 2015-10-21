@@ -105,16 +105,16 @@ $(document).ready(function(){
 	var movingset = function() {
 		modulescrollset = 0;
 		if ($('.modmove').hasClass('modmove')) { getmemove = $('.modmove').css('top'); forbwmw = getmemove.replace('px', ''); }
-		else if ($('.module2').hasClass('module2')) { getmemove = $('.module2').css('top'); forbwmw = getmemove.replace('px', ''); }
-		else if ($('.module3').hasClass('module3')) { getmemove = $('.module3').css('top'); forbwmw = getmemove.replace('px', ''); }
+		// else if ($('.module2').hasClass('module2')) { getmemove = $('.module2').css('top'); forbwmw = getmemove.replace('px', ''); }
+		// else if ($('.module3').hasClass('module3')) { getmemove = $('.module3').css('top'); forbwmw = getmemove.replace('px', ''); }
 		else if ($('.module4').hasClass('module4')) { getmemove = $('.module4').css('top'); forbwmw = getmemove.replace('px', ''); }
 	}
 	movingset();
 	
 	var moving = function() {
 		if ($('.modmove').hasClass('modmove')) {
-		var getheight = $('#bigmain').height();
-		var getheight2 = $('#digital-marketing').height();
+		var getheight = $('#main').height();
+		var getheight2 = $('#bigmain').height();
 		wholeheight = getheight + getheight2;
 
 		var thiss = $('.modmove'),
@@ -188,11 +188,26 @@ $(document).ready(function(){
 		}
 	}
 
-	$(window).load(function() { moving(); moving2(); moving3(); moving4(); });
-	$(window).resize(function() { moving(); moving2(); moving3(); moving4(); });
+	$(window).load(function() {
+		moving();
+		// moving2();
+		// moving3();
+		moving4();
+	});
+	$(window).resize(function() {
+		moving();
+		// moving2();
+		// moving3();
+		moving4();
+	});
 
 	$(window).scroll(function() {
-		if(($('.modmovecontent').hasClass('modmovecontent')) || ($('.module2').hasClass('module2')) || ($('.module3').hasClass('module3')) || ($('.module4').hasClass('module4'))) {
+		if(($('.modmovecontent').hasClass('modmovecontent')) ||
+		// ($('.module2').hasClass('module2')) ||
+		// ($('.module3').hasClass('module3')) ||
+		($('.module4').hasClass('module4')))
+		
+		{
 		
 		modulescrollset = 1;
 		
@@ -208,7 +223,7 @@ $(document).ready(function(){
 
 		if ($('.modmovecontent').hasClass('modmovecontent')) {
 			margin = 40;
-			paddingcontainer = 50;
+			paddingcontainer = 100;
 			paddingmod = 40;
 		} else if ($('.module2').hasClass('module2')) {
 			margin = 40;
