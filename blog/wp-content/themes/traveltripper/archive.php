@@ -14,7 +14,23 @@ Archive Template
 			<div class="blogcontent">
 			<div class="spacing">
 			
-				<h2 class="title"><?php single_cat_title(); ?></h2>
+				<h1 class="searchtitle">
+					<?php
+						if ( is_day() ) :
+							printf( __( 'Daily Archives: %s', 'misfitlang' ), get_the_date() );
+
+						elseif ( is_month() ) :
+							printf( __( 'Monthly Archives: %s', 'misfitlang' ), get_the_date( _x( 'F Y', 'monthly archives date format', 'misfitlang' ) ) );
+
+						elseif ( is_year() ) :
+							printf( __( 'Yearly Archives: %s', 'misfitlang' ), get_the_date( _x( 'Y', 'yearly archives date format', 'misfitlang' ) ) );
+
+						else :
+							_e( 'Archives', 'misfitlang' );
+
+						endif;
+					?>
+				</h1>
 			
 				<?php			
 				if(have_posts()) : while(have_posts()) : the_post(); 

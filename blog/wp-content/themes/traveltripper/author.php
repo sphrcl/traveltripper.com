@@ -14,7 +14,7 @@ The template for displaying Author Archive pages.
 			<div class="blogcontent">
 			<div class="spacing">
 			
-				<h2 class="title"><?php single_cat_title(); ?></h2>
+				<h1 class="searchtitle"><?php printf( __( 'All posts by %s', 'misfitlang' ), get_the_author() ); ?></h1>
 			
 				<?php			
 				if(have_posts()) : while(have_posts()) : the_post(); 

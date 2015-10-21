@@ -2401,7 +2401,8 @@ li.mobcase {
 }
 
 .searchtitle {
-	margin: 0 0 15px;
+	margin: 0px 0px 30px;
+	font-size: 20px;
 }
 
 .blogcontent {

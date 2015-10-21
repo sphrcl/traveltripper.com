@@ -14,8 +14,8 @@ Category Template
 			<div class="blogcontent">
 			<div class="spacing">
 			
-				<h2 class="title"><?php single_cat_title(); ?></h2>
-			
+				<h1 class="searchtitle">Category: <?php single_cat_title(); ?></h1>
+				
 				<?php			
 				if(have_posts()) : while(have_posts()) : the_post(); 
 				$imgsrc = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), "Full"); 
