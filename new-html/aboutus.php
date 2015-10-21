@@ -185,7 +185,7 @@ include('header.php');
 			<div class="subcontainer">
 			
 				<div class="col_one_fourth one">
-					<h3>Careers at Travel Tripper</h3>
+					<h3>Careers at <br>Travel Tripper</h3>
 				</div>
 				
 				<div class="col_one_fourth two">

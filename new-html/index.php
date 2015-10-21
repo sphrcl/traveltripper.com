@@ -98,7 +98,16 @@ include('header.php');
 			</div>
 
 			<div class="clear"></div>
-
+			
+			<div class="modmove">
+				<h2 class="percent">84%</h2>
+				<img src="images/crs-graph.jpg" />
+				<div class="modmovecontent">
+					<p>Find out how Travel Tripper increased Mayfair Hotel &amp; Spa&lsquo;s website revenue by 84%.</p>
+					<a href="#">LEARN MORE</a>
+				</div>
+			</div>
+			
 		</div>
 		</div>
 	</div>
@@ -182,16 +191,7 @@ include('header.php');
 					</li>
 				</ul>
 			</div>
-
-			<div class="modmove">
-				<h2 class="percent">84%</h2>
-				<img src="images/crs-graph.jpg" />
-				<div class="modmovecontent">
-					<p>Find out how Travel Tripper increased Mayfair Hotel &amp; Spa&lsquo;s website revenue by 84%.</p>
-					<a href="#">LEARN MORE</a>
-				</div>
-			</div>
-		
+			
 		</div>
 		</div>
 
@@ -218,10 +218,6 @@ include('header.php');
 		<div class="dmimg"><img src="images/digitalmarketing.png" /></div>
 
 	</div>
-	
-	<script type="text/javascript">
-		bigvideoplayhome();
-	</script>
 
 	<?php include('cta-demo3.php'); ?>
 

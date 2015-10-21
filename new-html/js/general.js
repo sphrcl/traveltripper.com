@@ -113,8 +113,8 @@ $(document).ready(function(){
 	
 	var moving = function() {
 		if ($('.modmove').hasClass('modmove')) {
-		var getheight = $('#bigmain').height();
-		var getheight2 = $('#digital-marketing').height();
+		var getheight = $('#main').height();
+		var getheight2 = $('#bigmain').height();
 		wholeheight = getheight + getheight2;
 
 		var thiss = $('.modmove'),
@@ -223,7 +223,7 @@ $(document).ready(function(){
 
 		if ($('.modmovecontent').hasClass('modmovecontent')) {
 			margin = 40;
-			paddingcontainer = 50;
+			paddingcontainer = 100;
 			paddingmod = 40;
 		} else if ($('.module2').hasClass('module2')) {
 			margin = 40;
@@ -272,6 +272,9 @@ $(document).ready(function(){
 		// mw >= bw : the user is seeing the stickybox. Check if the user is still seeing it, return true.
 		if ((bw >= mh) && (mw >= bw)) {
 			if ((calcbwmw < forbwmw)) {
+				if ($('.modmove').hasClass('modmove')) {
+					carrythiss.css('bottom', 'auto');
+				}
 				carrythiss.css('top', forbwmw);
 			} else if ((calcbwmw > wm) && (calcbwmw > forbwmw)) {
 				carrythiss.css('top', wm);
