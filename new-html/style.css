@@ -3486,6 +3486,10 @@ ul.checklist li {
 	max-width: 340px;
 }
 
+.template-webmobile .flexslider .slides img {
+	width: auto !important;
+}
+
 .webtext h1 {
 	font-size: 36px;
 	line-height: 48px;
@@ -4245,11 +4249,12 @@ span.dm-up {
 
 .flex-direction-nav .flex-prev {
 	background: url('images/trav-flex-left.png') no-repeat scroll 0 0 transparent;
-	
+	left: 0 !important;
 }
 
 .flex-direction-nav .flex-next {
 	background: url('images/trav-flex-right.png') no-repeat scroll 0 0 transparent;
+	right: 0 !important;
 }
 
 .flex-direction-nav a::before {

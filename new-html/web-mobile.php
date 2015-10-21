@@ -230,7 +230,7 @@ include('header.php');
 
 	<div id="webmobilelayer4" class="webmobilelayer">
 	
-		<div class="container">
+		<!-- <div class="container">
 		<div class="subcontainer">
 			
 			<h1>Featured Clients</h1>
@@ -257,7 +257,70 @@ include('header.php');
 			
 		</div>
 		</div>
-		
+ -->
+ 
+	<div class="flexslider">
+		<ul class="slides">
+			<li>
+				<div class="container">
+					<div class="subcontainer">
+						
+						<h1>Featured Clients</h1>
+						
+						<div class="col_sec one">
+							<div class="spacing">
+								<div class="webfeattable">
+									<div class="webfeatcell">
+										<img src="images/westhouse-logo.png" />
+										<p class="one">Westhouse Hotel New York</p>
+										<p class="two">201 West 55th Street New York, NY 10019</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						
+						<div class="col_sec two">
+							<div class="spacing">
+								<img src="images/feat-westhouse.png" />
+							</div>
+						</div>
+						
+						<div class="clear"></div>
+						
+					</div>
+				</div>
+			</li>
+			<li>
+				<div class="container">
+					<div class="subcontainer">
+						
+						<h1>Featured Clients</h1>
+						
+						<div class="col_sec one">
+							<div class="spacing">
+								<div class="webfeattable">
+									<div class="webfeatcell">
+										<img src="images/westhouse-logo.png" />
+										<p class="one">Westhouse Hotel New York</p>
+										<p class="two">201 West 55th Street New York, NY 10019</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						
+						<div class="col_sec two">
+							<div class="spacing">
+								<img src="images/feat-westhouse.png" />
+							</div>
+						</div>
+						
+						<div class="clear"></div>
+						
+					</div>
+				</div>
+			</li>
+			
+		</ul>
 	</div>
 	
 	<?php include('cta-demo3.php'); ?>

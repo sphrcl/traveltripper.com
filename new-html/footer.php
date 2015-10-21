@@ -59,13 +59,21 @@
 		</div>
 
 	</div> <!-- #wrapper -->
-
+	<script defer src="js/jquery.flexslider.js"></script>
 	<script type="text/javascript">
 		var skrolling = skrollr.init({
 			forceHeight: false,
 		});
 		
 		skrolling.refresh($('.left'));
+		
+
+		$(window).load(function() {
+			$('.flexslider').flexslider({
+				animation: "slide",
+				itemMargin: 5
+			});
+		});
 	</script>
 	
 </body>
