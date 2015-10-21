@@ -349,7 +349,22 @@ $(document).ready(function(){
 	}
 	
 	
+	// SIDEBAR
 	
+	$('.widget_archive').addClass('dropdownwidget');
+	
+	$('.dropdownwidget ul').css('display', 'none');
+	
+	$('.dropdownwidget').click(function() {
+		var thisdrop = $(this);
+		if(!$(this).hasClass('dropped')) {
+			thisdrop.find('ul').slideDown();
+			thisdrop.addClass('dropped');
+		} else {
+			thisdrop.find('ul').slideUp();
+			thisdrop.removeClass('dropped');
+		}
+	});
 	
 	
 });

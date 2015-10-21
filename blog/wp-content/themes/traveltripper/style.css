@@ -2659,6 +2659,9 @@ h2.blogtitle a:hover,
   text-transform: uppercase;
 }
 
+.dropdownwidget { cursor: pointer;}
+.dropdownwidget .widgettitle { margin: 0 0 -1px;}
+
 .widgets .textwidget h3 {
   padding: 20px 20px 20px 40px;
   font-size: 18px;
