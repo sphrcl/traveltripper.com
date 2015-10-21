@@ -1328,8 +1328,7 @@ li.mobcase {
 	width: 300px;
 	padding: 20px;
 	right: 20px;
-	top: auto;
-	bottom: 60px;
+	top: 50px;
 	z-index: 999;
 	border-radius: 20px;
 	border: 1px solid #ccc;
@@ -1350,8 +1349,8 @@ li.mobcase {
 .modmove h2 {
 	float: left;
     color: #ec9103;
-    font-size: 23px !important;
-    font-weight: 700 !important;
+    font-size: 23px;
+    font-weight: 700;
 }
 
 .modmove p {
@@ -1412,10 +1411,6 @@ li.mobcase {
 	width: 380px;
 	z-index: 1;
 	position: relative;
-}
-
-.dmtext a.button1 {
-	font-size: 13px;
 }
 
 .dmlogos {
@@ -2444,9 +2439,7 @@ h2.blogtitle,
 
 h1.blogtitle,
 h2.blogtitle,
-.entry h1, 
-.entry h2,
-.entry h3 {
+.entry h2 {
   color: #363636;
 }
 
