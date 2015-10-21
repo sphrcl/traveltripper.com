@@ -31,7 +31,7 @@ and (max-width : 1599px) {
 
 	/* BOOKING ENGINE */
 	
-	.module3 { display: none;}
+	/*.module3 { display: none;}*/
 	
 	#page-layer-1 .col_one_half.right .spacing { padding: 0 40px 0 0; max-width: 500px;}
 	
