@@ -1328,7 +1328,8 @@ li.mobcase {
 	width: 300px;
 	padding: 20px;
 	right: 20px;
-	top: 50px;
+	top: auto;
+	bottom: 60px;
 	z-index: 999;
 	border-radius: 20px;
 	border: 1px solid #ccc;
@@ -1349,8 +1350,8 @@ li.mobcase {
 .modmove h2 {
 	float: left;
     color: #ec9103;
-    font-size: 23px;
-    font-weight: 700;
+    font-size: 23px !important;
+    font-weight: 700 !important;
 }
 
 .modmove p {
