@@ -15,7 +15,8 @@ include('header.php');
 		<div class="container">
 	
 			<h2><?php echo $pagetitle; ?></h2>
-		
+			<p>Discover the latest hospitality trends, research, and analysis from Travel Tripper</p>	
+
 		</div>
 		
 	</div>
