@@ -37,6 +37,28 @@
 	
 	</div>
 	
+	
+	<div class="widgets">
+		<h3 class="widgettitle">Featured Posts</h3>
+		
+		<ul>
+			<?php
+				
+				$args = array(
+					'cat' => 11,
+					'posts_per_page' => 5,
+				);
+			
+				$the_query = new WP_Query( $args );
+				
+				if ( $the_query->have_posts() ) { while ( $the_query->have_posts() ) { $the_query->the_post(); ?>
+				
+				<li><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></li>
+				
+			<?php }} wp_reset_postdata(); ?>
+		</ul>
+	</div>
+	
 	<?php if ( !function_exists('dynamic_sidebar')
 			|| !dynamic_sidebar('Sidebar') ) : ?>
 	<?php endif; ?>  
