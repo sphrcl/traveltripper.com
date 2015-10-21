@@ -34,7 +34,7 @@ Template Name: Blog
 					</a>
 					
 					<h2 class="blogtitle"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
-					<?php the_excerpt(); ?>
+					<p><?php echo excerpt(30); ?></p>
 					<div class="meta">
 						<span class="author">by <a href="<?php echo get_author_posts_url( get_the_author_meta( 'ID' ) ); ?>"><?php the_author_meta('display_name'); ?></a></span>
 						<span class="blogdate"><?php the_time('F j, Y') ?></span>
