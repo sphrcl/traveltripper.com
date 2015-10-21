@@ -3497,8 +3497,8 @@ ul.checklist li {
 	max-width: 340px;
 }
 
-.template-webmobile .flexslider .slides img {
-	width: auto !important;
+.featuredslider {
+	position: relative;
 }
 
 .webtext h1 {

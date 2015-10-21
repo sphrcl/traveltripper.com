@@ -3546,6 +3546,10 @@ ul.checklist li {
 	max-width: 340px;
 }
 
+.featuredslider {
+	position: relative;
+}
+
 .webtext h1 {
 	font-size: 36px;
 	line-height: 48px;

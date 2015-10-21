@@ -22,6 +22,10 @@ $(document).ready(function(){
 		directionNav: false
 	});
 	
+	$('.featuredslider').flexslider({
+		animation: "slide",
+	});
+	
 	// MOBILE NAV
 	
 	$('.openme').click(function() { $('#mobhead').addClass('active'); });
