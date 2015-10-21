@@ -2429,12 +2429,10 @@ img.featured-image {
   margin-bottom: 20px;
 }
 
-h1.blogtitle, 
-h2.blogtitle, 
+h1.blogtitle,
+h2.blogtitle,
 .entry h1, 
-.entry h2,
-.entry h3,
-.entry blockquote {
+.entry h2 {
   font-size: 30px;
   line-height: 40px;
   font-weight: 500;
@@ -2448,8 +2446,17 @@ h2.blogtitle,
   color: #363636;
 }
 
+.entry h3,
 .entry blockquote {
+	font-size: 36px;
+	line-height: 48px;
 	color: #34a4d9;
+	font-weight: 300;
+	letter-spacing: -0.01em;
+	margin-bottom: 20px;
+}
+
+.entry blockquote {
 	width: 75%;
 }
 
