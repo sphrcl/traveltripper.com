@@ -112,7 +112,7 @@
 				<div class="closeme"><i class="fa fa-times"></i></div>
 				
 				<ul class="mainsubs">
-					<li><a href="index.php">Home</a></li>
+					<li><a href="http://www.traveltripper.com.php54-4.ord1-1.websitetestlink.com/new-html/">Home</a></li>
 					<?php wp_nav_menu( array( 'theme_location' => 'primary',  'items_wrap' => '%3$s', 'container' => '' ) ); ?>
 					<li class="mobcase"><a class="mc-left" href="login.php">Login</a><a class="mc-right" href="#">Demo Engine</a></li>
 				</ul>
