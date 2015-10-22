@@ -760,6 +760,51 @@ li.mobcase {
 }
 
 
+
+/* 404 & SEARCH PAGE */
+
+.entry .toph1 {
+	color: #249FCD;
+	margin: 100px 0 10px
+}
+
+.entry .lowh1 {
+	color: #249FCD;
+	margin: 0 0 20px;
+}
+
+.entry .lowp { padding: 0 0 40px;}
+
+.getthesearch input {
+	background: #FFF url("images/search.png") no-repeat scroll 98% center;
+	color: #828282;
+	padding: 8px 25px;
+	border-radius: 20px;
+	font-weight: 300;
+	font-size: 17px;
+	line-height: 20px;
+	border: 1px solid #1594D1;
+	width: 100%;
+	max-width: 50%;
+	box-sizing: border-box;
+}
+
+.errorpage .entry,
+.searchee .entry.fullwidth {
+	text-align: center;
+}
+
+.errorpage .getthesearch {
+	margin: 40px 0 0;
+}
+
+
+
+
+
+
+/* HOMEPAGE */
+
 #main, #bigmain {
     background: #fff;
 }

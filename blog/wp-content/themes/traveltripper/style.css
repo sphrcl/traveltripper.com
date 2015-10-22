@@ -738,44 +738,41 @@ li.mobcase {
 }
 
 
-/* 404 PAGE */
+/* 404 & SEARCH PAGE */
 
-.errorpage,
-.errorpage .container,
-.errorpage .subcontainer {
-	height: 100%;
+.entry .toph1 {
+	color: #249FCD;
+	margin: 100px 0 10px
 }
 
-.errorpage .subcontainer {
-	padding: 0 50px;
-	position: relative;
+.entry .lowh1 {
+	color: #249FCD;
+	margin: 0 0 20px;
 }
 
-.errorbox {
-	text-align: center;
-	position: absolute;
-	left: 0;
+.entry .lowp { padding: 0 0 40px;}
+
+.getthesearch input {
+	background: #FFF url("images/search.png") no-repeat scroll 98% center;
+	color: #828282;
+	padding: 8px 25px;
+	border-radius: 20px;
+	font-weight: 300;
+	font-size: 17px;
+	line-height: 20px;
+	border: 1px solid #1594D1;
 	width: 100%;
-	top: 50%;
-	transform: translateY(-50%);
-	-webkit-transform: translateY(-50%);
-	-moz-transform: translateY(-50%);
-	-o-transform: translateY(-50%);
+	max-width: 50%;
+	box-sizing: border-box;
 }
 
-.errorbox h1 {
-	font-size: 100px;
-	margin: 0 0 30px;
+.errorpage .entry,
+.searchee .entry.fullwidth {
+	text-align: center;
 }
 
-.errorbox p {
-	font-size: 24px;
-	line-height: 1;
-	padding: 0 0 10px;
-}
-
-.error404 #footer {
-	display: none;
+.errorpage .getthesearch {
+	margin: 40px 0 0;
 }
 
 
@@ -784,6 +781,7 @@ li.mobcase {
 
 
 
+/* HOMEPAGE */
 
 
 #main, #bigmain {
@@ -2422,6 +2420,10 @@ li.mobcase {
 .entry {
   max-width: 650px;
   margin-bottom: 60px;
+}
+
+.entry.fullwidth {
+	max-width: none;
 }
 
 #mainblog.singlepost .entry {

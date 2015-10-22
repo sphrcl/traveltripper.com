@@ -6,15 +6,16 @@ Search Result Template
 
 <?php get_header(); ?>   
 
-<div id="mainblog" class="searchee">
+	<div id="mainblog" class="searchee">
 	
 		<div class="container">
+		<div class="subcontainer">
 	
 			<div class="blogcontent">
 				
+				<?php if(have_posts()) { ?>
 				<h1 class="searchtitle"><?php printf( __( 'Seach Results: "%s"', 'misfitlang' ), get_search_query() ); ?></h1>
-				
-				<h2 class="title"><?php single_cat_title(); ?></h2>
+				<?php } ?>
 			
 				<?php			
 				if(have_posts()) : while(have_posts()) : the_post(); 
@@ -56,10 +57,18 @@ Search Result Template
 				
 				<?php else : ?>
 				
-				<div class="entry nothing">
-
-                    <h1><?php printf( __( 'Nothing found for "%s"', 'misfitlang' ), get_search_query() ); ?></h1>
-                    <div class="clear"></div>
+				<div class="entry fullwidth">
+				
+					<h1 class="toph1">Sorry!</h1>
+					<h1 class="lowh1"><?php printf( __( 'There is nothing found for "%s"', 'misfitlang' ), get_search_query() ); ?></h1>
+					
+					<p class="lowp">Please search again or head back to the <a href="#">homepage.</a></p>
+					
+					<div class="getthesearch">
+						<?php get_search_form(); ?>
+					</div>
+					
+					
                     
 				</div>
 				
@@ -98,35 +107,10 @@ Search Result Template
 			<div class="clear"></div>
 		
 		</div>
-		
-		
-		
-	</div>
-	
-	<div id="calltoaction2">
-		<div class="container">
-		
-			<div class="col_one_fourth">
-				<h3>Book more. Be direct.</h3>
-			</div>
-			
-			<form name="" action="#" method="get">
-
-				<div class="col_one_fourth">
-					<input type="text" name="name" value="" placeholder="NAME">
-				</div>
-				
-				<div class="col_one_fourth">
-					<input type="text" name="email" value="" placeholder="E-MAIL ADDRESS">
-				</div>
-			
-			</form>
-			
-			<div class="col_one_fourth">
-				<a class="button3" href="#">REQUEST A DEMO</a>
-			</div>
-
 		</div>
+	
+		<?php include('cta-demo3.php'); ?>
+	
 	</div>
 
 		
