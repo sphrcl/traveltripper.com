@@ -389,7 +389,7 @@ strong {
 
 li.menu-item-2333 { background: url(images/icon-crs-distribution.png) no-repeat center right;}
 li.menu-item-3687 { background: url(images/icon-booking-engine.png) no-repeat center right;}
-li.menu-item-3181 { background: url(images/icon-web-mobile.png) no-repeat center right;}
+li.menu-item-3691 { background: url(images/icon-web-mobile.png) no-repeat center right;}
 li.menu-item-2332 { background: url(images/icon-digital-marketing.png) no-repeat center right;}
 li.menu-item-2334 { background: url(images/icon-revenue-management.png) no-repeat center right;}
 	
@@ -503,11 +503,11 @@ li.menu-item-2334 { background: url(images/icon-revenue-management.png) no-repea
 }
 #mobhead.active .subcontainer { right: 0;}
 
-#mobhead ul.subbies {
+#mobhead ul.sub-menu {
 	padding: 10px 0 0 15px;
 }
 
-ul.subbies li {
+ul.sub-menu li {
 	padding: 10px 0;
 }
 
@@ -535,7 +535,7 @@ li.sub-revup { background: url(images/icon-revenue-management.png) no-repeat rig
 	padding: 21px 20px 21px 30px;
 }
 
-.mainsubs > li:nth-last-child(2) { border-bottom: 0 none;}
+/*.mainsubs > li:nth-last-child(2) { border-bottom: 0 none;}*/
 
 @-moz-document url-prefix() {
 	.mainsubs > li {

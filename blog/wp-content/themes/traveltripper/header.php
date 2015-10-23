@@ -91,7 +91,7 @@
 				
 				<div class="rightnav">
 					<ul>
-						<li class="demo-login"><a href="login.php">Login</a></li>
+						<!-- <li class="demo-login"><a href="login.php">Login</a></li> -->
 						<li class="demo-engine"><a href="#">Demo Engine</a></li>
 
 					</ul>
