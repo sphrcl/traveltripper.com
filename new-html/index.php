@@ -133,14 +133,14 @@ include('header.php');
 							data-anchor-target=".bkcnt1"
 							data-0-top-top="opacity: 1;"
 							data-0-top-bottom="opacity: 0;"
-						><img src="images/homepage-booking-engine.png" /></div>
+						><img src="images/homepage-booking-engine-parallax.png" /></div>
 						
 						
 						<div class="bkimg"
 							data-anchor-target=".bkcnt2"
 							data-0-bottom-bottom="opacity: 0;"
 							data-0-center-top="opacity: 1;"
-						><img src="images/homepage-web-and-engine.png" /></div>
+						><img src="images/homepage-website-parallax.png" /></div>
 					</div>
 
 					<div class="right">
@@ -181,12 +181,12 @@ include('header.php');
 				<ul class="slides">
 					<li class="one">
 						<h2>Booking Engine</h2>
-						<img src="images/homepage-booking-engine.png" />
+						<img src="images/homepage-booking-engine-parallax.png" />
 						<p>A powerful booking platform becomes even stronger with a beautiful website. Travel Tripper Web, our new cloud web and booking platform, allows you or your design agency to create stunning responsive websites that are perfectly optimized across desktop and mobile devices. Dynamic rate integration with Travel Tripper CRS and booking engine makes managing e-commerce a breeze.</p>
 					</li>
 					<li class="two">
 						<h2>Web &amp; Mobile</h2>
-						<img src="images/homepage-web-and-engine.png" />
+						<img src="images/homepage-website-parallax.png" />
 						<p>A powerful booking platform becomes even stronger with a beautiful website. Travel Tripper Web, our new cloud web and booking platform, allows you or your design agency to create stunning responsive websites that are perfectly optimized across desktop and mobile devices. Dynamic rate integration with Travel Tripper CRS and booking engine makes managing e-commerce a breeze.</p>
 					</li>
 				</ul>
