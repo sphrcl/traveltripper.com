@@ -61,8 +61,8 @@ include('header.php');
 							<p>Directly connect to major metasearch sites, including TripAdvisor, Kayak, Trivago, and more</p>
 						</li>
 						<li class="icon44-pci">
-							<h5>PCI COMPLIANT</h5>
-							<p>Travel Tripper is fully certified and meets all international PCI data security standards</p>
+							<h5>VERSATILE PRICING</h5>
+							<p>Manage rates easily and intelligently through our dynamic pricing module</p>
 						</li>
 					</ul>
 				</div>
