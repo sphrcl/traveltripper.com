@@ -16,7 +16,7 @@
 		</div>
 		
 		<div class="ctabox three">
-			<a href="http://try.traveltripper.com/request-demo/">DEMO ENGINE</a>
+			<a href="http://try.traveltripper.com/request-demo/">REQUEST A DEMO</a>
 		</div>
 		
 		<div class="clear"></div>
