@@ -21,7 +21,7 @@ include('header.php');
 				and maximize revenue for your hotel
 			</p>
 			
-			<a class="button1" href="#">REQUEST A DEMO &nbsp; <i class="fa fa-angle-right"></i></a>
+			<a class="button1" href="http://try.traveltripper.com/request-demo/">REQUEST A DEMO &nbsp; <i class="fa fa-angle-right"></i></a>
 
 		</div>
 		</div>
@@ -49,7 +49,7 @@ include('header.php');
 		
 				<div class="col_one_third">
 					<div class="spacing">
-						<img src="images/icon-blue-crs.png" alt="crs" />
+						<img src="images/travel-tripper-booking-engine.jpg" alt="crs" />
 						<h4>CRS &amp; Distribution</h4>
 						<p>
 							Travel Tripper CRS is your most powerful tool in managing room rates, inventory, and reservations. 
