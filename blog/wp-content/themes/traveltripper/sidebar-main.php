@@ -25,9 +25,9 @@
 	<div class="widgets social">
 		
 		<ul>
-			<li><a target="_blank" href="https://twitter.com/intent/tweet?url=<?php echo $encode_url; ?>&text=<?php echo $encode_title; ?>&hashtags=bedirect&via=Travel_Tripper"><i class="fa fa-twitter"></i></a></li>
-			<li><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?&u=<?php echo $encode_url; ?>&display=popup"><i class="fa fa-facebook-square"></i></a></li>
-			<li><a target="_blank" href="https://www.linkedin.com/shareArticle?mini=true&url=<?php echo $encode_url; ?>&title=<?php echo $encode_title; ?>&summary=<?php echo $encode_summary ?>&source=traveltripperblog"><i class="fa fa-linkedin"></i></a></li>
+			<li><a target="_blank" href="https://twitter.com/Travel_Tripper"><i class="fa fa-twitter"></i></a></li>
+			<li><a target="_blank" href="https://www.facebook.com/traveltripper"><i class="fa fa-facebook-square"></i></a></li>
+			<li><a target="_blank" href="https://www.linkedin.com/company/travel-tripper"><i class="fa fa-linkedin"></i></a></li>
 		</ul>
 		
 	</div>
