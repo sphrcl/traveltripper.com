@@ -1134,6 +1134,8 @@ and (max-width : 767px) {
 	
 	/* HOMEPAGE */
 	
+	.bigmaincontain { display: none;}
+	
 	.servicesbox img {
 		position: absolute;
 		left: 0;

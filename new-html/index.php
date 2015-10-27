@@ -138,7 +138,8 @@ include('header.php');
 						
 						<div class="bkimg"
 							data-anchor-target=".bkcnt2"
-							data-0-bottom-bottom="opacity: 0;"
+							data-0-bottom-top="opacity: 0;"
+							data-0-bottom-bottom="opacity: 1;"
 							data-0-center-top="opacity: 1;"
 						><img src="images/homepage-website-parallax.png" /></div>
 					</div>
