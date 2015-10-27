@@ -52,7 +52,7 @@ include('header.php');
 					<h2>76%</h2>
 					<div class="modulecontent3">
 						<p>Find out how Mayfair Hotel &amp; Spa in Miami increased direct bookings by 76% with Travel Tripper’s booking engine.</p>
-						<a href="#">LEARN MORE</a>
+						<a href="http://try.traveltripper.com/mayfair-case-study/">LEARN MORE</a>
 					</div>
 				</div>
 			</div>

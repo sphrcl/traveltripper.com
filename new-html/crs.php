@@ -99,7 +99,7 @@ include('header.php');
 					<h2>84%</h2>
 					<div class="modulecontent2">
 						<p>Find out how Mayfair Hotel &amp; Spa in Miami increased website revenue by 84% after switching to Travel Tripper CRS.</p>
-						<a href="#">LEARN MORE</a>
+						<a href="http://try.traveltripper.com/mayfair-case-study/">LEARN MORE</a>
 					</div>
 				</div>
 			</div>
