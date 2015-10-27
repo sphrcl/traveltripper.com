@@ -79,19 +79,19 @@
 				<div class="navigation">
 					<ul class="main-nav">
 						<li>
-							<a title="Solutions" href="solutions.php" class="<?php if($basename == 'solutions') { ?>active-page<?php } ?>">Solutions</a>
+							<a href="solutions.php" class="<?php if($basename == 'solutions') { ?>active-page<?php } ?>">Solutions</a>
 							<ul class="subnavigation">
-								<li class="icon-crs-distribution"><a title="CRS &amp; Distribution" href="crs.php">CRS &amp; Distribution</a></li>
-								<li class="icon-booking-engine"><a title="Booking Engine" href="booking-engine.php">Booking Engine</a></li>
-								<li class="icon-web-mobile"><a title="Web &amp; Mobile" href="web-mobile.php">Web &amp; Mobile</a></li>
-								<li class="icon-digital-marketing"><a title="Digital Marketing" href="digital-marketing.php">Digital Marketing</a></li>
-								<li class="icon-revenue-management"><a title="Revenue Management" href="revup.php">Revenue Management</a></li>
+								<li class="icon-crs-distribution"><a href="crs.php">CRS &amp; Distribution</a></li>
+								<li class="icon-booking-engine"><a href="booking-engine.php">Booking Engine</a></li>
+								<li class="icon-web-mobile"><a href="web-mobile.php">Web &amp; Mobile</a></li>
+								<li class="icon-digital-marketing"><a href="digital-marketing.php">Digital Marketing</a></li>
+								<li class="icon-revenue-management"><a href="revup.php">Revenue Management</a></li>
 
 							</ul>
 						</li>
-						<li><a title="Resources" href="resources.php" class="<?php if($basename == 'resources') { ?>active-page<?php } ?>">Resources</a></li>
-						<li><a title="Blog" href="/blog" class="<?php if($basename == 'blog') { ?>active-page<?php } ?>">Blog</a></li>
-						<li><a title="About Us" href="aboutus.php" class="<?php if($basename == 'aboutus') { ?>active-page<?php } ?>">About Us</a></li>
+						<li><a href="resources.php" class="<?php if($basename == 'resources') { ?>active-page<?php } ?>">Resources</a></li>
+						<li><a href="/blog" class="<?php if($basename == 'blog') { ?>active-page<?php } ?>">Blog</a></li>
+						<li><a href="aboutus.php" class="<?php if($basename == 'aboutus') { ?>active-page<?php } ?>">About Us</a></li>
 					</ul>
 				</div>
 

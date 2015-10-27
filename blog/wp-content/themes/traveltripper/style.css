@@ -379,7 +379,7 @@ strong {
   display: block;
   line-height: 40px;
   border-bottom: 2px solid #c0c0c0;
-  padding-right: 40px;
+  padding: 0 40px 0 0;
   text-align: left;
 }
 
@@ -403,7 +403,7 @@ li.menu-item-2334 { background: url(images/icon-revenue-management.png) no-repea
 
 #header .rightnav ul li {
   display: inline-block;
-  margin: 0 15px;
+  margin: 0 5px;
   line-height: 60px;
 }
 
@@ -415,8 +415,9 @@ li.menu-item-2334 { background: url(images/icon-revenue-management.png) no-repea
   line-height: 24px;
   letter-spacing: 0.05em;
   font-family: MuseoSans;
-  font-weight: 500;
+  font-weight: 300;
   text-align: center;
+  opacity: 1;
 }
 
 .demo-login a { width: 70px;}
@@ -424,7 +425,7 @@ li.menu-item-2334 { background: url(images/icon-revenue-management.png) no-repea
 
 	#header .rightnav ul li a:hover {
 	  color: #ec9103;
-	  font-weight: 900;
+	  opacity: 0.75;
 	}
 
 #header .rightnav ul li.demo-engine a {
