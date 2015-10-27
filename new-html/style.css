@@ -1237,11 +1237,11 @@ li.mobcase {
 .topgraph {
 	opacity: 0;
 	padding: 0 0 0 15px;
-	transition: all 0.8s ease 2.3s;
-	-webkit-transition: all 0.8s ease 2.3s;
-	-moz-transition: all 0.8s ease 2.3s;
-	-o-transition: all 0.8s ease 2.3s;
-	-ms-transition: all 0.8s ease 2.3s;
+	transition: all 0.8s ease .5s;
+	-webkit-transition: all 0.8s ease .5s;
+	-moz-transition: all 0.8s ease .5s;
+	-o-transition: all 0.8s ease .5s;
+	-ms-transition: all 0.8s ease .5s;
 }
 	.graphics.active .topgraph { opacity: 1;     position: relative;
     z-index: 2; }
@@ -2982,7 +2982,8 @@ li.icon44-pci:before {
   content: '';
   background: url(images/check.png) no-repeat;
   width: 18px;
-  height: 15px;
+  height: 12px;
+  
   display: inline-block;
   margin-right: 5px;
   margin-left: -23px;
@@ -3282,7 +3283,7 @@ ul.checklist li {
   content: '';
   background: url(images/check.png) no-repeat;
   width: 18px;
-  height: 15px;
+  height: 12px;
   display: inline-block;
   margin-right: 8px;
   margin-left: -8px;
@@ -3334,7 +3335,7 @@ ul.checklist li {
   content: '';
   background: url(images/check.png) no-repeat;
   width: 18px;
-  height: 15px;
+  height: 17px;
   display: inline-block;
   margin-right: 8px;
 }
