@@ -393,11 +393,11 @@ strong {
 	  border: none;
 	}
 
-li.icon-crs-distribution { background: url("images/icon-crs-distribution.png") no-repeat center right;}
-li.icon-booking-engine { background: url("images/icon-booking-engine.png") no-repeat center right;}
-li.icon-web-mobile { background: url("images/icon-web-mobile.png") no-repeat center right;}
-li.icon-digital-marketing { background: url("images/icon-digital-marketing.png") no-repeat center right;}
-li.icon-revenue-management { background: url("images/icon-revenue-management.png") no-repeat center right;}
+li.icon-crs-distribution { background: url(images/icon-crs-distribution.png) no-repeat center right;}
+li.icon-booking-engine { background: url(images/icon-booking-engine.png) no-repeat center right;}
+li.icon-web-mobile { background: url(images/icon-web-mobile.png) no-repeat center right;}
+li.icon-digital-marketing { background: url(images/icon-digital-marketing.png) no-repeat center right;}
+li.icon-revenue-management { background: url(images/icon-revenue-management.png) no-repeat center right;}
 
 #header .rightnav {
   float: right;
@@ -534,11 +534,11 @@ ul.subbies li {
 	padding: 10px 0;
 }
 
-li.sub-crs { background: url("images/icon-crs-distribution.png") no-repeat right center transparent;}
-li.sub-booking { background: url("images/icon-booking-engine.png") no-repeat right center transparent;}
-li.sub-web { background: url("images/icon-web-mobile.png") no-repeat right center transparent;}
-li.sub-digital { background: url("images/icon-digital-marketing.png") no-repeat right center transparent;}
-li.sub-revup { background: url("images/icon-revenue-management.png") no-repeat right center transparent;}
+li.sub-crs { background: url(images/icon-crs-distribution.png) no-repeat right center transparent;}
+li.sub-booking { background: url(images/icon-booking-engine.png) no-repeat right center transparent;}
+li.sub-web { background: url(images/icon-web-mobile.png) no-repeat right center transparent;}
+li.sub-digital { background: url(images/icon-digital-marketing.png) no-repeat right center transparent;}
+li.sub-revup { background: url(images/icon-revenue-management.png) no-repeat right center transparent;}
 
 #mobhead a {
 	display: inline-block;
@@ -816,7 +816,7 @@ li.mobcase {
   height: 620px;
   width: 100%;
   position: relative;
-  background-image: url("images/travel-tripper-homepage.jpg");
+  background-image: url(images/travel-tripper-homepage.jpg);
 }
 
 #banner .container {
@@ -2540,7 +2540,7 @@ h2.blogtitle a,
   display: inline-block;
   width: 12px;
   height: 12px;
-  background-image: url("images/comment.png");
+  background-image: url(images/comment.png);
   background-repeat: no-repeat;
   vertical-align: bottom;
   margin-left: 3px;
@@ -2703,7 +2703,7 @@ h2.blogtitle a,
   padding: 20px;
 }
 .widgets.search input {
-  background: #fff url("images/search.png") no-repeat 148px center;
+  background: #fff url(images/search.png) no-repeat 148px center;
   color: #828282;
   padding: 8px 25px;
   border-radius: 20px;
@@ -2895,7 +2895,7 @@ ul.icon44 li {
 }
 
 ul.icon44 li:before {
-  background-image: url("images/icon44.png");
+  background-image: url(images/icon44.png);
   background-repeat: no-repeat;
   width: 44px;
   height: 44px;
@@ -2980,7 +2980,7 @@ li.icon44-pci:before {
 
 #crspricetool ul li h4:before {
   content: '';
-  background: url("images/check.png") no-repeat;
+  background: url(images/check.png) no-repeat;
   width: 18px;
   height: 12px;
   
@@ -3045,7 +3045,7 @@ ul.checklist li {
   padding: 8px 20px 8px 40px;
   border-radius: 10px;
   border: 1px solid #d4d4d4;
-  background: #fff url("images/check.png") no-repeat 10px;
+  background: #fff url(images/check.png) no-repeat 10px;
   color: #454545;
   font-size: 16px;
   letter-spacing: -0.005em;
@@ -3281,7 +3281,7 @@ ul.checklist li {
 
 #page-layer-2 ul li h4:before {
   content: '';
-  background: url("images/check.png") no-repeat;
+  background: url(images/check.png) no-repeat;
   width: 18px;
   height: 12px;
   display: inline-block;
@@ -3296,6 +3296,10 @@ ul.checklist li {
   font-weight: 100;
 }
 
+#page-layer-3 ul li p {
+    font-size: 14px;
+    line-height: 24px;
+}
 
 
 #page-layer-3 {
@@ -3325,17 +3329,17 @@ ul.checklist li {
 }
 
 #page-layer-3 ul li h3 {
-	font-size: 36px;
-	letter-spacing: 0.015em;
-	font-weight: 300;
-	margin: 0 0 5px;
+    padding-bottom: 10px;
+    font-size: 16px;
+    font-weight: 500;
+    text-indent: -2px;
 }
 
 #page-layer-3 ul li h3:before {
   content: '';
-  background: url("images/check.png") no-repeat;
+  background: url(images/check.png) no-repeat;
   width: 18px;
-  height: 17px;
+  height: 12px;
   display: inline-block;
   margin-right: 8px;
 }
@@ -3363,7 +3367,7 @@ ul.checklist li {
 
 #page-layer-4 h4:before {
   content: '';
-  background: url("images/check.png") no-repeat;
+  background: url(images/check.png) no-repeat;
   width: 18px;
   height: 15px;
   display: inline-block;
@@ -4057,11 +4061,11 @@ font-size: 14px;
 }
 
 ul.icon44 li.icon44-www:before {
-  background: url("images/icon44-www.png");
+  background: url(images/icon44-www.png);
 }
 
 ul.icon44 li.icon44-search:before {
-  background: url("images/icon44-search.png");
+  background: url(images/icon44-search.png);
 }
 
 #dm-layer-1 .dmlogos {
@@ -4078,7 +4082,7 @@ ul.icon44 li.icon44-search:before {
 }
 
 #dm-layer-2 {
-  background: url("images/dm-graph.jpg") no-repeat scroll right center transparent;
+  background: url(images/dm-graph.jpg) no-repeat scroll right center transparent;
   background-size: cover;
 }
 
@@ -4128,7 +4132,7 @@ ul.icon44 li.icon44-search:before {
 }
 
 span.dm-up {
-  background: url("images/up.png") no-repeat center;
+  background: url(images/up.png) no-repeat center;
   width: 19px;
   height: 37px;
   margin-left: 20px;
