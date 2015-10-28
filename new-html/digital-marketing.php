@@ -161,7 +161,7 @@ include('header.php');
 			<div class="bottombox one">
 				<div class="spacing">
 					<a href="crs.php">
-						<div style="background-image: url('images/bottomnav1.png');"></div>
+						<div style="background-image: url('images/travel-tripper-booking-engine.jpg');"></div>
 						<p>CRS &amp; Distribution</p>
 					</a>
 				</div>

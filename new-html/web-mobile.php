@@ -264,17 +264,17 @@ include('header.php');
 							<div class="spacing">
 								<div class="webfeattable">
 								<div class="webfeatcell">
-									<img src="images/westhouse-logo.png" />
-									<p class="one">Westhouse Hotel New York</p>
-									<p class="two">201 West 55th Street New York, NY 10019</p>
+									<img src="images/marker-logo.png" />
+									<p class="one">The Marker Waterfront Resort</p>
+									<p class="two">200 William Street, Key West, Florida 33040</p>
 								</div>
 								</div>
 							</div>
 						</div>
-						
+
 						<div class="col_sec two">
 							<div class="spacing">
-								<img src="images/feat-westhouse.png" />
+								<img src="images/feat-themarker.png" />
 							</div>
 						</div>
 						
@@ -298,7 +298,7 @@ include('header.php');
 			<div class="bottombox one">
 				<div class="spacing">
 					<a href="crs.php">
-						<div style="background-image: url('images/bottomnav1.png');"></div>
+						<div style="background-image: url('images/travel-tripper-booking-engine.jpg');"></div>
 						<p>CRS &amp; Distribution</p>
 					</a>
 				</div>
