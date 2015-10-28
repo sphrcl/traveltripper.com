@@ -1,0 +1,1752 @@
+
+/* ================================================  1600 - 0000  ================================================ */
+
+@media only screen 
+and (max-width : 1600px) {
+
+	/* BIG VIDEO */
+	
+	#big-video-vid {
+		height: 660px !important;
+		top: 20px !important;
+		left: 50% !important;
+		margin: 0px 0px 0px -830px;
+		width: 1660px !important;
+	}
+
+	#big-video-vid_html5_api {
+		height: 100% !important;
+	}
+	
+}
+
+
+
+
+
+/* ================================================  1599 - 0000  ================================================ */
+
+@media only screen 
+and (max-width : 1599px) {
+
+	/* BOOKING ENGINE */
+	
+	#page-layer-1 .col_one_half.right .spacing { padding: 0 40px 0 0; max-width: 500px;}
+	
+	
+}
+
+
+
+/* ================================================  1449 - 0000  ================================================ */
+
+@media only screen 
+and (max-width : 1449px) {
+
+	/* HOMEPAGE */
+	
+	#main .left { width: 40%;}
+	#main .right { width: 60%;}
+	
+	#bigmain .left { width: 40%;}
+	#bigmain .right { width: 60%;}
+
+}
+
+
+
+/* ================================================  1399 - 0000  ================================================ */
+
+@media only screen 
+and (max-width : 1399px) {
+
+	/* WEB & MOBILE */
+	
+	#webmobilelayer2 .webbox-two {
+		top: 150px;
+	}
+	
+	#webmobilelayer2 .webbox-two {
+		left: 52%;
+	}
+	
+	#webmobilelayer2 .webbox-two .webmid.one img {
+		max-width: 375px;
+		margin: 0 auto;
+	}
+	
+	#webmobilelayer2 .webbox-three {
+		bottom: auto;
+		top: 0;
+	}
+}
+
+
+
+/* ================================================  1365 - 0000  ================================================ */
+
+@media only screen 
+and (max-width : 1365px) {
+	
+	/* HOMEPAGE */
+	
+	#services.active .servicesbox::before {
+		width: 100px;
+	}
+	
+	
+	/* CRS */
+	
+	#crs-overview .container { padding: 0 0 40px;}
+	#crs-overview .subcontainer { padding: 0 50px;}
+	.module2 { display: none;}
+	
+	ul.checklist {
+		margin: 0 50px;
+	}
+	
+	
+	/* WEB & MOBILE */
+	
+	#webmobilelayer3 .webbox-one {
+		float: none;
+		width: 100%;
+		margin: 0 0 10px;
+	}
+	
+	#webmobilelayer3 .webbox-two {
+		float: none;
+		width: 100%;
+		max-width: 420px;
+	}
+	
+	.centerbarge.left { float: left;}
+	.centerbarge.right { float: right;}
+	
+	.centerbarge { width: 46%; margin: 0 0 30px;}
+	.centerbarge.three { margin: 0 0 30px;}
+	
+	
+	/* BOOKING ENGINE */
+	
+	#page-layer-3 .col_one_half.two .spacing {
+		padding: 60px 40px 0 0;
+	}
+	
+	
+	/* BLOG */
+	
+	.widgets .widgettitle {
+		padding: 20px 20px 20px 25px;
+	}
+	
+	.widgets ul {
+		padding: 30px 45px 10px 25px;
+	}
+	
+	.widgets.textwidget h3 {
+		padding: 20px 20px 20px 25px;
+	}
+	
+}
+
+
+
+/* ================================================  1280 - 0000  ================================================ */
+
+@media only screen 
+and (max-width : 1280px) {
+	
+	/* DIGITAL MARKETING */
+	
+	#dm-layer-1 .subcontainer { padding: 0 50px;}
+	#dm-layer-1 .col_one_fourth { width: 35%;}
+	#dm-layer-1 .col_three_fourth { width: 60%;}
+	
+	#dm-layer-2 {
+		background-size: 1440px auto;
+		background-position: -105px bottom;
+	}
+	#dm-layer-2 .col_one_fourth { width: 50%;}
+	
+	
+	#dm-layer-2 .col_one_half {
+		position: absolute;
+		width: 500px;
+		bottom: 30px;
+		right: 30px;
+	}
+	.dmstats { width: 240px;}
+	
+	
+	/* CTA DEMO - ctademo3 */
+	
+	#calltoaction.cta-demo3 .ctabox.two { width: 50%;}
+	#calltoaction.cta-demo3 .ctabox.three { width: 25%;}
+	
+	
+	/* CTA DEMO - NEWSLETTER */
+	
+	#calltoaction.cta-newsletter .ctabox.three .col_one_half.two .spacing { padding: 0 0 0 20px;}
+	#calltoaction.cta-newsletter .ctabox.three .col_one_half.one { width: 60%;}
+	#calltoaction.cta-newsletter .ctabox.three .col_one_half.two { width: 40%;}
+
+}
+
+
+
+/* ================================================  1279 - 0000  ================================================ */
+
+@media only screen 
+and (max-width : 1279px) {
+	
+	/* CRS */
+	
+	#crs-overview .col_one_third {
+		margin: 0px 0px 20px;
+		width: auto;
+		max-width: 65%;
+	}
+	
+	#crs-overview .col_two_third { width: 100%;}
+	
+	#crspricetool .col_one_third { width: 50%;}
+	#crspricetool .col_two_third { width: 50%;}
+	
+	#crspmsrms .col_one_third { width: 50%; margin: 0 0 30px;}
+	#crspmsrms .col_two_third { width: 100%;}
+	
+	ul.checklist {
+		margin: 0 25px;
+	}
+	
+	
+	/* BOOKING ENGINE */
+	
+	#page-layer-3 .col_one_half.two .spacing {
+		padding: 0 40px 0 0;
+	}
+	
+	/* DIGITAL MARKETING */
+	
+	.module4 { display: none;}
+	
+	
+	/* RESOURCES */
+	
+	#resourceslist .resourcebox {
+		width: 33.33%;
+	}
+	
+	
+	/* ABOUT US */
+	
+	#aboutmain .strategic .subcontainer,
+	#aboutmain .leadership .subcontainer,
+	#aboutmain .different .subcontainer,
+	#aboutmain .working .subcontainer { padding: 0 50px;}
+	
+	#aboutmain .pagesection h3 {
+		max-width: 90%;
+		margin: 0 0 30px;
+	}
+	
+	#aboutmain .strategic .col_one_fourth,
+	#aboutmain .leadership .col_one_fourth.one,
+	#aboutmain .different .col_one_fourth.one,
+	#aboutmain .working .col_one_fourth.one {
+		float: none;
+		width: auto;
+	}
+	
+	#aboutmain .strategic .col_one_half { width: 90%;}
+	
+	#aboutmain .leadership .col_three_fourth.two { width: 100%;}
+	
+	#aboutmain .different .col_one_fourth.two,
+	#aboutmain .different .col_one_fourth.three { width: 45%;}
+	
+	#aboutmain .working .col_one_fourth.two,
+	#aboutmain .working .col_one_fourth.three,
+	#aboutmain .working .col_one_fourth.four {
+		width: 33.33%;
+	}
+	
+	
+	/* CAREERS */
+	
+	#working .col_one_half { width: 65%;}
+	#positions .subcontainer > .col_one_half { width: 65%;}
+	
+	
+	/* CTA DEMO - ctademo2 */
+	
+	#calltoaction.cta-demo2 .ctabox.one { width: 33.5%; margin: 0 0 30px;}
+	#calltoaction.cta-demo2 .ctabox.two { width: 50%; margin: 0 0 30px;}
+	#calltoaction.cta-demo2 .ctabox.three { width: 100%;}
+	
+	#calltoaction.cta-demo2 .ctabox.three .col_one_half.one { width: 67%;}
+	#calltoaction.cta-demo2 .ctabox.three .col_one_half.two { width: 33%;}
+	
+	#calltoaction.cta-demo2 .ctabox.three .col_one_half.one .spacing { padding: 0 4% 0 0;}
+	#calltoaction.cta-demo2 .ctabox.three .col_one_half.two .spacing { padding: 0;}
+	
+	#calltoaction.cta-demo2 .ctabox.three .inione { width: 48%; float: left;}
+	#calltoaction.cta-demo2 .ctabox.three .initwo { width: 48%; float: right;}
+	
+	#calltoaction.cta-demo2 .ctabox.three .col_one_half.two input { width: 100%;}
+	
+}
+
+
+
+
+/* ================================================  1199 - 0000  ================================================ */
+
+@media only screen 
+and (max-width : 1199px) {
+	
+	/* HOMEPAGE */
+	
+	.modmob { display: block;}
+	.modmove { display: none;}
+	
+	#main .left { width: 50%;}
+	#main .right { width: 50%;}
+	
+	#bigmain .left { width: 50%;}
+	#bigmain .right { width: 50%;}
+	
+	.bkcnt-block { padding: 0 50px 0 15px;}
+	
+	.dmimg {
+		top: -20px;
+		width: 700px;
+	}
+	
+	.dmimg img {
+		position: absolute;
+		right: -100px;
+	}
+	
+	
+	/* WEB & MOBILE */
+	
+	#webmobilelayer2 .container {
+		padding: 50px 0;
+	}
+	
+	#webmobilelayer2 .webbox-one { max-width: 600px; width: auto; margin: 0 0 30px;}
+	#webmobilelayer2 .webbox-one .webtext.one { max-width: 100%;}
+	#webmobilelayer2 .webbox-one .webtext.two p { max-width: 100%;}
+	
+	#webmobilelayer2 .webbox-two,
+	#webmobilelayer2 .webbox-three { position: static; margin: 0;}
+	#webmobilelayer2 .webbox-two { float: left; width: 50%;}
+	#webmobilelayer2 .webbox-three { float: right; width: 48%;}
+	
+	
+	/* BIG VIDEO */
+	
+	#big-video-vid {
+		margin: 0px 0px 0px -800px;
+		width: 1600px !important;
+	}
+	
+	#big-video-vid_html5_api {
+		height: 100% !important;
+		width: 100% !important;
+	}
+	
+	
+	/* CTA DEMO - NEWSLETTER */
+	
+	#calltoaction.cta-newsletter .ctabox.one,
+	#calltoaction.cta-newsletter .ctabox.two { margin: 0 0 30px;}
+	#calltoaction.cta-newsletter .ctabox.two { width: 60%;}
+	#calltoaction.cta-newsletter .clear2 { display: block;}
+	
+	#calltoaction.cta-newsletter .ctabox .spacing { padding: 0;}
+	#calltoaction.cta-newsletter .ctabox.three { width: auto; float: none;}
+	
+	#calltoaction.cta-newsletter .ctabox.three .col_one_half.one,
+	#calltoaction.cta-newsletter .ctabox.three .col_one_half.two { width: 50%;}
+	
+}
+
+
+
+/* ================================================  1024 - 0000  ================================================ */
+
+@media only screen 
+and (max-width : 1024px) {
+	
+	
+	/* SOLUTIONS */
+	
+	#solutionsmain .solutionstabs1 .clear3 { display: none;}
+	#solutionsmain .solutionstabs1 .clear2 { display: block;}
+	
+	#solutionsmain .solutionstabs1 .col_one_third { width: 50%;}
+	
+	
+	/* BOOKING ENGINE */
+	
+	#page-layer-2 .col_one_half.right { width: 50%;}
+	
+}
+
+
+
+/* ================================================  1023 - 0000  ================================================ */
+
+@media only screen 
+and (max-width : 1023px) {
+	
+	/* PAGE BANNERS */
+	
+	#banner { height: 520px;}
+	
+	#pagebanner,
+	#bottombanner {
+		min-height: 520px;
+		height: auto;
+	}
+	
+	#banner h1, #banner h2,
+	#pagebanner h1, #pagebanner h2,
+	#bottombanner h1, #bottombanner h2 {
+		font-size: 36px;
+		line-height: 40px;
+		margin-bottom: 20px; 
+	}
+	
+	#pagebanner h3, #pagebanner h4,
+	#bottombanner h3, #bottombanner h4 {
+		font-size: 30px;
+		line-height: 34px;
+	}
+	
+	#pagebanner.contentright .container,
+	#bottombanner.contentright .container {
+		width: 50%;
+		margin: 0 30px 0 0;
+		padding: 120px 0 0;
+	}
+	
+	#banner p,
+	#pagebanner p,
+	#bottombanner p { line-height:  28px;}
+	
+	#pagebanner .container { padding: 120px 0 0;}
+	#pagebanner { background-position: 90% center;}
+	
+	.template-revup #pagebanner .container { padding: 120px 0 0;}
+	
+	#bottombanner.crs .container { padding: 245px 0px 0px;}
+	#bottombanner.crs .subcontainer { width: 70%;}
+	#bottombanner.crs { background-position: right bottom;}
+	#bottombanner.crs .spacing { padding: 0 30px 0 0;}
+	
+	
+	
+	/* HOMEPAGE */
+	
+	#services .container { padding: 30px 0;}
+	
+	#services .subcontainer { padding: 0 50px;}
+	
+	#main .subcontainer > h2 { display: block;}
+	
+	.servicesbox.one {
+		float: none;
+		width: 100%;
+	}
+	
+	.servicesbox.one {
+		border-bottom: 1px solid #fff;
+		margin: 0 0 30px;
+	}
+	
+	.servicesbox.one h3 {
+		margin: 0 auto;
+		text-align: center;
+		padding: 0 20px 30px;
+		font-weight: 300;
+	}
+	
+	.servicesbox.two,
+	.servicesbox.three,
+	.servicesbox.four {
+		width: 33.33%;
+	}
+	
+	#services.active .servicesbox::before {
+		width: 140px;
+	}
+	
+	
+	
+	#main .subcontainer { padding: 0 50px;}
+	#bigmain .subcontainer { padding: 0 50px;}
+	
+	#main .left,
+	#main .right {
+		float: none;
+		width: auto;
+	}
+	
+	#main .left {
+		margin: 0 0 50px;
+	}
+	
+	#main .right {
+		width: 90%;
+		border-bottom: 1px solid #303030;
+		margin: 0 auto;
+	}
+	
+	.topgraph {
+		padding: 0;
+	}
+	
+	.topgraph h2 { display: none;}
+	
+	.topgraph p {
+		text-align: left;
+	}
+	
+	.graphics {
+		padding: 0 0 20px;
+		height: 350px;
+		max-width: 775px;
+		margin: 0 auto;
+	}
+	.graphss {
+		background-size: auto 100%;
+		background-position: right bottom;
+		top: 0;
+		width: 100%;
+		height: 320px;
+		
+		opacity: 0;
+		transition: all 1.5s ease 2.3s;
+		-webkit-transition: all 1.5s ease 2.3s;
+		-moz-transition: all 1.5s ease 2.3s;
+		-o-transition: all 1.5s ease 2.3s;
+		-ms-transition: all 1.5s ease 2.3s;
+	}
+	.graphics.active .graphss { opacity: 1;}
+	
+	
+	#digital-marketing .container { padding: 30px 0;}
+	
+	.dmimg {
+		top: -20px;
+		width: 676px;
+	}
+	
+	.dmimg img {
+		position: absolute;
+		right: -150px;
+	}
+	
+	
+	/* CRS */
+	
+	#crs-overview .col_one_third { max-width: 100%; }
+	#crs-overview .spacing { padding-right: 0; }
+	#crs-overview h3 { font-size: 36px; line-height: 48px; }
+	
+	#crspricetool .subcontainer { padding: 0 50px;}
+	#crspricetool .col_one_third { width: 100%; float: none; }
+	
+	#crspricetool .col_two_third { width: 100%; float: none; }
+	#crspricetool .col_two_third img { max-width: 80%;}
+	
+	#crspmsrms .subcontainer { padding: 0 50px;}
+	#crspmsrms .col_one_third { width: 100%; float: none; margin: 0;}
+	#crspmsrms .spacing { padding: 0;}
+	
+	ul.checklist { margin: 20px 0;}
+	ul.checklist li { width: 25%;}
+	
+	
+	/* BOOKING ENGINE */
+	
+	.template-booking-engine #pagebanner .container {
+		width: 50%;
+		margin: 0;
+	}
+	
+	#page-layer-4 .subcontainer { padding: 0 50px;}
+	#page-layer-4 .col_one_fourth { width: 50%; margin: 0 0 30px;}
+	#page-layer-4 .col_one_fourth.pl1 .spacing { padding: 0 30px 0 0;}
+	#page-layer-4 .col_one_fourth.pl2 .spacing { padding: 0 0 0 30px;}
+	
+	#page-layer-4 .clear2 { display: block;}
+	
+	
+	/* WEB & MOBILE */
+	
+	
+	/* DIGITAL MARKETING */
+	
+	#dm-layer-1 .col_one_fourth { width: auto;}
+	#dm-layer-1 .col_one_fourth .spacing .pageuptitle-a { max-width: none;}
+	
+	ul.icon44 { overflow: hidden; padding: 0;}
+	ul.icon44 li { float: left; width: calc(33.33% - 10px); padding: 0 10px 0 0;}
+	
+	#dm-layer-1 .col_three_fourth { width: 100%;}
+	#dm-layer-1 .col_three_fourth img { width: 50%;}
+	
+	
+	
+	
+	/* BLOG */
+	
+	#mainblog.mainblog .container,
+	#mainblog.singlepost .container { padding: 0 50px;}
+	
+	#mainblog .subcontainer::before,
+	#mainblog .subcontainer::after {
+		display: none;
+	}
+	
+	.blogcontent {
+		width: 100%;
+		margin: 0 0 50px;
+	}
+	
+	.blogcontent .spacing {
+		padding: 0;
+	}
+	
+	.sidebar {
+		width: 100%;
+		margin: 0 0 20px;
+	}
+	
+	.widgets.search input {
+		background: url("../images/search.png") no-repeat 98% center #fff;
+		width: auto;
+		max-width: 90%;
+	}
+	
+	.widgets.social li:last-child a {
+		border-right: 1px solid #D3D3D3;
+	}
+	
+	
+	/* CTA DEMO - NEWSLETTER */
+	
+	#calltoaction.cta-newsletter .ctabox.one { width: auto; padding: 0 30px 0 0;}
+	#calltoaction.cta-newsletter .ctabox.two { width: 60%;}
+	
+	
+	
+	/* BLOG POST */
+	
+	#mainblog.singlepost .subcontainer {
+		padding: 0;
+	}
+	
+	.pagecontent { float: none; width: auto;}
+	.pagecontent .spacing { padding: 0;}
+	
+	#mainblog.singlepost .blogcontent .spacing {
+		padding: 0 0 0 90px
+	}
+	
+	#mainblog.singlepost .entry {
+		margin-bottom: 0;
+	}
+	
+	/* PAGE TEMPLATE */
+	
+	#mainpage .subcontainer { margin: 0; padding: 0 50px;}
+	
+	#mainpage .subcontainer::before,
+	#mainpage .subcontainer::after {
+		display: none;
+	}
+	
+	
+	/* FOOTER */
+	
+	#footer .subcontainer { padding: 0;}
+	
+	#footer .col_one_fourth { float: none; width: auto; text-align: center;}
+	
+	#footer .col_one_fourth.one .footernav img { max-width: 90%;}
+	
+	#footer .col_one_fourth.one .footernav { padding: 0; max-width: none;}
+	#footer .col_one_fourth.two .footernav { padding: 0;}
+	#footer .col_one_fourth.one .footernav p { padding: 0; margin: -40px 0 30px; text-align: center; }
+	
+	#footer ul { padding: 0 0 15px;}
+	
+	#footer .footeradd i { display: none;}
+	#footer .footeradd p { padding: 0;}
+	
+	#footer .footersocial { padding: 0;}
+	#footer .footersocial ul { padding: 20px 0;}
+	
+}
+
+
+
+/* ================================================  959 - 000  ================================================ */
+
+@media only screen 
+and (max-width : 959px) {
+	
+	/* NAVIGATION */
+	
+	.navigation { display: none;}
+	#header .rightnav { float: left;}
+	.openme { display: block;}
+	
+	#header .rightnav ul { padding: 0 0 0 5px;}
+	
+	
+	
+	
+	/* HOMEPAGE */
+	
+	.dmtext {
+		width: 375px;
+	}
+	
+	
+	/* CRS */
+	
+	ul.icon44 li { padding: 0;}
+	ul.checklist li { width: auto; padding: 0 10px 0 0;}
+	
+	
+	/* BOOKING ENGINE */
+	
+	#page-layer-3 .subcontainer { padding: 0;}
+	#page-layer-3 .col_one_half.one .spacing { margin: 0;}
+	#page-layer-3 .col_one_half.two .spacing { margin: 0 auto; padding: 0;}
+	
+	#page-layer-3 .col_one_half.one,
+	#page-layer-3 .col_one_half.two {
+		float: none;
+		width: auto;
+		max-width: 500px;
+	}
+	#page-layer-3 .col_one_half.one { margin: 0 auto 30px;}
+	#page-layer-3 .col_one_half.two { margin: 0 auto;}
+	
+	
+	/* WEB & MOBILE */
+	
+	#webmobilelayer1 .webbox-one { float: none; width: auto; margin: 0 0 30px;}
+	#webmobilelayer1 .webbox-one .webtext.one { max-width: none;}
+	#webmobilelayer1 .webbox-one .webtext.two { max-width: none;}
+	
+	#webmobilelayer1 .webbox-two { float: none; width: auto; text-align: center;}
+	#webmobilelayer1 .webbox-two img { max-width: 100%; width: 500px; margin: 0 0 0 -60px;}
+	
+	
+	#webmobilelayer2 .webbox-one { float: none; max-width: none; width: auto; margin: 0;}
+	#webmobilelayer2 .webbox-one .webtext.one { max-width: none;}
+	#webmobilelayer2 .webbox-one .webtext.two { max-width: none; margin: 0 0 10px;}
+	#webmobilelayer2 .webbox-one .webtext.two p { padding: 0;}
+	
+	#webmobilelayer2 .webbox-two { float: none; width: auto;}
+	#webmobilelayer2 .webbox-two .webmid.one { display: none;}
+	
+	#webmobilelayer2 .webbox-two .webmid.two .spacing { height: 170px;}
+	
+	#webmobilelayer2 .webbox-three { float: none; width: auto; max-width: 500px; margin: 0 auto;}
+	
+	
+	#webmobilelayer3 .webbox.one { float: none; width: auto; padding: 0 50px 0 0;}
+	#webmobilelayer3 .webbox.two {
+		float: right;
+		position: static;
+		width: 100%;
+		height: 320px;
+	}
+	
+	#webmobilelayer3 .webbox-one .webtext p { max-width: none;}
+	
+	#webmobilelayer3 .webbox-two { max-width: none;}
+	#webmobilelayer3 .webbox-two .clear2 { display: none;}
+	
+	.centerbarge { width: 33.33%; max-width: 100%;}
+	.centerbarge.right { float: left;}
+	.centerbarge p.two { padding: 0 20px;}
+	
+	#webmobilelayer4 .container { padding: 50px 0 0;}
+	#webmobilelayer4 .col_sec.one { height: 300px; width: auto; float: none;}
+	#webmobilelayer4 .col_sec.two { width: auto; float: none;}
+	#webmobilelayer4 .col_sec.two img { max-width: 80%;}
+	
+	
+	
+	/* DIGITAL MARKETING */
+	
+	#dm-layer-2 .col_one_half { display: none;}
+	ul.icon44 li { float: none; width: 100%; max-width: auto;}
+	
+	
+	/* REVUP */
+	
+	#revup-layer-1 .col_one_half.left { width: 45%;}
+	#revup-layer-1 .col_one_half.right { width: 55%;}
+	#revup-layer-1 .right .spacing { padding: 0 20px; max-width: 350px;}
+	
+	#revup-layer-2 .left .spacing { padding: 150px 0 0 50px;}
+	
+	#revup-layer-3 .col_one_half.left { width: 45%;}
+	#revup-layer-3 .col_one_half.right { width: 55%;}
+	#revup-layer-3 .right .spacing { padding: 0 20px; max-width: 350px;}
+	
+	#revup-layer-4 .col_one_third.left { width: 45%;}
+	#revup-layer-4 .left .spacing { padding: 0 20px 0 50px;}
+	#revup-layer-4 .col_two_third.right { float: right; width: 50%;}
+	
+	
+	/* RESOURCES */
+	
+	#resourceslist .resourcebox { width: 50%;}
+	
+	
+	/* CAREERS */
+	
+	#working .subcontainer { padding: 0 50px;}
+	#working .col_one_fourth { float: none; width: auto;}
+	#working .col_one_half { float: none; width: auto;}
+	#careermain #working.pagesection p.two { max-width: none;}
+	
+	#careermain .pagesection h3 { padding: 0; margin: 0 0 10px;}
+	#positions .subcontainer { padding: 0 50px;}
+	#positions .col_one_fourth { float: none; width: auto;}
+	#positions .subcontainer > .col_one_half { float: none; width: auto;}
+	
+	
+	
+	/* BLOG */
+	
+	.template-blog h2.blogtitle,
+	.template-blog-single h1.blogtitle { width: 90%;}
+	
+	.template-blog .entry p { width: auto;}
+
+	
+	/* BIG VIDEO */
+	
+	#big-video-vid {
+		top: 0 !important;
+		margin: 0px 0px 0px -645px;
+		height: 630px !important;
+		width: 1390px !important;
+	}
+	
+}
+
+
+
+/* ================================================  859 - 000  ================================================ */
+
+@media only screen 
+and (max-width : 859px) {
+
+	/* HOMEPAGE */
+	
+	.servicesbox.one h3 {
+		max-width: 350px;
+	}
+	
+	#services.active .servicesbox::before {
+		width: 100px;
+	}
+	
+	#main .right { width: auto;}
+	
+	#bigmain .left { width: 40%;}
+	#bigmain .right { width: 60%;}
+	
+	.bkimg img {
+		max-width: 100%;
+	}
+	
+	
+	/* CRS */
+	
+	#bottombanner.crs .container {
+		padding: 125px 0 0;
+	}
+
+
+}
+
+
+
+/* ================================================  800 - 000  ================================================ */
+
+@media only screen 
+and (max-width : 800px) {
+	
+	/* SUBCONTAINER RULES */
+	
+	.subcontainer { padding: 0 30px;}
+	
+	#services .subcontainer { padding: 0 30px;}
+	#main .subcontainer { padding: 0 30px;}
+	#bigmain .subcontainer { padding: 0 30px;}
+	#digital-marketing .subcontainer { padding: 0 30px;}
+	
+	#page-layer-2 .subcontainer { padding: 0 0 0 30px;}
+	#page-layer-4 .subcontainer { padding: 0 30px;}
+	
+	#crs-overview .subcontainer { padding: 0 30px;}
+	#crspricetool .subcontainer { padding: 0 30px;}
+	#crspmsrms .subcontainer { padding: 0 30px;}
+	
+	#webmobilelayer1 .subcontainer { padding: 0 30px;}
+	#webmobilelayer2 .subcontainer { padding: 0 30px;}
+	#webmobilelayer3 .subcontainer { padding: 0 0 0 30px;}
+	#webmobilelayer4 .subcontainer { padding: 0 30px;}
+	
+	#dm-layer-1 .subcontainer { padding: 0 30px;}
+	
+	#revup-layer-2 .subcontainer { padding: 0 30px;}
+	#revup-layer-3 .subcontainer { padding: 0 30px;}
+	#revup-layer-4 .subcontainer { padding: 0 30px;}
+	
+	#aboutmain .strategic .subcontainer,
+	#aboutmain .leadership .subcontainer,
+	#aboutmain .different .subcontainer,
+	#aboutmain .working .subcontainer { padding: 0 30px;}
+	
+	#positions .subcontainer { padding: 0 30px;}
+	#working .subcontainer { padding: 0 30px;}
+	
+	#mainpage .subcontainer { padding: 0 30px;}
+	
+	#calltoaction.cta-demo1 .subcontainer,
+	#calltoaction.cta-demo2 .subcontainer,
+	#calltoaction.cta-demo3 .subcontainer,
+	#calltoaction.cta-newsletter .subcontainer { padding: 0 30px;}
+	
+	#footer .subcontainer { padding: 0 30px;}
+	
+	
+	/* ABOUT US */
+	
+	#aboutmain .pagesection h3 { max-width: 100%;}
+	
+	#aboutmain .strategic .col_one_half { width: 100%;}
+	
+	#aboutmain .different .col_one_fourth.two,
+	#aboutmain .different .col_one_fourth.three { width: 50%;}
+	
+	#aboutmain .working .col_one_fourth.two,
+	#aboutmain .working .col_one_fourth.three { width: 50%; margin: 0 0 30px;}
+	#aboutmain .working .col_one_fourth.four { width: 100%;}
+	
+	
+	/* SOLUTIONS */
+	
+	#solutionsmain h3 { font-weight: 300;}
+	#solutionsmain .solutionstabs1 .clear2 { display: none;}
+	#solutionsmain .solutionstabs1 .spacing { padding: 0 20px;}
+	
+	#solutionsmain .solutionstabs1 .col_one_third {
+		float: none;
+		max-width: 95%;
+		width: auto;
+		text-align: center;
+		padding: 0 0 35px;
+		margin: 0 auto 40px;
+		position: relative;
+	}
+	
+	#solutionsmain .solutionstabs1 .col_one_third:before {
+		background-color: #ccc;
+		display: block;
+		content: '';
+		height: 1px;
+		
+		position: absolute;
+		width: 100%;
+		bottom: 0;
+		left: 0;
+	}
+	
+	#solutionsmain .solutionstabs2 .col_one_third {
+		float: none;
+		width: auto;
+		max-width: 500px;
+		margin: 0 auto 10px;
+	}
+	
+	
+	/* WEB & MOBILE */
+	
+	#webmobilelayer3 .webbox.one { padding: 0 30px 0 0;}
+	#webmobilelayer2 .webbox-two .col_one_third { width: 33.33%; float: left;}
+	
+	
+	/* DIGITAL MARKETING */
+	
+	#dm-layer-1 .col_one_fourth { text-align: left;}
+	#dm-layer-2 .col_one_fourth { text-align: left;}
+	
+	
+	
+	/* BLOG */
+	
+	#mainblog.mainblog .container,
+	#mainblog.singlepost .container { padding: 0 30px;}
+	
+	
+	/* CTA DEMO - ctademo3 */
+	
+	#calltoaction p { font-size: 16px; line-height: 24px;}
+	#calltoaction.cta-demo3 h3 { width: auto; margin: 0 0 20px;}
+	
+	#calltoaction.cta-demo3 .ctabox .spacing { padding: 0;}
+	
+	
+	#calltoaction.cta-demo3 .ctabox.two { width: auto; margin: 0 0 20px;}
+	#calltoaction.cta-demo3 .ctabox.three { width: auto;}
+	
+	#calltoaction.cta-demo3 .ctabox { width: auto; float: none; }
+	
+	
+	/* REVUP */
+	
+	.template-revup #pagebanner .col_one_half {
+		text-align: left;
+	}
+	
+	#revup-layer-1 .container { min-height: 0; padding: 20px 0 50px;}
+	#revup-layer-1 .col_one_half.left { display: none;}
+	#revup-layer-1 .col_one_half.right { width: auto;}
+	#revup-layer-1 .right .spacing { max-width: none;}
+	
+	#revup-layer-2 .container { padding: 50px 0;}
+	#revup-layer-2 .left .spacing { padding: 0; max-width: none;}
+	#revup-layer-2 .col_one_half.right { display: none;}
+	
+	#revup-layer-3 .container { padding: 50px 0 20px;}
+	#revup-layer-3 .col_one_half.left { display: none;}
+	#revup-layer-3 .right .spacing { padding: 0; max-width: none;}
+	#revup-layer-3 .col_one_half.right { width: auto;}
+	
+	#revup-layer-4 { text-align: center;}
+	#revup-layer-4 .container { padding: 50px 0;}
+	#revup-layer-4 .col_one_third.left { width: auto;}
+	#revup-layer-4 .col_one_third.left .spacing { padding: 0; max-width: none;}
+	#revup-layer-4 .col_two_third.right { display: none;}
+	
+	
+	/* MISC */
+	
+	#bottomnav { display: none;}
+	
+}
+
+
+/* ================================================  799 - 000  ================================================ */
+
+@media only screen 
+and (max-width : 799px) {
+	
+	/* HOMEPAGE */
+	
+	.booking-engine { display: none;}
+	.web-engine { display: none;}
+	
+	#digital-marketing .container {
+		padding: 0 0 50px;
+		text-align: center;
+	}
+	
+	#digital-marketing .subcontainer { padding: 0 50px;}
+	
+	.mobile-engine { display: block;}
+	.dmborder { display: none;}
+	.dmimg { display: none;}
+	
+	.dmtext {
+		margin: 0 auto;
+		width: auto;
+	}
+	
+	.dmtext h3 {
+		font-weight: 500;
+	}
+	
+	.dmtext p {
+		padding: 0 0 30px 0;
+	}
+	
+	
+	
+
+}
+
+
+
+/* ================================================  768 - 000  ================================================ */
+
+@media only screen 
+and (max-width : 768px) {
+
+
+
+}
+
+
+/* ================================================  767 - 000  ================================================ */
+
+@media only screen 
+and (max-width : 767px) {
+	
+	/* MODULES */
+	
+	.module3 { display: none;}
+	
+	
+	/* PAGE BANNERS */
+	
+	#pagebanner.contentright .container,
+	#bottombanner.contentright .container {
+		float: left;
+		padding: 130px 0 0 80px;
+		width: 80%;
+		margin: 0 10px 0 0;
+	}
+	
+	#pagebanner .subcontainer { padding: 0;}
+	
+	.template-revup #pagebanner p { width: auto;}
+	
+	#bottombanner.crs .subcontainer { width: 80%;}
+	
+	/* HOMEPAGE */
+	
+	.bigmaincontain { display: none;}
+	
+	.servicesbox img {
+		position: absolute;
+		left: 0;
+		top: 0;
+		height: 30px;
+	}
+	
+	.servicesbox.three img {
+		height: 25px;
+	}
+	
+	.servicesbox p { display: inline-block; max-width: none;}
+	
+	.servicesbox h4,
+	.servicesbox p { padding: 0 0 0 60px;}
+	
+	.servicesbox h4 { margin-bottom: 10px;}
+	
+	.servicesbox.three p,
+	.servicesbox.four p { max-width: none;}
+	
+	.servicesbox.two, .servicesbox.three, .servicesbox.four {
+		max-width: 400px;
+		width: auto;
+		float: none;
+		text-align: left;
+		margin: 0 auto 30px;
+		min-height: 110px;
+	}
+	
+	.servicesbox::before {
+		background: url("../images/arrow-down.png") no-repeat scroll 0 bottom transparent;
+		content: '';
+		display: block;
+		
+		height: 0;
+		width: 28px;
+		
+		position: absolute;
+		margin: 0;
+		top: 40px;
+		left: 3px;
+	}
+	
+	#services.active .servicesbox::before {
+		height: 70px;
+		width: 28px;
+	}
+	
+	.engine { margin: 0 0 0 -265px;}
+	
+	.graphics { height: auto; padding: 0 0 40px;}
+	.topgraph {
+		text-align: center;
+		transition: all 0.8s ease 1.5s;
+		-webkit-transition: all 0.8s ease 1.5s;
+		-moz-transition: all 0.8s ease 1.5s;
+		-o-transition: all 0.8s ease 1.5s;
+		-ms-transition: all 0.8s ease 1.5s;
+	}
+	
+	.topgraph p {
+		max-width: none;
+		padding: 0;
+		text-align: center;
+	}
+	
+	.graphss {
+		display: none;
+	}
+	
+	
+	/* CRS */
+	
+	ul.icon44 li {
+		position: relative;
+		text-align: left;
+	}
+	
+	ul.icon44 li:before {
+		position: absolute;
+		margin: 0;
+	}
+	
+	ul.icon44 h5 { padding: 0 0 10px 60px;}
+	ul.icon44 p { width: 70%; padding: 0 0 10px 60px;}
+	
+	#crspricetool ul li { float: none; width: 70%; text-align: left; margin: 0 0 15px;}
+	#crspricetool ul li h4 { text-indent: 0;}
+	
+	
+	/* BOOKING ENGINE */
+	
+	#page-layer-1 .col_one_half.left .spacing {
+		background-size: 630px auto;
+		background-position: right top;
+		height: 240px;
+		margin: 0 20% 0 0;
+	}
+	
+	#page-layer-1 .col_one_half.right { float: none;}
+	#page-layer-1 .col_one_half.right .spacing { padding: 0 20px; margin: 0 auto;}
+	
+	#page-layer-2 .container { padding: 50px 0;}
+	#page-layer-2 .subcontainer { padding: 0 30px;}
+	
+	#page-layer-2 .col_one_half.left { width: auto; max-width: none; padding: 0;}
+	#page-layer-2 .col_one_half.left .spacing {padding: 0 20px;}
+	#page-layer-2 ul { max-width: 300px; margin: 0 auto;}
+	
+	#page-layer-2 .col_one_half.right { display: none;}
+	
+	#page-layer-3 .container { padding: 50px 0;}
+	#page-layer-3 .col_one_half.one img { max-width: 85%;}
+	
+	#page-layer-4 { text-align: center;}
+	#page-layer-4 .col_one_fourth {
+		float: none;
+		width: auto;
+		max-width: 500px;
+		margin: 0 auto;
+	}
+	#page-layer-4 .col_one_fourth.pl1 .spacing,
+	#page-layer-4 .col_one_fourth.pl2 .spacing { padding: 0;}
+	
+	
+	/* WEB & MOBILE */
+	
+	#webmobilelayer4 .col_sec.one { height: auto; padding: 0 0 30px;}
+	.webfeattable, .webfeatcell { display: block;}
+	
+	
+	/* DIGITAL MARKETING */
+	
+	#dm-layer-1 .icon44 h4 { padding: 0 0 10px 60px;}
+	#dm-layer-1 .icon44 p { width: auto;}
+	
+	#dm-layer-1 .col_three_fourth img { width: 100%;}
+	
+	
+	#dm-layer-2 { background: none no-repeat scroll 0 0 transparent;}
+	#dm-layer-2 .container { height: auto; padding: 50px 0;}
+	#dm-layer-2 .col_one_fourth { width: auto; max-width: none;}
+	
+	
+	/* ABOUT US */
+	
+	#aboutmain .pagesection h3 { padding: 0;}
+	
+	#aboutmain .leadership .clear3 { display: none;}
+	#aboutmain .leadership .clear2 { display: block;}
+	
+	#aboutmain .leadership .col_one_third { float: left; width: 50%;}
+	
+	#aboutmain .different .col_one_fourth.two,
+	#aboutmain .different .col_one_fourth.three { float: none; width: auto;}
+	
+	#aboutmain .different .col_one_fourth.two .spacing { padding: 0; margin: 0 0 20px;}
+	#aboutmain .different .col_one_fourth.two p br { display: none;}
+	
+	#aboutmain .working .spacing { padding: 0;}
+	#aboutmain .working .col_one_fourth.two,
+	#aboutmain .working .col_one_fourth.three { width: auto; margin: 0 0 15px;}
+	
+	
+	/* CAREERS */
+	
+	#careermain #positions.pagesection .col_one_half .col_one_half .spacing { padding: 0;}
+	
+	
+	/* BLOG */
+	
+	.socialshare.desk { display: none;}
+	.socialshare.mob { display: block;}
+	
+	#mainblog.singlepost .blogcontent .spacing { padding: 0;}
+	
+	
+	/* CTA DEMO - NEWSLETTER */
+	
+	#calltoaction.cta-newsletter .col_one_half.one {
+		margin: 0 0 20px;
+	}
+	
+	#calltoaction.cta-newsletter .col_one_half.two .spacing {
+		padding: 0;
+		text-align: left;
+	}
+	
+	#calltoaction.cta-newsletter .ctabox.three .col_one_half.one,
+	#calltoaction.cta-newsletter .ctabox.three .col_one_half.two {
+		width: auto;
+	}
+	
+	#calltoaction.cta-newsletter .ctabox.three .col_one_half.two .spacing {
+		padding: 0;
+	}
+	
+	
+	/* MISC */
+	
+	.col_one_half { width: auto; float: none; text-align: center;}
+	.col_one_third { width: auto; float: none;}
+	.col_one_fourth, .pagesection > .col_one_fourth.left { width: auto; float: none;}
+	.col_one_fourth, .pagesection > .col_one_fourth.left { width: auto; float: none; text-align: center;}
+	
+	li.flex-active-slide { width: 250px; }
+
+}
+
+
+
+/* ================================================  640 - 000  ================================================ */
+
+@media only screen 
+and (max-width : 640px) {
+
+
+
+}
+
+
+/* ================================================  639 - 000  ================================================ */
+
+@media only screen 
+and (max-width : 639px) {
+
+
+
+}
+
+
+
+/* ================================================  600 - 000  ================================================ */
+
+@media only screen 
+and (max-width : 600px) {
+
+
+
+}
+
+
+/* ================================================  599 - 000  ================================================ */
+
+@media only screen 
+and (max-width : 599px) {
+	
+	/* HOMEPAGE */
+
+	#big-video-wrap.bigvideohome {
+		background-image: url("http://traveltripper.com.php54-4.ord1-1.websitetestlink.com/new-html/images/homepage-hero-background-mobile.jpg");
+		background-size: cover;
+	}
+
+	#big-video-vid_html5_api {
+		display: none;
+	}
+
+	/* FONT RULES */
+	
+	#solutionsmain h3 {
+		font-size: 32px;
+		line-height: 34px;
+	}
+	
+	#crs-overview h3,
+	#crspricetool h3,
+	#crspmsrms h3 {
+		font-size: 32px;
+		line-height: 34px;
+	}
+	
+	.pageuptitle-a h3,
+	.pageuptitle-b h3 {
+		font-size: 32px;
+		line-height: 34px;
+	}
+	
+	#webmobilelayer4 h1,
+	.webtext h1 {
+		font-size: 32px;
+		line-height: 34px;
+	}
+	
+	h1.blogtitle, h2.blogtitle,
+	.entry h2, .entry blockquote {
+		font-size: 28px;
+		line-height: 36px;
+	}
+	
+	
+	/* PAGE BANNERS */
+	
+	#pagebanner,
+	#bottombanner {
+		min-height: 420px;
+	}
+	
+	#pagebanner.contentright .container,
+	#bottombanner.contentright .container {
+		float: none;
+		padding: 90px 0 20px 30px;
+		max-width: 90%;
+		width: auto;
+		margin: 0 10px 0 0;
+	}
+	
+	
+	/* WEB & MOBILE */
+	
+	#webmobilelayer1 .webbox-two img { margin: 0;}
+	
+	#webmobilelayer2 .webbox-one { margin: 0 0 30px;}
+	#webmobilelayer2 .webbox-two { display: none;}
+	
+	.centerbarge { display: none;}
+	
+	#webmobilelayer3 .container {
+		padding: 50px 0 20px;
+		min-height: 0;
+	}
+	
+	
+	/* CTA DEMO - NEWSLETTER */
+	
+	#calltoaction.cta-newsletter .ctabox.one,
+	#calltoaction.cta-newsletter .ctabox.two {
+		float: none;
+		width: auto;
+	}
+	
+	/* FOOTER */
+	
+	#footer .subcontainer {
+		padding: 0;
+		margin: 0 10px;
+		position: relative;
+	}
+	
+	#footer .col_one_fourth.one .footernav {
+		float: left;
+		width: 50%;
+		padding: 0 0 10px;
+	}
+	
+	#footer .col_one_fourth.one .footernav br { display: none;}
+	
+	#footer .col_one_fourth.two .footernav {
+		clear: both;
+		width: 50%;
+		text-align: left;
+	}
+	
+	#footer .col_one_fourth.two .footernav ul { padding: 0;}
+	
+	#footer .col_one_fourth.two .footernav li {
+		padding: 0 0 0 21%;
+	}
+	
+	#footer .col_one_fourth.three {
+		display: none;
+	}
+	
+	#footer .footersocial {
+		position: absolute;
+		top: 0;
+		right: 0;
+	}
+	
+	#footer .footersocial ul {
+		padding: 0 0 15px;
+	}
+	
+	#footer .footersocial ul li {
+		margin: 0 24px 0 0;
+	}
+	
+	#footer .footersocial a {
+		font-size: 26px;
+	}
+	
+	#footer .footersocial p a {
+		font-size: 18px;
+		padding: 0 20px 0 0;
+	}
+	
+	#footer .col_one_fourth.one .footernav p {
+		font-size: 13px;
+		position: absolute;
+		bottom: 0;
+		right: 20px;
+		margin: 0;
+		padding: 0;
+	}
+	
+
+}
+
+
+
+/* ================================================  568 - 000  ================================================ */
+
+@media only screen 
+and (max-width : 568px) {
+
+
+
+}
+
+
+
+/* ================================================  567 - 000  ================================================ */
+
+@media only screen 
+and (max-width : 567px) {
+	
+	/* NAVIGATION */
+	
+	#header .rightnav { display: none;}
+	.mainsubs > li:nth-last-child(2) { border-bottom: 1px solid #555;}
+	li.mobcase { display: block;}
+	
+	
+	/* PAGE BANNERS */
+	
+	#bottombanner.crs .container { padding: 60px 0 0;}
+	#bottombanner.crs .subcontainer { width: 90%;}
+	
+	
+	
+	/* HOMEPAGE */
+	
+	#main .left { display: none;}
+	
+	.topgraph {
+		transition: all 0.8s ease 0s;
+		-webkit-transition: all 0.8s ease 0s;
+		-moz-transition: all 0.8s ease 0s;
+		-o-transition: all 0.8s ease 0s;
+		-ms-transition: all 0.8s ease 0s;
+	}
+	
+	.mobile-engine .flex-direction-nav a {
+		top: 30%;
+	}
+	
+	.mobile-engine img {
+		max-width: 50%;
+	}
+	
+	
+	/* SOLUTIONS */
+	
+	#solutionsmain .pagesection .spacing { padding: 0;}
+	
+	
+	/* CRS */
+	
+	#crspricetool .col_two_third img { max-width: 100%;}
+	#crspricetool ul li { width: auto;}
+	ul.icon44 p { width: auto;}
+	
+	
+	/* WEB & MOBILE */
+	
+	#webmobilelayer3 .webbox.two { display: none;}
+	#webmobilelayer4 .col_sec.two img { max-width: 100%;}
+	
+	
+	/* RESOURCES */
+	
+	#resourceslist .subcontainer { padding: 0 20px;}
+	#resourceslist .resourcebox { float: none; width: auto;}
+	#resourceslist .resourcebox .spacing { margin: 0 0 30px;}
+	
+	#resourceslist .resourcebox .resourceimg { height: 220px;}
+	#resourceslist .resourcebox h3 {
+		height: auto !important;
+		min-height: 80px;
+	}
+	
+}
+
+
+
+/* ================================================  480 - 000  ================================================ */
+
+@media only screen 
+and (max-width : 480px) {
+
+
+
+}
+
+
+
+/* ================================================  479 - 000  ================================================ */
+
+@media only screen 
+and (max-width : 479px) {
+	
+	/* PAGE BANNERS */
+	
+	
+	/* SUBCONTAINER RULES */
+	
+	.subcontainer { padding: 0 20px;}
+	
+	#services .subcontainer { padding: 0 20px;}
+	#bigmain .subcontainer { padding: 0 20px;}
+	#digital-marketing .subcontainer { padding: 0 20px;}
+	
+	#page-layer-2 .subcontainer { padding: 0 20px;}
+	#page-layer-4 .subcontainer { padding: 0 20px;}
+	
+	#webmobilelayer1 .subcontainer { padding: 0 20px;}
+	#webmobilelayer2 .subcontainer { padding: 0 20px;}
+	#webmobilelayer3 .subcontainer { padding: 0 0 0 20px;}
+	#webmobilelayer4 .subcontainer { padding: 0 20px;}
+	
+	#dm-layer-1 .subcontainer { padding: 0 20px;}
+	
+	#revup-layer-2 .subcontainer { padding: 0 20px;}
+	#revup-layer-3 .subcontainer { padding: 0 20px;}
+	#revup-layer-4 .subcontainer { padding: 0 20px;}
+	
+	#aboutmain .strategic .subcontainer,
+	#aboutmain .leadership .subcontainer,
+	#aboutmain .different .subcontainer,
+	#aboutmain .working .subcontainer { padding: 0 20px;}
+	
+	#positions .subcontainer { padding: 0 20px;}
+	#working .subcontainer { padding: 0 20px;}
+	
+	#mainpage .subcontainer { padding: 0 20px;}
+	
+	#calltoaction.cta-demo1 .subcontainer,
+	#calltoaction.cta-demo2 .subcontainer,
+	#calltoaction.cta-demo3 .subcontainer,
+	#calltoaction.cta-newsletter .subcontainer { padding: 0 20px;}
+	
+	
+	/* HOMEPAGE */
+	
+	.flex-direction-nav a {
+		width: 40px;
+		height: 40px;
+	}
+	
+	.mobile-engine .flex-direction-nav a {
+		top: 20%;
+	}
+	
+	.mobile-engine p {
+		padding: 0;
+	}
+	
+	.mobile-engine .flex-direction-nav .flex-prev { left: 0;}
+	.mobile-engine .flex-direction-nav .flex-next { right: 0;}
+	
+	
+	/* ABOUT US */
+	
+	#aboutmain .leadership .col_one_third {
+		float: none;
+		max-width: 240px;
+		width: auto;
+		margin: 0 auto 30px;
+	}
+	
+	
+	/* WEB & MOBILE */
+	
+	#webmobilelayer2 .webbox-three h2 { text-align: left;}
+	.webhightitle { margin: 0 0 20px;}
+	
+	.webhighimg img { display: none;}
+	.webhightext { float: none; width: auto;}
+	.webhightext ul { padding: 0;}
+	#webmobilelayer2 .webbox-three .webhigh.one { margin: 0 0 15px;}
+	
+	
+	/* BLOG */
+	
+	#mainblog.mainblog .container,
+	#mainblog.singlepost .container { padding: 0 20px;}
+	
+
+}
+
+
+
+/* ================================================  399 - 000  ================================================ */
+
+@media only screen 
+and (max-width : 399px) {
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
