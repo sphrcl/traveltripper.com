@@ -70,7 +70,7 @@ add_action('admin_head', 'misfit_admin_head');
 /* Admin Interface
 /*-----------------------------------------------------------------------------------*/
 $functions_path = THEME_ADMIN . '/';
-$themename = "Misfit";
+$themename = "Travel Tripper";
 function misfit_add_admin() {
 
     global $themename, $shortname, $query_string;
@@ -185,7 +185,7 @@ function misfit_options_page(){
   <form action="" enctype="multipart/form-data" id="ofform">
     <div id="header">
     
-        
+       <!-- 
         <div class="options_header">
 	    	
 	    	<center><img src="<?php echo get_template_directory_uri() ?>/options/images/littlehenry.png" style="width: 137px; margin-left: 0px; margin-top: -19px;" /></center>
@@ -195,7 +195,7 @@ function misfit_options_page(){
 	    
 	    	</div>
 		</div>
-
+		-->
       
       <div class="icon-option"> </div>
       <div class="clear"></div>
