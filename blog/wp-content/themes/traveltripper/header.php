@@ -95,7 +95,7 @@
 		
 				<div class="logo">
 					<!-- <a href="<?php bloginfo('url'); ?>"> -->
-					<a href="http://www.traveltripper.com.php54-4.ord1-1.websitetestlink.com/only-html/index.html">
+					<a href="http://www.traveltripper.com/index.html">
 
 					<?php if (get_option('misfit_logo') == '') { ?>
 						<img src="<?php bloginfo('template_url'); ?>/images/traveltripperlogo.png" alt="<?php bloginfo('name'); ?>" />
@@ -134,7 +134,7 @@
 				<div class="closeme"><i class="fa fa-times"></i></div>
 				
 				<ul class="mainsubs">
-					<li><a href="http://www.traveltripper.com.php54-4.ord1-1.websitetestlink.com/new-html/">Home</a></li>
+					<li><a href="http://www.traveltripper.com/new-html/">Home</a></li>
 					<?php wp_nav_menu( array( 'theme_location' => 'primary',  'items_wrap' => '%3$s', 'container' => '' ) ); ?>
 					<li class="mobcase">
 						<!-- <a class="mc-left" href="login.php">Login</a> -->
