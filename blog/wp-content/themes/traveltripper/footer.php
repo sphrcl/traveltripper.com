@@ -23,9 +23,9 @@
 				<div class="col_one_fourth two">
 					<div class="footernav">
 						<ul>
-							<li><a href="aboutus.php">Company</a></li>
-							<li><a href="product-and-services.php">Products &amp; Solutions</a></li>
-							<li><a href="careers.php">Careers</a></li>
+							<li><a href="/aboutus.html">Company</a></li>
+							<li><a href="/solutions.html">Products &amp; Solutions</a></li>
+							<li><a href="/careers.html">Careers</a></li>
 							<li><a href="http://www.traveltripper.com/contact/contact.html">Contact Us</a></li>
 						</ul>
 					</div>
