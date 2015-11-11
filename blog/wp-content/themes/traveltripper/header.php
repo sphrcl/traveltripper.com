@@ -95,7 +95,7 @@
 		
 				<div class="logo">
 					<!-- <a href="<?php bloginfo('url'); ?>"> -->
-					<a href="http://www.traveltripper.com.php54-4.ord1-1.websitetestlink.com/new-html/index.php">
+					<a href="http://www.traveltripper.com.php54-4.ord1-1.websitetestlink.com/only-html/index.html">
 
 					<?php if (get_option('misfit_logo') == '') { ?>
 						<img src="<?php bloginfo('template_url'); ?>/images/traveltripperlogo.png" alt="<?php bloginfo('name'); ?>" />

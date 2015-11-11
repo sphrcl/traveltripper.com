@@ -26,6 +26,7 @@
 							<li><a href="aboutus.php">Company</a></li>
 							<li><a href="product-and-services.php">Products &amp; Solutions</a></li>
 							<li><a href="careers.php">Careers</a></li>
+							<li><a href="http://www.traveltripper.com.php54-4.ord1-1.websitetestlink.com/only-html/contact/contact.html">Contact Us</a></li>
 						</ul>
 					</div>
 				</div>
