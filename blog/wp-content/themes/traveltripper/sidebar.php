@@ -45,7 +45,7 @@
 			<?php
 				
 				$args = array(
-					'cat' => 11,
+					'cat' => 189,
 					'posts_per_page' => 5,
 				);
 			
